@@ -1,0 +1,644 @@
+/* ============================================
+   БАЗОВЫЕ СТИЛИ И ПЕРЕМЕННЫЕ
+   ============================================ */
+
+:root {
+    /* Цвета */
+    --primary-blue: #265aa6;
+    --primary-orange: #ff8562;
+    --white: #ffffff;
+    --black: #000000;
+    --gray-light: #f5f5f5;
+
+    /* Размеры */
+    --border-radius: 30px;
+    --card-width: 360px;
+    --card-mobile-width: 280px;
+    --container-max-width: 1200px;
+
+    /* Анимации */
+    --transition-speed: 0.3s;
+}
+
+/* Сброс стилей */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    background-color: var(--gray-light);
+    color: var(--black);
+    line-height: 1.6;
+    overflow-x: hidden;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+button {
+    font-family: inherit;
+    cursor: pointer;
+    border: none;
+    background: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Контейнер */
+.container {
+    max-width: var(--container-max-width);
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+/* ============================================
+   ФИКСИРОВАННАЯ ШАПКА
+   ============================================ */
+
+.fixed-header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 30px;
+}
+
+/* Кнопка выхода */
+.exit-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    background-color: var(--primary-blue);
+    border-radius: 50%;
+    transition: all var(--transition-speed) ease;
+    box-shadow: 0 4px 12px rgba(38, 90, 166, 0.3);
+    color: var(--white);
+}
+
+.exit-button svg {
+    width: 24px;
+    height: 24px;
+}
+
+.exit-button:hover {
+    transform: rotate(90deg);
+    box-shadow: 0 6px 16px rgba(38, 90, 166, 0.4);
+}
+
+.exit-button:active {
+    background-color: #cc0000;
+    transform: rotate(90deg) scale(0.95);
+}
+
+/* ============================================
+   ГЛАВНЫЙ БАННЕР
+   ============================================ */
+
+.hero-banner {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    min-height: 500px;
+    max-height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../img/main_page/banner/main_banner.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #DCDCDC;
+    overflow: hidden;
+}
+
+.hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+/* ============================================
+   СЕКЦИЯ ОПИСАНИЯ
+   ============================================ */
+
+.intro-section {
+    padding: 80px 0;
+    background-color: var(--white);
+    text-align: center;
+}
+
+.intro-content {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.intro-title {
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    color: var(--primary-blue);
+    text-shadow: 0 2px 10px rgba(38, 90, 166, 0.1);
+}
+
+.intro-subtitle {
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 1.5;
+    color: var(--primary-blue);
+    margin-bottom: 40px;
+    opacity: 0.9;
+    text-shadow: 0 2px 8px rgba(38, 90, 166, 0.1);
+}
+
+.intro-text {
+    font-size: 20px;
+    line-height: 1.8;
+    color: #333;
+    font-weight: 300;
+    margin-top: 40px;
+    padding-top: 40px;
+    border-top: 1px solid rgba(38, 90, 166, 0.1);
+}
+
+/* ============================================
+   СЕКЦИЯ ПУТЕВОДИТЕЛЕЙ
+   ============================================ */
+
+.guides-section {
+    padding: 90px 0 120px;
+    background-color: var(--gray-light);
+}
+
+.section-title {
+    font-size: 42px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 60px;
+    color: var(--primary-blue);
+}
+
+/* Подсказка для десктопов */
+.desktop-scroll-hint {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 30px;
+    color: #666;
+    font-size: 16px;
+    opacity: 0.8;
+}
+
+/* Подсказка для мобильных */
+.mobile-scroll-hint {
+    display: none;
+    padding: 0 20px 10px 0;
+    text-align: right;
+    color: #a1a1a1;
+}
+
+.scroll-hint-hand {
+    animation: scroll-hint-anim-hand 2s infinite;
+}
+
+.scroll-hint-card {
+    animation: scroll-hint-anim-card 2s infinite;
+}
+
+@keyframes scroll-hint-anim-hand {
+    0% { transform: translateX(80px) scale(1); opacity: 0; }
+    10% { transform: translateX(80px) scale(1); opacity: 1; }
+    20%, 60% { transform: translateX(175px) scale(.6); opacity: 1; }
+    80% { transform: translateX(5px) scale(.6); opacity: 1; }
+    100% { transform: translateX(5px) scale(.6); opacity: 0; }
+}
+
+@keyframes scroll-hint-anim-card {
+    0%, 60% { transform: translateX(0); }
+    80%, 100% { transform: translateX(-240px); }
+}
+
+/* ============================================
+   КАРУСЕЛЬ КАРТОЧЕК
+   ============================================ */
+
+.guides-slider-wrapper {
+    position: relative;
+    padding: 0 1px;
+
+    overflow: hidden;
+}
+
+.guides-slider {
+    display: flex;
+    gap: 40px;
+    padding: 10px 0 30px;
+    cursor: grab;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+
+
+    overflow: visible;
+
+    /* Оптимизация производительности */
+    will-change: transform;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    transform: translateZ(0);
+    -webkit-transform: translateZ(0);
+}
+
+/* Анимация трансформации */
+.guides-slider.t-slds_animated {
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Состояние при перетаскивании */
+.guides-slider.grabbing {
+    cursor: grabbing;
+    transition: none !important;
+}
+
+.guides-slider.grabbing * {
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+
+}
+
+/* Скрываем скроллбар */
+.guides-slider::-webkit-scrollbar {
+    display: none;
+}
+
+.guides-slider {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+/* ============================================
+   КАРТОЧКА ПУТЕВОДИТЕЛЯ
+   ============================================ */
+
+.guide-card {
+    position: relative;
+    flex-shrink: 0;
+    width: var(--card-width);
+    min-height: calc(var(--card-width) * 1.33);
+    border-radius: var(--border-radius);
+    overflow: hidden;
+    animation: fadeInCard 0.6s ease-out backwards;
+
+    /* Оптимизация */
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    transform: translateZ(0);
+    -webkit-transform: translateZ(0);
+}
+
+.guide-card:nth-child(1) { animation-delay: 0.1s; }
+.guide-card:nth-child(2) { animation-delay: 0.2s; }
+.guide-card:nth-child(3) { animation-delay: 0.3s; }
+.guide-card:nth-child(4) { animation-delay: 0.4s; }
+.guide-card:nth-child(5) { animation-delay: 0.5s; }
+
+@keyframes fadeInCard {
+    from {
+        opacity: 0;
+        transform: translateY(30px) translateZ(0);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0) translateZ(0);
+    }
+}
+
+/* Ссылка карточки */
+.card-link {
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    -webkit-tap-highlight-color: transparent;
+}
+
+/* Изображение карточки */
+.card-image-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.card-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-color: #e0e0e0;
+    transition: opacity 0.3s ease;
+}
+
+/* Контент карточки */
+.card-content {
+    position: relative;
+    z-index: 2;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+.card-content-inner {
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(27px);
+    -webkit-backdrop-filter: blur(27px);
+    border-radius: var(--border-radius);
+    padding: 20px;
+}
+
+.card-title {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.35;
+    color: var(--black);
+    margin-bottom: 14px;
+}
+
+.card-button-wrapper {
+    display: flex;
+    gap: 10px;
+}
+
+/* Кнопка в карточке */
+.card-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 35px;
+    padding: 0 20px;
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--primary-blue);
+    background-color: var(--white);
+    border-radius: 30px;
+    white-space: nowrap;
+    box-shadow: -2px -2px var(--primary-orange),
+                2px 2px var(--primary-blue);
+    transition: all var(--transition-speed) ease;
+}
+
+.button-text {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* ============================================
+   АДАПТИВНОСТЬ
+   ============================================ */
+
+@media screen and (max-width: 1200px) {
+    .section-title {
+        font-size: 38px;
+    }
+    .intro-text {
+        font-size: 18px;
+    }
+    .intro-title {
+        font-size: 48px;
+    }
+    .intro-subtitle {
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .container {
+        padding: 0 20px;
+    }
+
+    .guides-slider-wrapper {
+        padding: 0 10px;
+    }
+
+    .desktop-scroll-hint {
+        display: none;
+    }
+
+    .mobile-scroll-hint {
+        display: block;
+    }
+
+    .guides-slider {
+        gap: 20px;
+        padding: 10px 0 30px;
+    }
+
+    .intro-section {
+        padding: 60px 0;
+    }
+    .guides-section {
+        padding: 70px 0 100px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .fixed-header {
+        padding: 15px 20px;
+        gap: 15px;
+    }
+    .exit-button {
+        width: 45px;
+        height: 45px;
+    }
+    .exit-button svg {
+        width: 20px;
+        height: 20px;
+    }
+    .hero-banner {
+        height: 60vh;
+        min-height: 400px;
+    }
+    .section-title {
+        font-size: 32px;
+        margin-bottom: 40px;
+    }
+    .intro-text {
+        font-size: 16px;
+    }
+    .card-title {
+        font-size: 18px;
+    }
+    .intro-title {
+        font-size: 36px;
+    }
+    .intro-subtitle {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .section-title {
+        font-size: 28px;
+    }
+    .guide-card {
+        width: var(--card-mobile-width);
+        min-height: calc(var(--card-mobile-width) * 1.33);
+    }
+    .guides-slider {
+        gap: 10px;
+    }
+    .card-button {
+        width: 100%;
+        height: 40px;
+    }
+    .intro-title {
+        font-size: 28px;
+    }
+    .intro-subtitle {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .intro-section {
+        padding: 50px 0;
+    }
+    .guides-section {
+        padding: 60px 0 80px;
+    }
+    .hero-banner {
+        min-height: 350px;
+    }
+
+    .guides-slider-wrapper {
+        padding: 0 5px;
+    }
+}
+
+/* ============================================
+   ЯЗЫКОВОЙ ПЕРЕКЛЮЧАТЕЛЬ
+   ============================================ */
+
+.language-switcher {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background-color: var(--white);
+    border-radius: 25px;
+    padding: 8px 16px;
+    box-shadow: 0 4px 12px rgba(38, 90, 166, 0.2);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+.lang-link {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--primary-blue);
+    padding: 4px 8px;
+    border-radius: 15px;
+    transition: all var(--transition-speed) ease;
+    text-transform: uppercase;
+}
+
+.lang-link:hover {
+    background-color: rgba(38, 90, 166, 0.1);
+    transform: translateY(-1px);
+}
+
+.lang-link.active {
+    background-color: var(--primary-blue);
+    color: var(--white);
+    box-shadow: 0 2px 8px rgba(38, 90, 166, 0.3);
+}
+
+.lang-separator {
+    color: rgba(38, 90, 166, 0.3);
+    font-weight: 300;
+    user-select: none;
+}
+
+/* Адаптивность для языкового переключателя */
+@media screen and (max-width: 768px) {
+    .language-switcher {
+        padding: 6px 12px;
+        gap: 6px;
+    }
+
+    .lang-link {
+        font-size: 13px;
+        padding: 3px 6px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .language-switcher {
+        padding: 5px 10px;
+    }
+
+    .lang-link {
+        font-size: 12px;
+    }
+}
+/* ============================================
+   ACCESSIBILITY
+   ============================================ */
+
+.card-link:focus-visible,
+.exit-button:focus-visible {
+    outline: 3px solid #2015FF;
+    outline-offset: 4px;
+}
+
+/* Улучшение производительности */
+.card-link,
+.card-image {
+    will-change: transform;
+}
+
+/* Поддержка prefers-reduced-motion */
+@media (prefers-reduced-motion: reduce) {
+    .guides-slider.t-slds_animated {
+        transition-duration: 0.01ms !important;
+    }
+
+    .guide-card {
+        animation-duration: 0.01ms !important;
+    }
+
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
+}
+

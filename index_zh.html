@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="俄罗斯城市旅行指南">
+    <meta name="theme-color" content="#265aa6">
+    <title>俄罗斯城市旅行指南</title>
+
+    <!-- Preload критических ресурсов -->
+    <link rel="preload" href="css/style.css" as="style">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    <!-- Фиксированная панель управления -->
+    <header class="fixed-header">
+
+        <!-- Языковой переключатель -->
+        <div class="language-switcher">
+            <a href="index_ru.html" class="lang-link" aria-label="Русский" data-lang="ru">РУ</a>
+            <span class="lang-separator">|</span>
+            <a href="index_en.html" class="lang-link" aria-label="English" data-lang="en">EN</a>
+            <span class="lang-separator">|</span>
+            <a href="index_zh.html" class="lang-link active" aria-label="中文" data-lang="zh">中文</a>
+        </div>
+
+        <!-- Кнопка выхода -->
+        <a href="/" class="exit-button" aria-label="Вернуться на главную">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M18 6 6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" fill="none"/>
+            </svg>
+        </a>
+    </header>
+
+   <!-- Главный баннер -->
+    <section class="hero-banner">
+        <div class="hero-overlay"></div>
+    </section>
+
+ <!-- Блок с описанием -->
+    <section class="intro-section">
+        <div class="container">
+            <div class="intro-content">
+                <!-- Перенесли заголовки сюда -->
+                <h1 class="intro-title">俄罗斯城市旅行指南</h1>
+                <p class="intro-subtitle">邂逅这片神奇大地</p>
+
+                <p class="intro-text">
+                    探索俄罗斯各地区交织如画的文化瑰宝与自然奇观。我们为您精心规划了贯穿核心城市与地区的完整旅程路线，
+                    是您理想假期的完美之选。每个目的地均附有详尽介绍，助您轻松规划属于自己的旅行。
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Секция с путеводителями -->
+    <section class="guides-section">
+        <div class="container">
+            <h2 class="section-title">指南合集</h2>
+
+            <!-- Подсказка для десктопов (аналогичная мобильной) -->
+            <div class="desktop-scroll-hint" aria-hidden="true">
+
+                <svg viewBox="0 0 320 300" height="42" width="42">
+                    <rect class="scroll-hint-card" x="480" width="200" height="200" rx="5" fill="rgba(190,190,190,0.3)"></rect>
+                    <rect class="scroll-hint-card" y="0" width="200" height="200" rx="5" fill="rgba(190,190,190,0.3)"></rect>
+                    <rect class="scroll-hint-card" x="240" width="200" height="200" rx="5" fill="rgba(190,190,190,0.3)"></rect>
+                    <path class="scroll-hint-hand" d="M78.9579 285.7C78.9579 285.7 37.8579 212.5 20.5579 180.8C-2.44209 138.6 -6.2422 120.8 9.6579 112C19.5579 106.5 33.2579 108.8 41.6579 123.4L61.2579 154.6V32.3C61.2579 32.3 60.0579 0 83.0579 0C107.558 0 105.458 32.3 105.458 32.3V91.7C105.458 91.7 118.358 82.4 133.458 86.6C141.158 88.7 150.158 92.4 154.958 104.6C154.958 104.6 185.658 89.7 200.958 121.4C200.958 121.4 236.358 114.4 236.358 151.1C236.358 187.8 192.158 285.7 192.158 285.7H78.9579Z" fill="rgba(190,190,190,1)"></path>
+                </svg>
+            </div>
+
+            <!-- Подсказка для мобильных -->
+            <div class="mobile-scroll-hint" aria-hidden="true">
+                <svg viewBox="0 0 320 300" height="42" width="42">
+                    <rect class="scroll-hint-card" x="480" width="200" height="200" rx="5" fill="rgba(190,190,190,0.3)"></rect>
+                    <rect class="scroll-hint-card" y="0" width="200" height="200" rx="5" fill="rgba(190,190,190,0.3)"></rect>
+                    <rect class="scroll-hint-card" x="240" width="200" height="200" rx="5" fill="rgba(190,190,190,0.3)"></rect>
+                    <path class="scroll-hint-hand" d="M78.9579 285.7C78.9579 285.7 37.8579 212.5 20.5579 180.8C-2.44209 138.6 -6.2422 120.8 9.6579 112C19.5579 106.5 33.2579 108.8 41.6579 123.4L61.2579 154.6V32.3C61.2579 32.3 60.0579 0 83.0579 0C107.558 0 105.458 32.3 105.458 32.3V91.7C105.458 91.7 118.358 82.4 133.458 86.6C141.158 88.7 150.158 92.4 154.958 104.6C154.958 104.6 185.658 89.7 200.958 121.4C200.958 121.4 236.358 114.4 236.358 151.1C236.358 187.8 192.158 285.7 192.158 285.7H78.9579Z" fill="rgba(190,190,190,1)"></path>
+                </svg>
+            </div>
+
+            <!-- Карусель с карточками -->
+            <div class="guides-slider-wrapper">
+                <div class="guides-slider" id="guidesSlider" role="list">
+
+                    <!-- Карточка 1 -->
+                    <article class="guide-card" role="listitem">
+                        <a href="city/krasnoyarsk/index_zh.html" class="card-link" aria-label="克拉斯诺亚尔斯克边疆区">
+                            <div class="card-image-wrapper">
+                                <img src="img/main_page/cards/krasnoyarsk.jpg" alt="克拉斯诺亚尔斯克边疆区" class="card-image" loading="lazy" width="360" height="480">
+                            </div>
+                            <div class="card-content">
+                                <div class="card-content-inner">
+                                    <h3 class="card-title">克拉斯诺亚尔斯克边疆区</h3>
+                                    <div class="card-button-wrapper">
+                                        <span class="card-button">
+                                            <span class="button-text">探索更多 →</span>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </article>
+
+                    <!-- Карточка 2 -->
+                    <article class="guide-card" role="listitem">
+                        <a href="city/primorsk/index_zh.html" class="card-link" aria-label="滨海边疆区">
+                            <div class="card-image-wrapper">
+                                <img src="img/main_page/cards/primorsk.jpg" alt="滨海边疆区" class="card-image" loading="lazy" width="360" height="480">
+                            </div>
+                            <div class="card-content">
+                                <div class="card-content-inner">
+                                    <h3 class="card-title">滨海边疆区</h3>
+                                    <div class="card-button-wrapper">
+                                        <span class="card-button">
+                                            <span class="button-text">探索更多 →</span>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </article>
+
+                    <!-- Карточка 3 -->
+                    <article class="guide-card" role="listitem">
+                        <a href="city/kamchatka/index_zh.html" class="card-link" aria-label="堪察加边疆区">
+                            <div class="card-image-wrapper">
+                                <img src="img/main_page/cards/kamchatka.jpg" alt="堪察加边疆区" class="card-image" loading="lazy" width="360" height="480">
+                            </div>
+                            <div class="card-content">
+                                <div class="card-content-inner">
+                                    <h3 class="card-title">堪察加边疆区</h3>
+                                    <div class="card-button-wrapper">
+                                        <span class="card-button">
+                                            <span class="button-text">探索更多 →</span>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </article>
+
+                    <!-- Карточка 4 -->
+                    <article class="guide-card" role="listitem">
+                        <a href="city/sahalin/index_zh.html" class="card-link" aria-label="萨哈林州">
+                            <div class="card-image-wrapper">
+                                <img src="img/main_page/cards/sahalin.jpg" alt="萨哈林州" class="card-image" loading="lazy" width="360" height="480">
+                            </div>
+                            <div class="card-content">
+                                <div class="card-content-inner">
+                                    <h3 class="card-title">萨哈林州</h3>
+                                    <div class="card-button-wrapper">
+                                        <span class="card-button">
+                                            <span class="button-text">探索更多 →</span>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </article>
+
+                    <!-- Карточка 5 -->
+                    <article class="guide-card" role="listitem">
+                        <a href="city/altai/index_zh.html" class="card-link" aria-label="阿尔泰共和国">
+                            <div class="card-image-wrapper">
+                                <img src="img/main_page/cards/altai.jpg" alt="阿尔泰共和国" class="card-image" loading="lazy" width="360" height="480">
+                            </div>
+                            <div class="card-content">
+                                <div class="card-content-inner">
+                                    <h3 class="card-title">阿尔泰共和国</h3>
+                                    <div class="card-button-wrapper">
+                                        <span class="card-button">
+                                            <span class="button-text">探索更多 →</span>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </article>
+
+                    <!-- Карточка 6 -->
+                    <article class="guide-card" role="listitem">
+                        <a href="city/murmansk/index_zh.html" class="card-link" aria-label="摩尔曼斯克州">
+                            <div class="card-image-wrapper">
+                                <img src="img/main_page/cards/murmansk.jpg" alt="摩尔曼斯克州" class="card-image" loading="lazy" width="360" height="480">
+                            </div>
+                            <div class="card-content">
+                                <div class="card-content-inner">
+                                    <h3 class="card-title">摩尔曼斯克州</h3>
+                                    <div class="card-button-wrapper">
+                                        <span class="card-button">
+                                            <span class="button-text">探索更多 →</span>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </article>
+
+                    <!-- Карточка 7 -->
+                    <article class="guide-card" role="listitem">
+                        <a href="city/irkutsk/index_zh.html" class="card-link" aria-label="伊尔库茨克州">
+                            <div class="card-image-wrapper">
+                                <img src="img/main_page/cards/ircutsk.jpg" alt="伊尔库茨克州" class="card-image" loading="lazy" width="360" height="480">
+                            </div>
+                            <div class="card-content">
+                                <div class="card-content-inner">
+                                    <h3 class="card-title">伊尔库茨克州</h3>
+                                    <div class="card-button-wrapper">
+                                        <span class="card-button">
+                                            <span class="button-text">探索更多 →</span>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </article>
+
+                    <!-- Карточка 8 -->
+                    <article class="guide-card" role="listitem">
+                        <a href="city/tatarstan/index_zh.html" class="card-link" aria-label="鞑靼斯坦共和国">
+                            <div class="card-image-wrapper">
+                                <img src="img/main_page/cards/tatarstan.jpg" alt="鞑靼斯坦共和国" class="card-image" loading="lazy" width="360" height="480">
+                            </div>
+                            <div class="card-content">
+                                <div class="card-content-inner">
+                                    <h3 class="card-title">鞑靼斯坦共和国</h3>
+                                    <div class="card-button-wrapper">
+                                        <span class="card-button">
+                                            <span class="button-text">探索更多 →</span>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </article>
+
+                    <!-- Карточка 9 -->
+                    <article class="guide-card" role="listitem">
+                        <a href="city/stavropol/index_zh.html" class="card-link" aria-label="斯塔夫罗波尔边疆区">
+                            <div class="card-image-wrapper">
+                                <img src="img/main_page/cards/stavropol.jpg" alt="斯塔夫罗波尔边疆区" class="card-image" loading="lazy" width="360" height="480">
+                            </div>
+                            <div class="card-content">
+                                <div class="card-content-inner">
+                                    <h3 class="card-title">斯塔夫罗波尔边疆区</h3>
+                                    <div class="card-button-wrapper">
+                                        <span class="card-button">
+                                            <span class="button-text">探索更多 →</span>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </article>
+
+                    <!-- Карточка 10 -->
+                    <article class="guide-card" role="listitem">
+                        <a href="city/samara/index_zh.html" class="card-link" aria-label="萨马拉州">
+                            <div class="card-image-wrapper">
+                                <img src="img/main_page/cards/samara.jpg" alt="萨马拉州" class="card-image" loading="lazy" width="360" height="480">
+                            </div>
+                            <div class="card-content">
+                                <div class="card-content-inner">
+                                    <h3 class="card-title">萨马拉州</h3>
+                                    <div class="card-button-wrapper">
+                                        <span class="card-button">
+                                            <span class="button-text">探索更多 →</span>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </article>
+
+                    <!-- Карточка 11 -->
+                    <article class="guide-card" role="listitem">
+                        <a href="city/moscow/index_zh.html" class="card-link" aria-label="莫斯科">
+                            <div class="card-image-wrapper">
+                                <img src="img/main_page/cards/moskow.jpg" alt="莫斯科" class="card-image" loading="lazy" width="360" height="480">
+                            </div>
+                            <div class="card-content">
+                                <div class="card-content-inner">
+                                    <h3 class="card-title">莫斯科</h3>
+                                    <div class="card-button-wrapper">
+                                        <span class="card-button">
+                                            <span class="button-text">探索更多 →</span>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </article>
+
+                    <!-- Карточка 12 -->
+                    <article class="guide-card" role="listitem">
+                        <a href="city/sochi/index_zh.html" class="card-link" aria-label="索契">
+                            <div class="card-image-wrapper">
+                                <img src="img/main_page/cards/sochi.jpg" alt="索契" class="card-image" loading="lazy" width="360" height="480">
+                            </div>
+                            <div class="card-content">
+                                <div class="card-content-inner">
+                                    <h3 class="card-title">索契</h3>
+                                    <div class="card-button-wrapper">
+                                        <span class="card-button">
+                                            <span class="button-text">探索更多 →</span>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </article>
+
+                    <!-- Карточка 13 -->
+                    <article class="guide-card" role="listitem">
+                        <a href="city/stpetersburg/index_zh.html" class="card-link" aria-label="圣彼得堡">
+                            <div class="card-image-wrapper">
+                                <img src="img/main_page/cards/petersburg.jpg" alt="圣彼得堡" class="card-image" loading="lazy" width="360" height="480">
+                            </div>
+                            <div class="card-content">
+                                <div class="card-content-inner">
+                                    <h3 class="card-title">圣彼得堡</h3>
+                                    <div class="card-button-wrapper">
+                                        <span class="card-button">
+                                            <span class="button-text">探索更多 →</span>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </article>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="js/main.js"></script>
+</body>
+</html>

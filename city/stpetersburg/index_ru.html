@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Санкт-Петербург</title>
+    <meta name="description" content="Путеводитель">
+    <link rel="stylesheet" href="../../css/style_city.css">
+</head>
+<body>
+    <!-- Фиксированная панель управления -->
+    <header class="headerPanel">
+
+        <div class="language-switcher">
+            <a href="index_ru.html" class="lang-link active" aria-label="Русский" data-lang="ru">РУ</a>
+            <span class="lang-separator">|</span>
+            <a href="index_en.html" class="lang-link" aria-label="English" data-lang="en">EN</a>
+            <span class="lang-separator">|</span>
+            <a href="index_zh.html" class="lang-link" aria-label="中文" data-lang="zh">中文</a>
+        </div>
+
+        <!-- Кнопка выхода -->
+        <a href="../../index_ru.html" class="exitButton" aria-label="Вернуться на главную">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M18 6 6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" fill="none"/>
+            </svg>
+        </a>
+    </header>
+
+    <!-- Главный баннер -->
+    <section class="mainBanner">
+        <div class="mainBanner__background" style="background-image: url('../../img/stpetersburg/banner/petersburg_main.jpg')"></div>
+    </section>
+
+    <!-- Вводная секция с описанием региона  -->
+    <section class="regionIntro">
+        <div class="regionIntro__container">
+            <h1 class="regionIntro__title">Санкт-Петербург</h1>
+            <p class="regionIntro__subtitle"></p>
+
+            <p class="regionIntro__text">
+              От&nbsp;разводных мостов над Невой до&nbsp;строгой симметрии проспектов, от&nbsp;позолоченных шпилей до&nbsp;сумрачных гранитных набережных.
+                Санкт-Петербург&nbsp;&mdash; это дерзкая мечта, воплощенная в&nbsp;камне, где воля человека бросила вызов самой природе.
+                В&nbsp;1703 году царь Петр I&nbsp;заложил крепость &laquo;Санкт-Питер-Бурх&raquo; на&nbsp;болотистых островах, чтобы &laquo;ногою твердой стать при море&raquo;.
+                Так родилась новая столица Российской империи. Сегодня, спустя более 300&nbsp;лет, Петербург остается культурной и&nbsp;интеллектуальной сокровищницей страны, а&nbsp;его исторический центр&nbsp;&mdash; величайший архитектурный ансамбль мира.
+                Здесь начинаются морские пути в&nbsp;Европу и&nbsp;заканчивается судоходная часть легендарного Волго-Балта.
+            </p>
+        </div>
+    </section>
+
+
+    <!-- Город -->
+    <section class="contentSection contentSection--gray">
+        <div class="container">
+<!--            <h2 class="contentSection__title">Санкт-Петербург</h2>-->
+            <div class="carousel">
+                <div class="carousel__wrapper">
+                    <div class="carousel__track" data-category="city">
+                        <!-- Карточки генерируются через JavaScript -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Модальное окно -->
+    <div class="modal" id="attractionModal">
+        <div class="modal__overlay"></div>
+        <div class="modal__container">
+            <button class="modal__close" aria-label="Закрыть">
+                <svg viewBox="0 0 24 24">
+                    <path d="M18 6 6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" fill="none"/>
+                </svg>
+            </button>
+
+            <div class="modal__content" id="modalContent">
+                <!-- Контент загружается динамически -->
+                <div class="modal__loader">
+                    <div class="loader"></div>
+                    <p>Загрузка...</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="scripts/data.js"></script>
+    <script src="../../js/main_city.js"></script>
+
+
+</body>
+</html>

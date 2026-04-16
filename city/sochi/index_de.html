@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sochi</title>
+    <meta name="description" content="City Guide">
+    <link rel="stylesheet" href="../../css/style_city.css">
+</head>
+<body>
+    <!-- Фиксированная панель управления -->
+    <header class="headerPanel">
+
+        <div class="language-switcher">
+            <a href="index_ru.html" class="lang-link" aria-label="Русский" data-lang="ru">РУ</a>
+            <span class="lang-separator">|</span>
+            <a href="index_en.html" class="lang-link active" aria-label="English" data-lang="en">EN</a>
+            <span class="lang-separator">|</span>
+            <a href="index_zh.html" class="lang-link" aria-label="中文" data-lang="zh">中文</a>
+        </div>
+
+
+        <!-- Кнопка выхода -->
+        <a href="../../index_de.html" class="exitButton" aria-label="Back to main">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M18 6 6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" fill="none"/>
+            </svg>
+        </a>
+    </header>
+
+    <!-- Главный баннер -->
+    <section class="mainBanner">
+        <div class="mainBanner__background" style="background-image: url('../../img/sochi/banner/sochi_main.jpg')"></div>
+    </section>
+
+    <!-- Вводная секция с описанием региона  -->
+    <section class="regionIntro">
+        <div class="regionIntro__container">
+            <h1 class="regionIntro__title">Sochi</h1>
+            <p class="regionIntro__subtitle"></p>
+
+            <p class="regionIntro__text">
+                From palm trees and magnolias to&nbsp;eternal snows, from the sea breeze to&nbsp;mountain peaks.
+                Sochi is&nbsp;a&nbsp;unique world where subtropics meet the Caucasus Mountains, creating a&nbsp;natural
+                phenomenon of&nbsp;Russia. In&nbsp;1838, the Alexandria fortress was founded here, giving rise
+                to&nbsp;the future pearl of&nbsp;the Black Sea coast. Today, almost two centuries later,
+                Sochi is&nbsp;the country&rsquo;s main resort, the venue for the 2014 Olympics and world-class festivals,
+                and its length makes it&nbsp;the second-longest city in&nbsp;the world. Here, sea routes and key highways
+                leading to&nbsp;Abkhazia and the heart of&nbsp;the Caucasus intersect.
+            </p>
+        </div>
+    </section>
+
+
+    <!-- Город -->
+    <section class="contentSection contentSection--gray">
+        <div class="container">
+<!--            <h2 class="contentSection__title">Москва</h2>-->
+            <div class="carousel">
+                <div class="carousel__wrapper">
+                    <div class="carousel__track" data-category="city">
+                        <!-- Карточки генерируются через JavaScript -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Модальное окно -->
+    <div class="modal" id="attractionModal">
+        <div class="modal__overlay"></div>
+        <div class="modal__container">
+            <button class="modal__close" aria-label="Exit">
+                <svg viewBox="0 0 24 24">
+                    <path d="M18 6 6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" fill="none"/>
+                </svg>
+            </button>
+
+            <div class="modal__content" id="modalContent">
+                <!-- Контент загружается динамически -->
+                <div class="modal__loader">
+                    <div class="loader"></div>
+                    <p>Loading...</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="scripts/data_en.js"></script>
+    <script src="../../js/main_city.js"></script>
+
+
+</body>
+</html>

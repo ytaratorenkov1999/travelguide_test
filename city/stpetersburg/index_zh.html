@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>圣彼得堡</title>
+    <meta name="description" content="指南合集">
+    <link rel="stylesheet" href="../../css/style_city.css">
+</head>
+<body>
+    <!-- Фиксированная панель управления -->
+    <header class="headerPanel">
+
+        <div class="language-switcher">
+            <a href="index_ru.html" class="lang-link" aria-label="Русский" data-lang="ru">РУ</a>
+            <span class="lang-separator">|</span>
+            <a href="index_en.html" class="lang-link" aria-label="English" data-lang="en">EN</a>
+            <span class="lang-separator">|</span>
+            <a href="index_zh.html" class="lang-link active" aria-label="中文" data-lang="zh">中文</a>
+        </div>
+
+
+        <!-- Кнопка выхода -->
+        <a href="../../index_zh.html" class="exitButton" aria-label="Back to main">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M18 6 6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" fill="none"/>
+            </svg>
+        </a>
+    </header>
+
+    <!-- Главный баннер -->
+    <section class="mainBanner">
+        <div class="mainBanner__background" style="background-image: url('../../img/stpetersburg/banner/petersburg_main.jpg')"></div>
+    </section>
+
+    <!-- Вводная секция с описанием региона  -->
+    <section class="regionIntro">
+        <div class="regionIntro__container">
+            <h1 class="regionIntro__title">圣彼得堡</h1>
+            <p class="regionIntro__subtitle"></p>
+
+            <p class="regionIntro__text">
+                从涅瓦河上的开合桥到笔直规整的街道，从镀金的尖顶到幽暗的花岗岩河岸。圣彼得堡是一个用石头实现的大胆梦想，在这里，
+                人类的意志向自然本身发起了挑战。1703年，沙皇彼得一世在沼泽岛屿上奠基了&quot;圣彼得堡&quot;要塞，
+                以期&quot;在海畔站稳脚跟&quot;。俄罗斯帝国的新首都由此诞生。在300多年后的今天，圣彼得堡依然是这个国家的文化与思想宝库，
+                其历史中心更是举世无匹的建筑群。通往欧洲的航线于此启航，传奇的伏尔加-波罗的海水路亦在此终结。
+            </p>
+        </div>
+    </section>
+
+
+    <!-- Город -->
+    <section class="contentSection contentSection--gray">
+        <div class="container">
+<!--            <h2 class="contentSection__title">Санкт-Петербург</h2>-->
+            <div class="carousel">
+                <div class="carousel__wrapper">
+                    <div class="carousel__track" data-category="city">
+                        <!-- Карточки генерируются через JavaScript -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Модальное окно -->
+    <div class="modal" id="attractionModal">
+        <div class="modal__overlay"></div>
+        <div class="modal__container">
+            <button class="modal__close" aria-label="Exit">
+                <svg viewBox="0 0 24 24">
+                    <path d="M18 6 6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" fill="none"/>
+                </svg>
+            </button>
+
+            <div class="modal__content" id="modalContent">
+                <!-- Контент загружается динамически -->
+                <div class="modal__loader">
+                    <div class="loader"></div>
+                    <p>Loading...</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="scripts/data_zh.js"></script>
+    <script src="../../js/main_city.js"></script>
+
+
+</body>
+</html>

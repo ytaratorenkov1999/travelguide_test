@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>萨马拉州</title>
+    <meta name="description" content="指南合集">
+    <link rel="stylesheet" href="../../css/style_city.css">
+</head>
+<body>
+    <!-- Фиксированная панель управления -->
+    <header class="headerPanel">
+
+        <div class="language-switcher">
+            <a href="index_ru.html" class="lang-link" aria-label="Русский" data-lang="ru">РУ</a>
+            <span class="lang-separator">|</span>
+            <a href="index_en.html" class="lang-link" aria-label="English" data-lang="en">EN</a>
+            <span class="lang-separator">|</span>
+            <a href="index_zh.html" class="lang-link active" aria-label="中文" data-lang="zh">中文</a>
+        </div>
+
+
+        <!-- Кнопка выхода -->
+        <a href="../../index_zh.html" class="exitButton" aria-label="Back to main">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M18 6 6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" fill="none"/>
+            </svg>
+        </a>
+    </header>
+
+ <!-- Главный баннер -->
+    <section class="mainBanner">
+        <div class="mainBanner__background" style="background-image: url('../../img/samara/banner/samara_main.jpg')"></div>
+    </section>
+
+    <!-- Вводная секция с описанием региона  -->
+    <section class="regionIntro">
+        <div class="regionIntro__container">
+            <h1 class="regionIntro__title">萨马拉州</h1>
+            <p class="regionIntro__subtitle"></p>
+            <p class="regionIntro__text">
+                伏尔加河曲，日古利山，草原上缤纷的野花，以及白色舰船般诱人的剪影。萨马拉州，或许将俄罗斯平原的万千美景集于一身，
+                并将其化为一座巨大的游乐公园。1586年，沙皇费奥多尔&middot;伊万诺维奇（伊凡雷帝的第三子）下令在伏尔加河与萨马拉河交汇处建立一座要塞。未来俄罗斯的航天之都，
+                由此诞生。今天，在将近450年之后，萨马拉州已成为俄罗斯最发达的地区之一，其面积可与某些国家相当。关键交通干线贯穿该地区：西伯利亚大铁路与南北国际运输走廊。
+            </p>
+        </div>
+    </section>
+
+    <!-- Секция: Точки притяжения региона -->
+    <section class="contentSection contentSection--gray">
+        <div class="container">
+            <h2 class="contentSection__title">区域亮点</h2>
+            <div class="carousel">
+                <div class="carousel__wrapper">
+                    <div class="carousel__track" data-category="attractions">
+                        <!-- Карточки генерируются через JavaScript -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Секция: Выбраться на природу -->
+    <section class="contentSection contentSection--white">
+        <div class="container">
+            <h2 class="contentSection__title">奔赴自然野趣</h2>
+            <div class="carousel">
+                <div class="carousel__wrapper">
+                    <div class="carousel__track" data-category="nature">
+                        <!-- Карточки генерируются через JavaScript -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Секция: Культурный код -->
+    <section class="contentSection contentSection--gray">
+        <div class="container">
+            <h2 class="contentSection__title">解读文化密码</h2>
+            <div class="carousel">
+                <div class="carousel__wrapper">
+                    <div class="carousel__track" data-category="culture">
+                        <!-- Карточки генерируются через JavaScript -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Модальное окно -->
+    <div class="modal" id="attractionModal">
+        <div class="modal__overlay"></div>
+        <div class="modal__container">
+            <button class="modal__close" aria-label="Exit">
+                <svg viewBox="0 0 24 24">
+                    <path d="M18 6 6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" fill="none"/>
+                </svg>
+            </button>
+
+            <div class="modal__content" id="modalContent">
+                <!-- Контент загружается динамически -->
+                <div class="modal__loader">
+                    <div class="loader"></div>
+                    <p>Loading...</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="scripts/data_zh.js"></script>
+    <script src="../../js/main_city.js"></script>
+
+
+</body>
+</html>

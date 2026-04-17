@@ -10,9 +10,9 @@ const sochiData = {
 
 // ========================  =============================
         {
-        id: '',
-        title: '',
-        image:'../../img/moscow/cards_tochki/',
+        id: 'olympic_park',
+        title: 'Олимпийский парк',
+        image:'../../img/moscow/cards_tochki/Olimpijskij_park_0',
         modalContent: ``
 
         },

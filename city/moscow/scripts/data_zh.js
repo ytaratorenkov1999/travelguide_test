@@ -12,27 +12,378 @@ const zh_moscowData = {
 // ======================== Красная площадь и Кремль =============================
         {
         id: 'Red_square_kreml',
-        title: 'Красная площадь и Кремль',
+        title: '红场与克里姆林宫',
         image:'../../img/moscow/cards_tochki/Krasnaya_ploshchad_i_Kreml_0.jpg',
-        modalContent:``
+        modalContent:
+
+`<div class="modalHeader">
+    <h1 class="modalHeader__title">红场与克里姆林宫</h1>
+</div>
+<!-- Блок 1: Красная площадь и Кремль — возрожденный символ российской столицы -->
+<div class="modalBlock">
+    <div class="modalBlock__text">
+        <h2 class="modalBlock__title">红场与克里姆林宫&mdash;&mdash;俄罗斯首都重生的象征</h2>
+        <p class="modalBlock__description">
+            国家的主广场不仅是一个地理坐标，更是莫斯科的情感中心。在这里，历史可以被真切地感知：在克里姆林宫墙的线条中，在教堂的熠熠光辉里。
+        </p>
+        <p class="modalBlock__description">
+            红场与克里姆林宫构成一个完整的建筑群，其中的每一个元素都是俄罗斯数百年历史叙事的一部分。
+        </p>
+    </div>
+    <div class="modalBlock__image">
+        <img src="../../img/moscow/cards_modal/RedSquare/RedSquare_1.jpg" alt="photo_1" loading="lazy">
+    </div>
+</div>
+<!-- Блок 2: Архитектурный ансамбль, ставший лицом Москвы -->
+<div class="modalBlock">
+    <div class="modalBlock__text">
+        <h2 class="modalBlock__title">成为莫斯科面孔的建筑群</h2>
+        <p class="modalBlock__description">
+            克里姆林宫的建筑面貌历经数个世纪形成。其现代的围墙与塔楼出现于15世纪，由意大利工匠建造，他们将文艺复兴时期的防御工事元素融入了这座莫斯科要塞。
+        </p>
+        <p class="modalBlock__description">
+            红场铺展在克里姆林宫东墙之外，成为城市的庆典舞台&mdash;&mdash;开阔、庄严、完美对称。
+        </p>
+        <p class="modalBlock__description">
+            构成这一建筑群独特轮廓的元素：<br>
+            &bull; 克里姆林宫墙与塔楼&mdash;&mdash;红砖墙体、雉堞呈燕尾状、优雅的帐篷式尖顶。<br>
+            &bull; 圣瓦西里升天大教堂&mdash;&mdash;如梦似幻的穹顶，宛如燃烧的烛焰。<br>
+            &bull; 国家历史博物馆&mdash;&mdash;红砖砌筑的19世纪伪俄罗斯风格建筑。<br>
+            &bull; 古姆百货商场&mdash;&mdash;玻璃穹顶与拱廊，营造出轻盈通透的感觉。
+        </p>
+        <p class="modalBlock__description">
+            建筑群中的每一个元素都是独立的杰作，但它们共同构成了世界上最知名的景观之一。
+        </p>
+    </div>
+    <div class="modalBlock__image">
+        <img src="../../img/moscow/cards_modal/RedSquare/RedSquare_2.jpg" alt="photo_2" loading="lazy">
+    </div>
+</div>
+<!-- Блок 3: Сокровища Кремля: где оживает история -->
+<div class="modalBlock">
+    <div class="modalBlock__text">
+        <h2 class="modalBlock__title">克里姆林宫的宝藏：历史苏醒之地</h2>
+        <p class="modalBlock__description">
+            克里姆林宫不仅是总统官邸，更是规模宏大的露天博物馆。
+        </p>
+        <p class="modalBlock__description">
+            教堂广场：<br>
+            国家的精神中心。这里曾举行加冕典礼、皇家婚礼和国家仪式。<br>
+            &bull; 圣母安息大教堂&mdash;&mdash;莫斯科王国的首席教堂。<br>
+            &bull; 天使长主教座堂&mdash;&mdash;大公与沙皇的安息之地。<br>
+            &bull; 圣母领报主教座堂&mdash;&mdash;俄罗斯统治者的家庭教堂。<br>
+            &bull; 多棱宫&mdash;&mdash;接待外国使节的场所。
+        </p>
+    </div>
+    <div class="modalBlock__image">
+        <img src="../../img/moscow/cards_modal/RedSquare/RedSquare_3.jpg" alt="photo_3" loading="lazy">
+    </div>
+</div>
+<!-- Блок 4: Синтез традиций и величия в убранстве -->
+<div class="modalBlock">
+    <div class="modalBlock__text">
+        <h2 class="modalBlock__title">传统与威严的交融之美</h2>
+        <p class="modalBlock__description">
+            <strong>兵器库：</strong>一座博物馆，收藏着权杖、礼服盔甲、御座、皇冠以及著名的法贝热彩蛋。每一间展厅都犹如历史的一个独立篇章。
+        </p>
+        <p class="modalBlock__description">
+            <strong>炮王与钟王：</strong>俄罗斯铸工技艺与雄心的宏伟象征。
+        </p>
+        <p class="modalBlock__description">
+            克里姆林宫教堂的内部陈设是古罗斯与拜占庭传统的结合。15&mdash;17世纪的壁画、镀金的圣像屏、雕花的圣龛、粗壮的立柱&mdash;&mdash;这一切共同营造出庄严肃穆的宁静氛围。尤为令人惊叹的是：圣母安息大教堂的多层圣像屏，狄奥尼西及其画派的壁画，天使长主教座堂的装饰性彩绘，多棱宫的白色石拱顶庆典大厅。每一处细节都是古罗斯艺术最高水准的见证。
+        </p>
+    </div>
+    <div class="modalBlock__image">
+        <img src="../../img/moscow/cards_modal/RedSquare/RedSquare_4.jpg" alt="photo_4" loading="lazy">
+    </div>
+</div>
+<!-- Блок 5: Красная площадь: пространство, где встречаются эпохи -->
+<div class="modalBlock">
+    <div class="modalBlock__text">
+        <h2 class="modalBlock__title">红场：时代交汇的空间</h2>
+        <p class="modalBlock__description">
+            红场是莫斯科的露天舞台。这里举行阅兵式、节庆活动、音乐会、冬季集市，还会浇筑巨大的溜冰场。
+        </p>
+        <p class="modalBlock__description">
+            <strong>广场上的主要建筑：</strong> <br>
+            &bull; 圣瓦西里升天大教堂&mdash;&mdash;16世纪的建筑传奇。<br>
+            &bull; 列宁墓&mdash;&mdash;苏维埃时代的纪念碑。<br>
+            &bull; 古姆百货商场&mdash;&mdash;充满旧莫斯科风情的百年购物长廊。<br>
+            &bull; 宣谕台&mdash;&mdash;古代颁布沙皇诏令的讲坛。<br>
+            &bull; 国家历史博物馆&mdash;&mdash;从古代到20世纪的庞大文物收藏。
+        </p>
+        <p class="modalBlock__description">
+            广场的氛围随昼夜更迭而变化：清晨&mdash;&mdash;宁静而庄严，日间&mdash;&mdash;热闹非凡，夜晚&mdash;&mdash;在克里姆林宫灯光的映衬下格外美丽。
+        </p>
+    </div>
+    <div class="modalBlock__image">
+        <img src="../../img/moscow/cards_modal/RedSquare/RedSquare_5.jpg" alt="photo_5" loading="lazy">
+    </div>
+</div>
+<!-- Блок 6: Как добраться до Красной площади и Кремля -->
+<div class="modalBlock">
+    <div class="modalBlock__text">
+        <h2 class="modalBlock__title">如何到达红场与克里姆林宫</h2>
+        <p class="modalBlock__description">
+            红场位于莫斯科最中心，紧邻马涅日广场和亚历山大花园。
+        </p>
+        <p class="modalBlock__description">
+            <strong>地铁：</strong> <br>
+            最便捷的方式是乘坐地铁至以下站点：&quot;猎品市场&quot;站，&quot;革命广场&quot;站，&quot;剧院&quot;站。从任一站点步行至广场仅需3&mdash;5分钟。
+        </p>
+        <p class="modalBlock__description">
+            <strong>其他公共交通：</strong> <br>
+            公交车与无轨电车可直达以下站点：&quot;马涅什广场&quot;，&quot;莫霍瓦亚街&quot;，&quot;剧院广场&quot;。
+        </p>
+        <p class="modalBlock__description">
+            <strong>步行：</strong>从特维尔大街、尼科利斯基街或中国城出发，沿历史中心步行10&mdash;15分钟即达。
+        </p>
+        <p class="modalBlock__description">
+            <strong>克里姆林宫参观须知：</strong> <br>
+            &bull; 建议提前购票。<br>
+            &bull; 教堂与博物馆按开放时间运行。<br>
+            &bull; 园区内实行通行管制。
+        </p>
+    </div>
+    <div class="modalBlock__image">
+        <img src="../../img/moscow/cards_modal/RedSquare/kak_dobratsya.jpg" alt="photo_6" loading="lazy">
+    </div>
+</div>`
         },
 
 // ======================== Большой театр =============================
 
         {
         id: 'Big_teatr',
-        title: 'Большой театр',
+        title: '莫斯科大剧院',
         image:'../../img/moscow/cards_tochki/Bolshoi_teatr_0.jpg',
-        modalContent:``
+        modalContent:
+
+`<div class="modalHeader">
+    <h1 class="modalHeader__title">莫斯科大剧院</h1>
+</div>
+<!-- Блок 1: Большой театр — хранитель великой сцены России -->
+<div class="modalBlock">
+    <div class="modalBlock__text">
+        <h2 class="modalBlock__title">莫斯科大剧院&mdash;&mdash;俄罗斯伟大舞台的守护者</h2>
+        <p class="modalBlock__description">
+            莫斯科大剧院不仅是一座文化象征，更是一个鲜活的有机体，历史、艺术与民族记忆在此交织。饰有柱廊与阿波罗四马战车的外墙已成为享誉世界的标志，而舞台本身则是俄罗斯芭蕾与歌剧传奇诞生的地方。
+        </p>
+        <p class="modalBlock__description">
+            这里的每一场演出，都是对两百年传统的延续。
+        </p>
+    </div>
+    <div class="modalBlock__image">
+        <img src="../../img/moscow/cards_modal/Bolshoi_teatr/Bolshoi_teatr_1.jpg" alt="photo_1" loading="lazy">
+    </div>
+</div>
+<!-- Блок 2: Архитектурная гармония, созданная для торжества искусства -->
+<div class="modalBlock">
+    <div class="modalBlock__text">
+        <h2 class="modalBlock__title">为艺术的辉煌而生的建筑和谐</h2>
+        <p class="modalBlock__description">
+            莫斯科大剧院的建筑是俄罗斯古典主义的体现&mdash;&mdash;庄重而威严。建筑师奥西普&middot;博韦将其构思为一座艺术的殿堂，这一理念在每一处细节中得以彰显。
+        </p>
+        <p class="modalBlock__description">
+            构成其独特风貌的元素：<br>
+            &bull; 宏伟的柱廊门廊&mdash;&mdash;营造出纪念碑式的庄重感。<br>
+            &bull; 阿波罗四马战车&mdash;&mdash;象征着灵感与创造力的胜利。<br>
+            &bull; 浅色的外立面&mdash;&mdash;突显建筑的庄严气质。<br>
+            &bull; 石膏雕花与浮雕&mdash;&mdash;尚未进入剧场，便已感受到戏剧般的华美氛围。<br>
+            大剧院的建筑是比例和谐与装饰奢华的完美结合，让人甫一抵达便沉浸于迎接高雅艺术的心境之中。
+        </p>
+    </div>
+    <div class="modalBlock__image">
+        <img src="../../img/moscow/cards_modal/Bolshoi_teatr/Bolshoi_teatr_2.jpg" alt="photo_2" loading="lazy">
+    </div>
+</div>
+<!-- Блок 3: Зал, который дышит историей -->
+<div class="modalBlock">
+    <div class="modalBlock__text">
+        <h2 class="modalBlock__title">承载历史的观众大厅</h2>
+        <p class="modalBlock__description">
+            主观众厅是剧院的心脏。五层包厢、红色丝绒、镀金装饰以及巨大的水晶吊灯，共同营造出一种氛围，让观众感觉自己正参与一场盛大的文化仪式。
+        </p>
+        <p class="modalBlock__description">
+            尤为令人赞叹的是：<br>
+            &bull; 天顶壁画&mdash;&mdash;以缪斯与艺术寓言为主题。<br>
+            &bull; 历史舞台的声学效果&mdash;&mdash;被公认为世界最佳之一。<br>
+            &bull; 修复后的壁画与镀金&mdash;&mdash;由修复师精心保存。<br>
+            &bull; 隐藏在历史内部陈设之下的复杂工程。<br>
+            从丝绒座椅到雕花包厢，每一个元素都营造出庄严与期待奇迹的氛围。
+        </p>
+    </div>
+    <div class="modalBlock__image">
+        <img src="../../img/moscow/cards_modal/Bolshoi_teatr/Bolshoi_teatr_3.jpg" alt="photo_3" loading="lazy">
+    </div>
+</div>
+<!-- Блок 4: Большой театр как культурная вселенная -->
+<div class="modalBlock">
+    <div class="modalBlock__text">
+        <h2 class="modalBlock__title">莫斯科大剧院&mdash;&mdash;文化宇宙</h2>
+        <p class="modalBlock__description">
+            如今，莫斯科大剧院不仅拥有历史舞台，更是一个融合不同艺术方向的完整综合体。
+        </p>
+        <p class="modalBlock__description">
+            剧院包括：<br>
+            &bull; 历史舞台&mdash;&mdash;经典剧目上演之地。<br>
+            &bull; 新舞台&mdash;&mdash;现代实验的空间。<br>
+            &bull; 贝多芬厅&mdash;&mdash;室内乐与音乐晚会。<br>
+            &bull; 剧院博物馆&mdash;&mdash;戏服、布景、档案、珍贵展品。<br>
+            数百名演员、音乐家、画家和工匠在此工作&mdash;&mdash;每一场演出都如珠宝般精心雕琢。
+        </p>
+    </div>
+    <div class="modalBlock__image">
+        <img src="../../img/moscow/cards_modal/Bolshoi_teatr/Bolshoi_teatr_4.jpg" alt="photo_4" loading="lazy">
+    </div>
+</div>
+<!-- Блок 5: Как добраться до Большого театра -->
+<div class="modalBlock">
+    <div class="modalBlock__text">
+        <h2 class="modalBlock__title">如何到达莫斯科大剧院</h2>
+        <p class="modalBlock__description">
+            莫斯科大剧院位于剧院广场，地处莫斯科最中心。
+        </p>
+        <p class="modalBlock__description">
+            <strong>地铁：</strong> <br>
+            最近站点：&quot;剧院&quot;站，&quot;猎品市场&quot;站，&quot;革命广场&quot;站。从任一站点步行仅需2&mdash;4分钟。
+        </p>
+        <p class="modalBlock__description">
+            <strong>其他公共交通：</strong> <br>
+            公交车可直达以下站点：&quot;剧院广场&quot;，&quot;莫斯科大剧院&quot;。
+        </p>
+        <p class="modalBlock__description">
+            <strong>步行：</strong>从红场、马涅什广场或特维尔大街出发，沿历史中心步行5&mdash;10分钟即达。
+        </p>
+        <p class="modalBlock__description">
+            <strong>观演须知：</strong> <br>
+            &bull; 建议提前购票&mdash;&mdash;热门剧目的门票售罄很快。<br>
+            &bull; 演出开始前45&mdash;60分钟开放入场。<br>
+            &bull; 建议穿着整洁、得体的晚间服装&mdash;&mdash;剧院的氛围正合此意。
+        </p>
+    </div>
+    <div class="modalBlock__image">
+        <img src="../../img/moscow/cards_modal/Bolshoi_teatr/Bolshoi_teatr_5.jpg" alt="photo_5" loading="lazy">
+    </div>
+</div>`
 
         },
 
 // ======================== Храм Василия Блаженного или собор Покрова Пресвятой Богородицы =============================
         {
         id: 'hram_vasiliya',
-        title: 'Храм Василия Блаженного или собор Покрова Пресвятой Богородицы',
+        title: '圣瓦西里大教堂（圣母代祷大教堂）',
         image:'../../img/moscow/cards_tochki/Hram_Vasiliya_Blazhennogo_0.jpg',
-        modalContent:``
+        modalContent:
+
+`<div class="modalHeader">
+    <h1 class="modalHeader__title">圣瓦西里大教堂</h1>
+</div>
+<!-- Блок 1: Храм Василия Блаженного — фантазия из камня на пороге Кремля -->
+<div class="modalBlock">
+    <div class="modalBlock__text">
+        <h2 class="modalBlock__title">圣瓦西里大教堂&mdash;&mdash;克里姆林宫门前的石中幻梦</h2>
+        <p class="modalBlock__description">
+            圣瓦西里大教堂是莫斯科的建筑传奇，历史在这里化为童话。它那五彩斑斓的穹顶，仿佛出自梦境画家的手笔，已成为俄罗斯的象征，享誉世界。
+        </p>
+        <p class="modalBlock__description">
+            教堂建于16世纪，由伊凡雷帝下令为纪念攻占喀山而修建，自那时起便屹立在红场之上，作为胜利、信仰与艺术勇气的丰碑。
+        </p>
+    </div>
+    <div class="modalBlock__image">
+        <img src="../../img/moscow/cards_modal/Hram_Vasiliya_Blazhennogo/Hram_Vasiliya_Blazhennogo_1.jpg" alt="photo_1" loading="lazy">
+    </div>
+</div>
+<!-- Блок 2: Архитектурный образ, не имеющий аналогов -->
+<div class="modalBlock">
+    <div class="modalBlock__text">
+        <h2 class="modalBlock__title">举世无双的建筑形象</h2>
+        <p class="modalBlock__description">
+            教堂由十一座独立的小教堂组成，共同构成一个完整的建筑群。这不是一座传统意义上的教堂，而是一个复杂的空间构成，每一座塔楼都有自己的性格、色彩和装饰图案。
+        </p>
+        <p class="modalBlock__description">
+            构成其独特轮廓的元素<br>
+            &bull; 洋葱头穹顶&mdash;&mdash;饰有条纹、菱形与螺旋图案。<br>
+            &bull; 不对称的构图&mdash;&mdash;营造出动态的视觉效果。<br>
+            &bull; 石砌纹样&mdash;&mdash;令人联想到东方装饰艺术。<br>
+            &bull; 红砖与鲜艳装饰元素的对比。<br>
+            教堂的建筑是一场大胆的实验，融合了俄罗斯、拜占庭与东方的多重元素。它宛如一场幻梦，在石头上得以呈现。
+        </p>
+    </div>
+    <div class="modalBlock__image">
+        <img src="../../img/moscow/cards_modal/Hram_Vasiliya_Blazhennogo/Hram_Vasiliya_Blazhennogo_2.jpg" alt="photo_2" loading="lazy">
+    </div>
+</div>
+<!-- Блок 3: Внутренний мир храма — лабиринт тишины и древних росписей -->
+<div class="modalBlock">
+    <div class="modalBlock__text">
+        <h2 class="modalBlock__title">教堂的内在天地&mdash;&mdash;寂静与古老壁画的迷宫</h2>
+        <p class="modalBlock__description">
+            教堂内部与开阔的大教堂截然不同。这里是由狭窄走廊、小小侧祭台和陡峭楼梯构成的网络，让人仿佛在中世纪的迷宫中穿行。
+        </p>
+        <p class="modalBlock__description">
+            尤为令人赞叹的是<br>
+            &bull; 16&mdash;17世纪的壁画&mdash;&mdash;以细腻的植物纹样覆盖墙壁。<br>
+            &bull; 圣像屏与古老圣像&mdash;&mdash;保存了自首次礼拜以来的圣像真迹。<br>
+            &bull; 手绘的石砌穹顶。<br>
+            &bull; 宁静的侧祭台&mdash;&mdash;每一座都献给特定的圣徒或历史事件。<br>
+            教堂的内部空间是一个时间仿佛慢下来的世界，每一步都会发现新的细节。
+        </p>
+    </div>
+    <div class="modalBlock__image">
+        <img src="../../img/moscow/cards_modal/Hram_Vasiliya_Blazhennogo/Hram_Vasiliya_Blazhennogo_3.jpg" alt="photo_3" loading="lazy">
+    </div>
+</div>
+<!-- Блок 4: Храм как культурный символ Москвы -->
+<div class="modalBlock">
+    <div class="modalBlock__text">
+        <h2 class="modalBlock__title">莫斯科的文化象征</h2>
+        <p class="modalBlock__description">
+            如今，圣瓦西里大教堂不仅是一座教堂，更是一座博物馆，保存着莫斯科与俄罗斯建筑的历史。
+        </p>
+        <p class="modalBlock__description">
+            它为何如此重要<br>
+            &bull; 它是俄罗斯最重要的艺术象征，享誉全球。<br>
+            &bull; 它体现了从中世纪建筑向更大胆形式的过渡。<br>
+            &bull; 教堂与俄罗斯历史上最重要的事件紧密相连。<br>
+            &bull; 它已成为红场建筑群的一部分，被列入联合国教科文组织世界遗产名录。<br>
+            这座教堂不仅是一座纪念碑，更是莫斯科令人无法忘怀的情感形象。
+        </p>
+    </div>
+    <div class="modalBlock__image">
+        <img src="../../img/moscow/cards_modal/Hram_Vasiliya_Blazhennogo/Hram_Vasiliya_Blazhennogo_4.jpg" alt="photo_4" loading="lazy">
+    </div>
+</div>
+<!-- Блок 5: Как добраться до Храма Василия Блаженного -->
+<div class="modalBlock">
+    <div class="modalBlock__text">
+        <h2 class="modalBlock__title">如何到达圣瓦西里大教堂</h2>
+        <p class="modalBlock__description">
+            教堂位于红场南侧，紧邻瓦西里斜坡。
+        </p>
+        <p class="modalBlock__description">
+            <strong>地铁</strong> <br>
+            最近站点：&quot;革命广场&quot;站，&quot;猎品市场&quot;站，&quot;剧院&quot;站。从任一站点步行5&mdash;7分钟即达。
+        </p>
+        <p class="modalBlock__description">
+            <strong>其他公共交通</strong> <br>
+            公交车可直达以下站点：&quot;红场&quot;，&quot;莫霍瓦亚街&quot;，&quot;马涅什广场&quot;。
+        </p>
+        <p class="modalBlock__description">
+            <strong>步行</strong> 从克里姆林宫、古姆百货商场或国家历史博物馆出发，仅需几分钟路程。
+        </p>
+        <p class="modalBlock__description">
+            <strong>教堂参观须知</strong> <br>
+            &bull; 内部为博物馆，需购票进入。<br>
+            &bull; 夏季排队较长，建议上午到访。<br>
+            &bull; 允许拍照，但请勿使用闪光灯。<br>
+            &bull; 内部凉爽&mdash;&mdash;墙壁能保持恒温，不受季节影响。
+        </p>
+    </div>
+    <div class="modalBlock__image">
+        <img src="../../img/moscow/cards_modal/Hram_Vasiliya_Blazhennogo/Hram_Vasiliya_Blazhennogo_5.jpg" alt="photo_5" loading="lazy">
+    </div>
+</div>`
 
         },
 
@@ -40,18 +391,238 @@ const zh_moscowData = {
 
         {
         id: 'park_zaryadie',
-        title: 'Парк «Зарядье»',
+        title: '扎里亚季耶公园',
         image:'../../img/moscow/cards_tochki/Park_Zaryade_0.jpg',
-        modalContent:``
+        modalContent:
+
+`<div class="modalHeader">
+    <h1 class="modalHeader__title">扎里亚季耶公园</h1>
+</div>
+<!-- Блок 1: Парк «Зарядье» — природа и мегаполис в одном ощущении -->
+<div class="modalBlock">
+    <div class="modalBlock__text">
+        <h2 class="modalBlock__title">扎里亚季耶公园&mdash;&mdash;自然与都市在同一片天地中交融</h2>
+        <p class="modalBlock__description">
+            扎里亚季耶公园是莫斯科的新面孔，一个都市活力与自然相融的空间。它建于克里姆林宫墙外一片古老的街区之上，已成为当代首都的象征：开放、创新、充满生机。
+        </p>
+        <p class="modalBlock__description">
+            在这里，只需几分钟便可从苔原走到草原，从&quot;悬浮桥&quot;上俯瞰莫斯科，感受自然如何成为城市肌理的一部分。
+        </p>
+    </div>
+    <div class="modalBlock__image">
+        <img src="../../img/moscow/cards_modal/Park_Zaryade/Park_Zaryade_1.jpg" alt="photo_1" loading="lazy">
+    </div>
+</div>
+<!-- Блок 2: Ландшафтная архитектура, которая меняет представление о парках -->
+<div class="modalBlock">
+    <div class="modalBlock__text">
+        <h2 class="modalBlock__title">颠覆公园认知的景观建筑</h2>
+        <p class="modalBlock__description">
+            扎里亚季耶公园不仅仅是一片绿地，而是一个精心设计的生态系统。建筑师创造了俄罗斯的四种自然地带&mdash;&mdash;苔原、草原、森林与湿地&mdash;&mdash;并将它们置于大都市的中心，彼此之间自然过渡。
+        </p>
+        <p class="modalBlock__description">
+            构成公园独特风貌的元素<br>
+            &bull; &quot;悬浮桥&quot;&mdash;&mdash;一座横跨莫斯科河上空、弧形蜿蜒的观景平台，已成为城市的新名片。<br>
+            &bull; 植物温室与地下展馆&mdash;&mdash;隐匿于山丘之下。<br>
+            &bull; 景观山丘&mdash;&mdash;营造出天然地形的起伏感。<br>
+            &bull; &quot;水晶壳&quot;玻璃穹顶&mdash;&mdash;下方举办音乐会与各类活动。<br>
+            公园的建筑是自然与科技的对话，每一个元素都在共同营造一个鲜活、呼吸的空间。
+        </p>
+    </div>
+    <div class="modalBlock__image">
+        <img src="../../img/moscow/cards_modal/Park_Zaryade/Park_Zaryade_2.jpg" alt="photo_2" loading="lazy">
+    </div>
+</div>
+<!-- Блок 3: Природные зоны, созданные вручную -->
+<div class="modalBlock">
+    <div class="modalBlock__text">
+        <h2 class="modalBlock__title">人工打造的自然地带</h2>
+        <p class="modalBlock__description">
+            每一个地带都是俄罗斯地貌的微缩模型。长满苔藓与矮灌木的苔原、干燥禾草覆盖的草原、针叶林密布的森林&mdash;&mdash;这一切让人仿佛在莫斯科市中心完成了一次穿越全国的旅行。
+        </p>
+        <p class="modalBlock__description">
+            尤为令人赞叹的是<br>
+            &bull; 媒体中心&mdash;&mdash;设有互动展览与全景展厅。<br>
+            &bull; 植物温室&mdash;&mdash;汇集了珍稀植物。<br>
+            &bull; 地下爱乐音乐厅&mdash;&mdash;拥有非凡的声学效果。<br>
+            &bull; 生态小径&mdash;&mdash;可供漫步穿行。<br>
+            公园的布局使得每一个转角都展开新的视野&mdash;&mdash;从幽静的角落到俯瞰克里姆林宫的全景。
+        </p>
+    </div>
+    <div class="modalBlock__image">
+        <img src="../../img/moscow/cards_modal/Park_Zaryade/Park_Zaryade_3.jpg" alt="photo_3" loading="lazy">
+    </div>
+</div>
+<!-- Блок 4: «Зарядье» как культурный и городской символ -->
+<div class="modalBlock">
+    <div class="modalBlock__text">
+        <h2 class="modalBlock__title">扎里亚季耶公园&mdash;&mdash;文化与城市的象征</h2>
+        <p class="modalBlock__description">
+            扎里亚季耶公园已成为当代莫斯科最重要的项目之一&mdash;&mdash;一个建筑、生态与城市生活交汇的地方。
+        </p>
+        <p class="modalBlock__description">
+            它为何如此重要<br>
+            &bull; 这是数十年来莫斯科市中心建造的第一座大型公园。<br>
+            &bull; 它已成为节庆、音乐会与教育活动的举办地。<br>
+            &bull; &quot;悬浮桥&quot;已成为莫斯科的新明信片，享誉世界。<br>
+            &bull; 公园展示了现代城市如何在不失活力的同时融入自然。<br>
+            扎里亚季耶公园象征着首都的更新、对开放与创新的追求。
+        </p>
+    </div>
+    <div class="modalBlock__image">
+        <img src="../../img/moscow/cards_modal/Park_Zaryade/Park_Zaryade_4.jpg" alt="photo_4" loading="lazy">
+    </div>
+</div>
+<!-- Блок 5: Как добраться до парка «Зарядье» -->
+<div class="modalBlock">
+    <div class="modalBlock__text">
+        <h2 class="modalBlock__title">如何到达扎里亚季耶公园</h2>
+        <p class="modalBlock__description">
+            公园位于红场与莫斯科河沿岸街附近。
+        </p>
+        <p class="modalBlock__description">
+            <strong>地铁</strong> <br>
+            最近站点：&quot;中国城&quot;站，&quot;革命广场&quot;站，&quot;猎品市场&quot;站。从任一站点步行5&mdash;10分钟即达。
+        </p>
+        <p class="modalBlock__description">
+            <strong>其他公共交通</strong> <br>
+            公交车可直达以下站点：&quot;莫斯科河沿岸街&quot;，&quot;中国城&quot;站，&quot;瓦尔瓦尔卡街&quot;。
+        </p>
+        <p class="modalBlock__description">
+            <strong>步行</strong> 从红场出发&mdash;&mdash;步行3&mdash;5分钟。从克里姆林宫出发&mdash;&mdash;过桥即达。
+        </p>
+        <p class="modalBlock__description">
+            <strong>公园游览须知</strong> <br>
+            &bull; 公园免费开放，全天24小时均可进入。<br>
+            &bull; 部分展馆按开放时间运行，需购票参观。<br>
+            &bull; 最佳游览时间为清晨或日落时分，此时&quot;悬浮桥&quot;尤为美丽。
+        </p>
+    </div>
+    <div class="modalBlock__image">
+        <img src="../../img/moscow/cards_modal/Park_Zaryade/Park_Zaryade_5.jpg" alt="photo_5" loading="lazy">
+    </div>
+</div>`
 
         },
 // ======================== Москва-Сити =============================
 
         {
         id: 'moscow-city',
-        title: 'Москва-Сити',
+        title: '莫斯科城',
         image:'../../img/moscow/cards_tochki/Moskva_Siti_0.jpg',
-        modalContent:``
+        modalContent:
+
+`<div class="modalHeader">
+    <h1 class="modalHeader__title">莫斯科城</h1>
+</div>
+<!-- Блок 1: Москва‑Сити — вертикальный символ новой столицы -->
+<div class="modalBlock">
+    <div class="modalBlock__text">
+        <h2 class="modalBlock__title">莫斯科城&mdash;&mdash;新首都高耸的象征</h2>
+        <p class="modalBlock__description">
+            莫斯科城不只是一个商务区，更是当代莫斯科的建筑宣言。在这里，摩天大楼沿河矗立，将云霞与日落倒映在玻璃幕墙之上，都市的活力仿佛触手可及。
+        </p>
+        <p class="modalBlock__description">
+            这一建筑群成为首都革新的象征，代表着莫斯科对高度、速度与科技感的追求。在这里，莫斯科向世人展示着自己的未来。
+        </p>
+    </div>
+    <div class="modalBlock__image">
+        <img src="../../img/moscow/cards_modal/Moskva_Siti/Moskva_Siti_1.jpg" alt="photo_1" loading="lazy">
+    </div>
+</div>
+<!-- Блок 2: Архитектурный прорыв, изменивший силуэт города -->
+<div class="modalBlock">
+    <div class="modalBlock__text">
+        <h2 class="modalBlock__title">改变城市天际线的建筑突破</h2>
+        <p class="modalBlock__description">
+            莫斯科城是俄罗斯首个按照国际大都市理念建造的摩天大楼区。每一座塔楼综合体都是独立的建筑形象，而它们共同构成的壮丽全景，独一无二，过目难忘。
+        </p>
+        <p class="modalBlock__description">
+            构成莫斯科城风貌的元素<br>
+            &bull; &quot;联邦&quot;塔楼&mdash;&mdash;欧洲最高的建筑之一，拥有动感的轮廓。<br>
+            &bull; &quot;眼睛&quot;塔楼&mdash;&mdash;严谨的几何造型与夺目的灯光效果。<br>
+            &bull; &quot;进化&quot;塔楼&mdash;&mdash;螺旋形态，宛若DNA双螺旋结构。<br>
+            &bull; &quot;帝国&quot;塔楼&mdash;&mdash;玻璃与金属的结合，经典的摩天大楼风格。<br>
+            &bull; &quot;水星&quot;塔楼&mdash;&mdash;金色外立面，随光线变化而呈现不同色调。<br>
+            莫斯科城的建筑是技术与美学的对话，每一座塔楼都是一项工程实验，也是一次艺术表达。
+        </p>
+    </div>
+    <div class="modalBlock__image">
+        <img src="../../img/moscow/cards_modal/Moskva_Siti/Moskva_Siti_2.jpg" alt="photo_2" loading="lazy">
+    </div>
+</div>
+<!-- Блок 3: Внутренний мир небоскребов — город в городе -->
+<div class="modalBlock">
+    <div class="modalBlock__text">
+        <h2 class="modalBlock__title">摩天大楼的内部世界&mdash;&mdash;城中之城</h2>
+        <p class="modalBlock__description">
+            莫斯科城不仅仅是办公楼。摩天大楼内部隐藏着餐厅、观景台、画廊、公寓、商业区，甚至健身中心。在这里，不出建筑群便可度过整整一天。
+        </p>
+        <p class="modalBlock__description">
+            尤为令人赞叹的是<br>
+            &bull; 300多米高空的观景台&mdash;&mdash;360度俯瞰莫斯科全景。<br>
+            &bull; 城市景观餐厅&mdash;&mdash;日落时分，窗外即是一场独立演出。<br>
+            &bull; 地下通道与商业长廊&mdash;&mdash;将各塔楼连接在一起。<br>
+            &bull; 现代风格的内部陈设&mdash;&mdash;以高科技风和极简主义呈现。<br>
+            在莫斯科城内部，能感受到一个独立的世界&mdash;&mdash;快速、动感、垂直向上。
+        </p>
+    </div>
+    <div class="modalBlock__image">
+        <img src="../../img/moscow/cards_modal/Moskva_Siti/Moskva_Siti_3.jpg" alt="photo_3" loading="lazy">
+    </div>
+</div>
+<!-- Блок 4: Москва‑Сити как символ новой городской идентичности -->
+<div class="modalBlock">
+    <div class="modalBlock__text">
+        <h2 class="modalBlock__title">莫斯科城&mdash;&mdash;新城市身份的象征</h2>
+        <p class="modalBlock__description">
+            莫斯科城已成为当代莫斯科文化密码的重要组成部分。它向世人展示，一座城市可以同时拥有历史底蕴与超现代风貌。
+        </p>
+        <p class="modalBlock__description">
+            莫斯科城为何如此重要<br>
+            &bull; 它是当代俄罗斯建筑领域规模最宏大的项目。<br>
+            &bull; 它已成为商务活动中心，众多大型企业在此办公。<br>
+            &bull; 莫斯科城是一处新兴旅游地标，吸引着数百万游客。<br>
+            &bull; 摩天大楼的全景已成为21世纪莫斯科的名片。<br>
+            莫斯科城展现了一座不惧高度、不惧变革的首都形象。
+        </p>
+    </div>
+    <div class="modalBlock__image">
+        <img src="../../img/moscow/cards_modal/Moskva_Siti/Moskva_Siti_4.jpg" alt="photo_4" loading="lazy">
+    </div>
+</div>
+<!-- Блок 5: Как добраться до Москва‑Сити -->
+<div class="modalBlock">
+    <div class="modalBlock__text">
+        <h2 class="modalBlock__title">如何到达莫斯科城</h2>
+        <p class="modalBlock__description">
+            该建筑群位于普列斯年斯卡亚沿岸街，靠近第三环路。
+        </p>
+        <p class="modalBlock__description">
+            <strong>地铁</strong> <br>
+            最近站点：&quot;商务中心&quot;站，&quot;展览&quot;站，&quot;国际&quot;站。所有站点均直通塔楼区域。
+        </p>
+        <p class="modalBlock__description">
+            <strong>莫斯科中央环线</strong> &quot;商务中心&quot;站步行可达。
+        </p>
+        <p class="modalBlock__description">
+            <strong>其他公共交通</strong> <br>
+            公交车可直达以下站点：&quot;展览中心&quot;，&quot;普列斯年斯卡亚沿岸街&quot;。
+        </p>
+        <p class="modalBlock__description">
+            <strong>步行</strong> 从塔拉斯&middot;舍甫琴科沿岸街出发，沿河步行10&mdash;15分钟即达。
+        </p>
+        <p class="modalBlock__description">
+            <strong>参观须知</strong> <br>
+            &bull; 观景台按开放时间运行，建议提前购票。<br>
+            &bull; 夜晚的摩天大楼在灯光映衬下格外美丽。<br>
+            &bull; 楼内设有多家餐厅与咖啡馆，可散步后享用晚餐。
+        </p>
+    </div>
+    <div class="modalBlock__image">
+        <img src="../../img/moscow/cards_modal/Moskva_Siti/Moskva_Siti_5.jpg" alt="photo_5" loading="lazy">
+    </div>
+</div>`
 
         },
 
@@ -60,9 +631,118 @@ const zh_moscowData = {
 
         {
         id: 'vorobei-gora',
-        title: 'Воробьевы горы',
+        title: '麻雀山',
         image:'../../img/moscow/cards_tochki/Vorobevy_gory_0.jpg',
-        modalContent:``
+        modalContent:
+
+`<div class="modalHeader">
+    <h1 class="modalHeader__title">麻雀山</h1>
+</div>
+<!-- Блок 1: Воробьевы горы — панорама Москвы с высоты тишины -->
+<div class="modalBlock">
+    <div class="modalBlock__text">
+        <h2 class="modalBlock__title">麻雀山&mdash;&mdash;于静谧高处俯瞰莫斯科全景</h2>
+        <p class="modalBlock__description">
+            麻雀山是首都最具标志性的地点之一，在这里，莫斯科展现出它全部的辽阔。城市仿佛在此稍作停歇：喧嚣消融于林叶之间，莫斯科河上的壮丽景色令人过目难忘。
+        </p>
+        <p class="modalBlock__description">
+            这是一座自然的露天剧场，历史、科学、体育与浪漫在此交汇。人们来这里寻找灵感、散步休憩、感受自由。
+        </p>
+    </div>
+    <div class="modalBlock__image">
+        <img src="../../img/moscow/cards_modal/Vorobevy_gory/Vorobevy_gory_1.jpg" alt="photo_1" loading="lazy">
+    </div>
+</div>
+<!-- Блок 2: Природный рельеф, создающий уникальную панораму -->
+<div class="modalBlock">
+    <div class="modalBlock__text">
+        <h2 class="modalBlock__title">造就独特全景的自然地貌</h2>
+        <p class="modalBlock__description">
+            麻雀山是莫斯科河一处高高的河岸，覆盖着森林，被小径纵横贯穿。地貌在这里起着关键作用：正是由于陡峭的斜坡和开阔的平台，整个莫斯科市中心才能尽收眼底。
+        </p>
+        <p class="modalBlock__description">
+            构成麻雀山风貌的元素<br>
+            &bull; 莫斯科大学旁的观景台&mdash;&mdash;欣赏首都最佳视野的地点之一。<br>
+            &bull; 林间小径&mdash;&mdash;沿着山坡一直通向河边。<br>
+            &bull; 缆车&mdash;&mdash;连接麻雀山与卢日尼基体育场。<br>
+            &bull; 步行路线&mdash;&mdash;穿行于自然保护区内。<br>
+            这里的自然格外和谐：茂密的树木、陡峭的崖壁、宽阔的河流&mdash;&mdash;共同营造出开阔与轻盈的感觉。
+        </p>
+    </div>
+    <div class="modalBlock__image">
+        <img src="../../img/moscow/cards_modal/Vorobevy_gory/Vorobevy_gory_2.jpg" alt="photo_2" loading="lazy">
+    </div>
+</div>
+<!-- Блок 3: Смотровая площадка — сердце Воробьевых гор -->
+<div class="modalBlock">
+    <div class="modalBlock__text">
+        <h2 class="modalBlock__title">观景台&mdash;&mdash;麻雀山的心脏</h2>
+        <p class="modalBlock__description">
+            从这里望去，是一张张明信片和一部部电影中熟知的景象：莫斯科城、卢日尼基体育场、斯大林摩天楼、教堂的穹顶以及宽阔的河流弯道。傍晚时分尤其美丽&mdash;&mdash;城市点亮灯火，全景化作一幅活的画卷。
+        </p>
+        <p class="modalBlock__description">
+            尤为令人赞叹的是<br>
+            &bull; 缆车&mdash;&mdash;飞越河面与体育场上空。<br>
+            &bull; 保护区内的小径&mdash;&mdash;可以安静地散步，听不见城市的喧嚣。<br>
+            &bull; 不同高度的观景点&mdash;&mdash;不断展现新的视角。<br>
+            &bull; 紧邻莫斯科大学&mdash;&mdash;其塔楼构成了辨识度极高的天际线。<br>
+            在麻雀山，你可以待上一个小时，也可以待上一整天，每一次都会发现新的风景。
+        </p>
+    </div>
+    <div class="modalBlock__image">
+        <img src="../../img/moscow/cards_modal/Vorobevy_gory/Vorobevy_gory_3.jpg" alt="photo_3" loading="lazy">
+    </div>
+</div>
+<!-- Блок 4: Воробьевы горы как культурный и спортивный символ -->
+<div class="modalBlock">
+    <div class="modalBlock__text">
+        <h2 class="modalBlock__title">麻雀山&mdash;&mdash;文化与体育的象征</h2>
+        <p class="modalBlock__description">
+            这不仅仅是一片自然区域&mdash;&mdash;更是莫斯科文化密码的一部分。
+        </p>
+        <p class="modalBlock__description">
+            麻雀山为何如此重要<br>
+            &bull; 这里坐落着莫斯科大学主楼，首都的象征之一。<br>
+            &bull; 这里是运动爱好者&mdash;&mdash;跑步、骑行、滑雪者的热门去处。<br>
+            &bull; 山坡上举办节庆、音乐会与体育活动。<br>
+            &bull; 麻雀山是聚会、约会与散步的地方，已成为城市浪漫的一部分。<br>
+            这是一个自然与城市和谐共生的空间，营造出轻盈与灵感的氛围。
+        </p>
+    </div>
+    <div class="modalBlock__image">
+        <img src="../../img/moscow/cards_modal/Vorobevy_gory/Vorobevy_gory_4.jpg" alt="photo_4" loading="lazy">
+    </div>
+</div>
+<!-- Блок 5: Как добраться до Воробьевых гор -->
+<div class="modalBlock">
+    <div class="modalBlock__text">
+        <h2 class="modalBlock__title">如何到达麻雀山</h2>
+        <p class="modalBlock__description">
+            麻雀山位于莫斯科西南部，沿莫斯科河而展开。
+        </p>
+        <p class="modalBlock__description">
+            <strong>地铁</strong> <br>
+            最近站点：&quot;麻雀山&quot;站（位于河上桥梁处），&quot;大学&quot;。从两站出站后步行10&mdash;15分钟即达。
+        </p>
+        <p class="modalBlock__description">
+            <strong>其他公共交通</strong> <br>
+            公交车可直达以下站点：&quot;观景台&quot;，&quot;大学&quot;。
+        </p>
+        <p class="modalBlock__description">
+            <strong>步行</strong> 从莫斯科大学出发&mdash;&mdash;穿过林荫道与阶梯。从卢日尼基出发&mdash;&mdash;乘坐缆车或沿河步行。
+        </p>
+        <p class="modalBlock__description">
+            <strong>参观须知</strong> <br>
+            &bull; 免费进入。<br>
+            &bull; 最佳到访时间为日落时分或清晨。<br>
+            &bull; 冬季，小径变成滑雪路线。<br>
+            &bull; 夏季，在绿荫掩映的小路上散步格外惬意。
+        </p>
+    </div>
+    <div class="modalBlock__image">
+        <img src="../../img/moscow/cards_modal/Vorobevy_gory/Vorobevy_gory_5.jpg" alt="photo_5" loading="lazy">
+    </div>
+</div>`
 
         }
     ],
@@ -73,7 +753,7 @@ const zh_moscowData = {
 
     {
         id: 'king_park',
-        title: 'Царицыно',
+        title: '察里津诺庄园',
         image:'../../img/moscow/cards_nature/Caricyno_0.jpg',
         modalContent:``
     },
@@ -81,7 +761,7 @@ const zh_moscowData = {
 // ======================== Коломенское =============================
     {
         id: 'Kolomenskoye',
-        title: 'Коломенское',
+        title: '科洛缅斯科耶庄园',
         image:'../../img/moscow/cards_nature/Kolomenskoe_0.jpg',
         modalContent:``
     },
@@ -89,7 +769,7 @@ const zh_moscowData = {
 // ======================== Серебряный Бор =============================
      {
         id: 'Silver_bor',
-        title: 'Серебряный Бор',
+        title: '银松林',
         image:'../../img/moscow/cards_nature/Serebryanyy_Bor_0.jpg',
         modalContent:``
     },
@@ -98,7 +778,7 @@ const zh_moscowData = {
 
     {
         id: 'Gorkiy_park',
-        title: 'Парк Горького',
+        title: '高尔基公园',
         image:'../../img/moscow/cards_nature/Park_Gorkogo_0.jpg',
         modalContent:``
     },
@@ -106,7 +786,7 @@ const zh_moscowData = {
 // ======================== Усадьба Кусково =============================
     {
         id: 'Food_usadba',
-        title: 'Усадьба Кусково',
+        title: '库斯科沃庄园',
         image:'../../img/moscow/cards_nature/Usadba_Kuskovo_0.jpg',
         modalContent:``
     },
@@ -115,7 +795,7 @@ const zh_moscowData = {
 
     {
         id: 'Park_los',
-        title: 'Национальный парк «Лосиный Остров»',
+        title: '驼鹿岛国家公园',
         image:'../../img/moscow/cards_nature/Nacionalnyy_park_Losinyy_Ostrov_0.jpg',
         modalContent:``
     },
@@ -129,7 +809,7 @@ const zh_moscowData = {
     culture: [
     {
         id: 'VDNH',
-        title: 'ВДНХ',
+        title: '全俄展览中心',
         image:'../../img/moscow/cards_culture/VDNH_0.jpg',
         modalContent:``
     },
@@ -137,7 +817,7 @@ const zh_moscowData = {
 // ======================== Московское метро =============================
     {
         id: 'Moscow_metro',
-        title: 'Московское метро',
+        title: '莫斯科地铁',
         image:'../../img/moscow/cards_culture/Moskovskoe_metro_0.jpg',
         modalContent:``
     },
@@ -145,7 +825,7 @@ const zh_moscowData = {
 // ======================== Останкинская телебашня =============================
     {
         id: 'Ostankino_bashnya',
-        title: 'Останкинская телебашня',
+        title: '奥斯坦金诺电视塔',
         image:'../../img/moscow/cards_culture/Ostankinskaya_telebashnya_0.jpg',
         modalContent:``
     },
@@ -153,7 +833,7 @@ const zh_moscowData = {
 // ======================== Сталинские высотки =============================
     {
         id: 'Stalin_vysotki',
-        title: 'Сталинские высотки',
+        title: '斯大林七姐妹楼',
         image:'../../img/moscow/cards_culture/Stalinskie_vysotki_0.jpg',
         modalContent:``
     },
@@ -161,7 +841,7 @@ const zh_moscowData = {
 // ======================== Третьяковская галерея =============================
     {
         id: 'Tretiakovskaya_galerea',
-        title: 'Третьяковская галерея',
+        title: '特列季亚科夫画廊',
         image:'../../img/moscow/cards_culture/Tretyakovskaya_galereya_0.jpg',
         modalContent:``
     },
@@ -169,7 +849,7 @@ const zh_moscowData = {
 // ======================== Московский зоопарк =============================
     {
         id: 'Moscow_zoo',
-        title: 'Московский зоопарк',
+        title: '莫斯科动物园',
         image:'../../img/moscow/cards_culture/Moskovskii_zoopark_0.jpg',
         modalContent:``
     }

@@ -12,27 +12,378 @@ const en_moscowData = {
 // ======================== Красная площадь и Кремль =============================
         {
         id: 'Red_square_kreml',
-        title: 'Красная площадь и Кремль',
+        title: 'Red Square and the Kremlin',
         image:'../../img/moscow/cards_tochki/Krasnaya_ploshchad_i_Kreml_0.jpg',
-        modalContent:``
+        modalContent:
+
+`<div class="modalHeader">
+    <h1 class="modalHeader__title">Red Square and the Kremlin</h1>
+</div>
+<!-- Блок 1: Красная площадь и Кремль — возрожденный символ российской столицы -->
+<div class="modalBlock">
+    <div class="modalBlock__text">
+        <h2 class="modalBlock__title">Red Square and the Kremlin: the Reborn Symbol of&nbsp;Russia&rsquo;s Capital</h2>
+        <p class="modalBlock__description">
+            The country&rsquo;s main square is&nbsp;more than just a&nbsp;geographical landmark; it&nbsp;is&nbsp;the emotional heart of&nbsp;Moscow. Here, history can be&nbsp;felt physically in&nbsp;the lines of&nbsp;the Kremlin walls, in&nbsp;the glow of&nbsp;its cathedrals.
+        </p>
+        <p class="modalBlock__description">
+            Red Square and the Kremlin form a&nbsp;single ensemble, where every element is&nbsp;part of&nbsp;a&nbsp;centuries-long narrative about Russia.
+        </p>
+    </div>
+    <div class="modalBlock__image">
+        <img src="../../img/moscow/cards_modal/RedSquare/RedSquare_1.jpg" alt="photo_1" loading="lazy">
+    </div>
+</div>
+<!-- Блок 2: Архитектурный ансамбль, ставший лицом Москвы -->
+<div class="modalBlock">
+    <div class="modalBlock__text">
+        <h2 class="modalBlock__title">Architectural Ensemble That Defines Moscow&rsquo;s Face</h2>
+        <p class="modalBlock__description">
+            The architectural character of&nbsp;the Kremlin took shape over centuries. Its current walls and towers appeared in&nbsp;the 15th century, thanks to&nbsp;Italian masters who introduced elements of&nbsp;Renaissance fortification to&nbsp;the Moscow fortress.
+        </p>
+        <p class="modalBlock__description">
+            Red Square, stretching along the Kremlin&rsquo;s eastern wall, became the city&rsquo;s grand stage&nbsp;&mdash; spacious, majestic, and perfectly symmetrical.
+        </p>
+        <p class="modalBlock__description">
+            What creates the ensemble&rsquo;s unique silhouette:<br>
+            &bull; The Kremlin walls and towers&nbsp;&mdash; red brick, crenellations shaped like dovetails, and elegant tent roofs.<br>
+            &bull; Saint Basil&rsquo;s Cathedral&nbsp;&mdash; whimsical domes that resemble candle flames.<br>
+            &bull; The State Historical Museum&nbsp;&mdash; red-brick Neo-Russian architecture from the 19th century.<br>
+            &bull; GUM&nbsp;&mdash; glass vaults and arcades that create a&nbsp;sense of&nbsp;lightness.
+        </p>
+        <p class="modalBlock__description">
+            Each element of&nbsp;the ensemble is&nbsp;a&nbsp;masterpiece in&nbsp;its own right, but together they form one of&nbsp;the most recognizable skylines in&nbsp;the world.
+        </p>
+    </div>
+    <div class="modalBlock__image">
+        <img src="../../img/moscow/cards_modal/RedSquare/RedSquare_2.jpg" alt="photo_2" loading="lazy">
+    </div>
+</div>
+<!-- Блок 3: Сокровища Кремля: где оживает история -->
+<div class="modalBlock">
+    <div class="modalBlock__text">
+        <h2 class="modalBlock__title">Kremlin Treasures: Where History Comes Alive</h2>
+        <p class="modalBlock__description">
+            The Kremlin is&nbsp;not only the residence of&nbsp;the president but also one of&nbsp;the largest open-air museum complexes in&nbsp;the world.
+        </p>
+        <p class="modalBlock__description">
+            Cathedral Square:<br>
+            The spiritual heart of&nbsp;the state. This is&nbsp;where coronations, royal weddings, and state ceremonies took place.<br>
+            &bull; Assumption Cathedral&nbsp;&mdash; the main church of&nbsp;the Moscow Tsardom.<br>
+            &bull; Cathedral of&nbsp;the Archangel&nbsp;&mdash; the burial place of&nbsp;grand knyazes and tsars.<br>
+            &bull; Cathedral of&nbsp;the Annunciation&nbsp;&mdash; the house church of&nbsp;Russian rulers.<br>
+            &bull; Palace of&nbsp;the Facets&nbsp;&mdash; the venue for receptions of&nbsp;foreign ambassadors.
+        </p>
+    </div>
+    <div class="modalBlock__image">
+        <img src="../../img/moscow/cards_modal/RedSquare/RedSquare_3.jpg" alt="photo_3" loading="lazy">
+    </div>
+</div>
+<!-- Блок 4: Синтез традиций и величия в убранстве -->
+<div class="modalBlock">
+    <div class="modalBlock__text">
+        <h2 class="modalBlock__title">Synthesis of&nbsp;Tradition and Grandeur in&nbsp;Interior</h2>
+        <p class="modalBlock__description">
+            <strong>Kremlin Armory:</strong> A&nbsp;museum housing state regalia, ceremonial armor, thrones, crowns, and the famous Faberg&eacute; eggs. Each hall unfolds like a&nbsp;separate chapter of&nbsp;history.
+        </p>
+        <p class="modalBlock__description">
+            <strong>Tsar Cannon and Tsar Bell:</strong> Monumental symbols of&nbsp;the ambition and craftsmanship of&nbsp;Russian foundry masters.
+        </p>
+        <p class="modalBlock__description">
+            The interiors of&nbsp;the Kremlin&rsquo;s cathedrals represent a&nbsp;fusion of&nbsp;Old Russian and Byzantine traditions. Frescoes from the 15th to&nbsp;17th centuries, gilded iconostases, carved icon cases, and massive columns all combine to&nbsp;create an&nbsp;atmosphere of&nbsp;solemn stillness. Particularly impressive: the multi-tiered iconostasis of&nbsp;the Assumption Cathedral, the frescoes of&nbsp;Dionysius and his school, the decorative wall paintings in&nbsp;the Cathedral of&nbsp;the Archangel, the state halls in&nbsp;the Palace of&nbsp;the Facets, with their white-stone vaulted ceilings. Every detail bears witness to&nbsp;the extraordinary sophistication of&nbsp;Old Russian artistry.
+        </p>
+    </div>
+    <div class="modalBlock__image">
+        <img src="../../img/moscow/cards_modal/RedSquare/RedSquare_4.jpg" alt="photo_4" loading="lazy">
+    </div>
+</div>
+<!-- Блок 5: Красная площадь: пространство, где встречаются эпохи -->
+<div class="modalBlock">
+    <div class="modalBlock__text">
+        <h2 class="modalBlock__title">Red Square: Space Where Epochs Meet</h2>
+        <p class="modalBlock__description">
+            Red Square is&nbsp;Moscow&rsquo;s grand open stage. It&nbsp;hosts parades, festivals, concerts, winter fairs, and even an&nbsp;ice skating rink.
+        </p>
+        <p class="modalBlock__description">
+            <strong>The main landmarks of&nbsp;the square:</strong> <br>
+            &bull; Saint Basil&rsquo;s Cathedral&nbsp;&mdash; a&nbsp;16th-century architectural legend.<br>
+            &bull; Lenin&rsquo;s Mausoleum&nbsp;&mdash; a&nbsp;monument to&nbsp;the Soviet era.<br>
+            &bull; GUM&nbsp;&mdash; a&nbsp;historic shopping arcade with the atmosphere of&nbsp;old Moscow.<br>
+            &bull; Lobnoye Mesto&nbsp;&mdash; an&nbsp;ancient stone platform from which tsars&rsquo; decrees were read.<br>
+            &bull; The State Historical Museum&nbsp;&mdash; a&nbsp;vast collection of&nbsp;artifacts spanning from antiquity to&nbsp;the 20th century.
+        </p>
+        <p class="modalBlock__description">
+            The square changes its mood depending on&nbsp;the time of&nbsp;day: calm and majestic in&nbsp;the morning, bustling in&nbsp;the afternoon, and especially beautiful in&nbsp;the evening when the Kremlin&rsquo;s illuminations come to&nbsp;life.
+        </p>
+    </div>
+    <div class="modalBlock__image">
+        <img src="../../img/moscow/cards_modal/RedSquare/RedSquare_5.jpg" alt="photo_5" loading="lazy">
+    </div>
+</div>
+<!-- Блок 6: Как добраться до Красной площади и Кремля -->
+<div class="modalBlock">
+    <div class="modalBlock__text">
+        <h2 class="modalBlock__title">How to&nbsp;Get to&nbsp;Red Square and the Kremlin</h2>
+        <p class="modalBlock__description">
+            Red Square is&nbsp;located in&nbsp;the very heart of&nbsp;Moscow, next to&nbsp;Manege Square and the Alexander Garden.
+        </p>
+        <p class="modalBlock__description">
+            <strong>By&nbsp;metro:</strong> <br>
+            The most convenient way to&nbsp;get there is&nbsp;by&nbsp;metro stations: &laquo;Okhotny Ryad,&raquo; &laquo;Ploshchad Revolyutsii,&raquo; &laquo;Teatralnaya.&raquo; From any of&nbsp;the nearby stations, it&rsquo;s a&nbsp;3&ndash;5 minute walk.
+        </p>
+        <p class="modalBlock__description">
+            <strong>By&nbsp;other public transport:</strong> <br>
+            Buses and trolleybuses also run to&nbsp;stops: &laquo;Manezhnaya Ploshchad,&raquo; &laquo;Mokhovaya,&raquo; &laquo;Teatralnaya Ploshchad.&raquo;
+        </p>
+        <p class="modalBlock__description">
+            <strong>On&nbsp;foot:</strong> From Tverskaya St., Nikolskaya&nbsp;St., or&nbsp;Kitay-Gorod, it&rsquo;s a&nbsp;10&ndash;15 minute walk through the historic city center.
+        </p>
+        <p class="modalBlock__description">
+            <strong>Visiting the Kremlin:</strong> <br>
+            &bull; Tickets are best purchased in&nbsp;advance.<br>
+            &bull; Entry to&nbsp;the cathedrals and museums follows a&nbsp;set schedule.<br>
+            &bull; Security checks are in&nbsp;place on&nbsp;the premises.
+        </p>
+    </div>
+    <div class="modalBlock__image">
+        <img src="../../img/moscow/cards_modal/RedSquare/kak_dobratsya.jpg" alt="photo_6" loading="lazy">
+    </div>
+</div>`
         },
 
 // ======================== Большой театр =============================
 
         {
         id: 'Big_teatr',
-        title: 'Большой театр',
+        title: 'Bolshoi Theatre',
         image:'../../img/moscow/cards_tochki/Bolshoi_teatr_0.jpg',
-        modalContent:``
+        modalContent:
+
+`<div class="modalHeader">
+    <h1 class="modalHeader__title">Bolshoi Theatre</h1>
+</div>
+<!-- Блок 1: Большой театр — хранитель великой сцены России -->
+<div class="modalBlock">
+    <div class="modalBlock__text">
+        <h2 class="modalBlock__title">Bolshoi Theatre: Keeper of&nbsp;Russia&rsquo;s Great Stage</h2>
+        <p class="modalBlock__description">
+            The Bolshoi Theatre is&nbsp;more than just a&nbsp;cultural symbol of&nbsp;Moscow; it&nbsp;is&nbsp;a&nbsp;living organism where history, art, and national memory intertwine. Its colonnaded facade crowned with Apollo&rsquo;s quadriga has become instantly recognizable around the world, and the stage itself is&nbsp;a&nbsp;place where legends of&nbsp;Russian ballet and opera are born.
+        </p>
+        <p class="modalBlock__description">
+            Here, every performance continues a&nbsp;tradition that spans more than two centuries.
+        </p>
+    </div>
+    <div class="modalBlock__image">
+        <img src="../../img/moscow/cards_modal/Bolshoi_teatr/Bolshoi_teatr_1.jpg" alt="photo_1" loading="lazy">
+    </div>
+</div>
+<!-- Блок 2: Архитектурная гармония, созданная для торжества искусства -->
+<div class="modalBlock">
+    <div class="modalBlock__text">
+        <h2 class="modalBlock__title">Architectural Harmony Built for the Triumph of&nbsp;Art</h2>
+        <p class="modalBlock__description">
+            The Bolshoi Theatre building embodies Russian classicism at&nbsp;its most majestic and refined. Architect Osip Bove conceived it&nbsp;as&nbsp;a&nbsp;temple of&nbsp;art, and that vision is&nbsp;evident in&nbsp;every detail.
+        </p>
+        <p class="modalBlock__description">
+            What shapes its unforgettable character:<br>
+            &bull; The massive portico with its columns, creating a&nbsp;sense of&nbsp;monumentality.<br>
+            &bull; Apollo&rsquo;s quadriga, symbolizing inspiration and the triumph of&nbsp;creativity.<br>
+            &bull; The light-colored facade, which emphasizes the building&rsquo;s grandeur.<br>
+            &bull; The stucco work and bas-reliefs, which evoke a&nbsp;sense of&nbsp;theatrical majesty even before you step inside.<br>
+            The theater&rsquo;s architecture is&nbsp;a&nbsp;harmony of&nbsp;proportion and decorative richness, immediately setting the stage for an&nbsp;encounter with high art.
+        </p>
+    </div>
+    <div class="modalBlock__image">
+        <img src="../../img/moscow/cards_modal/Bolshoi_teatr/Bolshoi_teatr_2.jpg" alt="photo_2" loading="lazy">
+    </div>
+</div>
+<!-- Блок 3: Зал, который дышит историей -->
+<div class="modalBlock">
+    <div class="modalBlock__text">
+        <h2 class="modalBlock__title">The Hall That Breathes History</h2>
+        <p class="modalBlock__description">
+            The main auditorium is&nbsp;the heart of&nbsp;the theater. Its five-tiered structure, red velvet, gilding, and enormous crystal chandelier create an&nbsp;atmosphere in&nbsp;which the viewer feels like part of&nbsp;a&nbsp;grand cultural ritual.
+        </p>
+        <p class="modalBlock__description">
+            What leaves the strongest impression:<br>
+            &bull; The ceiling painting, dedicated to&nbsp;the muses and allegories of&nbsp;the arts.<br>
+            &bull; Acoustics of&nbsp;the historic stage, recognized as&nbsp;among the finest in&nbsp;the world.<br>
+            &bull; Restored frescoes and gilding, carefully preserved by&nbsp;masters.<br>
+            &bull; The sophisticated engineering hidden beneath the historic interiors.<br>
+            Every element, from the velvet seats to&nbsp;the ornate balconies, evokes a&nbsp;sense of&nbsp;grandeur and the anticipation of&nbsp;something magical.
+        </p>
+    </div>
+    <div class="modalBlock__image">
+        <img src="../../img/moscow/cards_modal/Bolshoi_teatr/Bolshoi_teatr_3.jpg" alt="photo_3" loading="lazy">
+    </div>
+</div>
+<!-- Блок 4: Большой театр как культурная вселенная -->
+<div class="modalBlock">
+    <div class="modalBlock__text">
+        <h2 class="modalBlock__title">Bolshoi Theatre as&nbsp;Cultural Universe</h2>
+        <p class="modalBlock__description">
+            Today, the Bolshoi Theatre is&nbsp;not only its historic stage but also an&nbsp;entire complex, bringing together different artistic disciplines.
+        </p>
+        <p class="modalBlock__description">
+            What the theater includes:<br>
+            &bull; The Historical Stage&nbsp;&mdash; home to&nbsp;classical performances.<br>
+            &bull; The New Stage&nbsp;&mdash; a&nbsp;space for contemporary experimentation.<br>
+            &bull; The Beethoven Hall&nbsp;&mdash; chamber concerts and musical evenings.<br>
+            &bull; The Theatre Museum&nbsp;&mdash; costumes, sets, archives, and rare exhibits.<br>
+            Hundreds of&nbsp;performers, musicians, artists, and craftspeople work here&nbsp;&mdash; every play is&nbsp;created like a&nbsp;piece of&nbsp;fine jewelry.
+        </p>
+    </div>
+    <div class="modalBlock__image">
+        <img src="../../img/moscow/cards_modal/Bolshoi_teatr/Bolshoi_teatr_4.jpg" alt="photo_4" loading="lazy">
+    </div>
+</div>
+<!-- Блок 5: Как добраться до Большого театра -->
+<div class="modalBlock">
+    <div class="modalBlock__text">
+        <h2 class="modalBlock__title">How to&nbsp;Get to&nbsp;the Bolshoi Theatre</h2>
+        <p class="modalBlock__description">
+            The Bolshoi Theatre is&nbsp;located on&nbsp;Theatre Square (Teatralnaya Ploshchad), in&nbsp;the very heart of&nbsp;Moscow.
+        </p>
+        <p class="modalBlock__description">
+            <strong>By&nbsp;metro:</strong> <br>
+            Nearest stations: &laquo;Teatralnaya,&raquo; &laquo;Okhotny Ryad,&raquo; &laquo;Ploshchad Revolyutsii.&raquo; From any of&nbsp;them, it&rsquo;s a&nbsp;2&ndash;4 minute walk.
+        </p>
+        <p class="modalBlock__description">
+            <strong>By&nbsp;other public transport:</strong> <br>
+            Buses run to&nbsp;the stops: &laquo;Teatralnaya Ploshchad,&raquo; &laquo;Bolshoi Theatre.&raquo;
+        </p>
+        <p class="modalBlock__description">
+            <strong>On&nbsp;foot:</strong> From Red Square, Manege Square, or&nbsp;Tverskaya Street, it&rsquo;s a&nbsp;5&ndash;10 minute stroll through the historic city center.
+        </p>
+        <p class="modalBlock__description">
+            <strong>Visiting the theater:</strong> <br>
+            &bull; Tickets are best purchased in&nbsp;advance; popular performances sell out quickly.<br>
+            &bull; Doors open 45&ndash;60 minutes before the start.<br>
+            &bull; Smart evening attire is&nbsp;recommended&nbsp;&mdash; the atmosphere of&nbsp;the theater invites&nbsp;it.
+        </p>
+    </div>
+    <div class="modalBlock__image">
+        <img src="../../img/moscow/cards_modal/Bolshoi_teatr/Bolshoi_teatr_5.jpg" alt="photo_5" loading="lazy">
+    </div>
+</div>`
 
         },
 
 // ======================== Храм Василия Блаженного или собор Покрова Пресвятой Богородицы =============================
         {
         id: 'hram_vasiliya',
-        title: 'Храм Василия Блаженного или собор Покрова Пресвятой Богородицы',
+        title: 'Saint Basil’s Cathedral, or the Cathedral of the Intercession of the Most Holy Theotokos',
         image:'../../img/moscow/cards_tochki/Hram_Vasiliya_Blazhennogo_0.jpg',
-        modalContent:``
+        modalContent:
+
+`<div class="modalHeader">
+    <h1 class="modalHeader__title">Saint Basil&rsquo;s Cathedral</h1>
+</div>
+<!-- Блок 1: Храм Василия Блаженного — фантазия из камня на пороге Кремля -->
+<div class="modalBlock">
+    <div class="modalBlock__text">
+        <h2 class="modalBlock__title">Saint Basil&rsquo;s Cathedral: Stone Fantasy at&nbsp;the Gates of&nbsp;the Kremlin</h2>
+        <p class="modalBlock__description">
+            Saint Basil&rsquo;s Cathedral is&nbsp;an&nbsp;architectural legend of&nbsp;Moscow, a&nbsp;place where history turns into a&nbsp;fairy tale. Its colorful domes, as&nbsp;if&nbsp;dreamed up&nbsp;by&nbsp;a&nbsp;visionary painter, have become a&nbsp;symbol of&nbsp;Russia recognized around the world.
+        </p>
+        <p class="modalBlock__description">
+            The cathedral was built in&nbsp;the 16th century by&nbsp;order of&nbsp;Ivan the Terrible to&nbsp;commemorate the capture of&nbsp;Kazan, and it&nbsp;has stood on&nbsp;Red Square ever since as&nbsp;a&nbsp;monument to&nbsp;victory, faith, and artistic daring.
+        </p>
+    </div>
+    <div class="modalBlock__image">
+        <img src="../../img/moscow/cards_modal/Hram_Vasiliya_Blazhennogo/Hram_Vasiliya_Blazhennogo_1.jpg" alt="photo_1" loading="lazy">
+    </div>
+</div>
+<!-- Блок 2: Архитектурный образ, не имеющий аналогов -->
+<div class="modalBlock">
+    <div class="modalBlock__text">
+        <h2 class="modalBlock__title">Architectural Vision Unlike Any Other</h2>
+        <p class="modalBlock__description">
+            The cathedral consists of&nbsp;eleven individual churches united into a&nbsp;single ensemble. This is&nbsp;not a&nbsp;classical church but a&nbsp;complex spatial composition in&nbsp;which each tower has its own character, color, and ornament.
+        </p>
+        <p class="modalBlock__description">
+            What shapes its unforgettable silhouette:<br>
+            &bull; Onion domes painted with stripes, diamonds, and spirals.<br>
+            &bull; Asymmetrical composition that creates a&nbsp;sense of&nbsp;movement.<br>
+            &bull; Stone patterns reminiscent of&nbsp;Eastern ornamentation.<br>
+            &bull; Contrast of&nbsp;red brick with vivid decorative elements.<br>
+            The architecture of&nbsp;the cathedral is&nbsp;a&nbsp;bold experiment in&nbsp;which Russian, Byzantine, and Eastern motifs intertwine. It&nbsp;looks like a&nbsp;fantasy made flesh in&nbsp;stone.
+        </p>
+    </div>
+    <div class="modalBlock__image">
+        <img src="../../img/moscow/cards_modal/Hram_Vasiliya_Blazhennogo/Hram_Vasiliya_Blazhennogo_2.jpg" alt="photo_2" loading="lazy">
+    </div>
+</div>
+<!-- Блок 3: Внутренний мир храма — лабиринт тишины и древних росписей -->
+<div class="modalBlock">
+    <div class="modalBlock__text">
+        <h2 class="modalBlock__title">Inner World of&nbsp;the Cathedral: Labyrinth of&nbsp;Silence and Ancient Paintings</h2>
+        <p class="modalBlock__description">
+            Inside, the cathedral bears little resemblance to&nbsp;vast, open churches. It&nbsp;is&nbsp;a&nbsp;network of&nbsp;narrow corridors, small chapels, and steep stairways that create the feeling of&nbsp;a&nbsp;journey through a&nbsp;medieval labyrinth.
+        </p>
+        <p class="modalBlock__description">
+            What leaves the strongest impression:<br>
+            &bull; Frescoes from the 16th and 17th centuries, covering the walls with delicate floral ornamentation.<br>
+            &bull; Iconostases with ancient icons that have survived since the earliest divine services.<br>
+            &bull; Stone vaults painted by&nbsp;hand.<br>
+            &bull; Quiet chapels, each dedicated to&nbsp;a&nbsp;particular saint or&nbsp;event.<br>
+            The interior space of&nbsp;the cathedral is&nbsp;a&nbsp;world where time seems to&nbsp;slow down, and every step reveals a&nbsp;new detail.
+        </p>
+    </div>
+    <div class="modalBlock__image">
+        <img src="../../img/moscow/cards_modal/Hram_Vasiliya_Blazhennogo/Hram_Vasiliya_Blazhennogo_3.jpg" alt="photo_3" loading="lazy">
+    </div>
+</div>
+<!-- Блок 4: Храм как культурный символ Москвы -->
+<div class="modalBlock">
+    <div class="modalBlock__text">
+        <h2 class="modalBlock__title">The Cathedral as&nbsp;Cultural Symbol of&nbsp;Moscow</h2>
+        <p class="modalBlock__description">
+            Today, Saint Basil&rsquo;s Cathedral is&nbsp;not only a&nbsp;place of&nbsp;worship but also a&nbsp;museum, preserving the history of&nbsp;Moscow and Russian architecture.
+        </p>
+        <p class="modalBlock__description">
+            Why it&nbsp;is&nbsp;so&nbsp;important:<br>
+            &bull; It&nbsp;is&nbsp;the primary artistic symbol of&nbsp;Russia, recognized around the world.<br>
+            &bull; It&nbsp;reflects the transition from medieval architecture to&nbsp;bolder, more expressive forms.<br>
+            &bull; The cathedral is&nbsp;tied to&nbsp;the most significant events in&nbsp;Russian history.<br>
+            &bull; It&nbsp;is&nbsp;part of&nbsp;the Red Square ensemble, a&nbsp;UNESCO World Heritage site.<br>
+            The cathedral is&nbsp;more than a&nbsp;monument&nbsp;&mdash; it&nbsp;is&nbsp;the emotional image of&nbsp;Moscow itself, impossible to&nbsp;forget.
+        </p>
+    </div>
+    <div class="modalBlock__image">
+        <img src="../../img/moscow/cards_modal/Hram_Vasiliya_Blazhennogo/Hram_Vasiliya_Blazhennogo_4.jpg" alt="photo_4" loading="lazy">
+    </div>
+</div>
+<!-- Блок 5: Как добраться до Храма Василия Блаженного -->
+<div class="modalBlock">
+    <div class="modalBlock__text">
+        <h2 class="modalBlock__title">How to&nbsp;Get to&nbsp;Saint Basil&rsquo;s Cathedral</h2>
+        <p class="modalBlock__description">
+            The cathedral is&nbsp;located on&nbsp;the southern side of&nbsp;Red Square, near Vasilyevsky Descent (Spusk).
+        </p>
+        <p class="modalBlock__description">
+            <strong>By&nbsp;metro:</strong> <br>
+            Nearest stations: &laquo;Ploshchad Revolyutsii,&raquo; &laquo;Okhotny Ryad,&raquo; &laquo;Teatralnaya.&raquo; From any of&nbsp;them, it&rsquo;s a&nbsp;5&ndash;7 minute walk.
+        </p>
+        <p class="modalBlock__description">
+            <strong>By&nbsp;other public transport:</strong> <br>
+            Buses run to&nbsp;the stops: &laquo;Krasnaya Ploshchad,&raquo; &laquo;Mokhovaya,&raquo; &laquo;Manezhnaya Ploshchad.&raquo;
+        </p>
+        <p class="modalBlock__description">
+            <strong>On&nbsp;foot:</strong> From the Kremlin, GUM, or&nbsp;the State Historical Museum, it&rsquo;s literally just a&nbsp;few minutes away.
+        </p>
+        <p class="modalBlock__description">
+            <strong>Visiting the cathedral:</strong> <br>
+            &bull; The cathedral houses a&nbsp;museum inside; entry is&nbsp;by&nbsp;ticket.<br>
+            &bull; In&nbsp;summer, lines can get long; it&rsquo;s best to&nbsp;come in&nbsp;the morning.<br>
+            &bull; Photography is&nbsp;allowed, but without flash.<br>
+            &bull; It&rsquo;s chilly inside&nbsp;&mdash; the walls retain their temperature regardless of&nbsp;the season.
+        </p>
+    </div>
+    <div class="modalBlock__image">
+        <img src="../../img/moscow/cards_modal/Hram_Vasiliya_Blazhennogo/Hram_Vasiliya_Blazhennogo_5.jpg" alt="photo_5" loading="lazy">
+    </div>
+</div>`
 
         },
 
@@ -40,18 +391,238 @@ const en_moscowData = {
 
         {
         id: 'park_zaryadie',
-        title: 'Парк «Зарядье»',
+        title: 'Zaryadye Park',
         image:'../../img/moscow/cards_tochki/Park_Zaryade_0.jpg',
-        modalContent:``
+        modalContent:
+
+`<div class="modalHeader">
+    <h1 class="modalHeader__title">Zaryadye Park</h1>
+</div>
+<!-- Блок 1: Парк «Зарядье» — природа и мегаполис в одном ощущении -->
+<div class="modalBlock">
+    <div class="modalBlock__text">
+        <h2 class="modalBlock__title">Zaryadye Park: Nature and Metropolis in&nbsp;Single Sensation</h2>
+        <p class="modalBlock__description">
+            Zaryadye Park is&nbsp;a&nbsp;new face of&nbsp;Moscow, a&nbsp;space where urban energy meets nature. Built on&nbsp;the site of&nbsp;an&nbsp;old district at&nbsp;the foot of&nbsp;the Kremlin walls, the park has become a&nbsp;symbol of&nbsp;the modern capital: open, innovative, and alive.
+        </p>
+        <p class="modalBlock__description">
+            Here, you can walk from tundra to&nbsp;steppe in&nbsp;just a&nbsp;few minutes, see Moscow from the heights of&nbsp;the Soaring Bridge, and feel how nature becomes part of&nbsp;the city&rsquo;s essence.
+        </p>
+    </div>
+    <div class="modalBlock__image">
+        <img src="../../img/moscow/cards_modal/Park_Zaryade/Park_Zaryade_1.jpg" alt="photo_1" loading="lazy">
+    </div>
+</div>
+<!-- Блок 2: Ландшафтная архитектура, которая меняет представление о парках -->
+<div class="modalBlock">
+    <div class="modalBlock__text">
+        <h2 class="modalBlock__title">Landscape Architecture That Redefines What Parks Can Be</h2>
+        <p class="modalBlock__description">
+            Zaryadye is&nbsp;not just a&nbsp;green area but a&nbsp;meticulously designed ecosystem. The architects created four natural zones of&nbsp;Russia&nbsp;&mdash; tundra, steppe, forest, and waterfront&nbsp;&mdash; and placed them in&nbsp;the heart of&nbsp;the metropolis so&nbsp;that they flow seamlessly into one another.
+        </p>
+        <p class="modalBlock__description">
+            What shapes the park&rsquo;s unique character:<br>
+            &bull; The Soaring Bridge&nbsp;&mdash; a&nbsp;curved observation deck extending over the Moskva River, now a&nbsp;new signature landmark of&nbsp;the city.<br>
+            &bull; The florarium and underground pavilions, hidden beneath the hills.<br>
+            &bull; Landscape hills that create the feeling of&nbsp;natural terrain.<br>
+            &bull; The glass Kristalnaya Kora (Crystal Crust), beneath which concerts and events are held.<br>
+            The park&rsquo;s architecture is&nbsp;a&nbsp;dialog between nature and technology, where every element works together to&nbsp;create the sensation of&nbsp;a&nbsp;living, breathing space.
+        </p>
+    </div>
+    <div class="modalBlock__image">
+        <img src="../../img/moscow/cards_modal/Park_Zaryade/Park_Zaryade_2.jpg" alt="photo_2" loading="lazy">
+    </div>
+</div>
+<!-- Блок 3: Природные зоны, созданные вручную -->
+<div class="modalBlock">
+    <div class="modalBlock__text">
+        <h2 class="modalBlock__title">Natural Zones Created by&nbsp;Hand</h2>
+        <p class="modalBlock__description">
+            Each zone is&nbsp;a&nbsp;miniature model of&nbsp;a&nbsp;Russian landscape. Tundra with mosses and dwarf shrubs, steppe with dry grasses, and forest with coniferous trees&nbsp;&mdash; all of&nbsp;this creates the effect of&nbsp;traveling across the country without ever leaving the Moscow city center.
+        </p>
+        <p class="modalBlock__description">
+            What leaves the strongest impression:<br>
+            &bull; The Media Center with interactive exhibitions and panoramic halls.<br>
+            &bull; The florarium, which houses rare plant species.<br>
+            &bull; The underground philharmonic hall with its unique acoustics.<br>
+            &bull; Eco-trails, perfect for walking.<br>
+            The park is&nbsp;designed so&nbsp;that every turn reveals a&nbsp;new perspective, from quiet, tucked-away corners to&nbsp;sweeping views of&nbsp;the Kremlin.
+        </p>
+    </div>
+    <div class="modalBlock__image">
+        <img src="../../img/moscow/cards_modal/Park_Zaryade/Park_Zaryade_3.jpg" alt="photo_3" loading="lazy">
+    </div>
+</div>
+<!-- Блок 4: «Зарядье» как культурный и городской символ -->
+<div class="modalBlock">
+    <div class="modalBlock__text">
+        <h2 class="modalBlock__title">Zaryadye as&nbsp;Cultural and Urban Symbol</h2>
+        <p class="modalBlock__description">
+            The park has become one of&nbsp;contemporary Moscow&rsquo;s signature projects&nbsp;&mdash; a&nbsp;place where architecture, ecology, and city life meet.
+        </p>
+        <p class="modalBlock__description">
+            Why it&nbsp;is&nbsp;so&nbsp;important:<br>
+            &bull; This is&nbsp;the first major park built in&nbsp;central Moscow in&nbsp;decades.<br>
+            &bull; It&nbsp;has become a&nbsp;space for festivals, concerts, and educational programs.<br>
+            &bull; The Soaring Bridge has turned into a&nbsp;new postcard image of&nbsp;Moscow, recognized around the world.<br>
+            &bull; The park demonstrates how a&nbsp;modern city can integrate nature without losing its dynamism.<br>
+            Zaryadye is&nbsp;a&nbsp;symbol of&nbsp;the capital&rsquo;s renewal, its aspiration toward openness and innovation.
+        </p>
+    </div>
+    <div class="modalBlock__image">
+        <img src="../../img/moscow/cards_modal/Park_Zaryade/Park_Zaryade_4.jpg" alt="photo_4" loading="lazy">
+    </div>
+</div>
+<!-- Блок 5: Как добраться до парка «Зарядье» -->
+<div class="modalBlock">
+    <div class="modalBlock__text">
+        <h2 class="modalBlock__title">How to&nbsp;Get to&nbsp;Zaryadye Park</h2>
+        <p class="modalBlock__description">
+            The park is&nbsp;located near Red Square and Moskvoretskaya Embankment.
+        </p>
+        <p class="modalBlock__description">
+            <strong>By&nbsp;metro:</strong> <br>
+            Nearest stations: &laquo;Kitay-Gorod,&raquo; &laquo;Ploshchad Revolyutsii,&raquo; &laquo;Okhotny Ryad.&raquo; From any of&nbsp;them, it&rsquo;s a&nbsp;5&ndash;10 minute walk.
+        </p>
+        <p class="modalBlock__description">
+            <strong>By&nbsp;other public transport:</strong> <br>
+            Buses run to&nbsp;the stops: &laquo;Moskvoretskaya,&raquo; &laquo;Kitay-Gorod,&raquo; &laquo;Varvarka.&raquo;
+        </p>
+        <p class="modalBlock__description">
+            <strong>On&nbsp;foot:</strong> From Red Square, it&rsquo;s 3&ndash;5&nbsp;minutes. From the Kremlin, go&nbsp;straight across the bridge.
+        </p>
+        <p class="modalBlock__description">
+            <strong>Visiting the park:</strong> <br>
+            &bull; Free entry; the park is&nbsp;open 24/7.<br>
+            &bull; Some pavilions operate on&nbsp;a&nbsp;schedule and require tickets.<br>
+            &bull; The best time for a&nbsp;walk is&nbsp;early morning or&nbsp;sunset, when the Soaring Bridge is&nbsp;especially beautiful.
+        </p>
+    </div>
+    <div class="modalBlock__image">
+        <img src="../../img/moscow/cards_modal/Park_Zaryade/Park_Zaryade_5.jpg" alt="photo_5" loading="lazy">
+    </div>
+</div>`
 
         },
 // ======================== Москва-Сити =============================
 
         {
         id: 'moscow-city',
-        title: 'Москва-Сити',
+        title: 'Moscow City',
         image:'../../img/moscow/cards_tochki/Moskva_Siti_0.jpg',
-        modalContent:``
+        modalContent:
+
+`<div class="modalHeader">
+    <h1 class="modalHeader__title">Moscow City</h1>
+</div>
+<!-- Блок 1: Москва‑Сити — вертикальный символ новой столицы -->
+<div class="modalBlock">
+    <div class="modalBlock__text">
+        <h2 class="modalBlock__title">Moscow City: Vertical Symbol of&nbsp;the New Capital</h2>
+        <p class="modalBlock__description">
+            Moscow City is&nbsp;more than just a&nbsp;business district; it&nbsp;is&nbsp;an&nbsp;architectural manifesto of&nbsp;modern Moscow. Here, skyscrapers rise above the river, reflecting clouds and sunsets in&nbsp;their glass facades, and the energy of&nbsp;the city is&nbsp;palpable in&nbsp;the air.
+        </p>
+        <p class="modalBlock__description">
+            The complex has become a&nbsp;symbol of&nbsp;the capital&rsquo;s renewal, its ambition for height, speed, and technological sophistication. This is&nbsp;where Moscow shows its future.
+        </p>
+    </div>
+    <div class="modalBlock__image">
+        <img src="../../img/moscow/cards_modal/Moskva_Siti/Moskva_Siti_1.jpg" alt="photo_1" loading="lazy">
+    </div>
+</div>
+<!-- Блок 2: Архитектурный прорыв, изменивший силуэт города -->
+<div class="modalBlock">
+    <div class="modalBlock__text">
+        <h2 class="modalBlock__title">Architectural Breakthrough That Changed the City&rsquo;s Skyline</h2>
+        <p class="modalBlock__description">
+            Moscow City is&nbsp;Russia&rsquo;s first skyscraper district, built according to&nbsp;the principles of&nbsp;global metropolises. Each tower complex is&nbsp;a&nbsp;standalone architectural statement, and together they create a&nbsp;recognizable panorama unlike anything else.
+        </p>
+        <p class="modalBlock__description">
+            What shapes the look of&nbsp;Moscow City:<br>
+            &bull; Federation Tower&nbsp;&mdash; one of&nbsp;the tallest in&nbsp;Europe, with a&nbsp;dynamic silhouette.<br>
+            &bull; OKO&nbsp;&mdash; strict geometry and striking illumination.<br>
+            &bull; Evolution&nbsp;&mdash; a&nbsp;spiral form reminiscent of&nbsp;a&nbsp;DNA helix.<br>
+            &bull; Imperia&nbsp;&mdash; a&nbsp;blend of&nbsp;glass and metal in&nbsp;a&nbsp;classic skyscraper style.<br>
+            &bull; Mercury&nbsp;&mdash; a&nbsp;golden facade that shifts in&nbsp;tone depending on&nbsp;the light.<br>
+            The architecture of&nbsp;Moscow City is&nbsp;a&nbsp;dialog between technology and aesthetics, where each tower is&nbsp;both an&nbsp;engineering experiment and an&nbsp;artistic expression.
+        </p>
+    </div>
+    <div class="modalBlock__image">
+        <img src="../../img/moscow/cards_modal/Moskva_Siti/Moskva_Siti_2.jpg" alt="photo_2" loading="lazy">
+    </div>
+</div>
+<!-- Блок 3: Внутренний мир небоскребов — город в городе -->
+<div class="modalBlock">
+    <div class="modalBlock__text">
+        <h2 class="modalBlock__title">Inner World of&nbsp;Skyscrapers: City Within a&nbsp;City</h2>
+        <p class="modalBlock__description">
+            Moscow City is&nbsp;not just offices. Inside the skyscrapers are hidden restaurants, observation decks, galleries, apartments, shopping areas, and even fitness centers. You can spend an&nbsp;entire day here without ever leaving the complex.
+        </p>
+        <p class="modalBlock__description">
+            What leaves the strongest impression:<br>
+            &bull; Observation decks at&nbsp;heights exceeding 300&nbsp;meters, offering 360-degree panoramic views of&nbsp;Moscow.<br>
+            &bull; Restaurants with city views, where sunset becomes a&nbsp;performance in&nbsp;itself.<br>
+            &bull; Underground passageways and shopping galleries connecting the towers to&nbsp;one another.<br>
+            &bull; Modern interiors styled in&nbsp;high-tech and minimalism.<br>
+            Inside Moscow City, you experience a&nbsp;world of&nbsp;its own: fast, dynamic, and vertical.
+        </p>
+    </div>
+    <div class="modalBlock__image">
+        <img src="../../img/moscow/cards_modal/Moskva_Siti/Moskva_Siti_3.jpg" alt="photo_3" loading="lazy">
+    </div>
+</div>
+<!-- Блок 4: Москва‑Сити как символ новой городской идентичности -->
+<div class="modalBlock">
+    <div class="modalBlock__text">
+        <h2 class="modalBlock__title">Moscow City as&nbsp;Symbol of&nbsp;New Urban Identity</h2>
+        <p class="modalBlock__description">
+            The complex has become an&nbsp;essential part of&nbsp;the cultural code of&nbsp;modern Moscow. It&nbsp;shows that the city can be&nbsp;both historic and ultramodern at&nbsp;the same time.
+        </p>
+        <p class="modalBlock__description">
+            Why Moscow City is&nbsp;so&nbsp;significant:<br>
+            &bull; It&nbsp;is&nbsp;the largest project in&nbsp;modern Russian architecture.<br>
+            &bull; It&nbsp;has become a&nbsp;hub of&nbsp;business activity, home to&nbsp;major companies.<br>
+            &bull; Moscow City is&nbsp;a&nbsp;new tourist destination, attracting millions of&nbsp;visitors.<br>
+            &bull; The skyline of&nbsp;skyscrapers has become a&nbsp;hallmark of&nbsp;21st-century Moscow.<br>
+            Moscow City is&nbsp;an&nbsp;image of&nbsp;a&nbsp;capital that is&nbsp;unafraid of&nbsp;height and change.
+        </p>
+    </div>
+    <div class="modalBlock__image">
+        <img src="../../img/moscow/cards_modal/Moskva_Siti/Moskva_Siti_4.jpg" alt="photo_4" loading="lazy">
+    </div>
+</div>
+<!-- Блок 5: Как добраться до Москва‑Сити -->
+<div class="modalBlock">
+    <div class="modalBlock__text">
+        <h2 class="modalBlock__title">How to&nbsp;Get to&nbsp;Moscow City</h2>
+        <p class="modalBlock__description">
+            The complex is&nbsp;located on&nbsp;Presnenskaya Embankment, near the Third Ring Road.
+        </p>
+        <p class="modalBlock__description">
+            <strong>By&nbsp;metro:</strong> <br>
+            Nearest stations: &laquo;Delovoy Tsentr,&raquo; &laquo;Vystavochnaya,&raquo; &laquo;Mezhdunarodnaya.&raquo; All of&nbsp;them lead directly to&nbsp;the towers.
+        </p>
+        <p class="modalBlock__description">
+            <strong>Via the Moscow Central Circle:</strong> The &laquo;Delovoy Tsentr&raquo; station is&nbsp;within walking distance.
+        </p>
+        <p class="modalBlock__description">
+            <strong>By&nbsp;other public transport:</strong> <br>
+            Buses run to&nbsp;the stops: &laquo;Expocenter,&raquo; &laquo;Presnenskaya Naberezhnaya.&raquo;
+        </p>
+        <p class="modalBlock__description">
+            <strong>On&nbsp;foot:</strong> From Taras Shevchenko Embankment, it&rsquo;s a&nbsp;10&ndash;15 minute walk along the river.
+        </p>
+        <p class="modalBlock__description">
+            <strong>Visiting the complex:</strong> <br>
+            &bull; Observation decks operate on&nbsp;a&nbsp;schedule, and tickets are best purchased in&nbsp;advance.<br>
+            &bull; In&nbsp;the evening, the skyscrapers are especially beautiful thanks to&nbsp;their illuminated facades.<br>
+            &bull; There are plenty of&nbsp;restaurants and cafes inside; you can combine your visit with dinner.
+        </p>
+    </div>
+    <div class="modalBlock__image">
+        <img src="../../img/moscow/cards_modal/Moskva_Siti/Moskva_Siti_5.jpg" alt="photo_5" loading="lazy">
+    </div>
+</div>`
 
         },
 
@@ -60,9 +631,118 @@ const en_moscowData = {
 
         {
         id: 'vorobei-gora',
-        title: 'Воробьевы горы',
+        title: 'Sparrow Hills',
         image:'../../img/moscow/cards_tochki/Vorobevy_gory_0.jpg',
-        modalContent:``
+        modalContent:
+
+`<div class="modalHeader">
+    <h1 class="modalHeader__title">Sparrow Hills</h1>
+</div>
+<!-- Блок 1: Воробьевы горы — панорама Москвы с высоты тишины -->
+<div class="modalBlock">
+    <div class="modalBlock__text">
+        <h2 class="modalBlock__title">Sparrow Hills: Panorama of&nbsp;Moscow from Height of&nbsp;Silence</h2>
+        <p class="modalBlock__description">
+            Sparrow Hills is&nbsp;one of&nbsp;the most iconic places in&nbsp;the capital, where Moscow reveals itself in&nbsp;all its vastness. Here, the city seems to&nbsp;pause: the noise dissolves into the foliage, and above the Moskva River unfolds a&nbsp;view you can never forget.
+        </p>
+        <p class="modalBlock__description">
+            It&nbsp;is&nbsp;a&nbsp;natural amphitheater where history, science, sports, and romance meet. A&nbsp;place people come to&nbsp;for inspiration, walks, and a&nbsp;sense of&nbsp;freedom.
+        </p>
+    </div>
+    <div class="modalBlock__image">
+        <img src="../../img/moscow/cards_modal/Vorobevy_gory/Vorobevy_gory_1.jpg" alt="photo_1" loading="lazy">
+    </div>
+</div>
+<!-- Блок 2: Природный рельеф, создающий уникальную панораму -->
+<div class="modalBlock">
+    <div class="modalBlock__text">
+        <h2 class="modalBlock__title">Natural Landscape That Creates Unique Panorama</h2>
+        <p class="modalBlock__description">
+            Sparrow Hills is&nbsp;a&nbsp;high bank of&nbsp;the Moskva River, covered in&nbsp;forest and crisscrossed with trails. The terrain plays a&nbsp;key role here: it&nbsp;is&nbsp;precisely because of&nbsp;the steep slopes and open decks that all of&nbsp;central Moscow is&nbsp;visible from this spot.
+        </p>
+        <p class="modalBlock__description">
+            What shapes the character of&nbsp;Sparrow Hills:<br>
+            &bull; The observation deck near Moscow State University, offering one of&nbsp;the finest views of&nbsp;the capital.<br>
+            &bull; Forest trails that run along the slope and down to&nbsp;the river.<br>
+            &bull; The cable car connecting the hills with Luzhniki Stadium.<br>
+            &bull; Pedestrian routes that pass through a&nbsp;nature reserve.<br>
+            The nature here is&nbsp;amazingly harmonious: dense trees, steep bluffs, and a&nbsp;wide river&nbsp;&mdash; all of&nbsp;it&nbsp;creates a&nbsp;feeling of&nbsp;spaciousness and ease.
+        </p>
+    </div>
+    <div class="modalBlock__image">
+        <img src="../../img/moscow/cards_modal/Vorobevy_gory/Vorobevy_gory_2.jpg" alt="photo_2" loading="lazy">
+    </div>
+</div>
+<!-- Блок 3: Смотровая площадка — сердце Воробьевых гор -->
+<div class="modalBlock">
+    <div class="modalBlock__text">
+        <h2 class="modalBlock__title">Observation Deck: The Heart of&nbsp;Sparrow Hills</h2>
+        <p class="modalBlock__description">
+            From here, you see the panorama known from postcards and films: Moscow City, Luzhniki Stadium, Stalin&rsquo;s high-rises, church domes, and the wide river below. In&nbsp;the evening, it&rsquo;s especially beautiful&nbsp;&mdash; the city lights&nbsp;up, and the panorama becomes a&nbsp;living painting.
+        </p>
+        <p class="modalBlock__description">
+            What leaves the strongest impression:<br>
+            &bull; The cable car, gliding over the river and the stadium.<br>
+            &bull; Nature reserve trails, where you can walk in&nbsp;silence without hearing the city.<br>
+            &bull; Viewpoints at&nbsp;different levels, revealing fresh perspectives.<br>
+            &bull; The proximity of&nbsp;Moscow State University, whose towers create an&nbsp;unmistakable silhouette.<br>
+            Sparrow Hills is&nbsp;a&nbsp;place where you can spend an&nbsp;hour or&nbsp;an&nbsp;entire day, discovering something new every time.
+        </p>
+    </div>
+    <div class="modalBlock__image">
+        <img src="../../img/moscow/cards_modal/Vorobevy_gory/Vorobevy_gory_3.jpg" alt="photo_3" loading="lazy">
+    </div>
+</div>
+<!-- Блок 4: Воробьевы горы как культурный и спортивный символ -->
+<div class="modalBlock">
+    <div class="modalBlock__text">
+        <h2 class="modalBlock__title">Sparrow Hills as&nbsp;Cultural and Sports Symbol</h2>
+        <p class="modalBlock__description">
+            It&nbsp;is&nbsp;not just a&nbsp;natural area; it&nbsp;is&nbsp;part of&nbsp;Moscow&rsquo;s cultural code.
+        </p>
+        <p class="modalBlock__description">
+            Why Sparrow Hills is&nbsp;so&nbsp;important:<br>
+            &bull; Here stands the main building of&nbsp;Moscow State University, one of&nbsp;the capital&rsquo;s great symbols.<br>
+            &bull; It&nbsp;is&nbsp;a&nbsp;popular destination for athletes: runners, cyclists, and skiers.<br>
+            &bull; Festivals, concerts, and sports events are held on&nbsp;the slopes.<br>
+            &bull; Sparrow Hills is&nbsp;a&nbsp;place for gatherings, dates, and walks, woven into the city&rsquo;s romantic imagination.<br>
+            It&nbsp;is&nbsp;a&nbsp;space where nature and the city live in&nbsp;harmony, creating an&nbsp;atmosphere of&nbsp;lightness and inspiration.
+        </p>
+    </div>
+    <div class="modalBlock__image">
+        <img src="../../img/moscow/cards_modal/Vorobevy_gory/Vorobevy_gory_4.jpg" alt="photo_4" loading="lazy">
+    </div>
+</div>
+<!-- Блок 5: Как добраться до Воробьевых гор -->
+<div class="modalBlock">
+    <div class="modalBlock__text">
+        <h2 class="modalBlock__title">How to&nbsp;Get to&nbsp;Sparrow Hills</h2>
+        <p class="modalBlock__description">
+            The hills are located in&nbsp;southwest Moscow, along the Moskva River.
+        </p>
+        <p class="modalBlock__description">
+            <strong>By&nbsp;metro:</strong> <br>
+            Nearest stations: &laquo;Vorobyevy Gory&raquo; (on&nbsp;the bridge over the river), &laquo;University.&raquo; From both, it&rsquo;s 10&ndash;15 minutes on&nbsp;foot.
+        </p>
+        <p class="modalBlock__description">
+            <strong>By&nbsp;other public transport:</strong> <br>
+            Buses run to&nbsp;the stops: &laquo;Smotrovaya Ploshchadka,&raquo; &laquo;University.&raquo;
+        </p>
+        <p class="modalBlock__description">
+            <strong>On&nbsp;foot:</strong> From Moscow State University, go&nbsp;through alleys and stairs. From Luzhniki, go&nbsp;by&nbsp;cable car or&nbsp;along the river.
+        </p>
+        <p class="modalBlock__description">
+            <strong>Visiting:</strong> <br>
+            &bull; Entry is&nbsp;free.<br>
+            &bull; The best visiting time is&nbsp;sunset or&nbsp;early morning.<br>
+            &bull; In&nbsp;winter, the trails turn into ski routes.<br>
+            &bull; In&nbsp;summer, it&nbsp;is&nbsp;especially pleasant to&nbsp;walk along the shady paths.
+        </p>
+    </div>
+    <div class="modalBlock__image">
+        <img src="../../img/moscow/cards_modal/Vorobevy_gory/Vorobevy_gory_5.jpg" alt="photo_5" loading="lazy">
+    </div>
+</div>`
 
         }
     ],
@@ -73,7 +753,7 @@ const en_moscowData = {
 
     {
         id: 'king_park',
-        title: 'Царицыно',
+        title: 'Tsaritsyno',
         image:'../../img/moscow/cards_nature/Caricyno_0.jpg',
         modalContent:``
     },
@@ -81,7 +761,7 @@ const en_moscowData = {
 // ======================== Коломенское =============================
     {
         id: 'Kolomenskoye',
-        title: 'Коломенское',
+        title: 'Kolomenskoye',
         image:'../../img/moscow/cards_nature/Kolomenskoe_0.jpg',
         modalContent:``
     },
@@ -89,7 +769,7 @@ const en_moscowData = {
 // ======================== Серебряный Бор =============================
      {
         id: 'Silver_bor',
-        title: 'Серебряный Бор',
+        title: 'Serebryany Bor',
         image:'../../img/moscow/cards_nature/Serebryanyy_Bor_0.jpg',
         modalContent:``
     },
@@ -98,7 +778,7 @@ const en_moscowData = {
 
     {
         id: 'Gorkiy_park',
-        title: 'Парк Горького',
+        title: 'Gorky Park',
         image:'../../img/moscow/cards_nature/Park_Gorkogo_0.jpg',
         modalContent:``
     },
@@ -106,7 +786,7 @@ const en_moscowData = {
 // ======================== Усадьба Кусково =============================
     {
         id: 'Food_usadba',
-        title: 'Усадьба Кусково',
+        title: 'Kuskovo Estate',
         image:'../../img/moscow/cards_nature/Usadba_Kuskovo_0.jpg',
         modalContent:``
     },
@@ -115,7 +795,7 @@ const en_moscowData = {
 
     {
         id: 'Park_los',
-        title: 'Национальный парк «Лосиный Остров»',
+        title: 'Losiny Ostrov National Park',
         image:'../../img/moscow/cards_nature/Nacionalnyy_park_Losinyy_Ostrov_0.jpg',
         modalContent:``
     },
@@ -129,7 +809,7 @@ const en_moscowData = {
     culture: [
     {
         id: 'VDNH',
-        title: 'ВДНХ',
+        title: 'VDNH',
         image:'../../img/moscow/cards_culture/VDNH_0.jpg',
         modalContent:``
     },
@@ -137,7 +817,7 @@ const en_moscowData = {
 // ======================== Московское метро =============================
     {
         id: 'Moscow_metro',
-        title: 'Московское метро',
+        title: 'Moscow Metro',
         image:'../../img/moscow/cards_culture/Moskovskoe_metro_0.jpg',
         modalContent:``
     },
@@ -145,7 +825,7 @@ const en_moscowData = {
 // ======================== Останкинская телебашня =============================
     {
         id: 'Ostankino_bashnya',
-        title: 'Останкинская телебашня',
+        title: 'Ostankino TV Tower',
         image:'../../img/moscow/cards_culture/Ostankinskaya_telebashnya_0.jpg',
         modalContent:``
     },
@@ -153,7 +833,7 @@ const en_moscowData = {
 // ======================== Сталинские высотки =============================
     {
         id: 'Stalin_vysotki',
-        title: 'Сталинские высотки',
+        title: 'Stalin’s High-Rises',
         image:'../../img/moscow/cards_culture/Stalinskie_vysotki_0.jpg',
         modalContent:``
     },
@@ -161,7 +841,7 @@ const en_moscowData = {
 // ======================== Третьяковская галерея =============================
     {
         id: 'Tretiakovskaya_galerea',
-        title: 'Третьяковская галерея',
+        title: 'State Tretyakov Gallery',
         image:'../../img/moscow/cards_culture/Tretyakovskaya_galereya_0.jpg',
         modalContent:``
     },
@@ -169,7 +849,7 @@ const en_moscowData = {
 // ======================== Московский зоопарк =============================
     {
         id: 'Moscow_zoo',
-        title: 'Московский зоопарк',
+        title: 'Moscow Zoo',
         image:'../../img/moscow/cards_culture/Moskovskii_zoopark_0.jpg',
         modalContent:``
     }
@@ -179,9 +859,6 @@ const en_moscowData = {
 // ======================== Город Москва =============================
 // ======================== Город Москва =============================
 
-
-
-    // Город
     city: [
         {
             id: 'otdyh_10',

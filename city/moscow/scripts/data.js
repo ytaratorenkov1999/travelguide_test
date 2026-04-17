@@ -13,7 +13,131 @@ const moscowData = {
         id: 'Red_square_kreml',
         title: 'Красная площадь и Кремль',
         image:'../../img/moscow/cards_tochki/Krasnaya_ploshchad_i_Kreml_0.jpg',
-        modalContent:``
+        modalContent:
+
+`<div class="modalHeader">
+    <h1 class="modalHeader__title">Красная площадь и&nbsp;Кремль</h1>
+</div>
+<!-- Блок 1: Красная площадь и Кремль — возрожденный символ российской столицы -->
+<div class="modalBlock">
+    <div class="modalBlock__text">
+        <h2 class="modalBlock__title">Красная площадь и&nbsp;Кремль&nbsp;&mdash; возрожденный символ российской столицы</h2>
+        <p class="modalBlock__description">
+            Главная площадь страны&nbsp;&mdash; это не&nbsp;просто географическая точка, а&nbsp;эмоциональный центр Москвы. Здесь история ощущается физически: в&nbsp;линиях кремлевских стен, в&nbsp;сиянии соборов.
+        </p>
+        <p class="modalBlock__description">
+            Красная площадь и&nbsp;Кремль образуют единый ансамбль, где каждый элемент&nbsp;&mdash; часть многовекового повествования о&nbsp;России.
+        </p>
+    </div>
+    <div class="modalBlock__image">
+        <img src="../../img/moscow/cards_modal/RedSquare/RedSquare_1.jpg" alt="photo_1" loading="lazy">
+    </div>
+</div>
+<!-- Блок 2: Архитектурный ансамбль, ставший лицом Москвы -->
+<div class="modalBlock">
+    <div class="modalBlock__text">
+        <h2 class="modalBlock__title">Архитектурный ансамбль, ставший лицом Москвы</h2>
+        <p class="modalBlock__description">
+            Архитектурный облик Кремля формировался столетиями. Современные стены и&nbsp;башни появились в&nbsp;XV веке благодаря итальянским мастерам, которые привнесли в&nbsp;московскую крепость элементы ренессансной фортификации.
+        </p>
+        <p class="modalBlock__description">
+            Красная площадь, раскинувшаяся у&nbsp;восточной стены Кремля, стала парадной сценой города&nbsp;&mdash; просторной, торжественной, идеально симметричной.
+        </p>
+    </div>
+    <div class="modalBlock__image">
+        <img src="../../img/moscow/cards_modal/RedSquare/RedSquare_2.jpg" alt="photo_2" loading="lazy">
+    </div>
+</div>
+<!-- Блок 3: Сокровища Кремля: где оживает история -->
+<div class="modalBlock">
+    <div class="modalBlock__text">
+        <h2 class="modalBlock__title">Сокровища Кремля: где оживает история</h2>
+        <p class="modalBlock__description">
+            Кремль&nbsp;&mdash; это не&nbsp;только резиденция президента, но&nbsp;и&nbsp;крупнейший музейный комплекс под открытым небом.
+        </p>
+        <p class="modalBlock__description">
+            Соборная площадь:<br>
+            Духовный центр государства. Здесь проходили коронации, венчания, государственные церемонии.<br>
+            &bull; Успенский собор&nbsp;&mdash; главный храм Московского царства.<br>
+            &bull; Архангельский собор&nbsp;&mdash; усыпальница великих князей и&nbsp;царей.<br>
+            &bull; Благовещенский собор&nbsp;&mdash; домовая церковь русских правителей.<br>
+            &bull; Грановитая палата&nbsp;&mdash; место приемов иностранных послов.
+        </p>
+    </div>
+    <div class="modalBlock__image">
+        <img src="../../img/moscow/cards_modal/RedSquare/RedSquare_3.jpg" alt="photo_3" loading="lazy">
+    </div>
+</div>
+<!-- Блок 4: Синтез традиций и величия в убранстве -->
+<div class="modalBlock">
+    <div class="modalBlock__text">
+        <h2 class="modalBlock__title">Синтез традиций и&nbsp;величия в&nbsp;убранстве</h2>
+        <p class="modalBlock__description">
+            <strong>Оружейная палата:</strong> Музей, где собраны регалии, парадные доспехи, тронные кресла, короны и&nbsp;знаменитые яйца Фаберже. Каждый зал&nbsp;&mdash; как отдельная глава истории.
+        </p>
+        <p class="modalBlock__description">
+            <strong>Царь‑пушка и&nbsp;Царь‑колокол:</strong> Монументальные символы амбиций и&nbsp;мастерства русских литейщиков.
+        </p>
+        <p class="modalBlock__description">
+            Интерьеры кремлевских соборов&nbsp;&mdash; это сочетание древнерусской и&nbsp;византийской традиций. Фрески XV&ndash;XVII&nbsp;веков, золоченые иконостасы, резные киоты, массивные колонны&nbsp;&mdash; все это создает ощущение торжественной тишины. Особенно впечатляет многоярусный иконостас Успенского собора, фрески Дионисия и&nbsp;его школы, декоративные росписи Архангельского собора, парадные залы Грановитой палаты с&nbsp;белокаменными сводами. Каждая деталь&nbsp;&mdash; свидетельство высочайшего уровня древнерусского искусства.
+        </p>
+    </div>
+    <div class="modalBlock__image">
+        <img src="../../img/moscow/cards_modal/RedSquare/RedSquare_4.jpg" alt="photo_4" loading="lazy">
+    </div>
+</div>
+<!-- Блок 5: Красная площадь: пространство, где встречаются эпохи -->
+<div class="modalBlock">
+    <div class="modalBlock__text">
+        <h2 class="modalBlock__title">Красная площадь: пространство, где встречаются эпохи</h2>
+        <p class="modalBlock__description">
+            Красная площадь&nbsp;&mdash; это открытая сцена Москвы. Здесь проходят парады, фестивали, концерты, зимние ярмарки и&nbsp;заливают каток.
+        </p>
+        <p class="modalBlock__description">
+            <strong>Главные объекты площади:</strong> <br>
+            &bull; Храм Василия Блаженного&nbsp;&mdash; архитектурная легенда XVI&nbsp;века.<br>
+            &bull; Мавзолей Ленина&nbsp;&mdash; памятник советской эпохе.<br>
+            &bull; ГУМ&nbsp;&mdash; исторический торговый пассаж с&nbsp;атмосферой старой Москвы.<br>
+            &bull; Лобное место&nbsp;&mdash; древняя трибуна для оглашения царских указов.<br>
+            &bull; Исторический музей&nbsp;&mdash; огромная коллекция артефактов от&nbsp;древности до&nbsp;XX&nbsp;века.
+        </p>
+        <p class="modalBlock__description">
+            Площадь меняет настроение в&nbsp;зависимости от&nbsp;времени суток: утром&nbsp;&mdash; спокойная и&nbsp;торжественная, днем&nbsp;&mdash; оживленная, вечером&nbsp;&mdash; особенно красивая благодаря подсветке Кремля.
+        </p>
+    </div>
+    <div class="modalBlock__image">
+        <img src="../../img/moscow/cards_modal/RedSquare/RedSquare_5.jpg" alt="photo_5" loading="lazy">
+    </div>
+</div>
+<!-- Блок 6: Как добраться до Красной площади и Кремля -->
+<div class="modalBlock">
+    <div class="modalBlock__text">
+        <h2 class="modalBlock__title">Как добраться до&nbsp;Красной площади и&nbsp;Кремля</h2>
+        <p class="modalBlock__description">
+            Красная площадь расположена в&nbsp;самом центре Москвы, рядом с&nbsp;Манежной площадью и&nbsp;Александровским садом.
+        </p>
+        <p class="modalBlock__description">
+            <strong>На&nbsp;метро:</strong> <br>
+            Самый удобный способ&nbsp;&mdash; станции: &laquo;Охотный Ряд&raquo;, &laquo;Площадь Революции&raquo;, &laquo;Театральная&raquo;. От&nbsp;любой из&nbsp;них до&nbsp;площади&nbsp;&mdash; 3&ndash;5 минут пешком.
+        </p>
+        <p class="modalBlock__description">
+            <strong>На&nbsp;другом общественном транспорте:</strong> <br>
+            Автобусы и&nbsp;троллейбусы идут до&nbsp;остановок: &laquo;Манежная площадь&raquo;, &laquo;Моховая&raquo;, &laquo;Театральная площадь&raquo;.
+        </p>
+        <p class="modalBlock__description">
+            <strong>Пешком:</strong> От&nbsp;Тверской улицы, Никольской или Китай‑города&nbsp;&mdash; 10&ndash;15 минут прогулки по&nbsp;историческому центру.
+        </p>
+        <p class="modalBlock__description">
+            <strong>Посещение Кремля:</strong> <br>
+            &bull; Билеты лучше покупать заранее.<br>
+            &bull; Вход в&nbsp;соборы и&nbsp;музеи&nbsp;&mdash; по&nbsp;расписанию.<br>
+            &bull; На&nbsp;территории действует пропускной режим.
+        </p>
+    </div>
+    <div class="modalBlock__image">
+        <img src="../../img/moscow/cards_modal/RedSquare/kak_dobratsya.jpg" alt="photo_6" loading="lazy">
+    </div>
+</div>`
         },
 
 // ======================== Большой театр =============================
@@ -22,7 +146,115 @@ const moscowData = {
         id: 'Big_teatr',
         title: 'Большой театр',
         image:'../../img/moscow/cards_tochki/Bolshoi_teatr_0.jpg',
-        modalContent:``
+        modalContent:
+
+`<div class="modalHeader">
+    <h1 class="modalHeader__title">Большой театр</h1>
+</div>
+<!-- Блок 1: Большой театр — хранитель великой сцены России -->
+<div class="modalBlock">
+    <div class="modalBlock__text">
+        <h2 class="modalBlock__title">Большой театр&nbsp;&mdash; хранитель великой сцены России</h2>
+        <p class="modalBlock__description">
+            Большой театр&nbsp;&mdash; это не&nbsp;просто культурный символ Москвы, а&nbsp;живой организм, в&nbsp;котором переплетаются история, искусство и&nbsp;национальная память. Его фасад с&nbsp;колоннами и&nbsp;квадригой Аполлона стал узнаваемым во&nbsp;всем мире, а&nbsp;сама сцена&nbsp;&mdash; местом, где рождаются легенды русского балета и&nbsp;оперы.
+        </p>
+        <p class="modalBlock__description">
+            Здесь каждый спектакль&nbsp;&mdash; продолжение традиции, которой более двухсот лет.
+        </p>
+    </div>
+    <div class="modalBlock__image">
+        <img src="../../img/moscow/cards_modal/Bolshoi_teatr/Bolshoi_teatr_1.jpg" alt="photo_1" loading="lazy">
+    </div>
+</div>
+<!-- Блок 2: Архитектурная гармония, созданная для торжества искусства -->
+<div class="modalBlock">
+    <div class="modalBlock__text">
+        <h2 class="modalBlock__title">Архитектурная гармония, созданная для торжества искусства</h2>
+        <p class="modalBlock__description">
+            Здание Большого театра&nbsp;&mdash; воплощение русского классицизма, строгого и&nbsp;величественного. Архитектор Осип Бове задумал его как храм искусства, и&nbsp;эта идея читается в&nbsp;каждой детали.
+        </p>
+        <p class="modalBlock__description">
+            Что формирует его неповторимый облик:<br>
+            &bull; Массивный портик с&nbsp;колоннами, создающий ощущение монументальности.<br>
+            &bull; Квадрига Аполлона, символизирующая вдохновение и&nbsp;победу творчества.<br>
+            &bull; Светлый фасад, который подчеркивает торжественность здания.<br>
+            &bull; Лепнина и&nbsp;барельефы, создающие ощущение театральной торжественности еще до&nbsp;входа внутрь.<br>
+            Архитектура театра&nbsp;&mdash; это гармония пропорций и&nbsp;декоративной роскоши, которая сразу настраивает на&nbsp;встречу с&nbsp;высоким искусством.
+        </p>
+    </div>
+    <div class="modalBlock__image">
+        <img src="../../img/moscow/cards_modal/Bolshoi_teatr/Bolshoi_teatr_2.jpg" alt="photo_2" loading="lazy">
+    </div>
+</div>
+<!-- Блок 3: Зал, который дышит историей -->
+<div class="modalBlock">
+    <div class="modalBlock__text">
+        <h2 class="modalBlock__title">Зал, который дышит историей</h2>
+        <p class="modalBlock__description">
+            Главный зрительный зал&nbsp;&mdash; сердце театра. Пятиярусная структура, красный бархат, позолота и&nbsp;огромная хрустальная люстра создают атмосферу, в&nbsp;которой зритель чувствует себя частью большого культурного ритуала.
+        </p>
+        <p class="modalBlock__description">
+            Что особенно впечатляет:<br>
+            &bull; Потолочная роспись, посвященная музам и&nbsp;аллегориям искусства.<br>
+            &bull; Акустика исторической сцены, признанная одной из&nbsp;лучших в&nbsp;мире.<br>
+            &bull; Восстановленные росписи и&nbsp;позолота, бережно сохраненные реставраторами.<br>
+            &bull; Сложная инженерия, скрытая под историческими интерьерами.<br>
+            Каждый элемент&nbsp;&mdash; от&nbsp;бархатных кресел до&nbsp;резных балконов&nbsp;&mdash; создает ощущение торжественности и&nbsp;ожидания чуда.
+        </p>
+    </div>
+    <div class="modalBlock__image">
+        <img src="../../img/moscow/cards_modal/Bolshoi_teatr/Bolshoi_teatr_3.jpg" alt="photo_3" loading="lazy">
+    </div>
+</div>
+<!-- Блок 4: Большой театр как культурная вселенная -->
+<div class="modalBlock">
+    <div class="modalBlock__text">
+        <h2 class="modalBlock__title">Большой театр как культурная вселенная</h2>
+        <p class="modalBlock__description">
+            Сегодня Большой&nbsp;&mdash; это не&nbsp;только историческая сцена, но&nbsp;и&nbsp;целый комплекс, объединяющий разные направления искусства.
+        </p>
+        <p class="modalBlock__description">
+            Что включает театр:<br>
+            &bull; Историческая сцена&nbsp;&mdash; место классических постановок.<br>
+            &bull; Новая сцена&nbsp;&mdash; пространство для современных экспериментов.<br>
+            &bull; Бетховенский зал&nbsp;&mdash; камерные концерты и&nbsp;музыкальные вечера.<br>
+            &bull; Музей театра&nbsp;&mdash; костюмы, декорации, архивы, редкие экспонаты.<br>
+            Здесь трудятся сотни артистов, музыкантов, художников и&nbsp;мастеров&nbsp;&mdash; каждый спектакль создается как ювелирное произведение.
+        </p>
+    </div>
+    <div class="modalBlock__image">
+        <img src="../../img/moscow/cards_modal/Bolshoi_teatr/Bolshoi_teatr_4.jpg" alt="photo_4" loading="lazy">
+    </div>
+</div>
+<!-- Блок 5: Как добраться до Большого театра -->
+<div class="modalBlock">
+    <div class="modalBlock__text">
+        <h2 class="modalBlock__title">Как добраться до&nbsp;Большого театра</h2>
+        <p class="modalBlock__description">
+            Большой театр расположен на&nbsp;Театральной площади&nbsp;&mdash; в&nbsp;самом центре Москвы.
+        </p>
+        <p class="modalBlock__description">
+            <strong>На&nbsp;метро:</strong> <br>
+            Ближайшие станции: &laquo;Театральная&raquo;, &laquo;Охотный Ряд&raquo;, &laquo;Площадь Революции&raquo;. От&nbsp;любой из&nbsp;них&nbsp;&mdash; 2&ndash;4 минуты пешком.
+        </p>
+        <p class="modalBlock__description">
+            <strong>На&nbsp;другом общественном транспорте:</strong> <br>
+            Автобусы идут до&nbsp;остановок: &laquo;Театральная площадь&raquo;, &laquo;Большой театр&raquo;.
+        </p>
+        <p class="modalBlock__description">
+            <strong>Пешком:</strong> От&nbsp;Красной площади, Манежной или Тверской&nbsp;&mdash; 5&ndash;10 минут прогулки по&nbsp;историческому центру.
+        </p>
+        <p class="modalBlock__description">
+            <strong>Посещение театра:</strong> <br>
+            &bull; Билеты лучше покупать заранее&nbsp;&mdash; популярные спектакли раскупаются быстро.<br>
+            &bull; Вход открывается за&nbsp;45&ndash;60 минут до&nbsp;начала.<br>
+            &bull; Рекомендуется аккуратная, вечерняя одежда&nbsp;&mdash; атмосфера театра располагает к&nbsp;этому.
+        </p>
+    </div>
+    <div class="modalBlock__image">
+        <img src="../../img/moscow/cards_modal/Bolshoi_teatr/Bolshoi_teatr_5.jpg" alt="photo_5" loading="lazy">
+    </div>
+</div>`
 
         },
 
@@ -31,7 +263,116 @@ const moscowData = {
         id: 'hram_vasiliya',
         title: 'Храм Василия Блаженного или собор Покрова Пресвятой Богородицы',
         image:'../../img/moscow/cards_tochki/Hram_Vasiliya_Blazhennogo_0.jpg',
-        modalContent:``
+        modalContent:
+
+`<div class="modalHeader">
+    <h1 class="modalHeader__title">Храм Василия Блаженного</h1>
+</div>
+<!-- Блок 1: Храм Василия Блаженного — фантазия из камня на пороге Кремля -->
+<div class="modalBlock">
+    <div class="modalBlock__text">
+        <h2 class="modalBlock__title">Храм Василия Блаженного&nbsp;&mdash; фантазия из&nbsp;камня на&nbsp;пороге Кремля</h2>
+        <p class="modalBlock__description">
+            Храм Василия Блаженного&nbsp;&mdash; это архитектурная легенда Москвы, место, где история превращается в&nbsp;сказку. Его разноцветные купола, будто созданные художником‑сновидцем, стали символом России, узнаваемым во&nbsp;всем мире.
+        </p>
+        <p class="modalBlock__description">
+            Храм был возведен в&nbsp;XVI веке по&nbsp;приказу Ивана Грозного в&nbsp;честь взятия Казани и&nbsp;с&nbsp;тех пор стоит на&nbsp;Красной площади как памятник победе, вере и&nbsp;художественной смелости.
+        </p>
+    </div>
+    <div class="modalBlock__image">
+        <img src="../../img/moscow/cards_modal/Hram_Vasiliya_Blazhennogo/Hram_Vasiliya_Blazhennogo_1.jpg" alt="photo_1" loading="lazy">
+    </div>
+</div>
+<!-- Блок 2: Архитектурный образ, не имеющий аналогов -->
+<div class="modalBlock">
+    <div class="modalBlock__text">
+        <h2 class="modalBlock__title">Архитектурный образ, не&nbsp;имеющий аналогов</h2>
+        <p class="modalBlock__description">
+            Храм состоит из&nbsp;одиннадцати самостоятельных церквей, объединенных в&nbsp;единый ансамбль. Это не&nbsp;классический храм, а&nbsp;сложная пространственная композиция, в&nbsp;которой каждая башня имеет свой характер, цвет и&nbsp;орнамент.
+        </p>
+        <p class="modalBlock__description">
+            Что формирует его неповторимый силуэт:<br>
+            &bull; Купола‑луковицы, расписанные полосами, ромбами и&nbsp;спиралями.<br>
+            &bull; Асимметричная композиция, создающая ощущение движения.<br>
+            &bull; Каменные узоры, напоминающие восточные орнаменты.<br>
+            &bull; Контраст красного кирпича и&nbsp;ярких декоративных элементов.<br>
+            Архитектура храма&nbsp;&mdash; это смелый эксперимент, в&nbsp;котором переплелись русские, византийские и&nbsp;восточные мотивы. Он&nbsp;выглядит как фантазия, воплощенная в&nbsp;камне.
+        </p>
+    </div>
+    <div class="modalBlock__image">
+        <img src="../../img/moscow/cards_modal/Hram_Vasiliya_Blazhennogo/Hram_Vasiliya_Blazhennogo_2.jpg" alt="photo_2" loading="lazy">
+    </div>
+</div>
+<!-- Блок 3: Внутренний мир храма — лабиринт тишины и древних росписей -->
+<div class="modalBlock">
+    <div class="modalBlock__text">
+        <h2 class="modalBlock__title">Внутренний мир храма&nbsp;&mdash; лабиринт тишины и&nbsp;древних росписей</h2>
+        <p class="modalBlock__description">
+            Внутри храм совсем не&nbsp;похож на&nbsp;просторные храмы. Это сеть узких коридоров, маленьких приделов и&nbsp;крутых лестниц, которые создают ощущение путешествия по&nbsp;средневековому лабиринту.
+        </p>
+        <p class="modalBlock__description">
+            Что особенно впечатляет:<br>
+            &bull; Фрески XVI&ndash;XVII&nbsp;веков, покрывающие стены тонкими растительными орнаментами.<br>
+            &bull; Иконостасы с&nbsp;древними иконами, сохранившимися со&nbsp;времен первых богослужений.<br>
+            &bull; Каменные своды, расписанные вручную.<br>
+            &bull; Тихие приделы, каждый из&nbsp;которых посвящен отдельному святому или событию.<br>
+            Внутреннее пространство храма&nbsp;&mdash; это мир, где время словно замедляется, а&nbsp;каждый шаг открывает новую деталь.
+        </p>
+    </div>
+    <div class="modalBlock__image">
+        <img src="../../img/moscow/cards_modal/Hram_Vasiliya_Blazhennogo/Hram_Vasiliya_Blazhennogo_3.jpg" alt="photo_3" loading="lazy">
+    </div>
+</div>
+<!-- Блок 4: Храм как культурный символ Москвы -->
+<div class="modalBlock">
+    <div class="modalBlock__text">
+        <h2 class="modalBlock__title">Храм как культурный символ Москвы</h2>
+        <p class="modalBlock__description">
+            Сегодня Храм Василия Блаженного&nbsp;&mdash; не&nbsp;только храм, но&nbsp;и&nbsp;музей, который хранит историю Москвы и&nbsp;русской архитектуры.
+        </p>
+        <p class="modalBlock__description">
+            Почему он&nbsp;так важен:<br>
+            &bull; Это главный художественный символ России, узнаваемый во&nbsp;всем мире.<br>
+            &bull; Он&nbsp;отражает переход от&nbsp;средневековой архитектуры к&nbsp;более смелым формам.<br>
+            &bull; Храм связан с&nbsp;важнейшими событиями русской истории.<br>
+            &bull; Он&nbsp;стал частью ансамбля Красной площади, включенного в&nbsp;список ЮНЕСКО.<br>
+            Храм&nbsp;&mdash; это не&nbsp;просто памятник, а&nbsp;эмоциональный образ Москвы, который невозможно забыть.
+        </p>
+    </div>
+    <div class="modalBlock__image">
+        <img src="../../img/moscow/cards_modal/Hram_Vasiliya_Blazhennogo/Hram_Vasiliya_Blazhennogo_4.jpg" alt="photo_4" loading="lazy">
+    </div>
+</div>
+<!-- Блок 5: Как добраться до Храма Василия Блаженного -->
+<div class="modalBlock">
+    <div class="modalBlock__text">
+        <h2 class="modalBlock__title">Как добраться до&nbsp;Храма Василия Блаженного</h2>
+        <p class="modalBlock__description">
+            Храм расположен на&nbsp;южной стороне Красной площади, рядом с&nbsp;Васильевским спуском.
+        </p>
+        <p class="modalBlock__description">
+            <strong>На&nbsp;метро:</strong> <br>
+            Ближайшие станции: &laquo;Площадь Революции&raquo;, &laquo;Охотный Ряд&raquo;, &laquo;Театральная&raquo;. От&nbsp;любой&nbsp;&mdash; 5&ndash;7 минут пешком.
+        </p>
+        <p class="modalBlock__description">
+            <strong>На&nbsp;другом общественном транспорте:</strong> <br>
+            Автобусы идут до&nbsp;остановок: &laquo;Красная площадь&raquo;, &laquo;Моховая&raquo;, &laquo;Манежная площадь&raquo;.
+        </p>
+        <p class="modalBlock__description">
+            <strong>Пешком:</strong> От&nbsp;Кремля, ГУМа или Исторического музея&nbsp;&mdash; буквально несколько минут.
+        </p>
+        <p class="modalBlock__description">
+            <strong>Посещение храма:</strong> <br>
+            &bull; Внутри работает музей, вход&nbsp;&mdash; по&nbsp;билетам.<br>
+            &bull; Летом очереди бывают длинными, лучше приходить утром.<br>
+            &bull; Фотографировать можно, но&nbsp;без вспышки.<br>
+            &bull; Внутри прохладно&nbsp;&mdash; стены сохраняют температуру независимо от&nbsp;сезона.
+        </p>
+    </div>
+    <div class="modalBlock__image">
+        <img src="../../img/moscow/cards_modal/Hram_Vasiliya_Blazhennogo/Hram_Vasiliya_Blazhennogo_5.jpg" alt="photo_5" loading="lazy">
+    </div>
+</div>`
 
         },
 
@@ -41,7 +382,115 @@ const moscowData = {
         id: 'park_zaryadie',
         title: 'Парк «Зарядье»',
         image:'../../img/moscow/cards_tochki/Park_Zaryade_0.jpg',
-        modalContent:``
+        modalContent:
+
+`<div class="modalHeader">
+    <h1 class="modalHeader__title">Парк &laquo;Зарядье&raquo;</h1>
+</div>
+<!-- Блок 1: Парк «Зарядье» — природа и мегаполис в одном ощущении -->
+<div class="modalBlock">
+    <div class="modalBlock__text">
+        <h2 class="modalBlock__title">Парк &laquo;Зарядье&raquo;&nbsp;&mdash; природа и&nbsp;мегаполис в&nbsp;одном ощущении</h2>
+        <p class="modalBlock__description">
+            Парк &laquo;Зарядье&raquo;&nbsp;&mdash; это новое лицо Москвы, пространство, где городская энергия соединяется с&nbsp;природой. Созданный на&nbsp;месте старинного района у&nbsp;стен Кремля, парк стал символом современной столицы: открытым, инновационным, живым.
+        </p>
+        <p class="modalBlock__description">
+            Здесь можно пройти от&nbsp;тундры к&nbsp;степи за&nbsp;несколько минут, увидеть Москву с&nbsp;высоты &laquo;Парящего моста&raquo; и&nbsp;почувствовать, как природа становится частью городской ткани.
+        </p>
+    </div>
+    <div class="modalBlock__image">
+        <img src="../../img/moscow/cards_modal/Park_Zaryade/Park_Zaryade_1.jpg" alt="photo_1" loading="lazy">
+    </div>
+</div>
+<!-- Блок 2: Ландшафтная архитектура, которая меняет представление о парках -->
+<div class="modalBlock">
+    <div class="modalBlock__text">
+        <h2 class="modalBlock__title">Ландшафтная архитектура, которая меняет представление о&nbsp;парках</h2>
+        <p class="modalBlock__description">
+            &laquo;Зарядье&raquo;&nbsp;&mdash; это не&nbsp;просто зеленая зона, а&nbsp;тщательно продуманная экосистема. Архитекторы создали четыре природные зоны России&nbsp;&mdash; тундру, степь, лес и&nbsp;прибрежье&nbsp;&mdash; и&nbsp;разместили их&nbsp;в&nbsp;центре мегаполиса так, чтобы они плавно перетекали друг в&nbsp;друга.
+        </p>
+        <p class="modalBlock__description">
+            Что формирует уникальный облик парка:<br>
+            &bull; &laquo;Парящий мост&raquo;&nbsp;&mdash; изогнутая смотровая площадка над Москвой-рекой, ставшая новой визитной карточкой города.<br>
+            &bull; Флорариум и&nbsp;подземные павильоны, скрытые под холмами.<br>
+            &bull; Ландшафтные холмы, создающие ощущение природного рельефа.<br>
+            &bull; Стеклянная &laquo;Кристальная кора&raquo;, под которой проходят концерты и&nbsp;мероприятия.<br>
+            Архитектура парка&nbsp;&mdash; это диалог природы и&nbsp;технологий, где каждый элемент работает на&nbsp;создание ощущения живого, дышащего пространства.
+        </p>
+    </div>
+    <div class="modalBlock__image">
+        <img src="../../img/moscow/cards_modal/Park_Zaryade/Park_Zaryade_2.jpg" alt="photo_2" loading="lazy">
+    </div>
+</div>
+<!-- Блок 3: Природные зоны, созданные вручную -->
+<div class="modalBlock">
+    <div class="modalBlock__text">
+        <h2 class="modalBlock__title">Природные зоны, созданные вручную</h2>
+        <p class="modalBlock__description">
+            Каждая зона&nbsp;&mdash; это миниатюрная модель российского ландшафта. Тундра со&nbsp;мхами и&nbsp;карликовыми кустарниками, степь с&nbsp;сухими травами, лес с&nbsp;хвойными деревьями&nbsp;&mdash; все это создает эффект путешествия по&nbsp;стране без выхода из&nbsp;центра Москвы.
+        </p>
+        <p class="modalBlock__description">
+            Что особенно впечатляет:<br>
+            &bull; Медиацентр с&nbsp;интерактивными выставками и&nbsp;панорамными залами.<br>
+            &bull; Флорариум, где собраны редкие растения.<br>
+            &bull; Подземная филармония с&nbsp;уникальной акустикой.<br>
+            &bull; Экотропы, по&nbsp;которым можно гулять.<br>
+            Парк устроен так, что каждый поворот открывает новую перспективу&nbsp;&mdash; от&nbsp;тихих уголков до&nbsp;панорамных видов на&nbsp;Кремль.
+        </p>
+    </div>
+    <div class="modalBlock__image">
+        <img src="../../img/moscow/cards_modal/Park_Zaryade/Park_Zaryade_3.jpg" alt="photo_3" loading="lazy">
+    </div>
+</div>
+<!-- Блок 4: «Зарядье» как культурный и городской символ -->
+<div class="modalBlock">
+    <div class="modalBlock__text">
+        <h2 class="modalBlock__title">&laquo;Зарядье&raquo; как культурный и&nbsp;городской символ</h2>
+        <p class="modalBlock__description">
+            Парк стал одним из&nbsp;главных проектов современной Москвы&nbsp;&mdash; местом, где встречаются архитектура, экология и&nbsp;городская жизнь.
+        </p>
+        <p class="modalBlock__description">
+            Почему он&nbsp;так важен:<br>
+            &bull; Это первый крупный парк, построенный в&nbsp;центре Москвы за&nbsp;десятилетия.<br>
+            &bull; Он&nbsp;стал пространством для фестивалей, концертов и&nbsp;образовательных программ.<br>
+            &bull; &laquo;Парящий мост&raquo; превратился в&nbsp;новую открытку Москвы, узнаваемую во&nbsp;всем мире.<br>
+            &bull; Парк показывает, как современный город может интегрировать природу, не&nbsp;теряя динамики.<br>
+            &laquo;Зарядье&raquo;&nbsp;&mdash; это символ обновления столицы, ее&nbsp;стремления к&nbsp;открытости и&nbsp;инновациям.
+        </p>
+    </div>
+    <div class="modalBlock__image">
+        <img src="../../img/moscow/cards_modal/Park_Zaryade/Park_Zaryade_4.jpg" alt="photo_4" loading="lazy">
+    </div>
+</div>
+<!-- Блок 5: Как добраться до парка «Зарядье» -->
+<div class="modalBlock">
+    <div class="modalBlock__text">
+        <h2 class="modalBlock__title">Как добраться до&nbsp;парка &laquo;Зарядье&raquo;</h2>
+        <p class="modalBlock__description">
+            Парк расположен рядом с&nbsp;Красной площадью и&nbsp;Москворецкой набережной.
+        </p>
+        <p class="modalBlock__description">
+            <strong>На&nbsp;метро:</strong> <br>
+            Ближайшие станции: &laquo;Китай‑город&raquo;, &laquo;Площадь Революции&raquo;, &laquo;Охотный Ряд&raquo;. От&nbsp;любой&nbsp;&mdash; 5&ndash;10 минут пешком.
+        </p>
+        <p class="modalBlock__description">
+            <strong>На&nbsp;другом общественном транспорте:</strong> <br>
+            Автобусы идут до&nbsp;остановок: &laquo;Москворецкая&raquo;, &laquo;Китай‑город&raquo;, &laquo;Варварка&raquo;.
+        </p>
+        <p class="modalBlock__description">
+            <strong>Пешком:</strong> От&nbsp;Красной площади&nbsp;&mdash; 3&ndash;5&nbsp;минут. От&nbsp;Кремля&nbsp;&mdash; буквально через мост.
+        </p>
+        <p class="modalBlock__description">
+            <strong>Посещение парка:</strong> <br>
+            &bull; Вход свободный, парк открыт круглосуточно.<br>
+            &bull; Некоторые павильоны работают по&nbsp;расписанию и&nbsp;требуют билетов.<br>
+            &bull; Лучшее время для прогулки&nbsp;&mdash; раннее утро или закат, когда &laquo;Парящий мост&raquo; особенно красив.
+        </p>
+    </div>
+    <div class="modalBlock__image">
+        <img src="../../img/moscow/cards_modal/Park_Zaryade/Park_Zaryade_5.jpg" alt="photo_5" loading="lazy">
+    </div>
+</div>`
 
         },
 // ======================== Москва-Сити =============================
@@ -50,7 +499,119 @@ const moscowData = {
         id: 'moscow-city',
         title: 'Москва-Сити',
         image:'../../img/moscow/cards_tochki/Moskva_Siti_0.jpg',
-        modalContent:``
+        modalContent:
+
+`<div class="modalHeader">
+    <h1 class="modalHeader__title">Москва‑Сити</h1>
+</div>
+<!-- Блок 1: Москва‑Сити — вертикальный символ новой столицы -->
+<div class="modalBlock">
+    <div class="modalBlock__text">
+        <h2 class="modalBlock__title">Москва‑Сити&nbsp;&mdash; вертикальный символ новой столицы</h2>
+        <p class="modalBlock__description">
+            Москва‑Сити&nbsp;&mdash; это не&nbsp;просто деловой квартал, а&nbsp;архитектурный манифест современной Москвы. Здесь небоскребы поднимаются над рекой, отражая в&nbsp;стекле облака и&nbsp;закаты, а&nbsp;городская энергия ощущается буквально в&nbsp;воздухе.
+        </p>
+        <p class="modalBlock__description">
+            Комплекс стал символом обновления столицы, ее&nbsp;стремления к&nbsp;высоте, скорости и&nbsp;технологичности. Это место, где Москва показывает свое будущее.
+        </p>
+    </div>
+    <div class="modalBlock__image">
+        <img src="../../img/moscow/cards_modal/Moskva_Siti/Moskva_Siti_1.jpg" alt="photo_1" loading="lazy">
+    </div>
+</div>
+<!-- Блок 2: Архитектурный прорыв, изменивший силуэт города -->
+<div class="modalBlock">
+    <div class="modalBlock__text">
+        <h2 class="modalBlock__title">Архитектурный прорыв, изменивший силуэт города</h2>
+        <p class="modalBlock__description">
+            Москва‑Сити&nbsp;&mdash; первый в&nbsp;России район небоскребов, построенный по&nbsp;принципам мировых мегаполисов. Каждый башенный комплекс&nbsp;&mdash; самостоятельный архитектурный образ, а&nbsp;вместе они создают узнаваемую панораму, которую невозможно спутать ни&nbsp;с&nbsp;чем.
+        </p>
+        <p class="modalBlock__description">
+            Что формирует облик Москва‑Сити:<br>
+            &bull; Башня &laquo;Федерация&raquo;&nbsp;&mdash; одна из&nbsp;самых высоких в&nbsp;Европе, с&nbsp;динамичным силуэтом.<br>
+            &bull; &laquo;Око&raquo;&nbsp;&mdash; строгая геометрия и&nbsp;эффектная подсветка.<br>
+            &bull; &laquo;Эволюция&raquo;&nbsp;&mdash; спиральная форма, напоминающая ленту ДНК.<br>
+            &bull; &laquo;Империя&raquo;&nbsp;&mdash; сочетание стекла и&nbsp;металла в&nbsp;классическом небоскребном стиле.<br>
+            &bull; &laquo;Меркурий&raquo;&nbsp;&mdash; золотистый фасад, меняющий оттенок в&nbsp;зависимости от&nbsp;света.<br>
+            Архитектура Москва‑Сити&nbsp;&mdash; это диалог технологий и&nbsp;эстетики, где каждая башня&nbsp;&mdash; инженерный эксперимент и&nbsp;художественное высказывание.
+        </p>
+    </div>
+    <div class="modalBlock__image">
+        <img src="../../img/moscow/cards_modal/Moskva_Siti/Moskva_Siti_2.jpg" alt="photo_2" loading="lazy">
+    </div>
+</div>
+<!-- Блок 3: Внутренний мир небоскребов — город в городе -->
+<div class="modalBlock">
+    <div class="modalBlock__text">
+        <h2 class="modalBlock__title">Внутренний мир небоскребов&nbsp;&mdash; город в&nbsp;городе</h2>
+        <p class="modalBlock__description">
+            Москва‑Сити&nbsp;&mdash; это не&nbsp;только офисы. Внутри небоскребов скрыты рестораны, смотровые площадки, галереи, апартаменты, торговые зоны и&nbsp;даже фитнес‑центры. Здесь можно провести целый день, не&nbsp;покидая комплекса.
+        </p>
+        <p class="modalBlock__description">
+            Что особенно впечатляет:<br>
+            &bull; Смотровые площадки на&nbsp;высоте более 300&nbsp;метров, откуда открывается панорама Москвы на&nbsp;360&nbsp;градусов.<br>
+            &bull; Рестораны с&nbsp;видом на&nbsp;город, где закат превращается в&nbsp;отдельное представление.<br>
+            &bull; Подземные переходы и&nbsp;торговые галереи, связывающие башни между собой.<br>
+            &bull; Современные интерьеры, выполненные в&nbsp;стилях хай‑тек и&nbsp;минимализм.<br>
+            Внутри Москва‑Сити ощущается свой отдельный мир&nbsp;&mdash; быстрый, динамичный, вертикальный.
+        </p>
+    </div>
+    <div class="modalBlock__image">
+        <img src="../../img/moscow/cards_modal/Moskva_Siti/Moskva_Siti_3.jpg" alt="photo_3" loading="lazy">
+    </div>
+</div>
+<!-- Блок 4: Москва‑Сити как символ новой городской идентичности -->
+<div class="modalBlock">
+    <div class="modalBlock__text">
+        <h2 class="modalBlock__title">Москва‑Сити как символ новой городской идентичности</h2>
+        <p class="modalBlock__description">
+            Комплекс стал важной частью культурного кода современной Москвы. Он&nbsp;показывает, что город может быть одновременно историческим и&nbsp;ультрасовременным.
+        </p>
+        <p class="modalBlock__description">
+            Почему Москва‑Сити так значим:<br>
+            &bull; Это самый масштабный проект современной российской архитектуры.<br>
+            &bull; Он&nbsp;стал центром деловой активности, где работают крупнейшие компании.<br>
+            &bull; Москва‑Сити&nbsp;&mdash; новая туристическая точка, привлекающая миллионы гостей.<br>
+            &bull; Панорама небоскребов стала визитной карточкой Москвы XXI&nbsp;века.<br>
+            Москва‑Сити&nbsp;&mdash; это образ столицы, которая не&nbsp;боится высоты и&nbsp;перемен.
+        </p>
+    </div>
+    <div class="modalBlock__image">
+        <img src="../../img/moscow/cards_modal/Moskva_Siti/Moskva_Siti_4.jpg" alt="photo_4" loading="lazy">
+    </div>
+</div>
+<!-- Блок 5: Как добраться до Москва‑Сити -->
+<div class="modalBlock">
+    <div class="modalBlock__text">
+        <h2 class="modalBlock__title">Как добраться до&nbsp;Москва‑Сити</h2>
+        <p class="modalBlock__description">
+            Комплекс расположен на&nbsp;Пресненской набережной, недалеко от&nbsp;Третьего транспортного кольца.
+        </p>
+        <p class="modalBlock__description">
+            <strong>На&nbsp;метро:</strong> <br>
+            Ближайшие станции: &laquo;Деловой центр&raquo;, &laquo;Выставочная&raquo;, &laquo;Международная&raquo;. Все они ведут прямо к&nbsp;башням.
+        </p>
+        <p class="modalBlock__description">
+            <strong>На&nbsp;МЦК:</strong> Станция &laquo;Деловой центр&raquo; находится в&nbsp;шаговой доступности.
+        </p>
+        <p class="modalBlock__description">
+            <strong>На&nbsp;другом общественном транспорте:</strong> <br>
+            Автобусы идут до&nbsp;остановок: &laquo;Экспоцентр&raquo;, &laquo;Пресненская набережная&raquo;.
+        </p>
+        <p class="modalBlock__description">
+            <strong>Пешком:</strong> От&nbsp;набережной Тараса Шевченко&nbsp;&mdash; 10&ndash;15 минут вдоль реки.
+        </p>
+        <p class="modalBlock__description">
+            <strong>Посещение комплекса:</strong> <br>
+            &bull; Смотровые площадки работают по&nbsp;расписанию, билеты лучше покупать заранее.<br>
+            &bull; Вечером небоскребы особенно красивы благодаря подсветке.<br>
+            &bull; Внутри много ресторанов и&nbsp;кафе&nbsp;&mdash; можно совместить прогулку с&nbsp;ужином.
+        </p>
+    </div>
+    <div class="modalBlock__image">
+        <img src="../../img/moscow/cards_modal/Moskva_Siti/Moskva_Siti_5.jpg" alt="photo_5" loading="lazy">
+    </div>
+</div>`
 
         },
 
@@ -61,7 +622,116 @@ const moscowData = {
         id: 'vorobei-gora',
         title: 'Воробьевы горы',
         image:'../../img/moscow/cards_tochki/Vorobevy_gory_0.jpg',
-        modalContent:``
+        modalContent:
+
+`<div class="modalHeader">
+    <h1 class="modalHeader__title">Воробьёвы горы</h1>
+</div>
+<!-- Блок 1: Воробьевы горы — панорама Москвы с высоты тишины -->
+<div class="modalBlock">
+    <div class="modalBlock__text">
+        <h2 class="modalBlock__title">Воробьевы горы&nbsp;&mdash; панорама Москвы с&nbsp;высоты тишины</h2>
+        <p class="modalBlock__description">
+            Воробьевы горы&nbsp;&mdash; одно из&nbsp;самых знаковых мест столицы, где Москва раскрывается во&nbsp;всей своей широте. Здесь город словно делает паузу: шум растворяется в&nbsp;листве, а&nbsp;над Москвой‑рекой открывается вид, который невозможно забыть.
+        </p>
+        <p class="modalBlock__description">
+            Это природный амфитеатр, где встречаются история, наука, спорт и&nbsp;романтика. Место, куда приходят за&nbsp;вдохновением, прогулками и&nbsp;ощущением свободы.
+        </p>
+    </div>
+    <div class="modalBlock__image">
+        <img src="../../img/moscow/cards_modal/Vorobevy_gory/Vorobevy_gory_1.jpg" alt="photo_1" loading="lazy">
+    </div>
+</div>
+<!-- Блок 2: Природный рельеф, создающий уникальную панораму -->
+<div class="modalBlock">
+    <div class="modalBlock__text">
+        <h2 class="modalBlock__title">Природный рельеф, создающий уникальную панораму</h2>
+        <p class="modalBlock__description">
+            Воробьевы горы&nbsp;&mdash; это высокий берег Москвы‑реки, покрытый лесом и&nbsp;прорезанный тропами. Рельеф здесь играет ключевую роль: именно благодаря крутым склонам и&nbsp;открытым площадкам отсюда видна вся центральная Москва.
+        </p>
+        <p class="modalBlock__description">
+            Что формирует облик Воробьевых гор:<br>
+            &bull; Смотровая площадка у&nbsp;МГУ, откуда открывается один из&nbsp;лучших видов на&nbsp;столицу.<br>
+            &bull; Лесные тропы, ведущие вдоль склона и&nbsp;к&nbsp;реке.<br>
+            &bull; Канатная дорога, соединяющая горы с&nbsp;Лужниками.<br>
+            &bull; Пешеходные маршруты, проходящие через природный заповедник.<br>
+            Природа здесь удивительно гармонична: густые деревья, крутые обрывы, широкая река&nbsp;&mdash; все это создает ощущение простора и&nbsp;легкости.
+        </p>
+    </div>
+    <div class="modalBlock__image">
+        <img src="../../img/moscow/cards_modal/Vorobevy_gory/Vorobevy_gory_2.jpg" alt="photo_2" loading="lazy">
+    </div>
+</div>
+<!-- Блок 3: Смотровая площадка — сердце Воробьевых гор -->
+<div class="modalBlock">
+    <div class="modalBlock__text">
+        <h2 class="modalBlock__title">Смотровая площадка&nbsp;&mdash; сердце Воробьевых гор</h2>
+        <p class="modalBlock__description">
+            Отсюда открывается панорама, которую знают по&nbsp;открыткам и&nbsp;фильмам: Москва‑Сити, Лужники, сталинские высотки, купола храмов и&nbsp;широкая лента реки. Вечером здесь особенно красиво&nbsp;&mdash; город зажигает огни, и&nbsp;панорама превращается в&nbsp;живую картину.
+        </p>
+        <p class="modalBlock__description">
+            Что особенно впечатляет:<br>
+            &bull; Канатная дорога, пролетающая над рекой и&nbsp;стадионом.<br>
+            &bull; Тропы заповедника, где можно гулять в&nbsp;тишине, не&nbsp;слыша города.<br>
+            &bull; Смотровые точки на&nbsp;разных уровнях, открывающие новые ракурсы.<br>
+            &bull; Близость МГУ, чьи башни создают узнаваемый силуэт.<br>
+            Воробьевы горы&nbsp;&mdash; это место, где можно провести час или целый день, каждый раз открывая что‑то новое.
+        </p>
+    </div>
+    <div class="modalBlock__image">
+        <img src="../../img/moscow/cards_modal/Vorobevy_gory/Vorobevy_gory_3.jpg" alt="photo_3" loading="lazy">
+    </div>
+</div>
+<!-- Блок 4: Воробьевы горы как культурный и спортивный символ -->
+<div class="modalBlock">
+    <div class="modalBlock__text">
+        <h2 class="modalBlock__title">Воробьевы горы как культурный и&nbsp;спортивный символ</h2>
+        <p class="modalBlock__description">
+            Это не&nbsp;просто природная зона&nbsp;&mdash; это часть культурного кода Москвы.
+        </p>
+        <p class="modalBlock__description">
+            Почему Воробьевы горы так важны:<br>
+            &bull; Здесь находится главный корпус МГУ, один из&nbsp;символов столицы.<br>
+            &bull; Это популярное место для спортсменов: бегунов, велосипедистов, лыжников.<br>
+            &bull; На&nbsp;склонах проходят фестивали, концерты и&nbsp;спортивные мероприятия.<br>
+            &bull; Воробьевы горы&nbsp;&mdash; место встреч, свиданий и&nbsp;прогулок, ставшее частью городской романтики.<br>
+            Это пространство, где природа и&nbsp;город живут в&nbsp;гармонии, создавая атмосферу легкости и&nbsp;вдохновения.
+        </p>
+    </div>
+    <div class="modalBlock__image">
+        <img src="../../img/moscow/cards_modal/Vorobevy_gory/Vorobevy_gory_4.jpg" alt="photo_4" loading="lazy">
+    </div>
+</div>
+<!-- Блок 5: Как добраться до Воробьевых гор -->
+<div class="modalBlock">
+    <div class="modalBlock__text">
+        <h2 class="modalBlock__title">Как добраться до&nbsp;Воробьевых гор</h2>
+        <p class="modalBlock__description">
+            Горы расположены на&nbsp;юго‑западе Москвы, вдоль Москвы‑реки.
+        </p>
+        <p class="modalBlock__description">
+            <strong>На&nbsp;метро:</strong> <br>
+            Ближайшие станции: &laquo;Воробьевы горы&raquo; (на&nbsp;мосту над рекой), &laquo;Университет&raquo;. От&nbsp;обеих&nbsp;&mdash; 10&ndash;15 минут пешком.
+        </p>
+        <p class="modalBlock__description">
+            <strong>На&nbsp;другом общественном транспорте:</strong> <br>
+            Автобусы идут до&nbsp;остановок: &laquo;Смотровая площадка&raquo;, &laquo;Университет&raquo;.
+        </p>
+        <p class="modalBlock__description">
+            <strong>Пешком:</strong> От&nbsp;МГУ&nbsp;&mdash; через аллеи и&nbsp;лестницы. От&nbsp;Лужников&nbsp;&mdash; по&nbsp;канатной дороге или вдоль реки.
+        </p>
+        <p class="modalBlock__description">
+            <strong>Посещение:</strong> <br>
+            &bull; Вход свободный.<br>
+            &bull; Лучшее время&nbsp;&mdash; закат или раннее утро.<br>
+            &bull; Зимой тропы превращаются в&nbsp;лыжные маршруты.<br>
+            &bull; Летом особенно приятно гулять по&nbsp;тенистым дорожкам.
+        </p>
+    </div>
+    <div class="modalBlock__image">
+        <img src="../../img/moscow/cards_modal/Vorobevy_gory/Vorobevy_gory_5.jpg" alt="photo_5" loading="lazy">
+    </div>
+</div>`
 
         }
     ],

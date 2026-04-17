@@ -146,7 +146,7 @@ const zh_moscowData = {
         </p>
     </div>
     <div class="modalBlock__image">
-        <img src="../../img/moscow/cards_modal/RedSquare/kak_dobratsya.jpg" alt="photo_6" loading="lazy">
+        <img src="../../img/moscow/cards_modal/RedSquare/RedSquare_6.jpg" alt="photo_6" loading="lazy">
     </div>
 </div>`
         },
@@ -1336,7 +1336,7 @@ const zh_moscowData = {
         </p>
     </div>
     <div class="modalBlock__image">
-        <img src="../../img/moscow/cards_modal/Usadba_Kuskovo/kak_dobratsya.jpg" alt="photo_5" loading="lazy">
+        <img src="../../img/moscow/cards_modal/Usadba_Kuskovo/Usadba_Kuskovo_5.jpg" alt="photo_5" loading="lazy">
     </div>
 </div>
 <!-- Блок 6: 参观须知 -->
@@ -1461,7 +1461,7 @@ const zh_moscowData = {
         </p>
     </div>
     <div class="modalBlock__image">
-        <img src="../../img/moscow/cards_modal/Nacionalnyy_park_Losinyy_Ostrov/kak_dobratsya.jpg" alt="photo_5" loading="lazy">
+        <img src="../../img/moscow/cards_modal/Nacionalnyy_park_Losinyy_Ostrov/Nacionalnyy_park_Losinyy_Ostrov_5.jpg" alt="photo_5" loading="lazy">
     </div>
 </div>
 <!-- Блок 6: 参观须知 -->

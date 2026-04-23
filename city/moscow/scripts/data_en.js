@@ -1252,7 +1252,7 @@ const en_moscowData = {
         </p>
     </div>
     <div class="modalBlock__image">
-        <img src="../../img/moscow/cards_modal/Usadba_Kuskovo/Usadba_Kuskovo_0.jpg" alt="photo_1" loading="lazy">
+        <img src="../../img/moscow/cards_modal/Usadba_Kuskovo/Usadba_Kuskovo_1.jpg" alt="photo_1" loading="lazy">
     </div>
 </div>
 <!-- Блок 2: Architectural Ensemble Built for Celebration and Splendor -->
@@ -1273,7 +1273,7 @@ const en_moscowData = {
         </p>
     </div>
     <div class="modalBlock__image">
-        <img src="../../img/moscow/cards_modal/Usadba_Kuskovo/Usadba_Kuskovo_1.jpg" alt="photo_2" loading="lazy">
+        <img src="../../img/moscow/cards_modal/Usadba_Kuskovo/Usadba_Kuskovo_2.jpg" alt="photo_2" loading="lazy">
     </div>
 </div>
 <!-- Блок 3: Grand Interiors: Preserving Spirit of the Age -->
@@ -1293,7 +1293,7 @@ const en_moscowData = {
         </p>
     </div>
     <div class="modalBlock__image">
-        <img src="../../img/moscow/cards_modal/Usadba_Kuskovo/Usadba_Kuskovo_2.jpg" alt="photo_3" loading="lazy">
+        <img src="../../img/moscow/cards_modal/Usadba_Kuskovo/Usadba_Kuskovo_3.jpg" alt="photo_3" loading="lazy">
     </div>
 </div>
 <!-- Блок 4: Kuskovo Park: French Alleys, Ponds, and Pavilions -->
@@ -1313,10 +1313,10 @@ const en_moscowData = {
         </p>
     </div>
     <div class="modalBlock__image">
-        <img src="../../img/moscow/cards_modal/Usadba_Kuskovo/Usadba_Kuskovo_3.jpg" alt="photo_4" loading="lazy">
+        <img src="../../img/moscow/cards_modal/Usadba_Kuskovo/Usadba_Kuskovo_4.jpg" alt="photo_4" loading="lazy">
     </div>
 </div>
-<!-- Блок 5: How to Get to Kuskovo -->
+<!-- Блок 5: How to Get to Kuskovo and Visiting -->
 <div class="modalBlock">
     <div class="modalBlock__text">
         <h2 class="modalBlock__title">How to&nbsp;Get to&nbsp;Kuskovo</h2>
@@ -1334,23 +1334,15 @@ const en_moscowData = {
         <p class="modalBlock__description">
             <strong>On&nbsp;foot:</strong> From the &laquo;Ryazansky Prospekt&raquo; metro station, walk through the residential neighborhoods and the park.
         </p>
-    </div>
-    <div class="modalBlock__image">
-        <img src="../../img/moscow/cards_modal/Usadba_Kuskovo/Usadba_Kuskovo_4.jpg" alt="photo_5" loading="lazy">
-    </div>
-</div>
-<!-- Блок 6: Visiting -->
-<div class="modalBlock">
-    <div class="modalBlock__text">
-        <h2 class="modalBlock__title">Visiting</h2>
         <p class="modalBlock__description">
+            <strong>Visiting:</strong> <br>
             &bull; Entry to&nbsp;the park is&nbsp;partially free; entry to&nbsp;the museums requires tickets.<br>
             &bull; In&nbsp;summer, it&rsquo;s best to&nbsp;come in&nbsp;the morning or&nbsp;toward early evening: the soft light highlights the architecture.<br>
             &bull; Inside the pavilions, it&rsquo;s chilly&nbsp;&mdash; the walls retain their temperature regardless of&nbsp;the season.
         </p>
     </div>
     <div class="modalBlock__image">
-        <img src="../../img/moscow/cards_modal/Usadba_Kuskovo/Usadba_Kuskovo_5.jpg" alt="photo_6" loading="lazy">
+        <img src="../../img/moscow/cards_modal/Usadba_Kuskovo/Usadba_Kuskovo_5.jpg" alt="photo_5" loading="lazy">
     </div>
 </div>`
     },
@@ -1378,7 +1370,7 @@ const en_moscowData = {
         </p>
     </div>
     <div class="modalBlock__image">
-        <img src="../../img/moscow/cards_modal/Nacionalnyy_park_Losinyy_Ostrov/Nacionalnyy_park_Losinyy_Ostrov_0.jpg" alt="photo_1" loading="lazy">
+        <img src="../../img/moscow/cards_modal/Nacionalnyy_park_Losinyy_Ostrov/Nacionalnyy_park_Losinyy_Ostrov_1.jpg" alt="photo_1" loading="lazy">
     </div>
 </div>
 <!-- Блок 2: Natural Landscape That Retains Character of the Russian Taiga -->
@@ -1398,7 +1390,7 @@ const en_moscowData = {
         </p>
     </div>
     <div class="modalBlock__image">
-        <img src="../../img/moscow/cards_modal/Nacionalnyy_park_Losinyy_Ostrov/Nacionalnyy_park_Losinyy_Ostrov_1.jpg" alt="photo_2" loading="lazy">
+        <img src="../../img/moscow/cards_modal/Nacionalnyy_park_Losinyy_Ostrov/Nacionalnyy_park_Losinyy_Ostrov_2.jpg" alt="photo_2" loading="lazy">
     </div>
 </div>
 <!-- Блок 3: Inner World of the Park: From Moose Sightings to Eco-Trails -->
@@ -1418,7 +1410,7 @@ const en_moscowData = {
         </p>
     </div>
     <div class="modalBlock__image">
-        <img src="../../img/moscow/cards_modal/Nacionalnyy_park_Losinyy_Ostrov/Nacionalnyy_park_Losinyy_Ostrov_2.jpg" alt="photo_3" loading="lazy">
+        <img src="../../img/moscow/cards_modal/Nacionalnyy_park_Losinyy_Ostrov/Nacionalnyy_park_Losinyy_Ostrov_3.jpg" alt="photo_3" loading="lazy">
     </div>
 </div>
 <!-- Блок 4: Losiny Ostrov as Natural and Cultural Symbol of Moscow -->
@@ -1438,10 +1430,10 @@ const en_moscowData = {
         </p>
     </div>
     <div class="modalBlock__image">
-        <img src="../../img/moscow/cards_modal/Nacionalnyy_park_Losinyy_Ostrov/Nacionalnyy_park_Losinyy_Ostrov_3.jpg" alt="photo_4" loading="lazy">
+        <img src="../../img/moscow/cards_modal/Nacionalnyy_park_Losinyy_Ostrov/Nacionalnyy_park_Losinyy_Ostrov_4.jpg" alt="photo_4" loading="lazy">
     </div>
 </div>
-<!-- Блок 5: How to Get to Losiny Ostrov -->
+<!-- Блок 5: How to Get to Losiny Ostrov and Visiting -->
 <div class="modalBlock">
     <div class="modalBlock__text">
         <h2 class="modalBlock__title">How to&nbsp;Get to&nbsp;Losiny Ostrov</h2>
@@ -1459,16 +1451,8 @@ const en_moscowData = {
         <p class="modalBlock__description">
             <strong>On&nbsp;foot:</strong> From the &laquo;Belokamennaya&raquo; MCC&nbsp;station, it&rsquo;s the most convenient route to&nbsp;the central trails of&nbsp;Losiny Ostrov.
         </p>
-    </div>
-    <div class="modalBlock__image">
-        <img src="../../img/moscow/cards_modal/Nacionalnyy_park_Losinyy_Ostrov/Nacionalnyy_park_Losinyy_Ostrov_4.jpg" alt="photo_5" loading="lazy">
-    </div>
-</div>
-<!-- Блок 6: Visiting -->
-<div class="modalBlock">
-    <div class="modalBlock__text">
-        <h2 class="modalBlock__title">Visiting</h2>
         <p class="modalBlock__description">
+            <strong>Visiting:</strong> <br>
             &bull; Entry is&nbsp;free.<br>
             &bull; In&nbsp;the protected areas, strict rules apply&nbsp;&mdash; no&nbsp;loud noises, no&nbsp;feeding the animals, and no&nbsp;straying from the trails.<br>
             &bull; The best time for a&nbsp;walk is&nbsp;early morning or&nbsp;evening, when animals are most active.<br>
@@ -1476,7 +1460,7 @@ const en_moscowData = {
         </p>
     </div>
     <div class="modalBlock__image">
-        <img src="../../img/moscow/cards_modal/Nacionalnyy_park_Losinyy_Ostrov/Nacionalnyy_park_Losinyy_Ostrov_5.jpg" alt="photo_6" loading="lazy">
+        <img src="../../img/moscow/cards_modal/Nacionalnyy_park_Losinyy_Ostrov/Nacionalnyy_park_Losinyy_Ostrov_5.jpg" alt="photo_5" loading="lazy">
     </div>
 </div>`
     },

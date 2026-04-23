@@ -1316,7 +1316,7 @@ const zh_moscowData = {
         <img src="../../img/moscow/cards_modal/Usadba_Kuskovo/Usadba_Kuskovo_4.jpg" alt="photo_4" loading="lazy">
     </div>
 </div>
-<!-- Блок 5: 如何到达库斯科沃庄园 -->
+<!-- Блок 5: 如何到达库斯科沃庄园与参观须知 -->
 <div class="modalBlock">
     <div class="modalBlock__text">
         <h2 class="modalBlock__title">如何到达库斯科沃庄园</h2>
@@ -1334,23 +1334,15 @@ const zh_moscowData = {
         <p class="modalBlock__description">
             <strong>步行</strong> 从&quot;梁赞大道&quot;地铁站出发，穿过居民区与公园即达。
         </p>
-    </div>
-    <div class="modalBlock__image">
-        <img src="../../img/moscow/cards_modal/Usadba_Kuskovo/Usadba_Kuskovo_5.jpg" alt="photo_5" loading="lazy">
-    </div>
-</div>
-<!-- Блок 6: 参观须知 -->
-<div class="modalBlock">
-    <div class="modalBlock__text">
-        <h2 class="modalBlock__title">参观须知</h2>
         <p class="modalBlock__description">
+            <strong>参观须知</strong> <br>
             &bull; 公园部分区域免费开放，进入博物馆需购票。<br>
             &bull; 夏季建议清晨或傍晚到访&mdash;&mdash;柔和的光线更能衬托建筑之美。<br>
             &bull; 亭台内部凉爽&mdash;&mdash;墙壁能保持恒温，不受季节影响。
         </p>
     </div>
     <div class="modalBlock__image">
-        <img src="../../img/moscow/cards_modal/Usadba_Kuskovo/Usadba_Kuskovo_5.jpg" alt="photo_6" loading="lazy">
+        <img src="../../img/moscow/cards_modal/Usadba_Kuskovo/Usadba_Kuskovo_5.jpg" alt="photo_5" loading="lazy">
     </div>
 </div>`
     },
@@ -1441,7 +1433,7 @@ const zh_moscowData = {
         <img src="../../img/moscow/cards_modal/Nacionalnyy_park_Losinyy_Ostrov/Nacionalnyy_park_Losinyy_Ostrov_4.jpg" alt="photo_4" loading="lazy">
     </div>
 </div>
-<!-- Блок 5: 如何到达驼鹿岛国家公园 -->
+<!-- Блок 5: 如何到达驼鹿岛国家公园与参观须知 -->
 <div class="modalBlock">
     <div class="modalBlock__text">
         <h2 class="modalBlock__title">如何到达驼鹿岛国家公园</h2>
@@ -1459,16 +1451,8 @@ const zh_moscowData = {
         <p class="modalBlock__description">
             <strong>步行</strong> 从莫斯科中央环线&quot;白石头&quot;站出发&mdash;&mdash;这是前往驼鹿岛中央步道最便捷的路线。
         </p>
-    </div>
-    <div class="modalBlock__image">
-        <img src="../../img/moscow/cards_modal/Nacionalnyy_park_Losinyy_Ostrov/Nacionalnyy_park_Losinyy_Ostrov_5.jpg" alt="photo_5" loading="lazy">
-    </div>
-</div>
-<!-- Блок 6: 参观须知 -->
-<div class="modalBlock">
-    <div class="modalBlock__text">
-        <h2 class="modalBlock__title">参观须知</h2>
         <p class="modalBlock__description">
+            <strong>参观须知</strong> <br>
             &bull; 免费进入。<br>
             &bull; 保护区内实行严格规定&mdash;&mdash;禁止喧哗、喂食动物或离开步道。<br>
             &bull; 最佳散步时间为清晨或傍晚，此时动物最为活跃。<br>
@@ -1476,7 +1460,7 @@ const zh_moscowData = {
         </p>
     </div>
     <div class="modalBlock__image">
-        <img src="../../img/moscow/cards_modal/Nacionalnyy_park_Losinyy_Ostrov/Nacionalnyy_park_Losinyy_Ostrov_5.jpg" alt="photo_6" loading="lazy">
+        <img src="../../img/moscow/cards_modal/Nacionalnyy_park_Losinyy_Ostrov/Nacionalnyy_park_Losinyy_Ostrov_5.jpg" alt="photo_5" loading="lazy">
     </div>
 </div>`
     },

@@ -724,12 +724,12 @@ const en_sochiData = {
 <!-- Блок 1: Akhshtyr Gorge – Wild Beauty of Sochi Where Nature Speaks Louder Than Words -->
 <div class="modalBlock">
     <div class="modalBlock__text">
-        <h2 class="modalBlock__title">Akhshtyr Gorge – Wild Beauty of Sochi Where Nature Speaks Louder Than Words</h2>
+        <h2 class="modalBlock__title">Akhshtyr Gorge&nbsp;&mdash; Wild Beauty of&nbsp;Sochi Where Nature Speaks Louder Than Words</h2>
         <p class="modalBlock__description">
-            Akhshtyr Gorge is one of Sochi's most impressive natural landmarks, where mountains, forests, and the Mzymta River form a landscape straight out of an adventure movie.
+            Akhshtyr Gorge is&nbsp;one of&nbsp;Sochi&rsquo;s most impressive natural landmarks, where mountains, forests, and the Mzymta River form a&nbsp;landscape straight out of&nbsp;an&nbsp;adventure movie.
         </p>
         <p class="modalBlock__description">
-            It is a place of silence, elevation, and untouched nature, where visitors come to feel the scale of the Caucasus and see discover a different side of Sochi. Every step here brings you face to face with nature that has retained its strength and unique character.
+            It&nbsp;is&nbsp;a&nbsp;place of&nbsp;silence, elevation, and untouched nature, where visitors come to&nbsp;feel the scale of&nbsp;the Caucasus and see discover a&nbsp;different side of&nbsp;Sochi. Every step here brings you face to&nbsp;face with nature that has retained its strength and unique character.
         </p>
     </div>
     <div class="modalBlock__image">
@@ -739,18 +739,18 @@ const en_sochiData = {
 <!-- Блок 2: A Natural Landscape Shaped by Time and Water -->
 <div class="modalBlock">
     <div class="modalBlock__text">
-        <h2 class="modalBlock__title">A Natural Landscape Shaped by Time and Water</h2>
+        <h2 class="modalBlock__title">A&nbsp;Natural Landscape Shaped by&nbsp;Time and Water</h2>
         <p class="modalBlock__description">
-            The gorge was formed by the Mzymta River, which has carved its way through the rocks over centuries. Today, it is a deep canyon with steep rock walls, dense forests, and stunning views.
+            The gorge was formed by&nbsp;the Mzymta River, which has carved its way through the rocks over centuries. Today, it&nbsp;is&nbsp;a&nbsp;deep canyon with steep rock walls, dense forests, and stunning views.
         </p>
         <p class="modalBlock__description">
-            What defines the look of Akhshtyr Gorge:<br>
-            • Tall limestone cliffs rising tens of meters above the ground.<br>
-            • The winding Mzymta River roaring below.<br>
-            • Dense forests covering the slopes.<br>
-            • Observation decks with panoramic views of the canyon.<br>
-            • Trails and bridges for exploring the gorge at different levels.<br>
-            Akhshtyr Gorge is a place where nature reveals its power and beauty.
+            What defines the look of&nbsp;Akhshtyr Gorge:<br>
+            &bull; Tall limestone cliffs rising tens of&nbsp;meters above the ground.<br>
+            &bull; The winding Mzymta River roaring below.<br>
+            &bull; Dense forests covering the slopes.<br>
+            &bull; Observation decks with panoramic views of&nbsp;the canyon.<br>
+            &bull; Trails and bridges for exploring the gorge at&nbsp;different levels.<br>
+            Akhshtyr Gorge is&nbsp;a&nbsp;place where nature reveals its power and beauty.
         </p>
     </div>
     <div class="modalBlock__image">
@@ -760,18 +760,18 @@ const en_sochiData = {
 <!-- Блок 3: Akhshtyr Cave – A Trace of Ancient History -->
 <div class="modalBlock">
     <div class="modalBlock__text">
-        <h2 class="modalBlock__title">Akhshtyr Cave – A Trace of Ancient History</h2>
+        <h2 class="modalBlock__title">Akhshtyr Cave&nbsp;&mdash; A&nbsp;Trace of&nbsp;Ancient History</h2>
         <p class="modalBlock__description">
-            Situated on one of the slopes, Akhshtyr Cave is an archaeological site where traces of ancient people have been found. The climb itself is a small adventure, and the view from the entrance platform is worth the effort.
+            Situated on&nbsp;one of&nbsp;the slopes, Akhshtyr Cave is&nbsp;an&nbsp;archaeological site where traces of&nbsp;ancient people have been found. The climb itself is&nbsp;a&nbsp;small adventure, and the view from the entrance platform is&nbsp;worth the effort.
         </p>
         <p class="modalBlock__description">
             What leaves the strongest impression:<br>
-            • Observation points with panoramic views of the gorge and the river.<br>
-            • A path to the cave along the mountainside above a steep drop.<br>
-            • Silence and fresh air, especially noticeable away from the city.<br>
-            • Views of the Skypark suspension bridge soaring over the gorge.<br>
-            • The interplay of light and shadow, shaping a unique atmosphere at different times of day.<br>
-            Akhshtyr Gorge is a place that makes you feel like a true explorer.
+            &bull; Observation points with panoramic views of&nbsp;the gorge and the river.<br>
+            &bull; A&nbsp;path to&nbsp;the cave along the mountainside above a&nbsp;steep drop.<br>
+            &bull; Silence and fresh air, especially noticeable away from the city.<br>
+            &bull; Views of&nbsp;the Skypark suspension bridge soaring over the gorge.<br>
+            &bull; The interplay of&nbsp;light and shadow, shaping a&nbsp;unique atmosphere at&nbsp;different times of&nbsp;day.<br>
+            Akhshtyr Gorge is&nbsp;a&nbsp;place that makes you feel like a&nbsp;true explorer.
         </p>
     </div>
     <div class="modalBlock__image">
@@ -781,70 +781,54 @@ const en_sochiData = {
 <!-- Блок 4: Akhshtyr Gorge – Part of Sochi's Natural Heritage -->
 <div class="modalBlock">
     <div class="modalBlock__text">
-        <h2 class="modalBlock__title">Akhshtyr Gorge – Part of Sochi's Natural Heritage</h2>
+        <h2 class="modalBlock__title">Akhshtyr Gorge&nbsp;&mdash; Part of&nbsp;Sochi&rsquo;s Natural Heritage</h2>
         <p class="modalBlock__description">
-            The gorge is a key part of the regional ecosystem and one of the most picturesque spots in Greater Sochi.
+            The gorge is&nbsp;a&nbsp;key part of&nbsp;the regional ecosystem and one of&nbsp;the most picturesque spots in&nbsp;Greater Sochi.
         </p>
         <p class="modalBlock__description">
-            Why the gorge is so important:<br>
-            • It's a unique natural site that has preserved its pristine landscape.<br>
-            • This area is home to Akhshtyr Cave, an important archaeological site.<br>
-            • The gorge is a popular destination for walking, hiking, and photography.<br>
-            • Situated next to Skypark, it is a part of a popular sightseeing route.<br>
-            • Akhshtyr Gorge is a true place of power where visitors can experience the grandeur of the Caucasus.<br>
-            It's a space where nature speaks for itself.
+            Why the gorge is&nbsp;so&nbsp;important:<br>
+            &bull; It&rsquo;s a&nbsp;unique natural site that has preserved its pristine landscape.<br>
+            &bull; This area is&nbsp;home to&nbsp;Akhshtyr Cave, an&nbsp;important archaeological site.<br>
+            &bull; The gorge is&nbsp;a&nbsp;popular destination for walking, hiking, and photography.<br>
+            &bull; Situated next to&nbsp;Skypark, it&nbsp;is&nbsp;a&nbsp;part of&nbsp;a&nbsp;popular sightseeing route.<br>
+            &bull; Akhshtyr Gorge is&nbsp;a&nbsp;true place of&nbsp;power where visitors can experience the grandeur of&nbsp;the Caucasus.<br>
+            It&rsquo;s a&nbsp;space where nature speaks for itself.
         </p>
     </div>
     <div class="modalBlock__image">
         <img src="../../img/sochi/cards_modal/Ahshtyrskoe_ushchele/Ahshtyrskoe_ushchele_4.jpg" alt="photo_4" loading="lazy">
     </div>
 </div>
-<!-- Блок 5: How to Get to Akhshtyr Gorge -->
+<!-- Блок 5: How to Get to Akhshtyr Gorge and Visiting the gorge -->
 <div class="modalBlock">
     <div class="modalBlock__text">
-        <h2 class="modalBlock__title">How to Get to Akhshtyr Gorge</h2>
+        <h2 class="modalBlock__title">How to&nbsp;Get to&nbsp;Akhshtyr Gorge</h2>
         <p class="modalBlock__description">
-            The gorge is located between Adler and Krasnaya Polyana.
+            The gorge is&nbsp;located between Adler and Krasnaya Polyana.
         </p>
         <p class="modalBlock__description">
-            <strong>By bus:</strong><br>
-            Routes run to stops near Skypark.
+            <strong>By&nbsp;bus:</strong> <br>
+            Routes run to&nbsp;stops near Skypark.
         </p>
         <p class="modalBlock__description">
-            <strong>By car:</strong><br>
-            Via the Krasnaya Polyana Highway – about 20-25 minutes from Adler.
+            <strong>By&nbsp;car:</strong> <br>
+            Via the Krasnaya Polyana Highway&nbsp;&mdash; about 20-25 minutes from Adler.
         </p>
         <p class="modalBlock__description">
-            <strong>On foot:</strong><br>
-            From Skypark, you can follow trails to observation decks.
+            <strong>On&nbsp;foot:</strong> <br>
+            From Skypark, you can follow trails to&nbsp;observation decks.
+        </p>
+        <p class="modalBlock__description">
+            <strong>Visiting the gorge:</strong> <br>
+            &bull; It&rsquo;s best to&nbsp;visit in&nbsp;clear weather, when the views are especially vivid.<br>
+            &bull; Comfortable footwear is&nbsp;recommended, as&nbsp;some sections of&nbsp;the trails are rocky.<br>
+            &bull; In&nbsp;summer, the gorge stays cooler than the city, which is&nbsp;a&nbsp;pleasant bonus.<br>
+            &bull; The ascent to&nbsp;Akhshtyr Cave requires caution but is&nbsp;suitable for most visitors.<br>
+            &bull; In&nbsp;the evening, the cliffs are beautifully lit by&nbsp;the sunset.
         </p>
     </div>
     <div class="modalBlock__image">
         <img src="../../img/sochi/cards_modal/Ahshtyrskoe_ushchele/Ahshtyrskoe_ushchele_5.jpg" alt="photo_5" loading="lazy">
-    </div>
-</div>
-<!-- Блок 6: Visiting the gorge -->
-<div class="modalBlock">
-    <div class="modalBlock__text">
-        <h2 class="modalBlock__title">Visiting the gorge</h2>
-        <p class="modalBlock__description">
-            • It's best to visit in clear weather, when the views are especially vivid.
-        </p>
-        <p class="modalBlock__description">
-            • Comfortable footwear is recommended, as some sections of the trails are rocky.
-        </p>
-        <p class="modalBlock__description">
-            • In summer, the gorge stays cooler than the city, which is a pleasant bonus.
-        </p>
-        <p class="modalBlock__description">
-            • The ascent to Akhshtyr Cave requires caution but is suitable for most visitors.
-        </p>
-        <p class="modalBlock__description">
-            • In the evening, the cliffs are beautifully lit by the sunset.
-        </p>
-    </div>
-    <div class="modalBlock__image">
-        <img src="../../img/sochi/cards_modal/Ahshtyrskoe_ushchele/Ahshtyrskoe_ushchele_6.jpg" alt="photo_6" loading="lazy">
     </div>
 </div>`
     },

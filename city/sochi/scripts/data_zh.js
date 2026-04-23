@@ -799,7 +799,7 @@ const zh_sochiData = {
         <img src="../../img/sochi/cards_modal/Ahshtyrskoe_ushchele/Ahshtyrskoe_ushchele_4.jpg" alt="photo_4" loading="lazy">
     </div>
 </div>
-<!-- Блок 5: 如何到达阿赫什特尔峡谷 -->
+<!-- Блок 5: 如何到达阿赫什特尔峡谷 и 峡谷游览须知 -->
 <div class="modalBlock">
     <div class="modalBlock__text">
         <h2 class="modalBlock__title">如何到达阿赫什特尔峡谷</h2>
@@ -818,33 +818,17 @@ const zh_sochiData = {
             <strong>步行</strong> <br>
             从空中公园出发，可沿小径前往观景点。
         </p>
-    </div>
-    <div class="modalBlock__image">
-        <img src="../../img/sochi/cards_modal/Ahshtyrskoe_ushchele/Ahshtyrskoe_ushchele_5.jpg" alt="photo_5" loading="lazy">
-    </div>
-</div>
-<!-- Блок 6: 峡谷游览须知 -->
-<div class="modalBlock">
-    <div class="modalBlock__text">
-        <h2 class="modalBlock__title">峡谷游览须知</h2>
         <p class="modalBlock__description">
-            &bull; 建议在晴朗天气到访&mdash;&mdash;景色格外鲜明。
-        </p>
-        <p class="modalBlock__description">
-            &bull; 穿着舒适的鞋子：部分小径较为崎岖。
-        </p>
-        <p class="modalBlock__description">
-            &bull; 夏季峡谷内比市区凉爽&mdash;&mdash;一份宜人的馈赠。
-        </p>
-        <p class="modalBlock__description">
-            &bull; 攀登至阿赫什特尔洞穴需谨慎，但大多数游客均可完成。
-        </p>
-        <p class="modalBlock__description">
+            <strong>峡谷游览须知：</strong> <br>
+            &bull; 建议在晴朗天气到访&mdash;&mdash;景色格外鲜明。<br>
+            &bull; 穿着舒适的鞋子：部分小径较为崎岖。<br>
+            &bull; 夏季峡谷内比市区凉爽&mdash;&mdash;一份宜人的馈赠。<br>
+            &bull; 攀登至阿赫什特尔洞穴需谨慎，但大多数游客均可完成。<br>
             &bull; 傍晚时分，夕阳的余晖为峭壁染上美丽的色彩。
         </p>
     </div>
     <div class="modalBlock__image">
-        <img src="../../img/sochi/cards_modal/Ahshtyrskoe_ushchele/Ahshtyrskoe_ushchele_6.jpg" alt="photo_6" loading="lazy">
+        <img src="../../img/sochi/cards_modal/Ahshtyrskoe_ushchele/Ahshtyrskoe_ushchele_5.jpg" alt="photo_5" loading="lazy">
     </div>
 </div>`
     },

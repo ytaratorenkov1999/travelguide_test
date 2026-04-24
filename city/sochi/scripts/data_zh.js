@@ -1177,6 +1177,15 @@ const zh_sochiData = {
             <strong>苏联时期的别墅&mdash;&mdash;新时代</strong> <br>
             在苏联时期，许多私人别墅变成了：疗养院，度假之家，部门专属的官邸。同时也出现了新的别墅&mdash;&mdash;庄重、宏伟，却同样掩映在绿意之中。
         </p>
+        <p class="modalBlock__description">
+            何为真正令人沉醉之处<br>
+            &bull; 为每座别墅专门打造的花园与公园。<br>
+            &bull; 建筑细节：柱廊、拱门、石膏雕花、塔楼。<br>
+            &bull; 主人的故事&mdash;&mdash;往往充满戏剧性与浪漫色彩。<br>
+            &bull; 至今犹存的幽静氛围。<br>
+            &bull; 索契独有的建筑与自然的结合。<br>
+            索契别墅是一段活生生的历史，可以亲眼看见、亲身感受。
+        </p>
     </div>
     <div class="modalBlock__image">
         <img src="../../img/sochi/cards_modal/Sochinskie_dachi/Sochinskie_dachi_3.jpg" alt="photo_3" loading="lazy">

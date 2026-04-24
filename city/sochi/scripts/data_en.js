@@ -1178,6 +1178,16 @@ const en_sochiData = {
             <strong>Soviet Dachas: New Era</strong> <br>
             During the Soviet times, many private dachas became: sanatoriums, vacation homes, departmental residences. And new dachas appeared: severe and monumental, yet still just as&nbsp;deeply immersed in&nbsp;greenery.
         </p>
+
+        <p class="modalBlock__description">
+            What leaves the strongest impression: <br>
+            &bull; Gardens and parks created specifically for each dacha.<br>
+            &bull; Architectural details: columns, arches, stucco, towers.<br>
+            &bull; Stories of&nbsp;their owners, often full of&nbsp;drama and romance.<br>
+            &bull; Atmosphere of&nbsp;seclusion that endures to&nbsp;this day.<br>
+            &bull; Unique blend of&nbsp;architecture and nature that defines Sochi.<br>
+            Sochi dachas are living history that you can see and feel.
+        </p>
     </div>
     <div class="modalBlock__image">
         <img src="../../img/sochi/cards_modal/Sochinskie_dachi/Sochinskie_dachi_3.jpg" alt="photo_3" loading="lazy">

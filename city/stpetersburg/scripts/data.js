@@ -1626,7 +1626,7 @@ const stpetersburgData = {
         </p>
     </div>
     <div class="modalBlock__image">
-        <img src="../../img/stpetersburg/cards_modal/OSestroreckie_dyuny_i_ozera/Sestroreckie_dyuny_i_ozera_1.jpg" alt="photo_1" loading="lazy">
+        <img src="../../img/stpetersburg/cards_modal/Sestroreckie_dyuny_i_ozera/Sestroreckie_dyuny_i_ozera_1.jpg" alt="photo_1" loading="lazy">
     </div>
 </div>
 <!-- Блок 2: Пейзаж дюн — северная пустыня, созданная морем и ветром -->
@@ -1647,7 +1647,7 @@ const stpetersburgData = {
         </p>
     </div>
     <div class="modalBlock__image">
-        <img src="../../img/stpetersburg/cards_modal/OSestroreckie_dyuny_i_ozera/Sestroreckie_dyuny_i_ozera_2.jpg" alt="photo_2" loading="lazy">
+        <img src="../../img/stpetersburg/cards_modal/Sestroreckie_dyuny_i_ozera/Sestroreckie_dyuny_i_ozera_2.jpg" alt="photo_2" loading="lazy">
     </div>
 </div>
 <!-- Блок 3: Сестрорецкие озера — зеркала северного неба -->
@@ -1673,7 +1673,7 @@ const stpetersburgData = {
         </p>
     </div>
     <div class="modalBlock__image">
-        <img src="../../img/stpetersburg/cards_modal/OSestroreckie_dyuny_i_ozera/Sestroreckie_dyuny_i_ozera_3.jpg" alt="photo_3" loading="lazy">
+        <img src="../../img/stpetersburg/cards_modal/Sestroreckie_dyuny_i_ozera/Sestroreckie_dyuny_i_ozera_3.jpg" alt="photo_3" loading="lazy">
     </div>
 </div>
 <!-- Блок 4: Сосновые леса — аромат смолы и мягкий свет -->
@@ -1694,7 +1694,7 @@ const stpetersburgData = {
         </p>
     </div>
     <div class="modalBlock__image">
-        <img src="../../img/stpetersburg/cards_modal/OSestroreckie_dyuny_i_ozera/Sestroreckie_dyuny_i_ozera_4.jpg" alt="photo_4" loading="lazy">
+        <img src="../../img/stpetersburg/cards_modal/Sestroreckie_dyuny_i_ozera/Sestroreckie_dyuny_i_ozera_4.jpg" alt="photo_4" loading="lazy">
     </div>
 </div>
 <!-- Блок 5: Флора и фауна — северная природа во всей своей нежности -->
@@ -1714,7 +1714,7 @@ const stpetersburgData = {
         </p>
     </div>
     <div class="modalBlock__image">
-        <img src="../../img/stpetersburg/cards_modal/OSestroreckie_dyuny_i_ozera/Sestroreckie_dyuny_i_ozera_5.jpg" alt="photo_5" loading="lazy">
+        <img src="../../img/stpetersburg/cards_modal/Sestroreckie_dyuny_i_ozera/Sestroreckie_dyuny_i_ozera_5.jpg" alt="photo_5" loading="lazy">
     </div>
 </div>
 <!-- Блок 6: История и культура — от старинных курортов до дачной романтики -->
@@ -1734,7 +1734,7 @@ const stpetersburgData = {
         </p>
     </div>
     <div class="modalBlock__image">
-        <img src="../../img/stpetersburg/cards_modal/OSestroreckie_dyuny_i_ozera/Sestroreckie_dyuny_i_ozera_6.jpg" alt="photo_6" loading="lazy">
+        <img src="../../img/stpetersburg/cards_modal/Sestroreckie_dyuny_i_ozera/Sestroreckie_dyuny_i_ozera_6.jpg" alt="photo_6" loading="lazy">
     </div>
 </div>
 <!-- Блок 7: Сестрорецкие дюны и озера сегодня — пространство отдыха, тишины и вдохновения -->
@@ -1767,7 +1767,7 @@ const stpetersburgData = {
         </p>
     </div>
     <div class="modalBlock__image">
-        <img src="../../img/stpetersburg/cards_modal/OSestroreckie_dyuny_i_ozera/Sestroreckie_dyuny_i_ozera_7.jpg" alt="photo_7" loading="lazy">
+        <img src="../../img/stpetersburg/cards_modal/Sestroreckie_dyuny_i_ozera/Sestroreckie_dyuny_i_ozera_7.jpg" alt="photo_7" loading="lazy">
     </div>
 </div>
 <!-- Блок 8: Сестрорецкие дюны и озера — северный пейзаж, который невозможно забыть -->
@@ -1786,7 +1786,7 @@ const stpetersburgData = {
         </p>
     </div>
     <div class="modalBlock__image">
-        <img src="../../img/stpetersburg/cards_modal/OSestroreckie_dyuny_i_ozera/Sestroreckie_dyuny_i_ozera_8.jpg" alt="photo_8" loading="lazy">
+        <img src="../../img/stpetersburg/cards_modal/Sestroreckie_dyuny_i_ozera/Sestroreckie_dyuny_i_ozera_8.jpg" alt="photo_8" loading="lazy">
     </div>
 </div>`
     },

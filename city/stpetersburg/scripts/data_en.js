@@ -1614,7 +1614,7 @@ const en_stpetersburgData = {
         </p>
     </div>
     <div class="modalBlock__image">
-        <img src="../../img/stpetersburg/cards_modal/OSestroreckie_dyuny_i_ozera/Sestroreckie_dyuny_i_ozera_1.jpg" alt="photo_1" loading="lazy">
+        <img src="../../img/stpetersburg/cards_modal/Sestroreckie_dyuny_i_ozera/Sestroreckie_dyuny_i_ozera_1.jpg" alt="photo_1" loading="lazy">
     </div>
 </div>
 <!-- Блок 2: The Dune Landscape – A Northern Desert Shaped by the Sea and Wind -->
@@ -1634,7 +1634,7 @@ const en_stpetersburgData = {
         </p>
     </div>
     <div class="modalBlock__image">
-        <img src="../../img/stpetersburg/cards_modal/OSestroreckie_dyuny_i_ozera/Sestroreckie_dyuny_i_ozera_2.jpg" alt="photo_2" loading="lazy">
+        <img src="../../img/stpetersburg/cards_modal/Sestroreckie_dyuny_i_ozera/Sestroreckie_dyuny_i_ozera_2.jpg" alt="photo_2" loading="lazy">
     </div>
 </div>
 <!-- Блок 3: Sestroretsk Lakes – Mirrors of the Northern Sky -->
@@ -1656,7 +1656,7 @@ const en_stpetersburgData = {
         </p>
     </div>
     <div class="modalBlock__image">
-        <img src="../../img/stpetersburg/cards_modal/OSestroreckie_dyuny_i_ozera/Sestroreckie_dyuny_i_ozera_3.jpg" alt="photo_3" loading="lazy">
+        <img src="../../img/stpetersburg/cards_modal/Sestroreckie_dyuny_i_ozera/Sestroreckie_dyuny_i_ozera_3.jpg" alt="photo_3" loading="lazy">
     </div>
 </div>
 <!-- Блок 4: The Pine Forests – The Scent of Resin and Soft Light -->
@@ -1675,7 +1675,7 @@ const en_stpetersburgData = {
         </p>
     </div>
     <div class="modalBlock__image">
-        <img src="../../img/stpetersburg/cards_modal/OSestroreckie_dyuny_i_ozera/Sestroreckie_dyuny_i_ozera_4.jpg" alt="photo_4" loading="lazy">
+        <img src="../../img/stpetersburg/cards_modal/Sestroreckie_dyuny_i_ozera/Sestroreckie_dyuny_i_ozera_4.jpg" alt="photo_4" loading="lazy">
     </div>
 </div>
 <!-- Блок 5: Flora and Fauna – Northern Nature in All Its Tenderness -->
@@ -1693,7 +1693,7 @@ const en_stpetersburgData = {
         </p>
     </div>
     <div class="modalBlock__image">
-        <img src="../../img/stpetersburg/cards_modal/OSestroreckie_dyuny_i_ozera/Sestroreckie_dyuny_i_ozera_5.jpg" alt="photo_5" loading="lazy">
+        <img src="../../img/stpetersburg/cards_modal/Sestroreckie_dyuny_i_ozera/Sestroreckie_dyuny_i_ozera_5.jpg" alt="photo_5" loading="lazy">
     </div>
 </div>
 <!-- Блок 6: History and Culture – From Historic Resorts to Romantic Summer Cottages -->
@@ -1712,7 +1712,7 @@ const en_stpetersburgData = {
         </p>
     </div>
     <div class="modalBlock__image">
-        <img src="../../img/stpetersburg/cards_modal/OSestroreckie_dyuny_i_ozera/Sestroreckie_dyuny_i_ozera_6.jpg" alt="photo_6" loading="lazy">
+        <img src="../../img/stpetersburg/cards_modal/Sestroreckie_dyuny_i_ozera/Sestroreckie_dyuny_i_ozera_6.jpg" alt="photo_6" loading="lazy">
     </div>
 </div>
 <!-- Блок 7: The Sestroretsk Dunes and Lakes Today – A Place of Rest, Silence, and Inspiration -->
@@ -1731,7 +1731,7 @@ const en_stpetersburgData = {
         </p>
     </div>
     <div class="modalBlock__image">
-        <img src="../../img/stpetersburg/cards_modal/OSestroreckie_dyuny_i_ozera/Sestroreckie_dyuny_i_ozera_7.jpg" alt="photo_7" loading="lazy">
+        <img src="../../img/stpetersburg/cards_modal/Sestroreckie_dyuny_i_ozera/Sestroreckie_dyuny_i_ozera_7.jpg" alt="photo_7" loading="lazy">
     </div>
 </div>
 <!-- Блок 8: The Sestroretsk Dunes and Lakes – A Northern Landscape You Will Never Forget -->
@@ -1758,7 +1758,7 @@ const en_stpetersburgData = {
         </p>
     </div>
     <div class="modalBlock__image">
-        <img src="../../img/stpetersburg/cards_modal/OSestroreckie_dyuny_i_ozera/Sestroreckie_dyuny_i_ozera_8.jpg" alt="photo_8" loading="lazy">
+        <img src="../../img/stpetersburg/cards_modal/Sestroreckie_dyuny_i_ozera/Sestroreckie_dyuny_i_ozera_8.jpg" alt="photo_8" loading="lazy">
     </div>
 </div>`
     },

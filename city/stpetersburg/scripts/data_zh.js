@@ -1614,7 +1614,7 @@ const zh_stpetersburgData = {
         </p>
     </div>
     <div class="modalBlock__image">
-        <img src="../../img/stpetersburg/cards_modal/OSestroreckie_dyuny_i_ozera/Sestroreckie_dyuny_i_ozera_1.jpg" alt="photo_1" loading="lazy">
+        <img src="../../img/stpetersburg/cards_modal/Sestroreckie_dyuny_i_ozera/Sestroreckie_dyuny_i_ozera_1.jpg" alt="photo_1" loading="lazy">
     </div>
 </div>
 <!-- Блок 2: 沙丘的风景——由海与风共同雕琢的北方荒漠 -->
@@ -1634,7 +1634,7 @@ const zh_stpetersburgData = {
         </p>
     </div>
     <div class="modalBlock__image">
-        <img src="../../img/stpetersburg/cards_modal/OSestroreckie_dyuny_i_ozera/Sestroreckie_dyuny_i_ozera_2.jpg" alt="photo_2" loading="lazy">
+        <img src="../../img/stpetersburg/cards_modal/Sestroreckie_dyuny_i_ozera/Sestroreckie_dyuny_i_ozera_2.jpg" alt="photo_2" loading="lazy">
     </div>
 </div>
 <!-- Блок 3: 谢斯特罗列茨克的湖泊——北方天空的明镜 -->
@@ -1656,7 +1656,7 @@ const zh_stpetersburgData = {
         </p>
     </div>
     <div class="modalBlock__image">
-        <img src="../../img/stpetersburg/cards_modal/OSestroreckie_dyuny_i_ozera/Sestroreckie_dyuny_i_ozera_3.jpg" alt="photo_3" loading="lazy">
+        <img src="../../img/stpetersburg/cards_modal/Sestroreckie_dyuny_i_ozera/Sestroreckie_dyuny_i_ozera_3.jpg" alt="photo_3" loading="lazy">
     </div>
 </div>
 <!-- Блок 4: 松林——树脂的芬芳与柔和的光线 -->
@@ -1675,7 +1675,7 @@ const zh_stpetersburgData = {
         </p>
     </div>
     <div class="modalBlock__image">
-        <img src="../../img/stpetersburg/cards_modal/OSestroreckie_dyuny_i_ozera/Sestroreckie_dyuny_i_ozera_4.jpg" alt="photo_4" loading="lazy">
+        <img src="../../img/stpetersburg/cards_modal/Sestroreckie_dyuny_i_ozera/Sestroreckie_dyuny_i_ozera_4.jpg" alt="photo_4" loading="lazy">
     </div>
 </div>
 <!-- Блок 5: 植物与动物——北方自然最温柔的面貌 -->
@@ -1693,7 +1693,7 @@ const zh_stpetersburgData = {
         </p>
     </div>
     <div class="modalBlock__image">
-        <img src="../../img/stpetersburg/cards_modal/OSestroreckie_dyuny_i_ozera/Sestroreckie_dyuny_i_ozera_5.jpg" alt="photo_5" loading="lazy">
+        <img src="../../img/stpetersburg/cards_modal/Sestroreckie_dyuny_i_ozera/Sestroreckie_dyuny_i_ozera_5.jpg" alt="photo_5" loading="lazy">
     </div>
 </div>
 <!-- Блок 6: 历史与文化——从古老疗养地到消夏别墅的浪漫 -->
@@ -1712,7 +1712,7 @@ const zh_stpetersburgData = {
         </p>
     </div>
     <div class="modalBlock__image">
-        <img src="../../img/stpetersburg/cards_modal/OSestroreckie_dyuny_i_ozera/Sestroreckie_dyuny_i_ozera_6.jpg" alt="photo_6" loading="lazy">
+        <img src="../../img/stpetersburg/cards_modal/Sestroreckie_dyuny_i_ozera/Sestroreckie_dyuny_i_ozera_6.jpg" alt="photo_6" loading="lazy">
     </div>
 </div>
 <!-- Блок 7: 今日谢斯特罗列茨克的沙丘与湖泊——休憩、静谧与灵感的天地 -->
@@ -1731,7 +1731,7 @@ const zh_stpetersburgData = {
         </p>
     </div>
     <div class="modalBlock__image">
-        <img src="../../img/stpetersburg/cards_modal/OSestroreckie_dyuny_i_ozera/Sestroreckie_dyuny_i_ozera_7.jpg" alt="photo_7" loading="lazy">
+        <img src="../../img/stpetersburg/cards_modal/Sestroreckie_dyuny_i_ozera/Sestroreckie_dyuny_i_ozera_7.jpg" alt="photo_7" loading="lazy">
     </div>
 </div>
 <!-- Блок 8: 谢斯特罗列茨克的沙丘与湖泊——一幅令人过目不忘的北方画卷 -->
@@ -1758,7 +1758,7 @@ const zh_stpetersburgData = {
         </p>
     </div>
     <div class="modalBlock__image">
-        <img src="../../img/stpetersburg/cards_modal/OSestroreckie_dyuny_i_ozera/Sestroreckie_dyuny_i_ozera_8.jpg" alt="photo_8" loading="lazy">
+        <img src="../../img/stpetersburg/cards_modal/Sestroreckie_dyuny_i_ozera/Sestroreckie_dyuny_i_ozera_8.jpg" alt="photo_8" loading="lazy">
     </div>
 </div>`
     },

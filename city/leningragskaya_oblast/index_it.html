@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leningrad Oblast</title>
+    <meta name="description" content="City Guide">
+    <link rel="stylesheet" href="../../css/style_city.css">
+</head>
+<body>
+    <!-- Фиксированная панель управления -->
+    <header class="headerPanel">
+
+        <div class="language-switcher">
+            <a href="index_ru.html" class="lang-link" aria-label="Русский" data-lang="ru">РУ</a>
+            <span class="lang-separator">|</span>
+            <a href="index_en.html" class="lang-link active" aria-label="English" data-lang="en">EN</a>
+            <span class="lang-separator">|</span>
+            <a href="index_zh.html" class="lang-link" aria-label="中文" data-lang="zh">中文</a>
+        </div>
+
+        <!-- Кнопка выхода -->
+        <a href="../../index_de.html" class="exitButton" aria-label="Back to main">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M18 6 6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" fill="none"/>
+            </svg>
+        </a>
+    </header>
+
+ <!-- Главный баннер -->
+    <section class="mainBanner">
+        <div class="mainBanner__background" style="background-image: url('../../img/altai/banner/altai_main.jpg')"></div>
+    </section>
+
+    <!-- Вводная секция с описанием региона  -->
+    <section class="regionIntro">
+        <div class="regionIntro__container">
+            <h1 class="regionIntro__title">Leningrad Oblast</h1>
+            <p class="regionIntro__subtitle"></p>
+
+            <p class="regionIntro__text">
+                Leningrad Oblast
+            </p>
+        </div>
+    </section>
+
+    <!-- Секция: Точки притяжения региона -->
+    <section class="contentSection contentSection--gray">
+        <div class="container">
+            <h2 class="contentSection__title">Regional Attractions</h2>
+            <div class="carousel">
+                <div class="carousel__wrapper">
+                    <div class="carousel__track" data-category="attractions">
+                        <!-- Карточки генерируются через JavaScript -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Секция: Выбраться на природу -->
+    <section class="contentSection contentSection--white">
+        <div class="container">
+            <h2 class="contentSection__title">Embrace Nature</h2>
+
+            <div class="carousel">
+
+                <div class="carousel__wrapper">
+                    <div class="carousel__track" data-category="nature">
+                        <!-- Карточки генерируются через JavaScript -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Секция: Культурный код -->
+    <section class="contentSection contentSection--gray">
+        <div class="container">
+            <h2 class="contentSection__title">Cultural Code</h2>
+            <div class="carousel">
+                <div class="carousel__wrapper">
+                    <div class="carousel__track" data-category="culture">
+                        <!-- Карточки генерируются через JavaScript -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Модальное окно -->
+    <div class="modal" id="attractionModal">
+        <div class="modal__overlay"></div>
+        <div class="modal__container">
+            <button class="modal__close" aria-label="Exit">
+                <svg viewBox="0 0 24 24">
+                    <path d="M18 6 6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" fill="none"/>
+                </svg>
+            </button>
+
+            <div class="modal__content" id="modalContent">
+                <!-- Контент загружается динамически -->
+                <div class="modal__loader">
+                    <div class="loader"></div>
+                    <p>Loading...</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="scripts/data_en.js"></script>
+    <script src="../../js/main_city.js"></script>
+
+
+</body>
+</html>

@@ -3,14 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Russia City Guide">
+    <meta name="description" content="Путеводитель по городам России">
     <meta name="theme-color" content="#265aa6">
     <title>City Guide</title>
 
     <!-- Preload критических ресурсов -->
     <link rel="preload" href="css/style.css" as="style">
     <link rel="stylesheet" href="css/style.css">
-
 </head>
 <body>
     <!-- Фиксированная панель управления -->
@@ -25,43 +24,36 @@
         </div>
 
         <!-- Кнопка выхода -->
-        <a href="/" class="exit-button" aria-label="Вернуться на главную">
+        <a href="/" class="exit-button" aria-label="Back to main">
             <svg viewBox="0 0 24 24" aria-hidden="true">
                 <path d="M18 6 6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" fill="none"/>
             </svg>
         </a>
     </header>
 
-   <!-- Главный баннер -->
+    <!-- Главный баннер -->
     <section class="hero-banner">
         <div class="hero-overlay"></div>
     </section>
 
- <!-- Блок с описанием -->
+    <!-- Блок с описанием -->
     <section class="intro-section">
         <div class="container">
             <div class="intro-content">
-                <!-- Перенесли заголовки сюда -->
-                <h1 class="intro-title">Russia City Guide</h1>
-                <p class="intro-subtitle">Discover amazing places in our country</p>
-
-                <p class="intro-text">
-                    Explore the cultural and natural wealth of&nbsp;Russian regions.
-                    Ready-made routes through key cities and regions, perfect for a&nbsp;full-fledged vacation.
-                    Each location comes with a&nbsp;detailed description for easy travel planning.
-                </p>
+                <h1 class="intro-title"></h1>
+                <p class="intro-subtitle"></p>
+                <p class="intro-text"></p>
             </div>
         </div>
     </section>
 
-    <!-- Секция с путеводителями -->
-    <section class="guides-section">
+    <!-- СЕКЦИЯ: ГОРОДА -->
+    <section class="cities-section">
         <div class="container">
-            <h2 class="section-title">Guide Collection</h2>
+            <h2 class="section-title"></h2>
 
-            <!-- Подсказка для десктопов (аналогичная мобильной) -->
+            <!-- Подсказка для десктопов -->
             <div class="desktop-scroll-hint" aria-hidden="true">
-
                 <svg viewBox="0 0 320 300" height="42" width="42">
                     <rect class="scroll-hint-card" x="480" width="200" height="200" rx="5" fill="rgba(190,190,190,0.3)"></rect>
                     <rect class="scroll-hint-card" y="0" width="200" height="200" rx="5" fill="rgba(190,190,190,0.3)"></rect>
@@ -80,261 +72,49 @@
                 </svg>
             </div>
 
-            <!-- Карусель с карточками -->
-            <div class="guides-slider-wrapper">
-                <div class="guides-slider" id="guidesSlider" role="list">
-
-                    <!-- Карточка 1 -->
-                    <article class="guide-card" role="listitem">
-                        <a href="city/krasnoyarsk/index_de.html" class="card-link" aria-label="Krasnoyarsk Region">
-                            <div class="card-image-wrapper">
-                                <img src="img/main_page/cards/krasnoyarsk.jpg" alt="Krasnoyarsk Region" class="card-image" loading="lazy" width="360" height="480">
-                            </div>
-                            <div class="card-content">
-                                <div class="card-content-inner">
-                                    <h3 class="card-title">Krasnoyarsk Region</h3>
-                                    <div class="card-button-wrapper">
-                                        <span class="card-button">
-                                            <span class="button-text">Explore →</span>
-                                        </span>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                    </article>
-
-                    <!-- Карточка 2 -->
-                    <article class="guide-card" role="listitem">
-                        <a href="city/primorsk/index_de.html" class="card-link" aria-label="Primorsky Region">
-                            <div class="card-image-wrapper">
-                                <img src="img/main_page/cards/primorsk.jpg" alt="Primorsky Region" class="card-image" loading="lazy" width="360" height="480">
-                            </div>
-                            <div class="card-content">
-                                <div class="card-content-inner">
-                                    <h3 class="card-title">Primorsky Region</h3>
-                                    <div class="card-button-wrapper">
-                                        <span class="card-button">
-                                            <span class="button-text">Explore →</span>
-                                        </span>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                    </article>
-
-                    <!-- Карточка 3 -->
-                    <article class="guide-card" role="listitem">
-                        <a href="city/kamchatka/index_de.html" class="card-link" aria-label="Kamchatka Region">
-                            <div class="card-image-wrapper">
-                                <img src="img/main_page/cards/kamchatka.jpg" alt="Kamchatka Region" class="card-image" loading="lazy" width="360" height="480">
-                            </div>
-                            <div class="card-content">
-                                <div class="card-content-inner">
-                                    <h3 class="card-title">Kamchatka Region</h3>
-                                    <div class="card-button-wrapper">
-                                        <span class="card-button">
-                                            <span class="button-text">Explore →</span>
-                                        </span>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                    </article>
-
-                    <!-- Карточка 4 -->
-                    <article class="guide-card" role="listitem">
-                        <a href="city/sahalin/index_de.html" class="card-link" aria-label="Sakhalin Region">
-                            <div class="card-image-wrapper">
-                                <img src="img/main_page/cards/sahalin.jpg" alt="Sakhalin Region" class="card-image" loading="lazy" width="360" height="480">
-                            </div>
-                            <div class="card-content">
-                                <div class="card-content-inner">
-                                    <h3 class="card-title">Sakhalin Region</h3>
-                                    <div class="card-button-wrapper">
-                                        <span class="card-button">
-                                            <span class="button-text">Explore →</span>
-                                        </span>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                    </article>
-
-                    <!-- Карточка 5 -->
-                    <article class="guide-card" role="listitem">
-                        <a href="city/altai/index_de.html" class="card-link" aria-label="Altai Republic">
-                            <div class="card-image-wrapper">
-                                <img src="img/main_page/cards/altai.jpg" alt="Altai Republic" class="card-image" loading="lazy" width="360" height="480">
-                            </div>
-                            <div class="card-content">
-                                <div class="card-content-inner">
-                                    <h3 class="card-title">Altai Republic</h3>
-                                    <div class="card-button-wrapper">
-                                        <span class="card-button">
-                                            <span class="button-text">Explore →</span>
-                                        </span>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                    </article>
-
-                    <!-- Карточка 6 -->
-                    <article class="guide-card" role="listitem">
-                        <a href="city/murmansk/index_de.html" class="card-link" aria-label="Murmansk Region">
-                            <div class="card-image-wrapper">
-                                <img src="img/main_page/cards/murmansk.jpg" alt="Murmansk Region" class="card-image" loading="lazy" width="360" height="480">
-                            </div>
-                            <div class="card-content">
-                                <div class="card-content-inner">
-                                    <h3 class="card-title">Murmansk Region</h3>
-                                    <div class="card-button-wrapper">
-                                        <span class="card-button">
-                                            <span class="button-text">Explore →</span>
-                                        </span>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                    </article>
-
-                    <!-- Карточка 7 -->
-                    <article class="guide-card" role="listitem">
-                        <a href="city/irkutsk/index_de.html" class="card-link" aria-label="Irkutsk Region">
-                            <div class="card-image-wrapper">
-                                <img src="img/main_page/cards/ircutsk.jpg" alt="Irkutsk Region" class="card-image" loading="lazy" width="360" height="480">
-                            </div>
-                            <div class="card-content">
-                                <div class="card-content-inner">
-                                    <h3 class="card-title">Irkutsk Region</h3>
-                                    <div class="card-button-wrapper">
-                                        <span class="card-button">
-                                            <span class="button-text">Explore →</span>
-                                        </span>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                    </article>
-
-                    <!-- Карточка 8 -->
-                    <article class="guide-card" role="listitem">
-                        <a href="city/tatarstan/index_de.html" class="card-link" aria-label="Republic of Tatarstan">
-                            <div class="card-image-wrapper">
-                                <img src="img/main_page/cards/tatarstan.jpg" alt="Republic of Tatarstan" class="card-image" loading="lazy" width="360" height="480">
-                            </div>
-                            <div class="card-content">
-                                <div class="card-content-inner">
-                                    <h3 class="card-title">Republic of Tatarstan</h3>
-                                    <div class="card-button-wrapper">
-                                        <span class="card-button">
-                                            <span class="button-text">Explore →</span>
-                                        </span>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                    </article>
-
-                    <!-- Карточка 9 -->
-                    <article class="guide-card" role="listitem">
-                        <a href="city/stavropol/index_de.html" class="card-link" aria-label="Stavropol Region">
-                            <div class="card-image-wrapper">
-                                <img src="img/main_page/cards/stavropol.jpg" alt="Stavropol Region" class="card-image" loading="lazy" width="360" height="480">
-                            </div>
-                            <div class="card-content">
-                                <div class="card-content-inner">
-                                    <h3 class="card-title">Stavropol Region</h3>
-                                    <div class="card-button-wrapper">
-                                        <span class="card-button">
-                                            <span class="button-text">Explore →</span>
-                                        </span>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                    </article>
-
-                    <!-- Карточка 10 -->
-                    <article class="guide-card" role="listitem">
-                        <a href="city/samara/index_de.html" class="card-link" aria-label="Samara Region">
-                            <div class="card-image-wrapper">
-                                <img src="img/main_page/cards/samara.jpg" alt="Samara Region" class="card-image" loading="lazy" width="360" height="480">
-                            </div>
-                            <div class="card-content">
-                                <div class="card-content-inner">
-                                    <h3 class="card-title">Samara Region</h3>
-                                    <div class="card-button-wrapper">
-                                        <span class="card-button">
-                                            <span class="button-text">Explore →</span>
-                                        </span>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                    </article>
-
-                    <!-- Карточка 11 -->
-                    <article class="guide-card" role="listitem">
-                        <a href="city/moscow/index_de.html" class="card-link" aria-label="Moscow">
-                            <div class="card-image-wrapper">
-                                <img src="img/main_page/cards/moskow.jpg" alt="Moscow" class="card-image" loading="lazy" width="360" height="480">
-                            </div>
-                            <div class="card-content">
-                                <div class="card-content-inner">
-                                    <h3 class="card-title">Moscow</h3>
-                                    <div class="card-button-wrapper">
-                                        <span class="card-button">
-                                            <span class="button-text">Explore →</span>
-                                        </span>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                    </article>
-
-                    <!-- Карточка 12 -->
-                    <article class="guide-card" role="listitem">
-                        <a href="city/sochi/index_de.html" class="card-link" aria-label="Sochi">
-                            <div class="card-image-wrapper">
-                                <img src="img/main_page/cards/sochi.jpg" alt="Sochi" class="card-image" loading="lazy" width="360" height="480">
-                            </div>
-                            <div class="card-content">
-                                <div class="card-content-inner">
-                                    <h3 class="card-title">Sochi</h3>
-                                    <div class="card-button-wrapper">
-                                        <span class="card-button">
-                                            <span class="button-text">Explore →</span>
-                                        </span>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                    </article>
-
-                    <!-- Карточка 13 -->
-                    <article class="guide-card" role="listitem">
-                        <a href="city/stpetersburg/index_de.html" class="card-link" aria-label="Saint Petersburg">
-                            <div class="card-image-wrapper">
-                                <img src="img/main_page/cards/petersburg.jpg" alt="Saint Petersburg" class="card-image" loading="lazy" width="360" height="480">
-                            </div>
-                            <div class="card-content">
-                                <div class="card-content-inner">
-                                    <h3 class="card-title">Saint Petersburg</h3>
-                                    <div class="card-button-wrapper">
-                                        <span class="card-button">
-                                            <span class="button-text">Explore →</span>
-                                        </span>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                    </article>
-
-                </div>
+            <!-- Карусель городов -->
+            <div class="guides-slider-wrapper" id="citiesSliderWrapper">
+                <div class="guides-slider" id="citiesSlider"></div>
             </div>
         </div>
     </section>
+
+    <!-- СЕКЦИЯ: РЕГИОНЫ  -->
+    <section class="guides-section">
+        <div class="container">
+            <h2 class="section-title"></h2>
+
+            <!-- Подсказка для десктопов -->
+            <div class="desktop-scroll-hint" aria-hidden="true">
+                <svg viewBox="0 0 320 300" height="42" width="42">
+                    <rect class="scroll-hint-card" x="480" width="200" height="200" rx="5" fill="rgba(190,190,190,0.3)"></rect>
+                    <rect class="scroll-hint-card" y="0" width="200" height="200" rx="5" fill="rgba(190,190,190,0.3)"></rect>
+                    <rect class="scroll-hint-card" x="240" width="200" height="200" rx="5" fill="rgba(190,190,190,0.3)"></rect>
+                    <path class="scroll-hint-hand" d="M78.9579 285.7C78.9579 285.7 37.8579 212.5 20.5579 180.8C-2.44209 138.6 -6.2422 120.8 9.6579 112C19.5579 106.5 33.2579 108.8 41.6579 123.4L61.2579 154.6V32.3C61.2579 32.3 60.0579 0 83.0579 0C107.558 0 105.458 32.3 105.458 32.3V91.7C105.458 91.7 118.358 82.4 133.458 86.6C141.158 88.7 150.158 92.4 154.958 104.6C154.958 104.6 185.658 89.7 200.958 121.4C200.958 121.4 236.358 114.4 236.358 151.1C236.358 187.8 192.158 285.7 192.158 285.7H78.9579Z" fill="rgba(190,190,190,1)"></path>
+                </svg>
+            </div>
+
+            <!-- Подсказка для мобильных -->
+            <div class="mobile-scroll-hint" aria-hidden="true">
+                <svg viewBox="0 0 320 300" height="42" width="42">
+                    <rect class="scroll-hint-card" x="480" width="200" height="200" rx="5" fill="rgba(190,190,190,0.3)"></rect>
+                    <rect class="scroll-hint-card" y="0" width="200" height="200" rx="5" fill="rgba(190,190,190,0.3)"></rect>
+                    <rect class="scroll-hint-card" x="240" width="200" height="200" rx="5" fill="rgba(190,190,190,0.3)"></rect>
+                    <path class="scroll-hint-hand" d="M78.9579 285.7C78.9579 285.7 37.8579 212.5 20.5579 180.8C-2.44209 138.6 -6.2422 120.8 9.6579 112C19.5579 106.5 33.2579 108.8 41.6579 123.4L61.2579 154.6V32.3C61.2579 32.3 60.0579 0 83.0579 0C107.558 0 105.458 32.3 105.458 32.3V91.7C105.458 91.7 118.358 82.4 133.458 86.6C141.158 88.7 150.158 92.4 154.958 104.6C154.958 104.6 185.658 89.7 200.958 121.4C200.958 121.4 236.358 114.4 236.358 151.1C236.358 187.8 192.158 285.7 192.158 285.7H78.9579Z" fill="rgba(190,190,190,1)"></path>
+                </svg>
+            </div>
+
+            <!-- Карусель регионов -->
+            <div class="guides-slider-wrapper" id="regionsSliderWrapper">
+                <div class="guides-slider" id="regionsSlider"></div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Указываем язык и подключаем JS -->
+    <script>window.currentLang = 'en';</script>
     <script src="js/main.js"></script>
 </body>
 </html>

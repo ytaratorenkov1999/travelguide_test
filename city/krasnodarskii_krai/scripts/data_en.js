@@ -11,35 +11,35 @@ const en_Krasnodar_regionData = {
     attractions: [
 
         {
-            id: '',
-            title: '',
+            id: '1',
+            title: 'Black Sea Coast',
             image: '../../img/krasnodarskii_krai/cards_tochki/фото',
             modalContent:``
         },
 
-// ===========================  ===================================================================
+// =========================== Кавказские горы ===================================================================
 
         {
-            id: '',
-            title: '',
+            id: '2',
+            title: 'Caucasus Mountains',
             image: '../../img/krasnodarskii_krai/cards_tochki/фото',
             modalContent:``
         },
 
-// ===========================  ===================================================================
+// =========================== Исторические города и культурные центры ===================================================================
 
         {
-            id: '',
-            title: '',
+            id: '3',
+            title: 'Historical Cities and Cultural Centers',
             image: '../../img/krasnodarskii_krai/cards_tochki/фото',
             modalContent:``
         },
 
-// ===========================  ===================================================================
+// =========================== Места силы ===================================================================
 
         {
-            id: '',
-            title: '',
+            id: '4',
+            title: 'Places of Power',
             image: '../../img/krasnodarskii_krai/cards_tochki/фото',
             modalContent:``
         }
@@ -53,36 +53,36 @@ const en_Krasnodar_regionData = {
     nature: [
 
         {
-            id: '',
-            title: '',
+            id: '5',
+            title: 'Sea Routes and Coastline',
             image: '../../img/krasnodarskii_krai/cards_nature/photo',
             modalContent: ``
         },
 
-// ===========================  ===================================================================
+// =========================== Реки, озера и каньоны ===================================================================
 
         {
-            id: '',
-            title: '',
+            id: '6',
+            title: 'Rivers, Lakes, and Canyons',
             image: '../../img/krasnodarskii_krai/cards_nature/photo',
             modalContent: ``
 
         },
 
-// ===========================  ===================================================================
+// =========================== Степи и лиманы ===================================================================
 
         {
-            id: '',
-            title: '',
+            id: '7',
+            title: 'Steppes and Estuaries',
             image: '../../img/krasnodarskii_krai/cards_nature/photo',
             modalContent: ``
         },
 
-// ===========================  ===================================================================
+// =========================== Экотропы ===================================================================
 
         {
-            id: '',
-            title: '',
+            id: '8',
+            title: 'Eco Trails',
             image: '../../img/krasnodarskii_krai/cards_nature/photo',
             modalContent: ``
 
@@ -97,35 +97,35 @@ const en_Krasnodar_regionData = {
     culture: [
 
         {
-            id: '',
-            title: '',
+            id: '9',
+            title: 'Cossack Culture',
             image: '../../img/krasnodarskii_krai/cards_culture/PHOTO',
             modalContent: ``
         },
 
-// ===========================  ===================================================================
+// =========================== Древние цивилизации ===================================================================
 
         {
-            id: '',
-            title: '',
+            id: '10',
+            title: 'Ancient Civilizations',
             image: '../../img/krasnodarskii_krai/cards_culture/PHOTO',
             modalContent: ``
         },
 
-// ===========================  ===================================================================
+// =========================== Морская культура ===================================================================
 
         {
-            id: '',
-            title: '',
+            id: '11',
+            title: 'Maritime Culture',
             image: '../../img/krasnodarskii_krai/cards_culture/PHOTO',
             modalContent: ``
         },
 
-// ===========================  ===================================================================
+// =========================== Гастрономия ===================================================================
 
         {
-            id: '',
-            title: '',
+            id: '12',
+            title: 'Gastronomy',
             image: '../../img/krasnodarskii_krai/cards_culture/PHOTO',
             modalContent: ``
         },

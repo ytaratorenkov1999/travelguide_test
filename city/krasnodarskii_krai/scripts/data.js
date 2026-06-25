@@ -819,7 +819,7 @@ const Krasnodar_regionData = {
         {
             id: '5',
             title: 'Морские маршруты и побережье',
-            image: '../../img/krasnodarskii_krai/cards_nature/Kras_Morskie.jpg',
+            image: '../../img/krasnodarskii_krai/cards_nature/Kras_Morskie_0.jpg',
             modalContent:
 
 `<div class="modalHeader">
@@ -1637,7 +1637,7 @@ const Krasnodar_regionData = {
         {
             id: '9',
             title: 'Казачья культура',
-            image: '../../img/krasnodarskii_krai/cards_culture/Kras_Kazachya.jpg',
+            image: '../../img/krasnodarskii_krai/cards_culture/Kras_Kazachya_0.jpg',
             modalContent:
 
 `<div class="modalHeader">

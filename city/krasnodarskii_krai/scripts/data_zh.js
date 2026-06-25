@@ -2,7 +2,7 @@
 // ДАННЫЕ КАРТОЧЕК КРАСНОДАРСКОГО КРАЯ
 // ============================================
 
-const Krasnodar_regionData = {
+const zh_Krasnodar_regionData = {
 
 // ============================================
 // ТОЧКИ ПРИТЯЖЕНИЯ РЕГИОНОВ
@@ -819,7 +819,7 @@ const Krasnodar_regionData = {
         {
             id: '5',
             title: '海上航线与海岸',
-            image: '../../img/krasnodarskii_krai/cards_nature/Kras_Morskie.jpg',
+            image: '../../img/krasnodarskii_krai/cards_nature/Kras_Morskie_0.jpg',
             modalContent:
 
 `<div class="modalHeader">
@@ -1637,7 +1637,7 @@ const Krasnodar_regionData = {
         {
             id: '9',
             title: '哥萨克文化',
-            image: '../../img/krasnodarskii_krai/cards_culture/Kras_Kazachya.jpg',
+            image: '../../img/krasnodarskii_krai/cards_culture/Kras_Kazachya_0.jpg',
             modalContent:
 
 `<div class="modalHeader">

@@ -298,7 +298,7 @@ button {
     overflow: visible;
     scroll-snap-type: none;
 
-    /* Оптимизация производительности */
+
     will-change: transform;
     backface-visibility: hidden;
     -webkit-backface-visibility: hidden;
@@ -306,7 +306,7 @@ button {
     -webkit-transform: translateZ(0);
 }
 
-/* Анимация трансформации */
+ 
 .carousel__track.t-slds_animated {
     transition: transform 0.3s ease-in-out;
 }

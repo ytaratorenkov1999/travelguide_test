@@ -819,7 +819,7 @@ const en_Krasnodar_regionData = {
         {
             id: '5',
             title: 'Sea Routes and Coastline',
-            image: '../../img/krasnodarskii_krai/cards_nature/Kras_Morskie.jpg',
+            image: '../../img/krasnodarskii_krai/cards_nature/Kras_Morskie_0.jpg',
             modalContent:
 
 `<div class="modalHeader">
@@ -1637,7 +1637,7 @@ const en_Krasnodar_regionData = {
         {
             id: '9',
             title: 'Cossack Culture',
-            image: '../../img/krasnodarskii_krai/cards_culture/Kras_Kazachya.jpg',
+            image: '../../img/krasnodarskii_krai/cards_culture/Kras_Kazachya_0.jpg',
             modalContent:
 
 `<div class="modalHeader">

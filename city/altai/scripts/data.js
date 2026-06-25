@@ -182,7 +182,7 @@ const altaiData = {
       <ul class="modalBlock__list">
          <li class="modalBlock__listItem"><strong>На&nbsp;автомобиле:</strong> Из&nbsp;Горно-Алтайска по&nbsp;трассе вдоль реки Бия до&nbsp;поселка Артыбаш (около 150&nbsp;км).</li>
          <li class="modalBlock__listItem"><strong>На&nbsp;общественном транспорте:</strong> На&nbsp;регулярном автобусе из&nbsp;Горно-Алтайска до&nbsp;села Артыбаш.</li>
-         <li class="modalBlock__listItem"><strong>На&nbsp;водном транспорте:</strong> В&nbsp;теплое время года из&nbsp;Бийска и&nbsp;других пунктов есть экскурсии по&nbsp;реке Бие, впадающей в&nbsp;озеро.</li>
+         <li class="modalBlock__listItem"><strong>На&nbsp;водном транспорте:</strong> В теплое время года из Бийска и соседних поселений проходят экскурсии по реке Бия, вытекающей из Телецкого озера.</li>
       </ul>
       <p class="modalBlock__description">
          От&nbsp;Артыбаша начинаются большинство экскурсий по&nbsp;озеру, а&nbsp;также паромная переправа на&nbsp;южный берег, где расположен поселок Яйлю и&nbsp;кордоны Алтайского заповедника.

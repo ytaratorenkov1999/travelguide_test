@@ -13,7 +13,7 @@ const en_Krasnodar_regionData = {
         {
             id: '1',
             title: 'Black Sea Coast',
-            image: '../../img/krasnodarskii_krai/cards_tochki/фото',
+            image: '../../img/krasnodarskii_krai/cards_tochki/Kras_poberezh_0.jpg',
             modalContent:
 
 `<div class="modalHeader">
@@ -215,7 +215,7 @@ const en_Krasnodar_regionData = {
         {
             id: '2',
             title: 'Caucasus Mountains',
-            image: '../../img/krasnodarskii_krai/cards_tochki/фото',
+            image: '../../img/krasnodarskii_krai/cards_tochki/Kras_Kavkaz_0.jpg',
             modalContent:
 
 `<div class="modalHeader">
@@ -411,7 +411,7 @@ const en_Krasnodar_regionData = {
         {
             id: '3',
             title: 'Historical Cities and Cultural Centers',
-            image: '../../img/krasnodarskii_krai/cards_tochki/фото',
+            image: '../../img/krasnodarskii_krai/cards_tochki/Kras_Istoricheskoe_0.jpg',
             modalContent:
 
 `<div class="modalHeader">
@@ -609,7 +609,7 @@ const en_Krasnodar_regionData = {
         {
             id: '4',
             title: 'Places of Power',
-            image: '../../img/krasnodarskii_krai/cards_tochki/фото',
+            image: '../../img/krasnodarskii_krai/cards_tochki/Kras_Mesta_0.jpg',
             modalContent:
 
 `<div class="modalHeader">
@@ -819,7 +819,7 @@ const en_Krasnodar_regionData = {
         {
             id: '5',
             title: 'Sea Routes and Coastline',
-            image: '../../img/krasnodarskii_krai/cards_nature/photo',
+            image: '../../img/krasnodarskii_krai/cards_nature/Kras_Morskie.jpg',
             modalContent:
 
 `<div class="modalHeader">
@@ -1023,7 +1023,7 @@ const en_Krasnodar_regionData = {
         {
             id: '6',
             title: 'Rivers, Lakes, and Canyons',
-            image: '../../img/krasnodarskii_krai/cards_nature/photo',
+            image: '../../img/krasnodarskii_krai/cards_nature/Kras_Reki_0.jpg',
             modalContent:
 
 `<div class="modalHeader">
@@ -1227,7 +1227,7 @@ const en_Krasnodar_regionData = {
         {
             id: '7',
             title: 'Steppes and Estuaries',
-            image: '../../img/krasnodarskii_krai/cards_nature/photo',
+            image: '../../img/krasnodarskii_krai/cards_nature/Kras_Stepi_0.jpg',
             modalContent:
 
 `<div class="modalHeader">
@@ -1431,7 +1431,7 @@ const en_Krasnodar_regionData = {
         {
             id: '8',
             title: 'Eco Trails',
-            image: '../../img/krasnodarskii_krai/cards_nature/photo',
+            image: '../../img/krasnodarskii_krai/cards_nature/Kras_Eco_0.jpg',
             modalContent:
 
 `<div class="modalHeader">
@@ -1637,8 +1637,199 @@ const en_Krasnodar_regionData = {
         {
             id: '9',
             title: 'Cossack Culture',
-            image: '../../img/krasnodarskii_krai/cards_culture/PHOTO',
-            modalContent: ``
+            image: '../../img/krasnodarskii_krai/cards_culture/Kras_Kazachya.jpg',
+            modalContent:
+
+`<div class="modalHeader">
+   <h1 class="modalHeader__title">Cossack Culture</h1>
+</div>
+
+<!-- Блок 1: Вступление -->
+<div class="modalBlock">
+   <div class="modalBlock__text">
+      <h2 class="modalBlock__title">Cossack Culture – The Spirit of the Steppe, Freedom, and the Southern Land</h2>
+      <p class="modalBlock__description">
+         Cossack culture is one of the defining cultural identities of the Krasnodar Region.
+      </p>
+      <p class="modalBlock__description">
+         It emerged where steppes, rivers, mountains, and the Black Sea converge – a land shaped by encounters between different peoples, traditions, and ways of life.
+      </p>
+      <p class="modalBlock__description">
+         The Cossack legacy is more than history. It remains a living cultural tradition reflected in songs, ceremonies, cuisine, traditional dress, festivals, and daily customs.
+      </p>
+      <p class="modalBlock__description">
+         It is a culture where freedom and discipline, military heritage and hospitality, open steppe horizons and family traditions come together.
+      </p>
+   </div>
+   <div class="modalBlock__image">
+      <img src="../../img/krasnodarskii_krai/cards_modal/Kras_Kazachya/Kras_Kazachya_1.jpg" alt="1" loading="lazy">
+   </div>
+</div>
+
+<!-- Блок 2: Истоки и дух казачества -->
+<div class="modalBlock">
+   <div class="modalBlock__text">
+      <h2 class="modalBlock__title">Origins and the Cossack Spirit – Life on the Frontier</h2>
+      <p class="modalBlock__description">
+         Kuban Cossacks are descendants of the Zaporozhian Cossacks who were resettled to southern Russia in the late 18th century.
+      </p>
+      <p class="modalBlock__description">
+         They became border guardians, farmers, fishermen, horsemen, and protectors of the southern frontiers.
+      </p>
+      <p class="modalBlock__description">
+         Key traits of the Cossack spirit:
+      </p>
+      <ul class="modalBlock__list">
+         <li class="modalBlock__listItem">a love of freedom, guided by the strict rules of the community;</li>
+         <li class="modalBlock__listItem">martial valor passed down from generation to generation;</li>
+         <li class="modalBlock__listItem">respect for the land on which they live;</li>
+         <li class="modalBlock__listItem">deep religious devotion rooted in Orthodox Christianity;</li>
+         <li class="modalBlock__listItem">strong family traditions, with the family line at the center.</li>
+      </ul>
+      <p class="modalBlock__description">
+         Cossack culture reflects the lives of people who lived on the frontier between steppe and mountains, between peace and war.
+      </p>
+   </div>
+   <div class="modalBlock__image">
+      <img src="../../img/krasnodarskii_krai/cards_modal/Kras_Kazachya/Kras_Kazachya_2.jpg" alt="2" loading="lazy">
+   </div>
+</div>
+
+<!-- Блок 3: Станицы -->
+<div class="modalBlock">
+   <div class="modalBlock__text">
+      <h2 class="modalBlock__title">Stanitsas – The Heart of Cossack Life</h2>
+      <p class="modalBlock__description">
+         A stanitsa is more than a village.
+      </p>
+      <p class="modalBlock__description">
+         It is a unique Cossack settlement shaped by strong community traditions and a shared way of life.
+      </p>
+      <p class="modalBlock__description">
+         In the stanitsas:
+      </p>
+      <ul class="modalBlock__list">
+         <li class="modalBlock__listItem">wide streets stretching across the horizon;</li>
+         <li class="modalBlock__listItem">whitewashed houses decorated with carved window frames;</li>
+         <li class="modalBlock__listItem">churches that served as the spiritual center of community life;</li>
+         <li class="modalBlock__listItem">kurens, traditional Cossack houses;</li>
+         <li class="modalBlock__listItem">stanitsa assemblies where key decisions were made collectively.</li>
+      </ul>
+      <p class="modalBlock__description">
+         A stanitsa is a model of a community where everyone understands their role and responsibilities.
+      </p>
+   </div>
+   <div class="modalBlock__image">
+      <img src="../../img/krasnodarskii_krai/cards_modal/Kras_Kazachya/Kras_Kazachya_3.jpg" alt="3" loading="lazy">
+   </div>
+</div>
+
+<!-- Блок 4: Казачья музыка и танцы -->
+<div class="modalBlock">
+   <div class="modalBlock__text">
+      <h2 class="modalBlock__title">Cossack Music and Dance – The Energy, Rhythm, and Voice of the Steppe</h2>
+      <p class="modalBlock__description">
+         Music is among the most distinctive expressions of Cossack culture.
+      </p>
+      <p class="modalBlock__description">
+         Emotional, powerful, and deeply resonant.
+      </p>
+      <p class="modalBlock__description">
+         Key features:
+      </p>
+      <ul class="modalBlock__list">
+         <li class="modalBlock__listItem">lyrical songs that evoke the vast steppe and the road;</li>
+         <li class="modalBlock__listItem">martial songs associated with military campaigns and battles;</li>
+         <li class="modalBlock__listItem">dance tunes that are fast-paced, energetic, and strongly rhythm-driven;</li>
+         <li class="modalBlock__listItem">polyphonic singing that creates a powerful choral sound;</li>
+         <li class="modalBlock__listItem">saber dances that symbolize the Cossacks' warrior traditions.</li>
+      </ul>
+      <p class="modalBlock__description">
+         Cossack music is the voice of the land, the wind, and freedom.
+      </p>
+   </div>
+   <div class="modalBlock__image">
+      <img src="../../img/krasnodarskii_krai/cards_modal/Kras_Kazachya/Kras_Kazachya_4.jpg" alt="4" loading="lazy">
+   </div>
+</div>
+
+<!-- Блок 5: Традиционная одежда -->
+<div class="modalBlock">
+   <div class="modalBlock__text">
+      <h2 class="modalBlock__title">Traditional Clothing – A Symbol of Status, Beauty, and Warrior Culture</h2>
+      <p class="modalBlock__description">
+         Cossack clothing was more than just attire – it was an expression of identity.
+      </p>
+      <p class="modalBlock__description">
+         Key elements include:
+      </p>
+      <ul class="modalBlock__list">
+         <li class="modalBlock__listItem">cherkesskas and beshmets – traditional men's coats;</li>
+         <li class="modalBlock__listItem">papakhas – fur hats symbolizing courage;</li>
+         <li class="modalBlock__listItem">cherkesskas with gazyri holders – emphasizing warrior status;</li>
+         <li class="modalBlock__listItem">women's sarafans and headscarves adorned with embroidery;</li>
+         <li class="modalBlock__listItem">belts and jewelry passed down through generations.</li>
+      </ul>
+      <p class="modalBlock__description">
+         Cossack attire reflects the aesthetics of the steppe and the traditions of a warrior culture.
+      </p>
+   </div>
+   <div class="modalBlock__image">
+      <img src="../../img/krasnodarskii_krai/cards_modal/Kras_Kazachya/Kras_Kazachya_5.jpg" alt="5" loading="lazy">
+   </div>
+</div>
+
+<!-- Блок 6: Казачья кухня -->
+<div class="modalBlock">
+   <div class="modalBlock__text">
+      <h2 class="modalBlock__title">Cossack Cuisine – Hearty, Simple, and Southern</h2>
+      <p class="modalBlock__description">
+         Cossack cuisine reflects the traditional Cossack way of life, shaped by farming, military service, and the vast steppe.
+      </p>
+      <p class="modalBlock__description">
+         Signature dishes include:
+      </p>
+      <ul class="modalBlock__list">
+         <li class="modalBlock__listItem">Kuban borscht, rich and hearty;</li>
+         <li class="modalBlock__listItem">varenyky and halushky, dishes rooted in Ukrainian culinary traditions;</li>
+         <li class="modalBlock__listItem">kulish and various porridges, simple yet nourishing meals;</li>
+         <li class="modalBlock__listItem">fish dishes, especially popular in riverside stanitsas;</li>
+         <li class="modalBlock__listItem">homemade baked goods associated with festive celebrations.</li>
+      </ul>
+      <p class="modalBlock__description">
+         Cossack cuisine captures the flavors of the South, the warmth of the sun, and the comfort of home.
+      </p>
+   </div>
+   <div class="modalBlock__image">
+      <img src="../../img/krasnodarskii_krai/cards_modal/Kras_Kazachya/Kras_Kazachya_6.jpg" alt="6" loading="lazy">
+   </div>
+</div>
+
+<!-- Блок 7: Почему -->
+<div class="modalBlock">
+   <div class="modalBlock__text">
+      <h2 class="modalBlock__title">Why Cossack Culture Is a Key Part of the Krasnodar Region's Identity</h2>
+      <p class="modalBlock__description">
+         Because it:
+      </p>
+      <ul class="modalBlock__list">
+         <li class="modalBlock__listItem">shapes the historical and cultural identity of the region;</li>
+         <li class="modalBlock__listItem">gives the region its distinctive southern character;</li>
+         <li class="modalBlock__listItem">brings together the steppe, mountains, sea, and traditions of many peoples;</li>
+         <li class="modalBlock__listItem">preserves living customs, music, and traditional ways of life;</li>
+         <li class="modalBlock__listItem">makes the region a unique destination on Russia's cultural map.</li>
+      </ul>
+      <p class="modalBlock__description">
+         Cossack culture is the heart of the Kuban.
+      </p>
+      <p class="modalBlock__description">
+         It is a living tradition that continues to be celebrated, passed down through generations, and kept alive in memory and everyday life.
+      </p>
+   </div>
+   <div class="modalBlock__image">
+      <img src="../../img/krasnodarskii_krai/cards_modal/Kras_Kazachya/Kras_Kazachya_7.jpg" alt="7" loading="lazy">
+   </div>
+</div>`
         },
 
 // =========================== Древние цивилизации ===================================================================
@@ -1646,8 +1837,232 @@ const en_Krasnodar_regionData = {
         {
             id: '10',
             title: 'Ancient Civilizations',
-            image: '../../img/krasnodarskii_krai/cards_culture/PHOTO',
-            modalContent: ``
+            image: '../../img/krasnodarskii_krai/cards_culture/Kras_Drevnie_0.jpg',
+            modalContent:
+
+`<div class="modalHeader">
+   <h1 class="modalHeader__title">Ancient Civilizations</h1>
+</div>
+
+<!-- Блок 1: Вступление -->
+<div class="modalBlock">
+   <div class="modalBlock__text">
+      <h2 class="modalBlock__title">Ancient Civilizations of the Krasnodar Region – A Land Where Worlds Met</h2>
+      <p class="modalBlock__description">
+         Krasnodar Region is a region where cultures, peoples, and civilizations have intersected for thousands of years.
+      </p>
+      <p class="modalBlock__description">
+         Its steppes, estuaries, coast, and the foothills of the Caucasus served as a crossroads for Greeks, Maeotians, Scythians, Sarmatians, Romans, Byzantines, Khazars, and Circassians.
+      </p>
+      <p class="modalBlock__description">
+         The land still preserves traces of ancient cities, sanctuaries, burial mounds, roads, and fortresses.
+      </p>
+      <p class="modalBlock__description">
+         This is a part of southern Russia where antiquity has never truly disappeared – it lies just beneath your feet.
+      </p>
+      <p class="modalBlock__description">
+         The ancient civilizations of the region form a layered history that can be seen, explored, and experienced.
+      </p>
+   </div>
+   <div class="modalBlock__image">
+      <img src="../../img/krasnodarskii_krai/cards_modal/Kras_Drevnie/Kras_Drevnie_1.jpg" alt="1" loading="lazy">
+   </div>
+</div>
+
+<!-- Блок 2: Меоты -->
+<div class="modalBlock">
+   <div class="modalBlock__text">
+      <h2 class="modalBlock__title">Maeotians – The Earliest Known Inhabitants of the Kuban</h2>
+      <p class="modalBlock__description">
+         The Maeotians were an ancient people who lived in the territory of the Krasnodar Region as early as the 1st millennium BC.
+      </p>
+      <p class="modalBlock__description">
+         They left behind burial mounds, settlements, pottery, and ornaments.
+      </p>
+      <p class="modalBlock__description">
+         Their world included:
+      </p>
+      <ul class="modalBlock__list">
+         <li class="modalBlock__listItem">settlements along estuaries, where they engaged in fishing;</li>
+         <li class="modalBlock__listItem">burial mounds containing weapons, jewelry, and amulets;</li>
+         <li class="modalBlock__listItem">pottery decorated with geometric patterns;</li>
+         <li class="modalBlock__listItem">a cult of water and the sun, reflected in archaeological finds;</li>
+         <li class="modalBlock__listItem">trade with the Greeks, which integrated the region into the ancient world.</li>
+      </ul>
+      <p class="modalBlock__description">
+         The Maeotians represent the indigenous cultural layer of ancient Kuban.
+      </p>
+   </div>
+   <div class="modalBlock__image">
+      <img src="../../img/krasnodarskii_krai/cards_modal/Kras_Drevnie/Kras_Drevnie_2.jpg" alt="2" loading="lazy">
+   </div>
+</div>
+
+<!-- Блок 3: Греки и античные города -->
+<div class="modalBlock">
+   <div class="modalBlock__text">
+      <h2 class="modalBlock__title">Greeks and Ancient Cities – Gorgippia, Hermonassa, Phanagoria</h2>
+      <p class="modalBlock__description">
+         The Greeks arrived on the coast in the 6th century BC and established a network of cities.
+      </p>
+      <p class="modalBlock__description">
+         Their culture became a foundational element in the development of the region.
+      </p>
+      <p class="modalBlock__description">
+         Main centers:
+      </p>
+      <p class="modalBlock__description">
+         Gorgippia (Anapa):
+      </p>
+      <ul class="modalBlock__list">
+         <li class="modalBlock__listItem">archaeological excavations located directly in the city center;</li>
+         <li class="modalBlock__listItem">ancient streets, house foundations, and wine amphorae;</li>
+         <li class="modalBlock__listItem">an open-air museum-reserve where the ancient world comes to life.</li>
+      </ul>
+      <p class="modalBlock__description">
+         Hermonassa (Taman):
+      </p>
+      <ul class="modalBlock__list">
+         <li class="modalBlock__listItem">an ancient port connected to extensive trade routes across the Black Sea;</li>
+         <li class="modalBlock__listItem">finds include coins, pottery, and ritual objects.</li>
+      </ul>
+      <p class="modalBlock__description">
+         Phanagoria:
+      </p>
+      <ul class="modalBlock__list">
+         <li class="modalBlock__listItem">one of the largest ancient cities in Russia;</li>
+         <li class="modalBlock__listItem">excavations of palaces, necropolises, and temples;</li>
+         <li class="modalBlock__listItem">unique discoveries including inscriptions, statues, and gold jewelry.</li>
+      </ul>
+      <p class="modalBlock__description">
+         The Greeks brought writing, architecture, trade networks, and winemaking traditions to the region.
+      </p>
+   </div>
+   <div class="modalBlock__image">
+      <img src="../../img/krasnodarskii_krai/cards_modal/Kras_Drevnie/Kras_Drevnie_3.jpg" alt="3" loading="lazy">
+   </div>
+</div>
+
+<!-- Блок 4: Скифы и сарматы -->
+<div class="modalBlock">
+   <div class="modalBlock__text">
+      <h2 class="modalBlock__title">Scythians and Sarmatians – Nomads of the Steppe</h2>
+      <p class="modalBlock__description">
+         Scythians and Sarmatians inhabited the steppes of the Kuban and Taman regions, leaving behind rich burial mounds.
+      </p>
+      <p class="modalBlock__description">
+         Their legacy:
+      </p>
+      <ul class="modalBlock__list">
+         <li class="modalBlock__listItem">royal burial mounds filled with gold ornaments;</li>
+         <li class="modalBlock__listItem">weapons and armor reflecting a strong warrior culture;</li>
+         <li class="modalBlock__listItem">horse burials, highlighting the importance of the horse cult;</li>
+         <li class="modalBlock__listItem">mythology connected with fire, the sun, and the steppe;</li>
+         <li class="modalBlock__listItem">contacts with the Greeks, who described them in their historical accounts.</li>
+      </ul>
+      <p class="modalBlock__description">
+         Scythians and Sarmatians represent the nomadic layer of the region's ancient history.
+      </p>
+   </div>
+   <div class="modalBlock__image">
+      <img src="../../img/krasnodarskii_krai/cards_modal/Kras_Drevnie/Kras_Drevnie_4.jpg" alt="4" loading="lazy">
+   </div>
+</div>
+
+<!-- Блок 5: Боспорское царство -->
+<div class="modalBlock">
+   <div class="modalBlock__text">
+      <h2 class="modalBlock__title">The Bosporan Kingdom – An Ancient State on the Shores of Two Seas</h2>
+      <p class="modalBlock__description">
+         The Bosporan Kingdom united the Taman, Crimea, and parts of the surrounding coastline.
+      </p>
+      <p class="modalBlock__description">
+         It was one of the most stable states of the ancient world.
+      </p>
+      <p class="modalBlock__description">
+         Key features:
+      </p>
+      <ul class="modalBlock__list">
+         <li class="modalBlock__listItem">multilingual and multicultural society;</li>
+         <li class="modalBlock__listItem">trade in grain, wine, and fish;</li>
+         <li class="modalBlock__listItem">mints producing their own currency;</li>
+         <li class="modalBlock__listItem">fortresses and ports controlling key trade routes;</li>
+         <li class="modalBlock__listItem">royal dynasties that left inscriptions and artifacts.</li>
+      </ul>
+      <p class="modalBlock__description">
+         The Bosporan Kingdom was an ancient political system that existed for more than a thousand years.
+      </p>
+   </div>
+   <div class="modalBlock__image">
+      <img src="../../img/krasnodarskii_krai/cards_modal/Kras_Drevnie/Kras_Drevnie_5.jpg" alt="5" loading="lazy">
+   </div>
+</div>
+
+<!-- Блок 6: Средневековые цивилизации -->
+<div class="modalBlock">
+   <div class="modalBlock__text">
+      <h2 class="modalBlock__title">Medieval Civilizations – Byzantines, Khazars, and Circassians</h2>
+      <p class="modalBlock__description">
+         After antiquity, the region became a crossroads for new cultures.
+      </p>
+      <p class="modalBlock__description">
+         Byzantines:
+      </p>
+      <ul class="modalBlock__list">
+         <li class="modalBlock__listItem">coastal fortresses;</li>
+         <li class="modalBlock__listItem">Christian churches;</li>
+         <li class="modalBlock__listItem">trading posts.</li>
+      </ul>
+      <p class="modalBlock__description">
+         Khazars:
+      </p>
+      <ul class="modalBlock__list">
+         <li class="modalBlock__listItem">influence across the steppe territories;</li>
+         <li class="modalBlock__listItem">trade routes between the East and Europe.</li>
+      </ul>
+      <p class="modalBlock__description">
+         Circassians (Adyghe):
+      </p>
+      <ul class="modalBlock__list">
+         <li class="modalBlock__listItem">an ancient people who shaped the culture of the foothills;</li>
+         <li class="modalBlock__listItem">fortified settlements;</li>
+         <li class="modalBlock__listItem">a unique system of etiquette and warrior traditions;</li>
+         <li class="modalBlock__listItem">craftsmanship, jewelry, and weapon-making.</li>
+      </ul>
+      <p class="modalBlock__description">
+         The medieval layer represents a bridge between antiquity and the modern era.
+      </p>
+   </div>
+   <div class="modalBlock__image">
+      <img src="../../img/krasnodarskii_krai/cards_modal/Kras_Drevnie/Kras_Drevnie_6.jpg" alt="6" loading="lazy">
+   </div>
+</div>
+
+<!-- Блок 7: Почему -->
+<div class="modalBlock">
+   <div class="modalBlock__text">
+      <h2 class="modalBlock__title">Why Ancient Civilizations Are a Key Part of the Region's Identity</h2>
+      <p class="modalBlock__description">
+         Because they:
+      </p>
+      <ul class="modalBlock__list">
+         <li class="modalBlock__listItem">create a multilayered sense of history;</li>
+         <li class="modalBlock__listItem">shape the cultural code of the region;</li>
+         <li class="modalBlock__listItem">have left monuments that can still be seen today;</li>
+         <li class="modalBlock__listItem">connect the steppe, sea, and mountains into a unified historical space;</li>
+         <li class="modalBlock__listItem">make the Krasnodar Region part of the broader history of the Mediterranean and the Caucasus.</li>
+      </ul>
+      <p class="modalBlock__description">
+         Ancient civilizations form the foundation of the South.
+      </p>
+      <p class="modalBlock__description">
+         It is a history that continues to live in the land, in museums, and in the landscape itself.
+      </p>
+   </div>
+   <div class="modalBlock__image">
+      <img src="../../img/krasnodarskii_krai/cards_modal/Kras_Drevnie/Kras_Drevnie_7.jpg" alt="7" loading="lazy">
+   </div>
+</div>`
         },
 
 // =========================== Морская культура ===================================================================
@@ -1655,8 +2070,208 @@ const en_Krasnodar_regionData = {
         {
             id: '11',
             title: 'Maritime Culture',
-            image: '../../img/krasnodarskii_krai/cards_culture/PHOTO',
-            modalContent: ``
+            image: '../../img/krasnodarskii_krai/cards_culture/Kras_Morskaya_0.jpg',
+            modalContent:
+
+`<div class="modalHeader">
+   <h1 class="modalHeader__title">Maritime Culture</h1>
+</div>
+
+<!-- Блок 1: Вступление -->
+<div class="modalBlock">
+   <div class="modalBlock__text">
+      <h2 class="modalBlock__title">Maritime Culture of the Krasnodar Region – Life by the Water, the Rhythm of Waves, and Southern Navigation</h2>
+      <p class="modalBlock__description">
+         The Black Sea coast of the Krasnodar Region is more than a collection of resort towns.
+      </p>
+      <p class="modalBlock__description">
+         It is a space where the sea influences everyday life, shaping people's character, architecture, cuisine, traditions, and even the rhythm of speech.
+      </p>
+      <p class="modalBlock__description">
+         Here, maritime culture is not a decorative feature, but a living environment in which generations of fishermen, sailors, port workers, winemakers, navigators, and resort residents have grown up.
+      </p>
+      <p class="modalBlock__description">
+         The sea is the main character of the South.
+      </p>
+   </div>
+   <div class="modalBlock__image">
+      <img src="../../img/krasnodarskii_krai/cards_modal/Kras_Morskaya/Kras_Morskaya_1.jpg" alt="1" loading="lazy">
+   </div>
+</div>
+
+<!-- Блок 2: Рыбацкие традиции -->
+<div class="modalBlock">
+   <div class="modalBlock__text">
+      <h2 class="modalBlock__title">Fishing Traditions – Life Connected to the Sea</h2>
+      <p class="modalBlock__description">
+         Before the rise of resort tourism, the coastline was shaped primarily by fishing.
+      </p>
+      <p class="modalBlock__description">
+         This culture is still preserved in small settlements and in the older districts of coastal towns.
+      </p>
+      <p class="modalBlock__description">
+         Its features:
+      </p>
+      <ul class="modalBlock__list">
+         <li class="modalBlock__listItem">early morning journeys to sea, when the horizon is just beginning to light up;</li>
+         <li class="modalBlock__listItem">wooden boats resting along the shore;</li>
+         <li class="modalBlock__listItem">fishing cooperatives where labor was shared collectively;</li>
+         <li class="modalBlock__listItem">nets drying under the sun as part of the coastal scenery;</li>
+         <li class="modalBlock__listItem">simple coastal cuisine built around fresh daily catches.</li>
+      </ul>
+      <p class="modalBlock__description">
+         Fishing culture reflects a real, working South.
+      </p>
+   </div>
+   <div class="modalBlock__image">
+      <img src="../../img/krasnodarskii_krai/cards_modal/Kras_Morskaya/Kras_Morskaya_2.jpg" alt="2" loading="lazy">
+   </div>
+</div>
+
+<!-- Блок 3: Порты и морская инфраструктура -->
+<div class="modalBlock">
+   <div class="modalBlock__text">
+      <h2 class="modalBlock__title">Ports and Maritime Infrastructure – The Heart of Maritime Life</h2>
+      <p class="modalBlock__description">
+         Ports in the Krasnodar Region are not limited to Novorossiysk, the largest port in the country.
+      </p>
+      <p class="modalBlock__description">
+         They also include Sochi, Tuapse, and Temryuk – each with its own character.
+      </p>
+      <p class="modalBlock__description">
+         Novorossiysk:
+      </p>
+      <ul class="modalBlock__list">
+         <li class="modalBlock__listItem">a city where the sea defines everyday work;</li>
+         <li class="modalBlock__listItem">a major port shaping the rhythm of life;</li>
+         <li class="modalBlock__listItem">a place with a maritime history tied to wartime resilience.</li>
+      </ul>
+      <p class="modalBlock__description">
+         Sochi:
+      </p>
+      <ul class="modalBlock__list">
+         <li class="modalBlock__listItem">a port that reflects the resort architecture;</li>
+         <li class="modalBlock__listItem">yacht marinas, seaside promenades, and maritime festivals.</li>
+      </ul>
+      <p class="modalBlock__description">
+         Tuapse:
+      </p>
+      <ul class="modalBlock__list">
+         <li class="modalBlock__listItem">a port embedded in a mountainous landscape;</li>
+         <li class="modalBlock__listItem">a unique blend of industrial infrastructure and natural environment.</li>
+      </ul>
+      <p class="modalBlock__description">
+         Ports reveal maritime culture in its most direct, authentic expression.
+      </p>
+   </div>
+   <div class="modalBlock__image">
+      <img src="../../img/krasnodarskii_krai/cards_modal/Kras_Morskaya/Kras_Morskaya_3.jpg" alt="3" loading="lazy">
+   </div>
+</div>
+
+<!-- Блок 4: Курортная морская культура -->
+<div class="modalBlock">
+   <div class="modalBlock__text">
+      <h2 class="modalBlock__title">Resort Maritime Culture – Promenades, Walks, and Southern Light</h2>
+      <p class="modalBlock__description">
+         Resort life is also part of maritime culture, but in a lighter, more festive form.
+      </p>
+      <p class="modalBlock__description">
+         Its key elements include:
+      </p>
+      <ul class="modalBlock__list">
+         <li class="modalBlock__listItem">long seaside promenades where people walk late into the night;</li>
+         <li class="modalBlock__listItem">waterfront cafes where the sound of waves is part of the atmosphere;</li>
+         <li class="modalBlock__listItem">boat tours that have become part of leisure life;</li>
+         <li class="modalBlock__listItem">beach culture, from the pebble shores of Sochi to the sandy beaches of Anapa;</li>
+         <li class="modalBlock__listItem">evening lights shimmering across the water.</li>
+      </ul>
+      <p class="modalBlock__description">
+         This is a bright and welcoming sea that is open to everyone.
+      </p>
+   </div>
+   <div class="modalBlock__image">
+      <img src="../../img/krasnodarskii_krai/cards_modal/Kras_Morskaya/Kras_Morskaya_4.jpg" alt="4" loading="lazy">
+   </div>
+</div>
+
+<!-- Блок 5: Морская гастрономия -->
+<div class="modalBlock">
+   <div class="modalBlock__text">
+      <h2 class="modalBlock__title">Maritime Gastronomy – The Taste of the South Born by the Water</h2>
+      <p class="modalBlock__description">
+         Maritime culture also shapes the cuisine of the region.
+      </p>
+      <p class="modalBlock__description">
+         Key elements:
+      </p>
+      <ul class="modalBlock__list">
+         <li class="modalBlock__listItem">fish grilled over coals, simple and aromatic;</li>
+         <li class="modalBlock__listItem">flounder, horse mackerel, and red mullet – iconic species of the coast;</li>
+         <li class="modalBlock__listItem">mussels and rapa whelks harvested in local waters;</li>
+         <li class="modalBlock__listItem">soups and fish broths rooted in fishing traditions;</li>
+         <li class="modalBlock__listItem">vineyards located near the sea, creating a distinctive southern blend of flavors.</li>
+      </ul>
+      <p class="modalBlock__description">
+         Gastronomy is a way to experience the sea through taste.
+      </p>
+   </div>
+   <div class="modalBlock__image">
+      <img src="../../img/krasnodarskii_krai/cards_modal/Kras_Morskaya/Kras_Morskaya_5.jpg" alt="5" loading="lazy">
+   </div>
+</div>
+
+<!-- Блок 6: Морские праздники, традиции и символы -->
+<div class="modalBlock">
+   <div class="modalBlock__text">
+      <h2 class="modalBlock__title">Maritime Festivals, Traditions, and Symbols</h2>
+      <p class="modalBlock__description">
+         Maritime culture is not only about everyday life, but also about symbolism.
+      </p>
+      <p class="modalBlock__description">
+         It includes:
+      </p>
+      <ul class="modalBlock__list">
+         <li class="modalBlock__listItem">sailors' holidays, especially in Novorossiysk;</li>
+         <li class="modalBlock__listItem">traditions of naval parades and regattas;</li>
+         <li class="modalBlock__listItem">the dolphin as a symbol of good fortune;</li>
+         <li class="modalBlock__listItem">maritime architecture, from lighthouses to breakwaters;</li>
+         <li class="modalBlock__listItem">legends about bays, cliffs, and ships passed down through generations.</li>
+      </ul>
+      <p class="modalBlock__description">
+         The sea is part of the South's cultural mythology.
+      </p>
+   </div>
+   <div class="modalBlock__image">
+      <img src="../../img/krasnodarskii_krai/cards_modal/Kras_Morskaya/Kras_Morskaya_6.jpg" alt="6" loading="lazy">
+   </div>
+</div>
+
+<!-- Блок 7: Почему -->
+<div class="modalBlock">
+   <div class="modalBlock__text">
+      <h2 class="modalBlock__title">Why Maritime Culture Is a Key Part of the Krasnodar Region's Identity</h2>
+      <p class="modalBlock__description">
+         Because it:
+      </p>
+      <ul class="modalBlock__list">
+         <li class="modalBlock__listItem">shapes the character of the coastline;</li>
+         <li class="modalBlock__listItem">connects labor, history, and leisure;</li>
+         <li class="modalBlock__listItem">creates a distinctive atmosphere of the southern sea;</li>
+         <li class="modalBlock__listItem">influences gastronomy, architecture, and the rhythm of life;</li>
+         <li class="modalBlock__listItem">makes the region part of the wider Black Sea world.</li>
+      </ul>
+      <p class="modalBlock__description">
+         Maritime culture is the soul of the coast.
+      </p>
+      <p class="modalBlock__description">
+         It is the rhythm of the waves, heard in every seaside town.
+      </p>
+   </div>
+   <div class="modalBlock__image">
+      <img src="../../img/krasnodarskii_krai/cards_modal/Kras_Morskaya/Kras_Morskaya_7.jpg" alt="7" loading="lazy">
+   </div>
+</div>`
         },
 
 // =========================== Гастрономия ===================================================================
@@ -1664,8 +2279,205 @@ const en_Krasnodar_regionData = {
         {
             id: '12',
             title: 'Gastronomy',
-            image: '../../img/krasnodarskii_krai/cards_culture/PHOTO',
-            modalContent: ``
+            image: '../../img/krasnodarskii_krai/cards_culture/Kras_Gastronomia_0.jpg',
+            modalContent:
+
+`<div class="modalHeader">
+   <h1 class="modalHeader__title">Gastronomy</h1>
+</div>
+
+<!-- Блок 1: Вступление -->
+<div class="modalBlock">
+   <div class="modalBlock__text">
+      <h2 class="modalBlock__title">Gastronomy of the South – The Generosity of Land, Sun, and Tradition</h2>
+      <p class="modalBlock__description">
+         The South is a flavor.
+      </p>
+      <p class="modalBlock__description">
+         Warm, sunny, generous, and aromatic.
+      </p>
+      <p class="modalBlock__description">
+         Gastronomy in the Krasnodar Region is a synthesis of Cossack, Caucasian, Black Sea, Greek, Armenian, Adyghe, Ukrainian, and steppe culinary traditions.
+      </p>
+      <p class="modalBlock__description">
+         It is a cuisine where ingredients speak for themselves – ripe vegetables, sweet fruits, fresh fish, aromatic herbs, and homemade dishes prepared with respect for the land.
+      </p>
+      <p class="modalBlock__description">
+         Southern cuisine is not just about food.
+      </p>
+      <p class="modalBlock__description">
+         It is a culture of hospitality.
+      </p>
+   </div>
+   <div class="modalBlock__image">
+      <img src="../../img/krasnodarskii_krai/cards_modal/Kras_Gastronomia/Kras_Gastronomia_1.jpg" alt="1" loading="lazy">
+   </div>
+</div>
+
+<!-- Блок 2: Овощи и фрукты -->
+<div class="modalBlock">
+   <div class="modalBlock__text">
+      <h2 class="modalBlock__title">Vegetables and Fruits – The Heart of the Southern Table</h2>
+      <p class="modalBlock__description">
+         The South is a region where vegetables and fruits have a distinct flavor.
+      </p>
+      <p class="modalBlock__description">
+         Rich, full, and sun-ripened.
+      </p>
+      <p class="modalBlock__description">
+         Key products include:
+      </p>
+      <ul class="modalBlock__list">
+         <li class="modalBlock__listItem">tomatoes, sweet and meaty;</li>
+         <li class="modalBlock__listItem">eggplants, a foundation of many dishes;</li>
+         <li class="modalBlock__listItem">peppers, ranging from sweet to aromatic and spicy;</li>
+         <li class="modalBlock__listItem">watermelon and melon, symbols of summer;</li>
+         <li class="modalBlock__listItem">peaches, figs, and grapes ripening under the southern sun;</li>
+         <li class="modalBlock__listItem">fresh herbs, abundant and always fragrant.</li>
+      </ul>
+      <p class="modalBlock__description">
+         The southern table begins with vegetables – bright, aromatic, and fresh.
+      </p>
+   </div>
+   <div class="modalBlock__image">
+      <img src="../../img/krasnodarskii_krai/cards_modal/Kras_Gastronomia/Kras_Gastronomia_2.jpg" alt="2" loading="lazy">
+   </div>
+</div>
+
+<!-- Блок 3: Домашняя кухня -->
+<div class="modalBlock">
+   <div class="modalBlock__text">
+      <h2 class="modalBlock__title">Home Cooking – Generosity, Tradition, and the Taste of Childhood</h2>
+      <p class="modalBlock__description">
+         Southern cuisine is all about home cooking.
+      </p>
+      <p class="modalBlock__description">
+         Large pots, shared tables, and dishes prepared slowly and with care.
+      </p>
+      <p class="modalBlock__description">
+         Key dishes:
+      </p>
+      <ul class="modalBlock__list">
+         <li class="modalBlock__listItem">Kuban borscht – thick, rich, and full of vegetables;</li>
+         <li class="modalBlock__listItem">stuffed cabbage rolls, soft and aromatic;</li>
+         <li class="modalBlock__listItem">varenyky, rooted in Ukrainian culinary tradition;</li>
+         <li class="modalBlock__listItem">rice pilafs and stewed dishes reflecting Caucasian influence;</li>
+         <li class="modalBlock__listItem">flatbreads, khachapuri, and pies served at any table.</li>
+      </ul>
+      <p class="modalBlock__description">
+         Here, what matters is not only the flavor, but also the shared ritual of the meal.
+      </p>
+   </div>
+   <div class="modalBlock__image">
+      <img src="../../img/krasnodarskii_krai/cards_modal/Kras_Gastronomia/Kras_Gastronomia_3.jpg" alt="3" loading="lazy">
+   </div>
+</div>
+
+<!-- Блок 4: Черноморская гастрономия -->
+<div class="modalBlock">
+   <div class="modalBlock__text">
+      <h2 class="modalBlock__title">Black Sea Gastronomy – The Taste of the Sea and the Coast</h2>
+      <p class="modalBlock__description">
+         The coastline brings its own flavors – light, fresh, and maritime.
+      </p>
+      <p class="modalBlock__description">
+         Key elements include:
+      </p>
+      <ul class="modalBlock__list">
+         <li class="modalBlock__listItem">flounder, horse mackerel, and red mullet, grilled or baked;</li>
+         <li class="modalBlock__listItem">mussels and rapa whelks cooked with herbs;</li>
+         <li class="modalBlock__listItem">Black Sea fish soup, clear and aromatic;</li>
+         <li class="modalBlock__listItem">fish grilled over coals, simple and authentic;</li>
+         <li class="modalBlock__listItem">vegetable appetizers served alongside seafood dishes.</li>
+      </ul>
+      <p class="modalBlock__description">
+         Black Sea cuisine is a combination of the sea and the sun.
+      </p>
+   </div>
+   <div class="modalBlock__image">
+      <img src="../../img/krasnodarskii_krai/cards_modal/Kras_Gastronomia/Kras_Gastronomia_4.jpg" alt="4" loading="lazy">
+   </div>
+</div>
+
+<!-- Блок 5: Кавказские влияния -->
+<div class="modalBlock">
+   <div class="modalBlock__text">
+      <h2 class="modalBlock__title">Caucasian Influences – Aromatic Spices, Meat, and Mountain Traditions</h2>
+      <p class="modalBlock__description">
+         The South is a gateway to the Caucasus, and its cuisine has absorbed many Caucasian culinary traditions.
+      </p>
+      <p class="modalBlock__description">
+         Popular dishes include:
+      </p>
+      <ul class="modalBlock__list">
+         <li class="modalBlock__listItem">shashlik, grilled over coals;</li>
+         <li class="modalBlock__listItem">dolma, grape leaves stuffed with fillings;</li>
+         <li class="modalBlock__listItem">herb-based sauces, aromatic and fresh;</li>
+         <li class="modalBlock__listItem">flatbreads and cheese dishes, warm and hearty;</li>
+         <li class="modalBlock__listItem">aromatic soups, rich and spicy.</li>
+      </ul>
+      <p class="modalBlock__description">
+         Caucasian gastronomy adds depth and character to the South.
+      </p>
+   </div>
+   <div class="modalBlock__image">
+      <img src="../../img/krasnodarskii_krai/cards_modal/Kras_Gastronomia/Kras_Gastronomia_5.jpg" alt="5" loading="lazy">
+   </div>
+</div>
+
+<!-- Блок 6: Виноградники и южные напитки -->
+<div class="modalBlock">
+   <div class="modalBlock__text">
+      <h2 class="modalBlock__title">Vineyards and Southern Drinks – A Culture of Sun and Land</h2>
+      <p class="modalBlock__description">
+         The South is a land of vineyards.
+      </p>
+      <p class="modalBlock__description">
+         From Taman to Novorossiysk, and from Anapa to Abrau, the hills are covered with vines.
+      </p>
+      <p class="modalBlock__description">
+         People here value:
+      </p>
+      <ul class="modalBlock__list">
+         <li class="modalBlock__listItem">grapes as a product, sweet and juicy;</li>
+         <li class="modalBlock__listItem">winemaking traditions dating back to ancient Greeks;</li>
+         <li class="modalBlock__listItem">homemade herbal and fruit-based drinks, soft and aromatic;</li>
+         <li class="modalBlock__listItem">vineyard valleys that have become part of gastronomic tourism.</li>
+      </ul>
+      <p class="modalBlock__description">
+         Vineyards represent the aesthetics of the South – its rhythm and its flavor.
+      </p>
+   </div>
+   <div class="modalBlock__image">
+      <img src="../../img/krasnodarskii_krai/cards_modal/Kras_Gastronomia/Kras_Gastronomia_6.jpg" alt="6" loading="lazy">
+   </div>
+</div>
+
+<!-- Блок 7: Почему -->
+<div class="modalBlock">
+   <div class="modalBlock__text">
+      <h2 class="modalBlock__title">Why Southern Gastronomy Is a Key Part of the Region's Identity</h2>
+      <p class="modalBlock__description">
+         Because it:
+      </p>
+      <ul class="modalBlock__list">
+         <li class="modalBlock__listItem">reflects the generosity of the land and the sun;</li>
+         <li class="modalBlock__listItem">unites traditions of many different peoples;</li>
+         <li class="modalBlock__listItem">creates an atmosphere of hospitality;</li>
+         <li class="modalBlock__listItem">makes travel through the South flavorful and memorable;</li>
+         <li class="modalBlock__listItem">shapes the cultural code of the region.</li>
+      </ul>
+      <p class="modalBlock__description">
+         Southern gastronomy is the taste of warmth, light, and life.
+      </p>
+      <p class="modalBlock__description">
+         A flavor that is impossible to forget.
+      </p>
+   </div>
+   <div class="modalBlock__image">
+      <img src="../../img/krasnodarskii_krai/cards_modal/Kras_Gastronomia/Kras_Gastronomia_7.jpg" alt="7" loading="lazy">
+   </div>
+</div>`
         },
 
     ]

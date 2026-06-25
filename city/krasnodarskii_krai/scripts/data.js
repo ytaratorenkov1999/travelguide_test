@@ -13,7 +13,7 @@ const Krasnodar_regionData = {
         {
             id: '1',
             title: 'Черноморское побережье',
-            image: '../../img/krasnodarskii_krai/cards_tochki/',
+            image: '../../img/krasnodarskii_krai/cards_tochki/Kras_poberezh_0.jpg',
             modalContent:
 
 `<div class="modalHeader">
@@ -215,7 +215,7 @@ const Krasnodar_regionData = {
         {
             id: '2',
             title: 'Кавказские горы',
-            image: '../../img/krasnodarskii_krai/cards_tochki/фото',
+            image: '../../img/krasnodarskii_krai/cards_tochki/Kras_Kavkaz_0.jpg',
             modalContent:
 
 `<div class="modalHeader">
@@ -411,7 +411,7 @@ const Krasnodar_regionData = {
         {
             id: '3',
             title: 'Исторические города и культурные центры',
-            image: '../../img/krasnodarskii_krai/cards_tochki/фото',
+            image: '../../img/krasnodarskii_krai/cards_tochki/Kras_Istoricheskoe_0.jpg',
             modalContent:
 
 `<div class="modalHeader">
@@ -609,7 +609,7 @@ const Krasnodar_regionData = {
         {
             id: '4',
             title: 'Места силы',
-            image: '../../img/krasnodarskii_krai/cards_tochki/фото',
+            image: '../../img/krasnodarskii_krai/cards_tochki/Kras_Mesta_0.jpg',
             modalContent:
 
 `<div class="modalHeader">
@@ -819,7 +819,7 @@ const Krasnodar_regionData = {
         {
             id: '5',
             title: 'Морские маршруты и побережье',
-            image: '../../img/krasnodarskii_krai/cards_nature/photo',
+            image: '../../img/krasnodarskii_krai/cards_nature/Kras_Morskie.jpg',
             modalContent:
 
 `<div class="modalHeader">
@@ -1023,7 +1023,7 @@ const Krasnodar_regionData = {
         {
             id: '6',
             title: 'Реки, озера и каньоны',
-            image: '../../img/krasnodarskii_krai/cards_nature/photo',
+            image: '../../img/krasnodarskii_krai/cards_nature/Kras_Reki_0.jpg',
             modalContent:
 
 `<div class="modalHeader">
@@ -1227,7 +1227,7 @@ const Krasnodar_regionData = {
         {
             id: '7',
             title: 'Степи и лиманы',
-            image: '../../img/krasnodarskii_krai/cards_nature/photo',
+            image: '../../img/krasnodarskii_krai/cards_nature/Kras_Stepi_0.jpg',
             modalContent:
 
 `<div class="modalHeader">
@@ -1431,7 +1431,7 @@ const Krasnodar_regionData = {
         {
             id: '8',
             title: 'Экотропы',
-            image: '../../img/krasnodarskii_krai/cards_nature/photo',
+            image: '../../img/krasnodarskii_krai/cards_nature/Kras_Eco_0.jpg',
             modalContent:
 
 `<div class="modalHeader">
@@ -1637,8 +1637,199 @@ const Krasnodar_regionData = {
         {
             id: '9',
             title: 'Казачья культура',
-            image: '../../img/krasnodarskii_krai/cards_culture/PHOTO',
-            modalContent: ``
+            image: '../../img/krasnodarskii_krai/cards_culture/Kras_Kazachya.jpg',
+            modalContent:
+
+`<div class="modalHeader">
+   <h1 class="modalHeader__title">Казачья культура</h1>
+</div>
+
+<!-- Блок 1: Вступление -->
+<div class="modalBlock">
+   <div class="modalBlock__text">
+      <h2 class="modalBlock__title">Казачья культура — дух степи, свободы и южной земли</h2>
+      <p class="modalBlock__description">
+         Казачья культура — один из ключевых культурных кодов Краснодарского края.
+      </p>
+      <p class="modalBlock__description">
+         Она формировалась на пересечении степей, рек, гор и Черного моря; на земле, где встречались разные народы, традиции и уклады.
+      </p>
+      <p class="modalBlock__description">
+         Казачество — это не только история, но и живой культурный пласт: песни, обряды, кухня, одежда, праздники, уклад жизни.
+      </p>
+      <p class="modalBlock__description">
+         Это культура, в которой свобода и дисциплина, воинственность и гостеприимство, степная ширь и семейные традиции существуют вместе.
+      </p>
+   </div>
+   <div class="modalBlock__image">
+      <img src="../../img/krasnodarskii_krai/cards_modal/Kras_Kazachya/Kras_Kazachya_1.jpg" alt="1" loading="lazy">
+   </div>
+</div>
+
+<!-- Блок 2: Истоки и дух казачества -->
+<div class="modalBlock">
+   <div class="modalBlock__text">
+      <h2 class="modalBlock__title">Истоки и дух казачества — жизнь на границе земель</h2>
+      <p class="modalBlock__description">
+         Кубанские казаки — потомки запорожцев, переселенных на юг России в конце XVIII века.
+      </p>
+      <p class="modalBlock__description">
+         Они стали защитниками границ, земледельцами, рыбаками, всадниками, хранителями южных рубежей.
+      </p>
+      <p class="modalBlock__description">
+         Основные черты казачьего духа:
+      </p>
+      <ul class="modalBlock__list">
+         <li class="modalBlock__listItem">вольность, но основанная на строгих правилах общины;</li>
+         <li class="modalBlock__listItem">воинская доблесть, передаваемая из поколения в поколение;</li>
+         <li class="modalBlock__listItem">уважение к земле, на которой живут;</li>
+         <li class="modalBlock__listItem">глубокая религиозность, связанная с православием;</li>
+         <li class="modalBlock__listItem">сильная семейная традиция, где род — основа всего.</li>
+      </ul>
+      <p class="modalBlock__description">
+         Казачество — это культура людей, живущих на границе степи и гор, мира и войны.
+      </p>
+   </div>
+   <div class="modalBlock__image">
+      <img src="../../img/krasnodarskii_krai/cards_modal/Kras_Kazachya/Kras_Kazachya_2.jpg" alt="2" loading="lazy">
+   </div>
+</div>
+
+<!-- Блок 3: Станицы -->
+<div class="modalBlock">
+   <div class="modalBlock__text">
+      <h2 class="modalBlock__title">Станицы — сердце казачьей жизни</h2>
+      <p class="modalBlock__description">
+         Станица — не просто населенный пункт.
+      </p>
+      <p class="modalBlock__description">
+         Это особый тип поселения, где все подчинено общинному укладу.
+      </p>
+      <p class="modalBlock__description">
+         В станицах:
+      </p>
+      <ul class="modalBlock__list">
+         <li class="modalBlock__listItem">широкие улицы, уходящие в горизонт;</li>
+         <li class="modalBlock__listItem">беленые дома, украшенные резными наличниками;</li>
+         <li class="modalBlock__listItem">станичные храмы, вокруг которых строилась жизнь;</li>
+         <li class="modalBlock__listItem">курени, традиционные казачьи дома;</li>
+         <li class="modalBlock__listItem">станичные круги, где решались важные вопросы.</li>
+      </ul>
+      <p class="modalBlock__description">
+         Станица — это модель мира, где каждый знает свое место и свою ответственность.
+      </p>
+   </div>
+   <div class="modalBlock__image">
+      <img src="../../img/krasnodarskii_krai/cards_modal/Kras_Kazachya/Kras_Kazachya_3.jpg" alt="3" loading="lazy">
+   </div>
+</div>
+
+<!-- Блок 4: Казачья музыка и танцы -->
+<div class="modalBlock">
+   <div class="modalBlock__text">
+      <h2 class="modalBlock__title">Казачья музыка и танцы — энергия, ритм и голос степи</h2>
+      <p class="modalBlock__description">
+         Музыка — одна из самых ярких сторон казачьей культуры.
+      </p>
+      <p class="modalBlock__description">
+         Она эмоциональная, мощная, многоголосная.
+      </p>
+      <p class="modalBlock__description">
+         Особенности:
+      </p>
+      <ul class="modalBlock__list">
+         <li class="modalBlock__listItem">протяжные песни, напоминающие о степи и дороге;</li>
+         <li class="modalBlock__listItem">боевые песни, связанные с походами и сражениями;</li>
+         <li class="modalBlock__listItem">плясовые композиции, быстрые, энергичные, с акцентом на ритм;</li>
+         <li class="modalBlock__listItem">многоголосие, создающее эффект мощного хорового звучания;</li>
+         <li class="modalBlock__listItem">танцы с саблями, символизирующие воинскую культуру.</li>
+      </ul>
+      <p class="modalBlock__description">
+         Казачья музыка — это голос земли, ветра и свободы.
+      </p>
+   </div>
+   <div class="modalBlock__image">
+      <img src="../../img/krasnodarskii_krai/cards_modal/Kras_Kazachya/Kras_Kazachya_4.jpg" alt="4" loading="lazy">
+   </div>
+</div>
+
+<!-- Блок 5: Традиционная одежда -->
+<div class="modalBlock">
+   <div class="modalBlock__text">
+      <h2 class="modalBlock__title">Традиционная одежда — символ статуса, красоты и воинской культуры</h2>
+      <p class="modalBlock__description">
+         Казачья одежда — не просто костюм, а часть идентичности.
+      </p>
+      <p class="modalBlock__description">
+         Основные элементы:
+      </p>
+      <ul class="modalBlock__list">
+         <li class="modalBlock__listItem">черкассы и бешметы — традиционные мужские кафтаны;</li>
+         <li class="modalBlock__listItem">папахи — меховые шапки, символ мужества;</li>
+         <li class="modalBlock__listItem">черкески с газырями — одежда, подчеркивающая воинский статус;</li>
+         <li class="modalBlock__listItem">женские сарафаны и платки, украшенные вышивкой;</li>
+         <li class="modalBlock__listItem">пояса и украшения, передаваемые по наследству.</li>
+      </ul>
+      <p class="modalBlock__description">
+         Одежда казаков — это эстетика степи и воинской культуры.
+      </p>
+   </div>
+   <div class="modalBlock__image">
+      <img src="../../img/krasnodarskii_krai/cards_modal/Kras_Kazachya/Kras_Kazachya_5.jpg" alt="5" loading="lazy">
+   </div>
+</div>
+
+<!-- Блок 6: Казачья кухня -->
+<div class="modalBlock">
+   <div class="modalBlock__text">
+      <h2 class="modalBlock__title">Казачья кухня — сытная, простая, южная</h2>
+      <p class="modalBlock__description">
+         Кухня казаков — отражение их образа жизни: земледельческого, воинского, степного.
+      </p>
+      <p class="modalBlock__description">
+         Главные блюда:
+      </p>
+      <ul class="modalBlock__list">
+         <li class="modalBlock__listItem">борщ кубанский, густой, насыщенный;</li>
+         <li class="modalBlock__listItem">вареники и галушки, пришедшие из украинской традиции;</li>
+         <li class="modalBlock__listItem">кулиши и каши, простые и питательные;</li>
+         <li class="modalBlock__listItem">рыбные блюда, особенно в станицах у рек;</li>
+         <li class="modalBlock__listItem">домашняя выпечка, связанная с праздниками.</li>
+      </ul>
+      <p class="modalBlock__description">
+         Казачья кухня — это вкус юга, солнца и домашнего тепла.
+      </p>
+   </div>
+   <div class="modalBlock__image">
+      <img src="../../img/krasnodarskii_krai/cards_modal/Kras_Kazachya/Kras_Kazachya_6.jpg" alt="6" loading="lazy">
+   </div>
+</div>
+
+<!-- Блок 7: Почему -->
+<div class="modalBlock">
+   <div class="modalBlock__text">
+      <h2 class="modalBlock__title">Почему казачья культура — важная часть образа Краснодарского края</h2>
+      <p class="modalBlock__description">
+         Потому что она:
+      </p>
+      <ul class="modalBlock__list">
+         <li class="modalBlock__listItem">формирует историческую и культурную идентичность региона;</li>
+         <li class="modalBlock__listItem">создает уникальный южный характер;</li>
+         <li class="modalBlock__listItem">соединяет степь, горы, море и традиции разных народов;</li>
+         <li class="modalBlock__listItem">сохраняет живые обряды, музыку, уклад;</li>
+         <li class="modalBlock__listItem">делает край особенным в культурной карте России.</li>
+      </ul>
+      <p class="modalBlock__description">
+         Казачья культура — это сердце Кубани.
+      </p>
+      <p class="modalBlock__description">
+         Живая традиция, которая продолжает звучать, двигаться, праздновать и хранить память.
+      </p>
+   </div>
+   <div class="modalBlock__image">
+      <img src="../../img/krasnodarskii_krai/cards_modal/Kras_Kazachya/Kras_Kazachya_7.jpg" alt="7" loading="lazy">
+   </div>
+</div>`
         },
 
 // =========================== Древние цивилизации ===================================================================
@@ -1646,8 +1837,232 @@ const Krasnodar_regionData = {
         {
             id: '10',
             title: 'Древние цивилизации',
-            image: '../../img/krasnodarskii_krai/cards_culture/PHOTO',
-            modalContent: ``
+            image: '../../img/krasnodarskii_krai/cards_culture/Kras_Drevnie_0.jpg',
+            modalContent:
+
+`<div class="modalHeader">
+   <h1 class="modalHeader__title">Древние цивилизации</h1>
+</div>
+
+<!-- Блок 1: Вступление -->
+<div class="modalBlock">
+   <div class="modalBlock__text">
+      <h2 class="modalBlock__title">Древние цивилизации Краснодарского края — земля, где встречались миры</h2>
+      <p class="modalBlock__description">
+         Краснодарский край — это территория, где на протяжении тысячелетий пересекались культуры, народы и цивилизации.
+      </p>
+      <p class="modalBlock__description">
+         Степи, лиманы, побережье, предгорья Кавказа — все это было ареной для греков, меотов, скифов, сарматов, римлян, византийцев, хазар, черкесов.
+      </p>
+      <p class="modalBlock__description">
+         Здесь земля хранит следы городов, святилищ, курганов, дорог, крепостей.
+      </p>
+      <p class="modalBlock__description">
+         Это юг, где древность не ушла — она лежит под ногами.
+      </p>
+      <p class="modalBlock__description">
+         Древние цивилизации края — это многослойная история, которую можно увидеть, потрогать, почувствовать.
+      </p>
+   </div>
+   <div class="modalBlock__image">
+      <img src="../../img/krasnodarskii_krai/cards_modal/Kras_Drevnie/Kras_Drevnie_1.jpg" alt="1" loading="lazy">
+   </div>
+</div>
+
+<!-- Блок 2: Меоты -->
+<div class="modalBlock">
+   <div class="modalBlock__text">
+      <h2 class="modalBlock__title">Меоты — первые известные жители Кубани</h2>
+      <p class="modalBlock__description">
+         Меоты — древний народ, живший на территории края еще в I тысячелетии до н.э.
+      </p>
+      <p class="modalBlock__description">
+         Они оставили после себя курганы, поселения, керамику, украшения.
+      </p>
+      <p class="modalBlock__description">
+         Их мир:
+      </p>
+      <ul class="modalBlock__list">
+         <li class="modalBlock__listItem">поселения на берегах лиманов, где они занимались рыболовством;</li>
+         <li class="modalBlock__listItem">курганы, в которых находят оружие, украшения, амулеты;</li>
+         <li class="modalBlock__listItem">керамика с геометрическими орнаментами;</li>
+         <li class="modalBlock__listItem">культ воды и солнца, отраженный в археологических находках;</li>
+         <li class="modalBlock__listItem">торговля с греками, которая сделала регион частью античного мира.</li>
+      </ul>
+      <p class="modalBlock__description">
+         Меоты — это коренной слой древней Кубани.
+      </p>
+   </div>
+   <div class="modalBlock__image">
+      <img src="../../img/krasnodarskii_krai/cards_modal/Kras_Drevnie/Kras_Drevnie_2.jpg" alt="2" loading="lazy">
+   </div>
+</div>
+
+<!-- Блок 3: Греки и античные города -->
+<div class="modalBlock">
+   <div class="modalBlock__text">
+      <h2 class="modalBlock__title">Греки и античные города — Горгиппия, Гермонасса, Фанагория</h2>
+      <p class="modalBlock__description">
+         Греки пришли на побережье в VI веке до н.э. и основали здесь целую сеть городов.
+      </p>
+      <p class="modalBlock__description">
+         Их культура стала фундаментом для развития региона.
+      </p>
+      <p class="modalBlock__description">
+         Главные центры:
+      </p>
+      <p class="modalBlock__description">
+         Горгиппия (Анапа):
+      </p>
+      <ul class="modalBlock__list">
+         <li class="modalBlock__listItem">раскопки прямо в центре города;</li>
+         <li class="modalBlock__listItem">античные улицы, фундаменты домов, винные амфоры;</li>
+         <li class="modalBlock__listItem">музей-заповедник, где оживает античный мир.</li>
+      </ul>
+      <p class="modalBlock__description">
+         Гермонасса (Тамань):
+      </p>
+      <ul class="modalBlock__list">
+         <li class="modalBlock__listItem">древний порт, связанный с торговлей по всему Черноморью;</li>
+         <li class="modalBlock__listItem">находки монет, керамики, храмовых предметов.</li>
+      </ul>
+      <p class="modalBlock__description">
+         Фанагория:
+      </p>
+      <ul class="modalBlock__list">
+         <li class="modalBlock__listItem">один из крупнейших античных городов России;</li>
+         <li class="modalBlock__listItem">раскопки дворцов, некрополей, храмов;</li>
+         <li class="modalBlock__listItem">уникальные находки: надписи, статуи, золотые украшения.</li>
+      </ul>
+      <p class="modalBlock__description">
+         Греки принесли в регион письменность, архитектуру, торговлю, виноделие.
+      </p>
+   </div>
+   <div class="modalBlock__image">
+      <img src="../../img/krasnodarskii_krai/cards_modal/Kras_Drevnie/Kras_Drevnie_3.jpg" alt="3" loading="lazy">
+   </div>
+</div>
+
+<!-- Блок 4: Скифы и сарматы -->
+<div class="modalBlock">
+   <div class="modalBlock__text">
+      <h2 class="modalBlock__title">Скифы и сарматы — кочевники степей</h2>
+      <p class="modalBlock__description">
+         Скифы и сарматы жили в степях Кубани и Тамани, оставив после себя богатейшие курганы.
+      </p>
+      <p class="modalBlock__description">
+         Их наследие:
+      </p>
+      <ul class="modalBlock__list">
+         <li class="modalBlock__listItem">царские курганы, наполненные золотыми украшениями;</li>
+         <li class="modalBlock__listItem">оружие и доспехи, свидетельствующие о воинской культуре;</li>
+         <li class="modalBlock__listItem">конские захоронения, отражающие культ коня;</li>
+         <li class="modalBlock__listItem">мифология, связанная с огнем, солнцем, степью;</li>
+         <li class="modalBlock__listItem">контакты с греками, которые описывали их в своих хрониках.</li>
+      </ul>
+      <p class="modalBlock__description">
+         Скифы и сарматы — это степной слой древней истории края.
+      </p>
+   </div>
+   <div class="modalBlock__image">
+      <img src="../../img/krasnodarskii_krai/cards_modal/Kras_Drevnie/Kras_Drevnie_4.jpg" alt="4" loading="lazy">
+   </div>
+</div>
+
+<!-- Блок 5: Боспорское царство -->
+<div class="modalBlock">
+   <div class="modalBlock__text">
+      <h2 class="modalBlock__title">Боспорское царство — древнее государство на берегах двух морей</h2>
+      <p class="modalBlock__description">
+         Боспорское царство объединяло Тамань, Крым и часть побережья.
+      </p>
+      <p class="modalBlock__description">
+         Это было одно из самых устойчивых государств античного мира.
+      </p>
+      <p class="modalBlock__description">
+         Его особенности:
+      </p>
+      <ul class="modalBlock__list">
+         <li class="modalBlock__listItem">многоязычие и многокультурность;</li>
+         <li class="modalBlock__listItem">торговля зерном, вином, рыбой;</li>
+         <li class="modalBlock__listItem">монетные дворы, выпускавшие собственную валюту;</li>
+         <li class="modalBlock__listItem">крепости и порты, контролировавшие торговые пути;</li>
+         <li class="modalBlock__listItem">династии царей, оставившие надписи и артефакты.</li>
+      </ul>
+      <p class="modalBlock__description">
+         Боспорское царство — это древняя политическая система, существовавшая более тысячи лет.
+      </p>
+   </div>
+   <div class="modalBlock__image">
+      <img src="../../img/krasnodarskii_krai/cards_modal/Kras_Drevnie/Kras_Drevnie_5.jpg" alt="5" loading="lazy">
+   </div>
+</div>
+
+<!-- Блок 6: Средневековые цивилизации -->
+<div class="modalBlock">
+   <div class="modalBlock__text">
+      <h2 class="modalBlock__title">Средневековые цивилизации — византийцы, хазары, черкесы</h2>
+      <p class="modalBlock__description">
+         После античности регион стал ареной новых культур.
+      </p>
+      <p class="modalBlock__description">
+         Византийцы:
+      </p>
+      <ul class="modalBlock__list">
+         <li class="modalBlock__listItem">крепости на побережье;</li>
+         <li class="modalBlock__listItem">христианские храмы;</li>
+         <li class="modalBlock__listItem">торговые фактории.</li>
+      </ul>
+      <p class="modalBlock__description">
+         Хазары:
+      </p>
+      <ul class="modalBlock__list">
+         <li class="modalBlock__listItem">влияние на степные территории;</li>
+         <li class="modalBlock__listItem">торговые пути между Востоком и Европой.</li>
+      </ul>
+      <p class="modalBlock__description">
+         Черкесы (адыги):
+      </p>
+      <ul class="modalBlock__list">
+         <li class="modalBlock__listItem">древний народ, сформировавший культуру предгорий;</li>
+         <li class="modalBlock__listItem">укрепленные поселения;</li>
+         <li class="modalBlock__listItem">уникальная система этикета и воинской традиции;</li>
+         <li class="modalBlock__listItem">ремесла, украшения, оружие.</li>
+      </ul>
+      <p class="modalBlock__description">
+         Средневековый слой — это мост между античностью и современностью.
+      </p>
+   </div>
+   <div class="modalBlock__image">
+      <img src="../../img/krasnodarskii_krai/cards_modal/Kras_Drevnie/Kras_Drevnie_6.jpg" alt="6" loading="lazy">
+   </div>
+</div>
+
+<!-- Блок 7: Почему -->
+<div class="modalBlock">
+   <div class="modalBlock__text">
+      <h2 class="modalBlock__title">Почему древние цивилизации — важная часть образа края</h2>
+      <p class="modalBlock__description">
+         Потому что они:
+      </p>
+      <ul class="modalBlock__list">
+         <li class="modalBlock__listItem">создают многослойность истории;</li>
+         <li class="modalBlock__listItem">формируют культурный код региона;</li>
+         <li class="modalBlock__listItem">оставили памятники, которые можно увидеть и сегодня;</li>
+         <li class="modalBlock__listItem">соединяют степь, море и горы в едином историческом пространстве;</li>
+         <li class="modalBlock__listItem">делают Краснодарский край частью большой истории Средиземноморья и Кавказа.</li>
+      </ul>
+      <p class="modalBlock__description">
+         Древние цивилизации — это фундамент юга.
+      </p>
+      <p class="modalBlock__description">
+         История, которая продолжается в земле, в музеях, в ландшафте.
+      </p>
+   </div>
+   <div class="modalBlock__image">
+      <img src="../../img/krasnodarskii_krai/cards_modal/Kras_Drevnie/Kras_Drevnie_7.jpg" alt="7" loading="lazy">
+   </div>
+</div>`
         },
 
 // =========================== Морская культура ===================================================================
@@ -1655,8 +2070,208 @@ const Krasnodar_regionData = {
         {
             id: '11',
             title: 'Морская культура',
-            image: '../../img/krasnodarskii_krai/cards_culture/PHOTO',
-            modalContent: ``
+            image: '../../img/krasnodarskii_krai/cards_culture/Kras_Morskaya_0.jpg',
+            modalContent:
+
+`<div class="modalHeader">
+   <h1 class="modalHeader__title">Морская культура</h1>
+</div>
+
+<!-- Блок 1: Вступление -->
+<div class="modalBlock">
+   <div class="modalBlock__text">
+      <h2 class="modalBlock__title">Морская культура Краснодарского края — жизнь у воды, ритм волн и южная навигация</h2>
+      <p class="modalBlock__description">
+         Черноморское побережье Краснодарского края — это не просто курорты.
+      </p>
+      <p class="modalBlock__description">
+         Это пространство, где море формирует уклад жизни, характер людей, архитектуру, гастрономию, традиции и даже ритм речи.
+      </p>
+      <p class="modalBlock__description">
+         Здесь морская культура — не декоративный элемент, а живая среда, в которой выросли поколения рыбаков, моряков, портовых рабочих, виноделов, навигаторов, курортных жителей.
+      </p>
+      <p class="modalBlock__description">
+         Море — главный герой юга.
+      </p>
+   </div>
+   <div class="modalBlock__image">
+      <img src="../../img/krasnodarskii_krai/cards_modal/Kras_Morskaya/Kras_Morskaya_1.jpg" alt="1" loading="lazy">
+   </div>
+</div>
+
+<!-- Блок 2: Рыбацкие традиции -->
+<div class="modalBlock">
+   <div class="modalBlock__text">
+      <h2 class="modalBlock__title">Рыбацкие традиции — жизнь, связанная с морем</h2>
+      <p class="modalBlock__description">
+         До появления курортов побережье жило рыболовством.
+      </p>
+      <p class="modalBlock__description">
+         Эта культура сохранилась в небольших поселках и в старых частях городов.
+      </p>
+      <p class="modalBlock__description">
+         Ее черты:
+      </p>
+      <ul class="modalBlock__list">
+         <li class="modalBlock__listItem">утренние выходы в море, когда горизонт только начинает светиться;</li>
+         <li class="modalBlock__listItem">деревянные лодки, вытянутые на берег;</li>
+         <li class="modalBlock__listItem">рыбацкие артели, где труд делили поровну;</li>
+         <li class="modalBlock__listItem">сети, сушащиеся на солнце, как часть пейзажа;</li>
+         <li class="modalBlock__listItem">простая, честная морская кухня, основанная на свежем улове.</li>
+      </ul>
+      <p class="modalBlock__description">
+         Рыбацкая культура — это юг трудовой, настоящий, без глянца.
+      </p>
+   </div>
+   <div class="modalBlock__image">
+      <img src="../../img/krasnodarskii_krai/cards_modal/Kras_Morskaya/Kras_Morskaya_2.jpg" alt="2" loading="lazy">
+   </div>
+</div>
+
+<!-- Блок 3: Порты и морская инфраструктура -->
+<div class="modalBlock">
+   <div class="modalBlock__text">
+      <h2 class="modalBlock__title">Порты и морская инфраструктура — сердце морской жизни</h2>
+      <p class="modalBlock__description">
+         Порты Краснодарского края — это не только Новороссийск, крупнейший порт страны.
+      </p>
+      <p class="modalBlock__description">
+         Это еще и Сочи, Туапсе, Темрюк — каждый со своим характером.
+      </p>
+      <p class="modalBlock__description">
+         Новороссийск:
+      </p>
+      <ul class="modalBlock__list">
+         <li class="modalBlock__listItem">город, где море — работа;</li>
+         <li class="modalBlock__listItem">порт, который определяет ритм жизни;</li>
+         <li class="modalBlock__listItem">морская история, связанная с подвигами и войной.</li>
+      </ul>
+      <p class="modalBlock__description">
+         Сочи:
+      </p>
+      <ul class="modalBlock__list">
+         <li class="modalBlock__listItem">порт как символ курортной архитектуры;</li>
+         <li class="modalBlock__listItem">яхтенные марины, прогулочные маршруты, морские фестивали.</li>
+      </ul>
+      <p class="modalBlock__description">
+         Туапсе:
+      </p>
+      <ul class="modalBlock__list">
+         <li class="modalBlock__listItem">порт, вписанный в горы;</li>
+         <li class="modalBlock__listItem">сочетание индустриального и природного.</li>
+      </ul>
+      <p class="modalBlock__description">
+         Порты — это морская культура в ее рабочем, реальном проявлении.
+      </p>
+   </div>
+   <div class="modalBlock__image">
+      <img src="../../img/krasnodarskii_krai/cards_modal/Kras_Morskaya/Kras_Morskaya_3.jpg" alt="3" loading="lazy">
+   </div>
+</div>
+
+<!-- Блок 4: Курортная морская культура -->
+<div class="modalBlock">
+   <div class="modalBlock__text">
+      <h2 class="modalBlock__title">Курортная морская культура — набережные, прогулки, южный свет</h2>
+      <p class="modalBlock__description">
+         Курортная жизнь — это тоже часть морской культуры, но более легкая, праздничная.
+      </p>
+      <p class="modalBlock__description">
+         Ее элементы:
+      </p>
+      <ul class="modalBlock__list">
+         <li class="modalBlock__listItem">длинные набережные, где гуляют до ночи;</li>
+         <li class="modalBlock__listItem">кафе у воды, где слышно шум волн;</li>
+         <li class="modalBlock__listItem">морские прогулки, ставшие частью отдыха;</li>
+         <li class="modalBlock__listItem">пляжная культура, от галечных берегов Сочи до песков Анапы;</li>
+         <li class="modalBlock__listItem">вечерние огни, отражающиеся в воде.</li>
+      </ul>
+      <p class="modalBlock__description">
+         Это море праздничное, светлое, доступное каждому.
+      </p>
+   </div>
+   <div class="modalBlock__image">
+      <img src="../../img/krasnodarskii_krai/cards_modal/Kras_Morskaya/Kras_Morskaya_4.jpg" alt="4" loading="lazy">
+   </div>
+</div>
+
+<!-- Блок 5: Морская гастрономия -->
+<div class="modalBlock">
+   <div class="modalBlock__text">
+      <h2 class="modalBlock__title">Морская гастрономия — вкус юга, рожденный у воды</h2>
+      <p class="modalBlock__description">
+         Морская культура формирует и кухню региона.
+      </p>
+      <p class="modalBlock__description">
+         Главные элементы:
+      </p>
+      <ul class="modalBlock__list">
+         <li class="modalBlock__listItem">рыба на углях, простая и ароматная;</li>
+         <li class="modalBlock__listItem">камбала, ставрида, барабулька, символы побережья;</li>
+         <li class="modalBlock__listItem">мидии и рапаны, собранные в местных водах;</li>
+         <li class="modalBlock__listItem">супы и ухи, связанные с рыбацкими традициями;</li>
+         <li class="modalBlock__listItem">виноградники у моря, создающие южное сочетание вкусов.</li>
+      </ul>
+      <p class="modalBlock__description">
+         Гастрономия — это способ почувствовать море на вкус.
+      </p>
+   </div>
+   <div class="modalBlock__image">
+      <img src="../../img/krasnodarskii_krai/cards_modal/Kras_Morskaya/Kras_Morskaya_5.jpg" alt="5" loading="lazy">
+   </div>
+</div>
+
+<!-- Блок 6: Морские праздники, традиции и символы -->
+<div class="modalBlock">
+   <div class="modalBlock__text">
+      <h2 class="modalBlock__title">Морские праздники, традиции и символы</h2>
+      <p class="modalBlock__description">
+         Морская культура — это не только быт, но и символика.
+      </p>
+      <p class="modalBlock__description">
+         Здесь живут:
+      </p>
+      <ul class="modalBlock__list">
+         <li class="modalBlock__listItem">праздники моряков, особенно в Новороссийске;</li>
+         <li class="modalBlock__listItem">традиции морских парадов и регат;</li>
+         <li class="modalBlock__listItem">культ дельфинов, которых считают добрым знаком;</li>
+         <li class="modalBlock__listItem">морская архитектура, от маяков до волнорезов;</li>
+         <li class="modalBlock__listItem">легенды о бухтах, скалах и кораблях, передаваемые из поколения в поколение.</li>
+      </ul>
+      <p class="modalBlock__description">
+         Море — это часть мифологии юга.
+      </p>
+   </div>
+   <div class="modalBlock__image">
+      <img src="../../img/krasnodarskii_krai/cards_modal/Kras_Morskaya/Kras_Morskaya_6.jpg" alt="6" loading="lazy">
+   </div>
+</div>
+
+<!-- Блок 7: Почему -->
+<div class="modalBlock">
+   <div class="modalBlock__text">
+      <h2 class="modalBlock__title">Почему морская культура — важная часть образа Краснодарского края</h2>
+      <p class="modalBlock__description">
+         Потому что она:
+      </p>
+      <ul class="modalBlock__list">
+         <li class="modalBlock__listItem">формирует характер побережья;</li>
+         <li class="modalBlock__listItem">соединяет труд, историю и отдых;</li>
+         <li class="modalBlock__listItem">создает уникальную атмосферу южного моря;</li>
+         <li class="modalBlock__listItem">определяет гастрономию, архитектуру и ритм жизни;</li>
+         <li class="modalBlock__listItem">делает край частью большого черноморского мира.</li>
+      </ul>
+      <p class="modalBlock__description">
+         Морская культура — это душа побережья.
+      </p>
+      <p class="modalBlock__description">
+         Ритм волн, который слышен в каждом городе у моря.
+      </p>
+   </div>
+   <div class="modalBlock__image">
+      <img src="../../img/krasnodarskii_krai/cards_modal/Kras_Morskaya/Kras_Morskaya_7.jpg" alt="7" loading="lazy">
+   </div>
+</div>`
         },
 
 // =========================== Гастрономия ===================================================================
@@ -1664,8 +2279,205 @@ const Krasnodar_regionData = {
         {
             id: '12',
             title: 'Гастрономия',
-            image: '../../img/krasnodarskii_krai/cards_culture/PHOTO',
-            modalContent: ``
+            image: '../../img/krasnodarskii_krai/cards_culture/Kras_Gastronomia_0.jpg',
+            modalContent:
+
+`<div class="modalHeader">
+   <h1 class="modalHeader__title">Гастрономия</h1>
+</div>
+
+<!-- Блок 1: Вступление -->
+<div class="modalBlock">
+   <div class="modalBlock__text">
+      <h2 class="modalBlock__title">Гастрономия юга — щедрость земли, солнца и традиций</h2>
+      <p class="modalBlock__description">
+         Юг — это вкус.
+      </p>
+      <p class="modalBlock__description">
+         Теплый, солнечный, щедрый, ароматный.
+      </p>
+      <p class="modalBlock__description">
+         Гастрономия Краснодарского края — это синтез казачьих, кавказских, черноморских, греческих, армянских, адыгских, украинских и степных традиций.
+      </p>
+      <p class="modalBlock__description">
+         Это кухня, где продукты говорят сами за себя: спелые овощи, сладкие фрукты, свежая рыба, ароматные травы, домашние блюда, приготовленные с уважением к земле.
+      </p>
+      <p class="modalBlock__description">
+         Южная кухня — это не просто еда.
+      </p>
+      <p class="modalBlock__description">
+         Это культура гостеприимства.
+      </p>
+   </div>
+   <div class="modalBlock__image">
+      <img src="../../img/krasnodarskii_krai/cards_modal/Kras_Gastronomia/Kras_Gastronomia_1.jpg" alt="1" loading="lazy">
+   </div>
+</div>
+
+<!-- Блок 2: Овощи и фрукты -->
+<div class="modalBlock">
+   <div class="modalBlock__text">
+      <h2 class="modalBlock__title">Овощи и фрукты — сердце южного стола</h2>
+      <p class="modalBlock__description">
+         Юг — это край, где овощи и фрукты имеют вкус.
+      </p>
+      <p class="modalBlock__description">
+         Настоящий, насыщенный, солнечный.
+      </p>
+      <p class="modalBlock__description">
+         Главные продукты:
+      </p>
+      <ul class="modalBlock__list">
+         <li class="modalBlock__listItem">помидоры, сладкие и мясистые;</li>
+         <li class="modalBlock__listItem">баклажаны, основа множества блюд;</li>
+         <li class="modalBlock__listItem">перцы, от сладких до ароматных острых;</li>
+         <li class="modalBlock__listItem">арбуз и дыня, символы лета;</li>
+         <li class="modalBlock__listItem">персики, инжир, виноград, созревающие под южным солнцем;</li>
+         <li class="modalBlock__listItem">зелень, которой здесь много, и она всегда свежая.</li>
+      </ul>
+      <p class="modalBlock__description">
+         Южный стол начинается с овощей — ярких, ароматных, живых.
+      </p>
+   </div>
+   <div class="modalBlock__image">
+      <img src="../../img/krasnodarskii_krai/cards_modal/Kras_Gastronomia/Kras_Gastronomia_2.jpg" alt="2" loading="lazy">
+   </div>
+</div>
+
+<!-- Блок 3: Домашняя кухня -->
+<div class="modalBlock">
+   <div class="modalBlock__text">
+      <h2 class="modalBlock__title">Домашняя кухня — щедрость, традиции и вкус детства</h2>
+      <p class="modalBlock__description">
+         Южная кухня — это домашняя кухня.
+      </p>
+      <p class="modalBlock__description">
+         Большие кастрюли, общие столы, блюда, которые готовятся долго и с душой.
+      </p>
+      <p class="modalBlock__description">
+         Ключевые блюда:
+      </p>
+      <ul class="modalBlock__list">
+         <li class="modalBlock__listItem">борщ кубанский, густой, насыщенный, с большим количеством овощей;</li>
+         <li class="modalBlock__listItem">голубцы, мягкие и ароматные;</li>
+         <li class="modalBlock__listItem">вареники, пришедшие из украинской традиции;</li>
+         <li class="modalBlock__listItem">пловы и тушеные блюда, отражающие кавказское влияние;</li>
+         <li class="modalBlock__listItem">лепешки, хачапури, пироги, которые подают к любому столу.</li>
+      </ul>
+      <p class="modalBlock__description">
+         Это кухня, где важен не только вкус, но и сам процесс совместной трапезы.
+      </p>
+   </div>
+   <div class="modalBlock__image">
+      <img src="../../img/krasnodarskii_krai/cards_modal/Kras_Gastronomia/Kras_Gastronomia_3.jpg" alt="3" loading="lazy">
+   </div>
+</div>
+
+<!-- Блок 4: Черноморская гастрономия -->
+<div class="modalBlock">
+   <div class="modalBlock__text">
+      <h2 class="modalBlock__title">Черноморская гастрономия — вкус моря и побережья</h2>
+      <p class="modalBlock__description">
+         Побережье приносит свои вкусы — легкие, свежие, морские.
+      </p>
+      <p class="modalBlock__description">
+         Основные элементы:
+      </p>
+      <ul class="modalBlock__list">
+         <li class="modalBlock__listItem">камбала, ставрида, барабулька, жареные или запеченные;</li>
+         <li class="modalBlock__listItem">мидии и рапаны, приготовленные с травами;</li>
+         <li class="modalBlock__listItem">уха по-черноморски, прозрачная и ароматная;</li>
+         <li class="modalBlock__listItem">рыба на углях, простая и честная;</li>
+         <li class="modalBlock__listItem">овощные закуски, которые подают к морским блюдам.</li>
+      </ul>
+      <p class="modalBlock__description">
+         Черноморская кухня — это сочетание моря и солнца.
+      </p>
+   </div>
+   <div class="modalBlock__image">
+      <img src="../../img/krasnodarskii_krai/cards_modal/Kras_Gastronomia/Kras_Gastronomia_4.jpg" alt="4" loading="lazy">
+   </div>
+</div>
+
+<!-- Блок 5: Кавказские влияния -->
+<div class="modalBlock">
+   <div class="modalBlock__text">
+      <h2 class="modalBlock__title">Кавказские влияния — ароматные специи, мясо и традиции гор</h2>
+      <p class="modalBlock__description">
+         Юг — это ворота на Кавказ, и кухня здесь впитала множество кавказских традиций.
+      </p>
+      <p class="modalBlock__description">
+         Здесь любят:
+      </p>
+      <ul class="modalBlock__list">
+         <li class="modalBlock__listItem">шашлык, приготовленный на углях;</li>
+         <li class="modalBlock__listItem">долму, виноградные листья с начинкой;</li>
+         <li class="modalBlock__listItem">соусы на основе трав, ароматные и свежие;</li>
+         <li class="modalBlock__listItem">лепешки и сырные блюда, теплые и сытные;</li>
+         <li class="modalBlock__listItem">ароматные супы, насыщенные и пряные.</li>
+      </ul>
+      <p class="modalBlock__description">
+         Кавказская гастрономия добавляет югу глубину и характер.
+      </p>
+   </div>
+   <div class="modalBlock__image">
+      <img src="../../img/krasnodarskii_krai/cards_modal/Kras_Gastronomia/Kras_Gastronomia_5.jpg" alt="5" loading="lazy">
+   </div>
+</div>
+
+<!-- Блок 6: Виноградники и южные напитки -->
+<div class="modalBlock">
+   <div class="modalBlock__text">
+      <h2 class="modalBlock__title">Виноградники и южные напитки — культура солнца и земли</h2>
+      <p class="modalBlock__description">
+         Юг — это край виноградников.
+      </p>
+      <p class="modalBlock__description">
+         От Тамани до Новороссийска, от Анапы до Абрау — холмы покрыты лозой.
+      </p>
+      <p class="modalBlock__description">
+         Здесь ценят:
+      </p>
+      <ul class="modalBlock__list">
+         <li class="modalBlock__listItem">виноград как продукт, сладкий, сочный;</li>
+         <li class="modalBlock__listItem">традиции виноделия, пришедшие еще от греков;</li>
+         <li class="modalBlock__listItem">домашние напитки на травах и фруктах, мягкие и ароматные;</li>
+         <li class="modalBlock__listItem">виноградные долины, которые стали частью гастрономического туризма.</li>
+      </ul>
+      <p class="modalBlock__description">
+         Виноградники — это эстетика юга, его ритм и его вкус.
+      </p>
+   </div>
+   <div class="modalBlock__image">
+      <img src="../../img/krasnodarskii_krai/cards_modal/Kras_Gastronomia/Kras_Gastronomia_6.jpg" alt="6" loading="lazy">
+   </div>
+</div>
+
+<!-- Блок 7: Почему -->
+<div class="modalBlock">
+   <div class="modalBlock__text">
+      <h2 class="modalBlock__title">Почему гастрономия юга — важная часть образа края</h2>
+      <p class="modalBlock__description">
+         Потому что она:
+      </p>
+      <ul class="modalBlock__list">
+         <li class="modalBlock__listItem">отражает щедрость земли и солнца;</li>
+         <li class="modalBlock__listItem">соединяет традиции разных народов;</li>
+         <li class="modalBlock__listItem">создает атмосферу гостеприимства;</li>
+         <li class="modalBlock__listItem">делает путешествие по югу вкусным и запоминающимся;</li>
+         <li class="modalBlock__listItem">формирует культурный код региона.</li>
+      </ul>
+      <p class="modalBlock__description">
+         Гастрономия юга — это вкус тепла, света и жизни.
+      </p>
+      <p class="modalBlock__description">
+         Вкус, который невозможно забыть.
+      </p>
+   </div>
+   <div class="modalBlock__image">
+      <img src="../../img/krasnodarskii_krai/cards_modal/Kras_Gastronomia/Kras_Gastronomia_7.jpg" alt="7" loading="lazy">
+   </div>
+</div>`
         },
 
     ]

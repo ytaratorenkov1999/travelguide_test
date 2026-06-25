@@ -13,7 +13,7 @@ const Krasnodar_regionData = {
         {
             id: '1',
             title: '黑海沿岸',
-            image: '../../img/krasnodarskii_krai/cards_tochki/фото',
+            image: '../../img/krasnodarskii_krai/cards_tochki/Kras_poberezh_0.jpg',
             modalContent:
 
 `<div class="modalHeader">
@@ -215,7 +215,7 @@ const Krasnodar_regionData = {
         {
             id: '2',
             title: '高加索山脉',
-            image: '../../img/krasnodarskii_krai/cards_tochki/фото',
+            image: '../../img/krasnodarskii_krai/cards_tochki/Kras_Kavkaz_0.jpg',
             modalContent:
 
 `<div class="modalHeader">
@@ -411,7 +411,7 @@ const Krasnodar_regionData = {
         {
             id: '3',
             title: '历史城市与文化中心',
-            image: '../../img/krasnodarskii_krai/cards_tochki/фото',
+            image: '../../img/krasnodarskii_krai/cards_tochki/Kras_Istoricheskoe_0.jpg',
             modalContent:
 
 `<div class="modalHeader">
@@ -609,7 +609,7 @@ const Krasnodar_regionData = {
         {
             id: '4',
             title: '能量之地',
-            image: '../../img/krasnodarskii_krai/cards_tochki/фото',
+            image: '../../img/krasnodarskii_krai/cards_tochki/Kras_Mesta_0.jpg',
             modalContent:
 
 `<div class="modalHeader">
@@ -819,7 +819,7 @@ const Krasnodar_regionData = {
         {
             id: '5',
             title: '海上航线与海岸',
-            image: '../../img/krasnodarskii_krai/cards_nature/photo',
+            image: '../../img/krasnodarskii_krai/cards_nature/Kras_Morskie.jpg',
             modalContent:
 
 `<div class="modalHeader">
@@ -1023,7 +1023,7 @@ const Krasnodar_regionData = {
         {
             id: '6',
             title: '河流、湖泊与峡谷',
-            image: '../../img/krasnodarskii_krai/cards_nature/photo',
+            image: '../../img/krasnodarskii_krai/cards_nature/Kras_Reki_0.jpg',
             modalContent:
 
 `<div class="modalHeader">
@@ -1227,7 +1227,7 @@ const Krasnodar_regionData = {
         {
             id: '7',
             title: '草原与泻湖',
-            image: '../../img/krasnodarskii_krai/cards_nature/photo',
+            image: '../../img/krasnodarskii_krai/cards_nature/Kras_Stepi_0.jpg',
             modalContent:
 
 `<div class="modalHeader">
@@ -1431,7 +1431,7 @@ const Krasnodar_regionData = {
         {
             id: '8',
             title: '生态步道',
-            image: '../../img/krasnodarskii_krai/cards_nature/photo',
+            image: '../../img/krasnodarskii_krai/cards_nature/Kras_Eco_0.jpg',
             modalContent:
 
 `<div class="modalHeader">
@@ -1637,8 +1637,199 @@ const Krasnodar_regionData = {
         {
             id: '9',
             title: '哥萨克文化',
-            image: '../../img/krasnodarskii_krai/cards_culture/PHOTO',
-            modalContent: ``
+            image: '../../img/krasnodarskii_krai/cards_culture/Kras_Kazachya.jpg',
+            modalContent:
+
+`<div class="modalHeader">
+   <h1 class="modalHeader__title">哥萨克文化</h1>
+</div>
+
+<!-- Блок 1: Вступление -->
+<div class="modalBlock">
+   <div class="modalBlock__text">
+      <h2 class="modalBlock__title">哥萨克文化——草原、自由与南方土地的灵魂</h2>
+      <p class="modalBlock__description">
+         哥萨克文化是克拉斯诺达尔边疆区关键的文化密码之一。
+      </p>
+      <p class="modalBlock__description">
+         它形成于草原、河流、山脉与黑海的交汇之处，在这片不同民族、传统与生活方式相遇的土地上。
+      </p>
+      <p class="modalBlock__description">
+         哥萨克精神不仅属于历史，更是一个鲜活的文化层：歌声、仪式、饮食、服饰、节庆、生活习俗。
+      </p>
+      <p class="modalBlock__description">
+         这是一种自由与纪律、尚武与好客、草原辽阔与家族传统并存的文化。
+      </p>
+   </div>
+   <div class="modalBlock__image">
+      <img src="../../img/krasnodarskii_krai/cards_modal/Kras_Kazachya/Kras_Kazachya_1.jpg" alt="1" loading="lazy">
+   </div>
+</div>
+
+<!-- Блок 2: Истоки и дух казачества -->
+<div class="modalBlock">
+   <div class="modalBlock__text">
+      <h2 class="modalBlock__title">哥萨克的起源与精神——生活在疆界之上</h2>
+      <p class="modalBlock__description">
+         库班哥萨克是18世纪末被迁徙到俄罗斯南部的扎波罗热人的后裔。
+      </p>
+      <p class="modalBlock__description">
+         他们成为了边疆的保卫者、农耕者、渔夫、骑手，守护着南方的边界。
+      </p>
+      <p class="modalBlock__description">
+         哥萨克精神的主要特征：
+      </p>
+      <ul class="modalBlock__list">
+         <li class="modalBlock__listItem">自由，却建立在严格的社群规则之上；</li>
+         <li class="modalBlock__listItem">世代相传的军人英勇；</li>
+         <li class="modalBlock__listItem">对脚下土地的尊敬；</li>
+         <li class="modalBlock__listItem">与东正教紧密相连的深厚宗教信仰；</li>
+         <li class="modalBlock__listItem">强大的家族传统，家族是一切的基础。</li>
+      </ul>
+      <p class="modalBlock__description">
+         哥萨克文化，是生活于草原与山脉、和平与战争边界上的人们所创造的文化。
+      </p>
+   </div>
+   <div class="modalBlock__image">
+      <img src="../../img/krasnodarskii_krai/cards_modal/Kras_Kazachya/Kras_Kazachya_2.jpg" alt="2" loading="lazy">
+   </div>
+</div>
+
+<!-- Блок 3: Станицы -->
+<div class="modalBlock">
+   <div class="modalBlock__text">
+      <h2 class="modalBlock__title">哥萨克村镇——哥萨克生活的核心</h2>
+      <p class="modalBlock__description">
+         哥萨克村镇不仅仅是一个居民点。
+      </p>
+      <p class="modalBlock__description">
+         它是一种特殊的定居形态，一切皆服从于社群的生活方式。
+      </p>
+      <p class="modalBlock__description">
+         在哥萨克村镇中：
+      </p>
+      <ul class="modalBlock__list">
+         <li class="modalBlock__listItem">宽阔的街道，延伸至地平线；</li>
+         <li class="modalBlock__listItem">白色粉刷的房屋，装饰着雕花窗框；</li>
+         <li class="modalBlock__listItem">村镇的教堂，生活围绕其展开；</li>
+         <li class="modalBlock__listItem">库连（传统哥萨克住宅）；</li>
+         <li class="modalBlock__listItem">村镇大会，商讨重大事项的地方。</li>
+      </ul>
+      <p class="modalBlock__description">
+         村庄是一个微型世界，每个人都知晓自己的位置与责任。
+      </p>
+   </div>
+   <div class="modalBlock__image">
+      <img src="../../img/krasnodarskii_krai/cards_modal/Kras_Kazachya/Kras_Kazachya_3.jpg" alt="3" loading="lazy">
+   </div>
+</div>
+
+<!-- Блок 4: Казачья музыка и танцы -->
+<div class="modalBlock">
+   <div class="modalBlock__text">
+      <h2 class="modalBlock__title">哥萨克的音乐与舞蹈——草原的活力、节奏与声音</h2>
+      <p class="modalBlock__description">
+         音乐是哥萨克文化中最璀璨的侧面之一。
+      </p>
+      <p class="modalBlock__description">
+         它饱含情感，充满力量，层次丰富。
+      </p>
+      <p class="modalBlock__description">
+         特色：
+      </p>
+      <ul class="modalBlock__list">
+         <li class="modalBlock__listItem">悠长的民歌，令人想起草原与路途；</li>
+         <li class="modalBlock__listItem">征战之歌，与远征和战役紧密相连；</li>
+         <li class="modalBlock__listItem">舞蹈曲目，快速而充满活力，节奏鲜明；</li>
+         <li class="modalBlock__listItem">多声部合唱，营造出恢弘的合唱效果；</li>
+         <li class="modalBlock__listItem">刀剑舞蹈，象征着军事文化。</li>
+      </ul>
+      <p class="modalBlock__description">
+         哥萨克音乐是大地、风与自由的声音。
+      </p>
+   </div>
+   <div class="modalBlock__image">
+      <img src="../../img/krasnodarskii_krai/cards_modal/Kras_Kazachya/Kras_Kazachya_4.jpg" alt="4" loading="lazy">
+   </div>
+</div>
+
+<!-- Блок 5: Традиционная одежда -->
+<div class="modalBlock">
+   <div class="modalBlock__text">
+      <h2 class="modalBlock__title">传统服饰——地位、美丽与军事文化的象征</h2>
+      <p class="modalBlock__description">
+         哥萨克服饰不仅是衣着，更是身份认同的一部分。
+      </p>
+      <p class="modalBlock__description">
+         主要元素：
+      </p>
+      <ul class="modalBlock__list">
+         <li class="modalBlock__listItem">切尔克斯外套与贝什梅特——传统的男士长袍；</li>
+         <li class="modalBlock__listItem">皮帽——勇气的象征；</li>
+         <li class="modalBlock__listItem">带弹夹的切尔克斯外套——彰显军人身份的服饰；</li>
+         <li class="modalBlock__listItem">女士萨拉凡与头巾，饰有刺绣；</li>
+         <li class="modalBlock__listItem">腰带与首饰，代代相传。</li>
+      </ul>
+      <p class="modalBlock__description">
+         哥萨克服装是草原美学与军事文化的体现。
+      </p>
+   </div>
+   <div class="modalBlock__image">
+      <img src="../../img/krasnodarskii_krai/cards_modal/Kras_Kazachya/Kras_Kazachya_5.jpg" alt="5" loading="lazy">
+   </div>
+</div>
+
+<!-- Блок 6: Казачья кухня -->
+<div class="modalBlock">
+   <div class="modalBlock__text">
+      <h2 class="modalBlock__title">哥萨克美食——丰盛、朴实、富有南方风味</h2>
+      <p class="modalBlock__description">
+         哥萨克的饮食反映了他们的生活方式：农耕、军事、草原。
+      </p>
+      <p class="modalBlock__description">
+         主要菜肴：
+      </p>
+      <ul class="modalBlock__list">
+         <li class="modalBlock__listItem">库班红菜汤，浓郁而醇厚；</li>
+         <li class="modalBlock__listItem">饺子与面疙瘩，源自乌克兰传统；</li>
+         <li class="modalBlock__listItem">粥品与麦糊，简单而营养；</li>
+         <li class="modalBlock__listItem">鱼类菜肴，尤以河畔村镇为盛；</li>
+         <li class="modalBlock__listItem">与节日相关的家庭烘焙食品。</li>
+      </ul>
+      <p class="modalBlock__description">
+         哥萨克美食，是南方风味、阳光与家庭温暖的滋味。
+      </p>
+   </div>
+   <div class="modalBlock__image">
+      <img src="../../img/krasnodarskii_krai/cards_modal/Kras_Kazachya/Kras_Kazachya_6.jpg" alt="6" loading="lazy">
+   </div>
+</div>
+
+<!-- Блок 7: Почему -->
+<div class="modalBlock">
+   <div class="modalBlock__text">
+      <h2 class="modalBlock__title">为何哥萨克文化是克拉斯诺达尔边疆区形象的重要组成部分</h2>
+      <p class="modalBlock__description">
+         因为它：
+      </p>
+      <ul class="modalBlock__list">
+         <li class="modalBlock__listItem">塑造了该地区的历史与文化认同；</li>
+         <li class="modalBlock__listItem">造就了独特的南方性格；</li>
+         <li class="modalBlock__listItem">连接着草原、山脉、海洋与各民族的传统；</li>
+         <li class="modalBlock__listItem">保留了鲜活的仪式、音乐与生活方式；</li>
+         <li class="modalBlock__listItem">使该边疆区在俄罗斯文化版图中独具特色。</li>
+      </ul>
+      <p class="modalBlock__description">
+         哥萨克文化，是库班的心脏。
+      </p>
+      <p class="modalBlock__description">
+         鲜活的传统仍在回响、律动、欢庆，守护着记忆。
+      </p>
+   </div>
+   <div class="modalBlock__image">
+      <img src="../../img/krasnodarskii_krai/cards_modal/Kras_Kazachya/Kras_Kazachya_7.jpg" alt="7" loading="lazy">
+   </div>
+</div>`
         },
 
 // =========================== Древние цивилизации ===================================================================
@@ -1646,8 +1837,232 @@ const Krasnodar_regionData = {
         {
             id: '10',
             title: '古代文明',
-            image: '../../img/krasnodarskii_krai/cards_culture/PHOTO',
-            modalContent: ``
+            image: '../../img/krasnodarskii_krai/cards_culture/Kras_Drevnie_0.jpg',
+            modalContent:
+
+`<div class="modalHeader">
+   <h1 class="modalHeader__title">古代文明</h1>
+</div>
+
+<!-- Блок 1: Вступление -->
+<div class="modalBlock">
+   <div class="modalBlock__text">
+      <h2 class="modalBlock__title">克拉斯诺达尔边疆区的古代文明——世界交汇之地</h2>
+      <p class="modalBlock__description">
+         克拉斯诺达尔边疆区，是一片数千年来文化、民族与文明交融的土地。
+      </p>
+      <p class="modalBlock__description">
+         草原、河口、海岸、高加索山麓——这一切曾是希腊人、梅奥蒂人、斯基泰人、萨尔马特人、罗马人、拜占庭人、可萨人、切尔克斯人的舞台。
+      </p>
+      <p class="modalBlock__description">
+         在这里，大地留存着城市、圣所、古墓、道路与堡垒的遗迹。
+      </p>
+      <p class="modalBlock__description">
+         这是南方，古老并未消逝——它就在脚下。
+      </p>
+      <p class="modalBlock__description">
+         边疆区的古代文明，是一层可见、可触、可感的历史。
+      </p>
+   </div>
+   <div class="modalBlock__image">
+      <img src="../../img/krasnodarskii_krai/cards_modal/Kras_Drevnie/Kras_Drevnie_1.jpg" alt="1" loading="lazy">
+   </div>
+</div>
+
+<!-- Блок 2: Меоты -->
+<div class="modalBlock">
+   <div class="modalBlock__text">
+      <h2 class="modalBlock__title">梅奥蒂人——库班最早的居民</h2>
+      <p class="modalBlock__description">
+         梅奥蒂人，是在公元前一千年就生活在该边疆区境内的古老民族。
+      </p>
+      <p class="modalBlock__description">
+         他们留下了古墓、定居点、陶器和饰品。
+      </p>
+      <p class="modalBlock__description">
+         他们的世界：
+      </p>
+      <ul class="modalBlock__list">
+         <li class="modalBlock__listItem">在河口沿岸的定居点，从事渔业；</li>
+         <li class="modalBlock__listItem">在古墓中发现武器、饰品和护身符；</li>
+         <li class="modalBlock__listItem">带有几何图案的陶器；</li>
+         <li class="modalBlock__listItem">考古发现中反映的水与太阳崇拜；</li>
+         <li class="modalBlock__listItem">与希腊人的贸易，使该地区成为古典世界的一部分。</li>
+      </ul>
+      <p class="modalBlock__description">
+         梅奥特人是古库班地区的本土居民。
+      </p>
+   </div>
+   <div class="modalBlock__image">
+      <img src="../../img/krasnodarskii_krai/cards_modal/Kras_Drevnie/Kras_Drevnie_2.jpg" alt="2" loading="lazy">
+   </div>
+</div>
+
+<!-- Блок 3: Греки и античные города -->
+<div class="modalBlock">
+   <div class="modalBlock__text">
+      <h2 class="modalBlock__title">希腊人与古典城市——戈尔吉皮亚、赫尔莫纳萨、法纳戈里亚</h2>
+      <p class="modalBlock__description">
+         希腊人于公元前6世纪来到海岸，在此建立了一系列城市。
+      </p>
+      <p class="modalBlock__description">
+         他们的文化成为该地区发展的基础。
+      </p>
+      <p class="modalBlock__description">
+         主要中心：
+      </p>
+      <p class="modalBlock__description">
+         戈尔吉皮亚（阿纳帕）：
+      </p>
+      <ul class="modalBlock__list">
+         <li class="modalBlock__listItem">市中心直接进行的发掘；</li>
+         <li class="modalBlock__listItem">古街道、房屋地基、葡萄酒双耳瓶；</li>
+         <li class="modalBlock__listItem">博物馆保护区，古典世界在此复苏。</li>
+      </ul>
+      <p class="modalBlock__description">
+         赫尔莫纳萨（塔曼）：
+      </p>
+      <ul class="modalBlock__list">
+         <li class="modalBlock__listItem">与整个黑海地区贸易相关的古老港口；</li>
+         <li class="modalBlock__listItem">出土的钱币、陶器、神庙器物。</li>
+      </ul>
+      <p class="modalBlock__description">
+         法纳戈里亚：
+      </p>
+      <ul class="modalBlock__list">
+         <li class="modalBlock__listItem">俄罗斯最大的古典城市之一；</li>
+         <li class="modalBlock__listItem">宫殿、墓地、神庙的发掘；</li>
+         <li class="modalBlock__listItem">独特发现：铭文、雕像、金饰。</li>
+      </ul>
+      <p class="modalBlock__description">
+         希腊人为该地区带来了文字、建筑、贸易、葡萄酒酿造。
+      </p>
+   </div>
+   <div class="modalBlock__image">
+      <img src="../../img/krasnodarskii_krai/cards_modal/Kras_Drevnie/Kras_Drevnie_3.jpg" alt="3" loading="lazy">
+   </div>
+</div>
+
+<!-- Блок 4: Скифы и сарматы -->
+<div class="modalBlock">
+   <div class="modalBlock__text">
+      <h2 class="modalBlock__title">斯基泰人与萨尔马特人——草原游牧民族</h2>
+      <p class="modalBlock__description">
+         斯基泰人和萨尔马特人生活在库班和塔曼的草原上，留下了极为丰富的坟冢。
+      </p>
+      <p class="modalBlock__description">
+         他们的遗产：
+      </p>
+      <ul class="modalBlock__list">
+         <li class="modalBlock__listItem">充满金饰的帝王陵冢；</li>
+         <li class="modalBlock__listItem">见证武士文化的武器与盔甲；</li>
+         <li class="modalBlock__listItem">反映马崇拜的马匹墓葬；</li>
+         <li class="modalBlock__listItem">与火、太阳、草原相关的神话；</li>
+         <li class="modalBlock__listItem">与希腊人的接触，希腊人在其编年史中记载了他们。</li>
+      </ul>
+      <p class="modalBlock__description">
+         斯基泰人和萨尔马特人是该地区古代历史中的草原文化层。
+      </p>
+   </div>
+   <div class="modalBlock__image">
+      <img src="../../img/krasnodarskii_krai/cards_modal/Kras_Drevnie/Kras_Drevnie_4.jpg" alt="4" loading="lazy">
+   </div>
+</div>
+
+<!-- Блок 5: Боспорское царство -->
+<div class="modalBlock">
+   <div class="modalBlock__text">
+      <h2 class="modalBlock__title">博斯普鲁斯王国——两海之滨的古老国家</h2>
+      <p class="modalBlock__description">
+         博斯普鲁斯王国曾统一塔曼、克里米亚及部分沿海地区。
+      </p>
+      <p class="modalBlock__description">
+         这是古代世界最稳固的国家之一。
+      </p>
+      <p class="modalBlock__description">
+         其特点如下：
+      </p>
+      <ul class="modalBlock__list">
+         <li class="modalBlock__listItem">多语言与多文化；</li>
+         <li class="modalBlock__listItem">谷物、葡萄酒、鱼类贸易；</li>
+         <li class="modalBlock__listItem">铸造本国货币的造币厂；</li>
+         <li class="modalBlock__listItem">控制商路的堡垒与港口；</li>
+         <li class="modalBlock__listItem">留下铭文与文物的王朝。</li>
+      </ul>
+      <p class="modalBlock__description">
+         博斯普鲁斯王国是一个存在超过千年的古代政治体系。
+      </p>
+   </div>
+   <div class="modalBlock__image">
+      <img src="../../img/krasnodarskii_krai/cards_modal/Kras_Drevnie/Kras_Drevnie_5.jpg" alt="5" loading="lazy">
+   </div>
+</div>
+
+<!-- Блок 6: Средневековые цивилизации -->
+<div class="modalBlock">
+   <div class="modalBlock__text">
+      <h2 class="modalBlock__title">中世纪文明——拜占庭人、可萨人、切尔克斯人</h2>
+      <p class="modalBlock__description">
+         古典时代之后，该地区成为新文化的舞台。
+      </p>
+      <p class="modalBlock__description">
+         拜占庭人：
+      </p>
+      <ul class="modalBlock__list">
+         <li class="modalBlock__listItem">沿海堡垒；</li>
+         <li class="modalBlock__listItem">基督教教堂；</li>
+         <li class="modalBlock__listItem">贸易商站。</li>
+      </ul>
+      <p class="modalBlock__description">
+         可萨人：
+      </p>
+      <ul class="modalBlock__list">
+         <li class="modalBlock__listItem">对草原地区的影响；</li>
+         <li class="modalBlock__listItem">东西方之间的贸易路线。</li>
+      </ul>
+      <p class="modalBlock__description">
+         切尔克斯人（阿迪格人）：
+      </p>
+      <ul class="modalBlock__list">
+         <li class="modalBlock__listItem">形成山麓文化的古老民族；</li>
+         <li class="modalBlock__listItem">设防的定居点；</li>
+         <li class="modalBlock__listItem">独特的礼仪体系与军事传统；</li>
+         <li class="modalBlock__listItem">手工艺品、装饰品、兵器。</li>
+      </ul>
+      <p class="modalBlock__description">
+         中世纪的积淀是连接古典与现代的桥梁。
+      </p>
+   </div>
+   <div class="modalBlock__image">
+      <img src="../../img/krasnodarskii_krai/cards_modal/Kras_Drevnie/Kras_Drevnie_6.jpg" alt="6" loading="lazy">
+   </div>
+</div>
+
+<!-- Блок 7: Почему -->
+<div class="modalBlock">
+   <div class="modalBlock__text">
+      <h2 class="modalBlock__title">为何古代文明是地区形象的重要组成</h2>
+      <p class="modalBlock__description">
+         因为它：
+      </p>
+      <ul class="modalBlock__list">
+         <li class="modalBlock__listItem">构建历史的层叠结构；</li>
+         <li class="modalBlock__listItem">塑造地区的文化密码；</li>
+         <li class="modalBlock__listItem">留下至今可观的遗迹；</li>
+         <li class="modalBlock__listItem">将草原、海洋与群山融贯为统一的历史空间；</li>
+         <li class="modalBlock__listItem">令克拉斯诺达尔边疆区成为地中海与高加索宏大历史的一部分。</li>
+      </ul>
+      <p class="modalBlock__description">
+         古代文明是南方的根基。
+      </p>
+      <p class="modalBlock__description">
+         这段历史仍在土地、博物馆与地貌中延续。
+      </p>
+   </div>
+   <div class="modalBlock__image">
+      <img src="../../img/krasnodarskii_krai/cards_modal/Kras_Drevnie/Kras_Drevnie_7.jpg" alt="7" loading="lazy">
+   </div>
+</div>`
         },
 
 // =========================== Морская культура ===================================================================
@@ -1655,8 +2070,208 @@ const Krasnodar_regionData = {
         {
             id: '11',
             title: '海洋文化',
-            image: '../../img/krasnodarskii_krai/cards_culture/PHOTO',
-            modalContent: ``
+            image: '../../img/krasnodarskii_krai/cards_culture/Kras_Morskaya_0.jpg',
+            modalContent:
+
+`<div class="modalHeader">
+   <h1 class="modalHeader__title">海洋文化</h1>
+</div>
+
+<!-- Блок 1: Вступление -->
+<div class="modalBlock">
+   <div class="modalBlock__text">
+      <h2 class="modalBlock__title">克拉斯诺达尔边疆区的海洋文化——依水而居，浪的韵律与南方航海</h2>
+      <p class="modalBlock__description">
+         克拉斯诺达尔边疆区的黑海沿岸不仅仅是度假胜地。
+      </p>
+      <p class="modalBlock__description">
+         在这片空间里，海洋塑造着生活方式、人的性格、建筑、美食、传统乃至说话节奏。
+      </p>
+      <p class="modalBlock__description">
+         这里的海洋文化并非装饰性的元素，而是一种鲜活的媒介，生长于此的渔民、水手、港口工人、酿酒师、航海家以及度假地居民，世代浸润其中。
+      </p>
+      <p class="modalBlock__description">
+         海洋是南方的主角。
+      </p>
+   </div>
+   <div class="modalBlock__image">
+      <img src="../../img/krasnodarskii_krai/cards_modal/Kras_Morskaya/Kras_Morskaya_1.jpg" alt="1" loading="lazy">
+   </div>
+</div>
+
+<!-- Блок 2: Рыбацкие традиции -->
+<div class="modalBlock">
+   <div class="modalBlock__text">
+      <h2 class="modalBlock__title">渔村传统——与海共生</h2>
+      <p class="modalBlock__description">
+         在度假地出现之前，沿海地区以渔业为生。
+      </p>
+      <p class="modalBlock__description">
+         这一文化保留在小型村镇和城市的古老区域中。
+      </p>
+      <p class="modalBlock__description">
+         其特征为：
+      </p>
+      <ul class="modalBlock__list">
+         <li class="modalBlock__listItem">清晨出海，天际刚泛起微光；</li>
+         <li class="modalBlock__listItem">木船被拖上岸边；</li>
+         <li class="modalBlock__listItem">渔民劳动组合，平摊劳作；</li>
+         <li class="modalBlock__listItem">晾晒在阳光下的渔网，成为风景的一部分；</li>
+         <li class="modalBlock__listItem">朴实、真诚的海鲜料理，源自新鲜渔获。</li>
+      </ul>
+      <p class="modalBlock__description">
+         渔村文化是南方劳作的写照，真实而不加修饰。
+      </p>
+   </div>
+   <div class="modalBlock__image">
+      <img src="../../img/krasnodarskii_krai/cards_modal/Kras_Morskaya/Kras_Morskaya_2.jpg" alt="2" loading="lazy">
+   </div>
+</div>
+
+<!-- Блок 3: Порты и морская инфраструктура -->
+<div class="modalBlock">
+   <div class="modalBlock__text">
+      <h2 class="modalBlock__title">港口与海洋基础设施——海上生活的核心</h2>
+      <p class="modalBlock__description">
+         克拉斯诺达尔边疆区的港口不止是俄罗斯最大的港口新罗西斯克。
+      </p>
+      <p class="modalBlock__description">
+         还有索契、图阿普谢、捷姆留克——各自独具风貌。
+      </p>
+      <p class="modalBlock__description">
+         新罗西斯克：
+      </p>
+      <ul class="modalBlock__list">
+         <li class="modalBlock__listItem">一座以海为业的城市；</li>
+         <li class="modalBlock__listItem">港口决定了生活的节奏；</li>
+         <li class="modalBlock__listItem">与功勋和战争紧密相连的海洋历史。</li>
+      </ul>
+      <p class="modalBlock__description">
+         索契：
+      </p>
+      <ul class="modalBlock__list">
+         <li class="modalBlock__listItem">港口是度假建筑风格的象征；</li>
+         <li class="modalBlock__listItem">游艇码头、观光航线、海洋节庆活动。</li>
+      </ul>
+      <p class="modalBlock__description">
+         图阿普谢：
+      </p>
+      <ul class="modalBlock__list">
+         <li class="modalBlock__listItem">镶嵌于群山之中的港口；</li>
+         <li class="modalBlock__listItem">工业与自然的交融。</li>
+      </ul>
+      <p class="modalBlock__description">
+         港口是海洋文化在劳作与真实中的体现。
+      </p>
+   </div>
+   <div class="modalBlock__image">
+      <img src="../../img/krasnodarskii_krai/cards_modal/Kras_Morskaya/Kras_Morskaya_3.jpg" alt="3" loading="lazy">
+   </div>
+</div>
+
+<!-- Блок 4: Курортная морская культура -->
+<div class="modalBlock">
+   <div class="modalBlock__text">
+      <h2 class="modalBlock__title">度假海洋文化——海滨步道、漫步、南方的阳光</h2>
+      <p class="modalBlock__description">
+         度假生活同样是海洋文化的一部分，只是更为闲适与欢愉。
+      </p>
+      <p class="modalBlock__description">
+         其构成要素：
+      </p>
+      <ul class="modalBlock__list">
+         <li class="modalBlock__listItem">漫长的海滨步道，人们漫步至深夜；</li>
+         <li class="modalBlock__listItem">水畔的咖啡馆，可聆听浪涛声声；</li>
+         <li class="modalBlock__listItem">已成为休闲方式的海上巡游；</li>
+         <li class="modalBlock__listItem">海滩文化，从索契的卵石滩到阿纳帕的细沙；</li>
+         <li class="modalBlock__listItem">倒映在水中的灯火夜色。</li>
+      </ul>
+      <p class="modalBlock__description">
+         这片海是欢庆的、明亮的，向每一个人敞开怀抱。
+      </p>
+   </div>
+   <div class="modalBlock__image">
+      <img src="../../img/krasnodarskii_krai/cards_modal/Kras_Morskaya/Kras_Morskaya_4.jpg" alt="4" loading="lazy">
+   </div>
+</div>
+
+<!-- Блок 5: Морская гастрономия -->
+<div class="modalBlock">
+   <div class="modalBlock__text">
+      <h2 class="modalBlock__title">海洋美食——水边诞生的南方风味</h2>
+      <p class="modalBlock__description">
+         海洋文化也塑造了本地区的饮食。
+      </p>
+      <p class="modalBlock__description">
+         主要元素：
+      </p>
+      <ul class="modalBlock__list">
+         <li class="modalBlock__listItem">炭烤鱼，简约而芬芳；</li>
+         <li class="modalBlock__listItem">鲽鱼、竹荚鱼、红鲻鱼——海岸的象征；</li>
+         <li class="modalBlock__listItem">当地海域捕捞的贻贝和螺；</li>
+         <li class="modalBlock__listItem">与渔民传统相连的汤品和鱼汤；</li>
+         <li class="modalBlock__listItem">海边的葡萄园，营造出南方的风味和谐。</li>
+      </ul>
+      <p class="modalBlock__description">
+         美食，是品味海洋的方式。
+      </p>
+   </div>
+   <div class="modalBlock__image">
+      <img src="../../img/krasnodarskii_krai/cards_modal/Kras_Morskaya/Kras_Morskaya_5.jpg" alt="5" loading="lazy">
+   </div>
+</div>
+
+<!-- Блок 6: Морские праздники, традиции и символы -->
+<div class="modalBlock">
+   <div class="modalBlock__text">
+      <h2 class="modalBlock__title">海洋节日、传统与象征</h2>
+      <p class="modalBlock__description">
+         海洋文化不仅关乎生活，也关乎象征。
+      </p>
+      <p class="modalBlock__description">
+         在这里，有：
+      </p>
+      <ul class="modalBlock__list">
+         <li class="modalBlock__listItem">海员节日，尤其在诺沃罗西斯克；</li>
+         <li class="modalBlock__listItem">海上阅兵与帆船赛的传统；</li>
+         <li class="modalBlock__listItem">海豚崇拜，人们视其为吉祥之兆；</li>
+         <li class="modalBlock__listItem">海洋建筑，从灯塔到防波堤；</li>
+         <li class="modalBlock__listItem">关于海湾、礁石与船只的传说，代代相传。</li>
+      </ul>
+      <p class="modalBlock__description">
+         海洋，是南方神话的一部分。
+      </p>
+   </div>
+   <div class="modalBlock__image">
+      <img src="../../img/krasnodarskii_krai/cards_modal/Kras_Morskaya/Kras_Morskaya_6.jpg" alt="6" loading="lazy">
+   </div>
+</div>
+
+<!-- Блок 7: Почему -->
+<div class="modalBlock">
+   <div class="modalBlock__text">
+      <h2 class="modalBlock__title">为什么海洋文化是克拉斯诺达尔边疆区形象的重要组成部分</h2>
+      <p class="modalBlock__description">
+         因为它：
+      </p>
+      <ul class="modalBlock__list">
+         <li class="modalBlock__listItem">塑造了海岸的气质；</li>
+         <li class="modalBlock__listItem">将劳动、历史与休闲融为一体；</li>
+         <li class="modalBlock__listItem">营造出南方海洋的独特氛围；</li>
+         <li class="modalBlock__listItem">决定了美食、建筑与生活节奏；</li>
+         <li class="modalBlock__listItem">使这片边疆成为黑海大世界的一部分。</li>
+      </ul>
+      <p class="modalBlock__description">
+         海洋文化——是海岸的灵魂。
+      </p>
+      <p class="modalBlock__description">
+         海浪的节奏，在每个滨海城市都能听见。
+      </p>
+   </div>
+   <div class="modalBlock__image">
+      <img src="../../img/krasnodarskii_krai/cards_modal/Kras_Morskaya/Kras_Morskaya_7.jpg" alt="7" loading="lazy">
+   </div>
+</div>`
         },
 
 // =========================== Гастрономия ===================================================================
@@ -1664,8 +2279,205 @@ const Krasnodar_regionData = {
         {
             id: '12',
             title: '美食',
-            image: '../../img/krasnodarskii_krai/cards_culture/PHOTO',
-            modalContent: ``
+            image: '../../img/krasnodarskii_krai/cards_culture/Kras_Gastronomia_0.jpg',
+            modalContent:
+
+`<div class="modalHeader">
+   <h1 class="modalHeader__title">美食</h1>
+</div>
+
+<!-- Блок 1: Вступление -->
+<div class="modalBlock">
+   <div class="modalBlock__text">
+      <h2 class="modalBlock__title">南方的美食——土地、阳光与传统的慷慨馈赠</h2>
+      <p class="modalBlock__description">
+         南方，是一种味道。
+      </p>
+      <p class="modalBlock__description">
+         温暖、明媚、丰盛、芬芳。
+      </p>
+      <p class="modalBlock__description">
+         克拉斯诺达尔边疆区的美食，是哥萨克、高加索、黑海、希腊、亚美尼亚、阿迪格、乌克兰与草原传统的融合。
+      </p>
+      <p class="modalBlock__description">
+         这是一种食材本身会说话的烹饪：成熟的蔬菜、甘甜的水果、鲜美的鱼、芳香的香草、怀着对土地敬意烹制的家常菜肴。
+      </p>
+      <p class="modalBlock__description">
+         南方美食，不只是一餐饭。
+      </p>
+      <p class="modalBlock__description">
+         它是一种好客文化。
+      </p>
+   </div>
+   <div class="modalBlock__image">
+      <img src="../../img/krasnodarskii_krai/cards_modal/Kras_Gastronomia/Kras_Gastronomia_1.jpg" alt="1" loading="lazy">
+   </div>
+</div>
+
+<!-- Блок 2: Овощи и фрукты -->
+<div class="modalBlock">
+   <div class="modalBlock__text">
+      <h2 class="modalBlock__title">蔬菜与水果——南方餐桌的灵魂</h2>
+      <p class="modalBlock__description">
+         南方，是蔬果拥有味道的地方。
+      </p>
+      <p class="modalBlock__description">
+         真切的、浓郁的、阳光的味道。
+      </p>
+      <p class="modalBlock__description">
+         主要食材：
+      </p>
+      <ul class="modalBlock__list">
+         <li class="modalBlock__listItem">番茄，甜美多肉；</li>
+         <li class="modalBlock__listItem">茄子，众多菜肴的基础；</li>
+         <li class="modalBlock__listItem">甜椒与芳香辣椒；</li>
+         <li class="modalBlock__listItem">西瓜和甜瓜，夏天的象征；</li>
+         <li class="modalBlock__listItem">在南方阳光下成熟的桃子、无花果和葡萄；</li>
+         <li class="modalBlock__listItem">种类繁多且永远新鲜的绿叶蔬菜。</li>
+      </ul>
+      <p class="modalBlock__description">
+         南方餐桌始于蔬菜——色彩鲜艳、香气浓郁、充满生机。
+      </p>
+   </div>
+   <div class="modalBlock__image">
+      <img src="../../img/krasnodarskii_krai/cards_modal/Kras_Gastronomia/Kras_Gastronomia_2.jpg" alt="2" loading="lazy">
+   </div>
+</div>
+
+<!-- Блок 3: Домашняя кухня -->
+<div class="modalBlock">
+   <div class="modalBlock__text">
+      <h2 class="modalBlock__title">家常菜——丰盛、传统与童年的味道</h2>
+      <p class="modalBlock__description">
+         南方美食，就是家常菜。
+      </p>
+      <p class="modalBlock__description">
+         大汤锅、共享餐桌、倾注心意慢火细炖的菜肴。
+      </p>
+      <p class="modalBlock__description">
+         特色菜肴：
+      </p>
+      <ul class="modalBlock__list">
+         <li class="modalBlock__listItem">库班红菜汤——浓稠醇厚，蔬菜丰盛；</li>
+         <li class="modalBlock__listItem">菜卷——软嫩鲜香；</li>
+         <li class="modalBlock__listItem">饺子——源自乌克兰传统；</li>
+         <li class="modalBlock__listItem">手抓饭与炖菜——体现高加索影响；</li>
+         <li class="modalBlock__listItem">薄饼、哈洽普里、馅饼——佐餐必备。</li>
+      </ul>
+      <p class="modalBlock__description">
+         在这里，味道固然重要，但共餐的过程同样珍贵。
+      </p>
+   </div>
+   <div class="modalBlock__image">
+      <img src="../../img/krasnodarskii_krai/cards_modal/Kras_Gastronomia/Kras_Gastronomia_3.jpg" alt="3" loading="lazy">
+   </div>
+</div>
+
+<!-- Блок 4: Черноморская гастрономия -->
+<div class="modalBlock">
+   <div class="modalBlock__text">
+      <h2 class="modalBlock__title">黑海美食——大海与海岸的味道</h2>
+      <p class="modalBlock__description">
+         海岸带来轻盈、清新、海洋的风味。
+      </p>
+      <p class="modalBlock__description">
+         主要元素：
+      </p>
+      <ul class="modalBlock__list">
+         <li class="modalBlock__listItem">比目鱼、竹荚鱼、胭脂鱼——煎烤皆宜；</li>
+         <li class="modalBlock__listItem">贻贝与骨螺——香草烹制；</li>
+         <li class="modalBlock__listItem">黑海鱼汤——清澈鲜美；</li>
+         <li class="modalBlock__listItem">炭烤鱼——质朴本真；</li>
+         <li class="modalBlock__listItem">蔬菜小菜——佐海鲜而食。</li>
+      </ul>
+      <p class="modalBlock__description">
+         黑海美食，是海洋与阳光的交融。
+      </p>
+   </div>
+   <div class="modalBlock__image">
+      <img src="../../img/krasnodarskii_krai/cards_modal/Kras_Gastronomia/Kras_Gastronomia_4.jpg" alt="4" loading="lazy">
+   </div>
+</div>
+
+<!-- Блок 5: Кавказские влияния -->
+<div class="modalBlock">
+   <div class="modalBlock__text">
+      <h2 class="modalBlock__title">高加索影响——香料馥郁，肉食与山地传统</h2>
+      <p class="modalBlock__description">
+         南方是通往高加索的门户，这里的饮食汲取了众多高加索传统。
+      </p>
+      <p class="modalBlock__description">
+         人们钟爱如下菜肴：
+      </p>
+      <ul class="modalBlock__list">
+         <li class="modalBlock__listItem">烤肉串——炭火烤制；</li>
+         <li class="modalBlock__listItem">多尔玛——葡萄叶包裹馅料；</li>
+         <li class="modalBlock__listItem">香草酱料——清新芬芳；</li>
+         <li class="modalBlock__listItem">薄饼与奶酪菜肴——温热饱足；</li>
+         <li class="modalBlock__listItem">香浓汤品——醇厚辛香。</li>
+      </ul>
+      <p class="modalBlock__description">
+         高加索美食为南方增添了深度与个性。
+      </p>
+   </div>
+   <div class="modalBlock__image">
+      <img src="../../img/krasnodarskii_krai/cards_modal/Kras_Gastronomia/Kras_Gastronomia_5.jpg" alt="5" loading="lazy">
+   </div>
+</div>
+
+<!-- Блок 6: Виноградники и южные напитки -->
+<div class="modalBlock">
+   <div class="modalBlock__text">
+      <h2 class="modalBlock__title">葡萄园与南方佳酿——阳光与大地的文化</h2>
+      <p class="modalBlock__description">
+         南方，是葡萄园的故乡。
+      </p>
+      <p class="modalBlock__description">
+         从塔曼到新罗西斯克，从阿纳帕到阿布拉乌——山丘上藤蔓绵延。
+      </p>
+      <p class="modalBlock__description">
+         这里珍视的是：
+      </p>
+      <ul class="modalBlock__list">
+         <li class="modalBlock__listItem">葡萄作为果实，甘甜多汁；</li>
+         <li class="modalBlock__listItem">源自希腊人的酿酒传统；</li>
+         <li class="modalBlock__listItem">以香草和水果酿制的家庭饮品，柔和芬芳；</li>
+         <li class="modalBlock__listItem">葡萄山谷已成为美食旅游的一部分。</li>
+      </ul>
+      <p class="modalBlock__description">
+         葡萄园，是南方的美学，是它的节奏，它的味道。
+      </p>
+   </div>
+   <div class="modalBlock__image">
+      <img src="../../img/krasnodarskii_krai/cards_modal/Kras_Gastronomia/Kras_Gastronomia_6.jpg" alt="6" loading="lazy">
+   </div>
+</div>
+
+<!-- Блок 7: Почему -->
+<div class="modalBlock">
+   <div class="modalBlock__text">
+      <h2 class="modalBlock__title">为何南方美食是边疆形象的重要组成部分</h2>
+      <p class="modalBlock__description">
+         因为它：
+      </p>
+      <ul class="modalBlock__list">
+         <li class="modalBlock__listItem">体现土地与阳光的慷慨；</li>
+         <li class="modalBlock__listItem">融合不同民族的传统；</li>
+         <li class="modalBlock__listItem">营造热情好客的氛围；</li>
+         <li class="modalBlock__listItem">让南方之旅美味而难忘；</li>
+         <li class="modalBlock__listItem">塑造地区的文化密码。</li>
+      </ul>
+      <p class="modalBlock__description">
+         南方美食，是温暖、光明与生活的味道。
+      </p>
+      <p class="modalBlock__description">
+         一种令人难以忘怀的味道。
+      </p>
+   </div>
+   <div class="modalBlock__image">
+      <img src="../../img/krasnodarskii_krai/cards_modal/Kras_Gastronomia/Kras_Gastronomia_7.jpg" alt="7" loading="lazy">
+   </div>
+</div>`
         },
 
     ]

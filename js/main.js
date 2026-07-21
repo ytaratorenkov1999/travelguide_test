@@ -103,9 +103,7 @@ const languageData = {
     }
 };
 
-// ============================================
-// 2. УНИВЕРСАЛЬНЫЙ СЛАЙДЕР
-// ============================================
+
 class Slider {
     constructor(wrapperElement, sliderElement, options = {}) {
         this.wrapper = wrapperElement;
@@ -307,9 +305,6 @@ class Slider {
     }
 }
 
-// ============================================
-// 3. ГЕНЕРАЦИЯ КАРТОЧЕК И ЗАГОЛОВКОВ
-// ============================================
 function renderSlider(containerId, items, buttonText) {
     const container = document.getElementById(containerId);
     if (!container) return;
@@ -355,7 +350,7 @@ function initApp() {
     }
     const data = languageData[lang];
 
-    // ---- ПЕРЕВОД БЛОКА ОПИСАНИЯ ----
+
     const introTitle = document.querySelector('.intro-title');
     const introSubtitle = document.querySelector('.intro-subtitle');
     const introText = document.querySelector('.intro-text');
@@ -363,17 +358,17 @@ function initApp() {
     if (introSubtitle) introSubtitle.textContent = data.introSubtitle;
     if (introText) introText.textContent = data.introText;
 
-    // ---- ЗАГОЛОВКИ СЕКЦИЙ ----
+
     const regionsTitleElem = document.querySelector('.guides-section .section-title');
     if (regionsTitleElem) regionsTitleElem.textContent = data.regionsTitle;
     const citiesTitleElem = document.querySelector('.cities-section .section-title');
     if (citiesTitleElem) citiesTitleElem.textContent = data.citiesTitle;
 
-    // ---- ГЕНЕРАЦИЯ КАРТОЧЕК ----
+
     renderSlider('regionsSlider', data.regions, data.buttonText);
     renderSlider('citiesSlider', data.cities, data.buttonText);
 
-    // ---- ИНИЦИАЛИЗАЦИЯ СЛАЙДЕРОВ ----
+
     initSliders();
 }
 
@@ -387,5 +382,5 @@ function initSliders() {
     if (citiesWrapper && citiesSlider) new Slider(citiesWrapper, citiesSlider);
 }
 
-// Запуск приложения после загрузки DOM
+
 document.addEventListener('DOMContentLoaded', initApp);

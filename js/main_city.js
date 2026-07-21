@@ -1,14 +1,9 @@
-// ============================================
-// ФУНКЦИЯ: Карусель с transform-based drag & drop (как в первой версии)
-// ============================================
-
 function initCarousel(carouselElement) {
     const track = carouselElement.querySelector('.carousel__track');
     const wrapper = carouselElement.querySelector('.carousel__wrapper');
 
     if (!track || !wrapper) return;
 
-    // Переменные для управления слайдером (как в первой версии)
     let isDragging = false;
     let startPos = 0;
     let currentTranslate = 0;
@@ -20,27 +15,19 @@ function initCarousel(carouselElement) {
     let lastPos = 0;
     let lastTime = 0;
 
-    // Настройки анимации
-    const ANIMATION_SPEED = 300; // ms
-    const DRAG_THRESHOLD = 5; // px
 
-    // Инициализация
+    const ANIMATION_SPEED = 300;
+    const DRAG_THRESHOLD = 5;
+
     function init() {
-        // Убираем нативный scroll
+
         track.style.overflow = 'visible';
         track.style.scrollSnapType = 'none';
-
-        // Добавляем wrapper для overflow
         wrapper.style.overflow = 'hidden';
-
-        // Устанавливаем начальную позицию
         setTrackPosition();
-
-        // Добавляем обработчики событий
         addEventListeners();
     }
 
-    // Установка позиции трека
     function setTrackPosition(animate = false) {
         track.classList.toggle('t-slds_animated', animate);
         track.style.transform = `translateX(${currentTranslate}px)`;
@@ -52,14 +39,11 @@ function initCarousel(carouselElement) {
         }
     }
 
-    // Получение позиции курсора/тача
     function getPositionX(event) {
         return event.type.includes('mouse') ? event.pageX : event.touches[0].clientX;
     }
 
-    // Начало перетаскивания
     function dragStart(event) {
-        // Игнорируем правую кнопку мыши
         if (event.type === 'mousedown' && event.button !== 0) return;
 
         isDragging = true;
@@ -71,14 +55,12 @@ function initCarousel(carouselElement) {
         lastTime = startTime;
         velocity = 0;
 
-        // Останавливаем текущую анимацию
         cancelAnimationFrame(animationID);
 
         track.classList.add('grabbing');
         track.style.cursor = 'grabbing';
     }
 
-    // Процесс перетаскивания
     function drag(event) {
         if (!isDragging) return;
 
@@ -86,7 +68,6 @@ function initCarousel(carouselElement) {
         const currentTime = Date.now();
         const deltaX = Math.abs(currentPosition - startPos);
 
-        // Рассчитываем скорость для инерции
         const deltaTime = currentTime - lastTime;
         if (deltaTime > 0) {
             const deltaPos = currentPosition - lastPos;
@@ -95,22 +76,18 @@ function initCarousel(carouselElement) {
             lastTime = currentTime;
         }
 
-        // Определяем drag только если движение превысило порог
         if (deltaX > DRAG_THRESHOLD) {
             hasMoved = true;
 
-            // Предотвращаем скролл страницы на мобильных
             if (event.type === 'touchmove' && event.cancelable) {
                 event.preventDefault();
             }
 
             currentTranslate = prevTranslate + currentPosition - startPos;
 
-            // Ограничиваем прокрутку границами
             const maxTranslate = 0;
             const minTranslate = -(track.scrollWidth - wrapper.offsetWidth);
 
-            // Добавляем resistance на границах
             if (currentTranslate > maxTranslate) {
                 currentTranslate = maxTranslate + (currentTranslate - maxTranslate) * 0.3;
             } else if (currentTranslate < minTranslate) {
@@ -121,7 +98,6 @@ function initCarousel(carouselElement) {
         }
     }
 
-    // Окончание перетаскивания
     function dragEnd(event) {
         if (!isDragging) return;
 
@@ -132,30 +108,24 @@ function initCarousel(carouselElement) {
         track.classList.remove('grabbing');
         track.style.cursor = 'grab';
 
-        // Если было быстрое движение на малое расстояние - это клик
         if (timeDiff < 150 && !hasMoved) {
             hasMoved = false;
             return;
         }
 
-        // Применяем инерцию
         if (hasMoved && Math.abs(velocity) > 0.1) {
-            const inertia = velocity * 200; // Множитель для силы инерции
+            const inertia = velocity * 200;
             let targetTranslate = currentTranslate + inertia;
 
-            // Ограничиваем целевую позицию границами
             const maxTranslate = 0;
             const minTranslate = -(track.scrollWidth - wrapper.offsetWidth);
             targetTranslate = Math.max(minTranslate, Math.min(maxTranslate, targetTranslate));
 
-            // Анимируем до целевой позиции
             animateToPosition(targetTranslate);
         } else {
-            // Возвращаем в границы если вышли за них
             snapToBounds();
         }
 
-        // Сбрасываем флаг с задержкой
         if (hasMoved) {
             setTimeout(() => {
                 hasMoved = false;
@@ -163,7 +133,6 @@ function initCarousel(carouselElement) {
         }
     }
 
-    // Анимация до целевой позиции
     function animateToPosition(targetTranslate) {
         const startTranslate = currentTranslate;
         const distance = targetTranslate - startTranslate;
@@ -173,7 +142,6 @@ function initCarousel(carouselElement) {
             const elapsed = currentTime - animationStartTime;
             const progress = Math.min(elapsed / ANIMATION_SPEED, 1);
 
-            // Easing function (easeOutCubic)
             const easeProgress = 1 - Math.pow(1 - progress, 3);
 
             currentTranslate = startTranslate + distance * easeProgress;
@@ -189,7 +157,6 @@ function initCarousel(carouselElement) {
         animationID = requestAnimationFrame(animate);
     }
 
-    // Возврат в границы
     function snapToBounds() {
         const maxTranslate = 0;
         const minTranslate = -(track.scrollWidth - wrapper.offsetWidth);
@@ -203,7 +170,6 @@ function initCarousel(carouselElement) {
         }
     }
 
-    // Блокировка кликов при драге
     function preventClick(event) {
         if (hasMoved) {
             event.preventDefault();
@@ -213,7 +179,6 @@ function initCarousel(carouselElement) {
         }
     }
 
-    // Клавиатурная навигация
     function handleKeyboard(event) {
         if (event.key === 'ArrowLeft') {
             event.preventDefault();
@@ -230,9 +195,7 @@ function initCarousel(carouselElement) {
         }
     }
 
-    // Обработка изменения размера окна
     function handleResize() {
-        // Корректируем позицию при ресайзе
         const minTranslate = -(track.scrollWidth - wrapper.offsetWidth);
         if (currentTranslate < minTranslate) {
             currentTranslate = minTranslate;
@@ -240,19 +203,15 @@ function initCarousel(carouselElement) {
         }
     }
 
-    // Добавление всех обработчиков
     function addEventListeners() {
-        // Mouse events
         track.addEventListener('mousedown', dragStart);
         document.addEventListener('mousemove', drag);
         document.addEventListener('mouseup', dragEnd);
 
-        // Touch events
         track.addEventListener('touchstart', dragStart, { passive: true });
         track.addEventListener('touchmove', drag, { passive: false });
         track.addEventListener('touchend', dragEnd);
 
-        // Блокировка кликов
         track.addEventListener('click', preventClick, true);
 
         const cardLinks = track.querySelectorAll('.attractionCard__link');
@@ -261,36 +220,29 @@ function initCarousel(carouselElement) {
             link.addEventListener('dragstart', (e) => e.preventDefault());
         });
 
-        // Предотвращение drag для изображений
         track.querySelectorAll('img').forEach(img => {
             img.addEventListener('dragstart', (e) => e.preventDefault());
         });
 
-        // Клавиатура
         track.setAttribute('tabindex', '0');
         track.addEventListener('keydown', handleKeyboard);
 
-        // Resize
         let resizeTimeout;
         window.addEventListener('resize', () => {
             clearTimeout(resizeTimeout);
             resizeTimeout = setTimeout(handleResize, 150);
         });
 
-        // Предотвращение выделения текста
         track.addEventListener('selectstart', (e) => {
             if (hasMoved) e.preventDefault();
         });
     }
 
-    // Запуск инициализации
     init();
 }
 
 
-// ============================================
-// ФУНКЦИЯ: Создание подсказки для карусели
-// ============================================
+
 function createScrollHint() {
     const svgContent = `
         <svg viewBox="0 0 320 300" height="42" width="42">
@@ -301,13 +253,11 @@ function createScrollHint() {
         </svg>
     `;
 
-    // Desktop подсказка
     const desktopHint = document.createElement('div');
     desktopHint.className = 'carousel__scrollHint';
     desktopHint.setAttribute('aria-hidden', 'true');
     desktopHint.innerHTML = svgContent;
 
-    // Mobile подсказка
     const mobileHint = document.createElement('div');
     mobileHint.className = 'carousel__scrollHint carousel__scrollHint--mobile';
     mobileHint.setAttribute('aria-hidden', 'true');
@@ -317,16 +267,12 @@ function createScrollHint() {
 }
 
 
-// ============================================
-// КЛАСС: Рендеринг карточек
-// ============================================
 class CardRenderer {
     constructor(data) {
         this.data = data;
     }
 
     renderCards() {
-        // Динамически рендерим все категории из данных
         Object.keys(this.data).forEach(category => {
             this.renderCategory(category, this.data[category]);
         });
@@ -339,7 +285,7 @@ class CardRenderer {
         track.innerHTML = '';
 
         items.forEach(item => {
-            // Проверяем наличие модального контента
+
             if (!item.modalContent) {
                 console.warn(`Элемент ${item.id} не имеет модального контента`);
             }
@@ -370,9 +316,6 @@ class CardRenderer {
 }
 
 
-// ============================================
-// КЛАСС: Управление модальными окнами
-// ============================================
 class ModalManager {
     constructor(data) {
         this.data = data;
@@ -383,7 +326,6 @@ class ModalManager {
     }
 
     init() {
-        // Клик по карточке
         document.addEventListener('click', (e) => {
             const cardLink = e.target.closest('.attractionCard__link');
 
@@ -395,7 +337,6 @@ class ModalManager {
                 }
 
                 setTimeout(() => {
-                    // Проверяем track.hasMoved который устанавливается в карусели
                     const trackElement = cardLink.closest('.carousel__track');
                     if (!trackElement || !trackElement.hasMoved) {
                         e.preventDefault();
@@ -408,10 +349,8 @@ class ModalManager {
             }
         });
 
-        // Закрытие по кнопке
         this.closeButton.addEventListener('click', () => this.closeModal());
 
-        // Закрытие по Escape
         document.addEventListener('keydown', (e) => {
             if (e.key === 'Escape' && this.modal.classList.contains('active')) {
                 this.closeModal();
@@ -420,7 +359,6 @@ class ModalManager {
     }
 
     findItemById(id) {
-        // Динамически собираем все элементы из всех категорий
         const allItems = Object.values(this.data).flat();
         return allItems.find(item => item.id === id);
     }
@@ -432,20 +370,16 @@ class ModalManager {
             return;
         }
 
-        // Показываем модальное окно
         this.modal.classList.add('active');
         document.body.classList.add('modalOpen');
 
-        // Загружаем контент
         this.loadModalContent(item);
 
-        // Сбрасываем скролл
         this.modalContent.scrollTop = 0;
     }
 
     loadModalContent(item) {
         try {
-            // Показываем loader
             this.modalContent.innerHTML = `
                 <div class="modal__loader">
                     <div class="loader"></div>
@@ -453,13 +387,10 @@ class ModalManager {
                 </div>
             `;
 
-            // Небольшая задержка для плавности
             setTimeout(() => {
                 if (item.modalContent) {
-                    // Используем HTML из данных
                     this.modalContent.innerHTML = item.modalContent;
                 } else {
-                    // Если нет контента - показываем простое сообщение
                     this.showNoContentMessage(item);
                 }
             }, 50);
@@ -490,9 +421,6 @@ class ModalManager {
 }
 
 
-// ============================================
-// КЛАСС: Управление изображениями
-// ============================================
 
 class ImageLoader {
     constructor() {
@@ -515,10 +443,6 @@ class ImageLoader {
     }
 }
 
-
-// ============================================
-// ФУНКЦИЯ: Автоопределение данных города
-// ============================================
 
 function getCityData() {
     const dataVariables = Object.keys(window).filter(key =>
@@ -543,11 +467,7 @@ function getCityData() {
 }
 
 
-// ============================================
-// ИНИЦИАЛИЗАЦИЯ ПРИЛОЖЕНИЯ
-// ============================================
 document.addEventListener('DOMContentLoaded', () => {
-    // Автоматически определяем данные города
     const cityData = getCityData();
 
     if (!cityData) {
@@ -560,7 +480,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const carousels = document.querySelectorAll('.carousel');
     carousels.forEach(carousel => {
-        // Добавляем подсказки перед wrapper
         const wrapper = carousel.querySelector('.carousel__wrapper');
         if (wrapper) {
             const { desktopHint, mobileHint } = createScrollHint();

@@ -101,6 +101,7 @@ button {
     transition: all var(--transition-speed) ease;
     box-shadow: 0 4px 12px rgba(38, 90, 166, 0.3);
     color: var(--color-bg-white);
+    -webkit-tap-highlight-color: transparent;
 }
 
 .exitButton svg {
@@ -284,7 +285,7 @@ button {
     -webkit-transform: translateZ(0);
 }
 
- 
+
 .carousel__track.t-slds_animated {
     transition: transform 0.3s ease-in-out;
 }
@@ -453,6 +454,7 @@ button {
     transition: all var(--transition-fast) ease;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
     color: var(--color-text);
+    -webkit-tap-highlight-color: transparent;
 }
 
 .modal__close svg {

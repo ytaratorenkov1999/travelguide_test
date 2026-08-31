@@ -1,4 +1,3 @@
-
 @font-face {
     font-family: 'Roboto Flex';
     src: url('../fonts/RobotoFlexVariable.woff2') format('woff2-variations'),
@@ -88,6 +87,7 @@ a {
     transition: all var(--transition-speed) ease;
     box-shadow: 0 4px 12px rgba(38, 90, 166, 0.3);
     color: var(--white);
+    -webkit-tap-highlight-color: transparent;
 }
 
 .exit-button svg {
